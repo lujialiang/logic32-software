@@ -1,0 +1,61 @@
+#!/bin/bash
+#
+# This script will create soft-links for c6x.(c|h|md) in gcc/config/c6x/
+# and patch config.sub and gcc/config.gcc to introduce the c6x target to gcc.
+#
+# Arguments:
+#   $1: path to the gcc source (something like .../gcc-3.3)
+#   $2: path to the c6x backend (the dir where the c6x.(c|h|md) files reside)
+
+# the command to use for getting an absolute path from a possibly relative one
+READLINK="readlink -f"
+# use alternatively: READLINK="realpath"
+
+## argument checks
+[ $# == 2 ] || { echo "error: $# is the wrong number of arguments!"; exit 1; }
+gcc_dir="$($READLINK $1)"
+gcc_c6x_dir=$gcc_dir/gcc/config/c6x
+backend_dir="$($READLINK $2)"
+
+## directory sanity checks
+[ -d $gcc_c6x_dir ] && 
+	{ echo "error: directory '$gcc_c6x_dir' already exists"; exit 1; }
+
+LN_FILES="\
+	c6x.c\
+	c6x.h\
+	c6x-protos.h\
+	c6x.md\
+	"
+
+for f in\
+	$LN_FILES\
+	gcc-global/config.sub.diff\
+	gcc-global/configure.in.diff\
+	gcc-global/gcc/config.gcc.diff
+do
+	[ -f $backend_dir/$f ] ||
+		{ echo "error: file '$backend_dir/$f' does not exist"; exit 1; }
+done
+
+## do the actual work
+
+echo -ne "\nchanging to directory: "
+cd $gcc_dir; pwd
+patch --forward config.sub --reject-file=/tmp/patch.rej \
+	< $backend_dir/gcc-global/config.sub.diff
+patch --forward "configure.in" --reject-file=/tmp/patch.rej \
+	< "$backend_dir/gcc-global/configure.in.diff"
+
+echo -ne "\nchanging to directory: "
+cd $gcc_dir/gcc; pwd
+patch --forward config.gcc --reject-file=/tmp/patch.rej \
+	< $backend_dir/gcc-global/gcc/config.gcc.diff
+
+echo
+mkdir -v $gcc_c6x_dir
+cd $gcc_c6x_dir; pwd
+for f in $LN_FILES; do
+	ln -v -s $backend_dir/$f .
+done
+

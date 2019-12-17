@@ -1,0 +1,134 @@
+# target specified
+TARGET   = $(BUILDDIR)fs_test
+MCU_TARGET     = atmega128
+MCU_AVRDUDE    = m128
+DEFS           =-DF_CPU=8000000
+#PROGRAMER      = -P /dev/ttyACM0 -b 115200 -c arduino
+PROGRAMER      = -P /dev/ttyUSB0 -b 19200 -c avrisp
+BUILDDIR = build/
+
+# app sources
+SRCS  += main.c uart.c
+
+# FAT file system sources
+SRCS += $(notdir fs/fat_access.c)
+SRCS += $(notdir fs/fat_cache.c)
+SRCS += $(notdir fs/fat_filelib.c)
+SRCS += $(notdir fs/fat_format.c)
+SRCS += $(notdir fs/fat_misc.c)
+SRCS += $(notdir fs/fat_string.c)
+SRCS += $(notdir fs/fat_table.c)
+SRCS += $(notdir fs/fat_write.c)
+vpath %.c ./fs
+INCDIR += ./fs
+
+# mmc/sd card driver source
+SRCS += $(notdir mmcbbp.c)
+SRCS += $(notdir spi.c)
+vpath %.c ./dev
+INCDIR += ./dev
+
+OBJS           = $(SRCS:%.c=$(BUILDDIR)%.o)
+OPTIMIZE       = -O2
+
+# You should not have to change anything below here.
+CC             = avr-gcc
+
+# Override is only needed by avr-lib build system.
+override CFLAGS        = -g -Wall $(OPTIMIZE) -mmcu=$(MCU_TARGET) $(DEFS) $(addprefix -I,$(INCDIR))
+override LDFLAGS       = -Wl,-Map,$(TARGET).map
+
+OBJCOPY        = avr-objcopy
+OBJDUMP        = avr-objdump
+SIZE           = avr-size
+
+.PHONY: all
+all: $(TARGET).hex
+
+$(TARGET).elf: $(OBJS)
+	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $^ $(LIBS)
+
+$(BUILDDIR)%.o: %.c
+	$(CC) $(CFLAGS) -c -o $@ $<
+
+.PHONY: size
+size: $(TARGET).elf
+	@$(SIZE) -C --mcu=$(MCU_TARGET) $<
+
+.PHONY: clean
+clean:
+	rm -rf $(BUILDDIR)*.o $(TARGET).elf *.eps *.png *.pdf *.bak 
+	rm -rf *.lst *.map $(EXTRA_CLEAN_FILES)
+	rm -rf tags
+
+.PHONY: burn
+burn: $(TARGET).hex
+	avrdude $(PROGRAMER) -p $(MCU_AVRDUDE) -u -U flash:w:$(TARGET).hex
+
+.PHONY: reset
+reset:
+	avrdude $(PROGRAMER) -p $(MCU_AVRDUDE)
+
+.PHONY: tags
+tags:
+	ctags-exuberant -R
+
+lst:  $(TARGET).lst
+
+%.lst: %.elf
+	$(OBJDUMP) -h -S $< > $@
+
+# Rules for building the .text rom images
+
+text: hex bin srec
+
+hex:  $(TARGET).hex
+bin:  $(TARGET).bin
+srec: $(TARGET).srec
+
+%.hex: %.elf
+	$(OBJCOPY) -j .text -j .data -O ihex $< $@
+
+%.srec: %.elf
+	$(OBJCOPY) -j .text -j .data -O srec $< $@
+
+%.bin: %.elf
+	$(OBJCOPY) -j .text -j .data -O binary $< $@
+
+# Rules for building the .eeprom rom images
+
+eeprom: ehex ebin esrec
+
+ehex:  $(TARGET)_eeprom.hex
+ebin:  $(TARGET)_eeprom.bin
+esrec: $(TARGET)_eeprom.srec
+
+%_eeprom.hex: %.elf
+	$(OBJCOPY) -j .eeprom --change-section-lma .eeprom=0 -O ihex $< $@
+
+%_eeprom.srec: %.elf
+	$(OBJCOPY) -j .eeprom --change-section-lma .eeprom=0 -O srec $< $@
+
+%_eeprom.bin: %.elf
+	$(OBJCOPY) -j .eeprom --change-section-lma .eeprom=0 -O binary $< $@
+
+# Every thing below here is used by avr-libc's build system and can be ignored
+# by the casual user.
+
+FIG2DEV                 = fig2dev
+EXTRA_CLEAN_FILES       = *.hex *.bin *.srec
+
+dox: eps png pdf
+
+eps: $(TARGET).eps
+png: $(TARGET).png
+pdf: $(TARGET).pdf
+
+%.eps: %.fig
+	$(FIG2DEV) -L eps $< $@
+
+%.pdf: %.fig
+	$(FIG2DEV) -L pdf $< $@
+
+%.png: %.fig
+	$(FIG2DEV) -L png $< $@

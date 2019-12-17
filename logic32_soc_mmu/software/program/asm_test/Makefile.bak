@@ -1,0 +1,48 @@
+
+CC	= lcc
+AS	= l32-asm
+LD	= l32-link
+DIS	= l32-dis
+SIZE = l32-size
+DUMP = l32-dump
+SIM  = l32-sim
+
+.PHONY: all
+all: a.out
+
+a.out: crt0.o foo.o
+	#$(LD) -o b.out -M b.map $^
+	$(LD) $^
+
+.PHONY: dis
+dis: a.out
+	$(DIS) $<
+
+.PHONY: sim
+sim: a.out
+	$(SIM) -p a.out
+
+.PHONY: size
+size: a.out
+	$(SIZE) $<
+
+.PHONY: dump
+dump: crt0.o
+	$(DUMP) $<
+
+%.o: %.s
+	$(AS) $<
+
+l32-sim.exe: ../l32-sim/l32-sim
+	cp $< $@
+
+disk0.img:
+	dd if=/dev/zero of=disk0.img bs=512 count=2880
+
+.PHONY: tags
+tags:
+	ctags -R
+
+.PHONY: clean
+clean:
+	$(RM) *.o a.out *.exe stdout.txt stderr.txt

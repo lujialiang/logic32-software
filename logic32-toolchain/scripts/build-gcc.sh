@@ -1,0 +1,5 @@
+#../gcc-3.4.2/configure --target=logic32-elf --prefix=`pwd`/../logic32-elf --enable-languages=c,c++ --with-gnu-as --with-gnu-ld --with-newlib --disable-shared --enable-newlib -v --enable-checking=misc,tree,rtl,rtlflag,gc,gcac,fold  --disable-multilib --disable-threads --enable-sjlj-exceptions --enable-libstdcxx-allocator=malloc
+
+#../gcc-3.4.2/configure --target=logic32-elf --prefix=`pwd`/../logic32-elf --enable-languages=c --with-gnu-as --with-gnu-ld --disable-shared --enable-newlib -v --enable-checking=misc,tree,rtl,rtlflag,gc,gcac,fold  --disable-multilib --disable-threads --enable-sjlj-exceptions --enable-libstdcxx-allocator=malloc --without-headers --with-newlib
+
+../gcc-3.4.2/configure --target=logic32-elf --prefix=${HOME}/logic32-elf --enable-languages=c --with-gnu-as --with-gnu-ld --disable-shared --enable-newlib -v --enable-checking=misc,tree,rtl,rtlflag,gc,gcac,fold  --disable-multilib --disable-threads --enable-sjlj-exceptions --enable-libstdcxx-allocator=malloc --without-headers --with-newlib

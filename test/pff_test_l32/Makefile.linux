@@ -1,0 +1,22 @@
+CC=gcc
+CFLAGS=-g
+TARGET=pff_test
+SRCS= main.c mmcbbp.c pff.c
+OBJS=$(SRCS:%.c=%.o)
+
+.PHONY: all
+all: $(TARGET)
+
+$(TARGET): $(OBJS)
+	$(CC) -o $@ $^
+
+.PHONY: tags
+tags:
+	ctags-exuberant *.c *.h
+
+run: $(TARGET)
+	./$<
+
+.PHONY: clean
+clean:
+	$(RM) *.o $(TARGET) tags

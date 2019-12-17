@@ -1,0 +1,65 @@
+#include <sys/types.h>
+#include <sys/ipc.h>
+#include <sys/shm.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+#include <stdbool.h>
+
+#include <SDL/SDL.h>  
+
+#include "screen.h"
+
+#define BUF_SIZE (1<<25)
+#define BUF_SIZE2 (SCREEN_X_MAX*SCREEN_Y_MAX*4)
+
+#define MYKEY 29
+
+int main(int argc, char* argv[])
+{
+	int i;
+	int shmid;
+	char *shmptr;
+	for(i=1; i<argc; i++) {
+		if( strcmp("-w", argv[i]) == 0 ) {
+			if( i == argc - 1 ) {
+				fprintf(stderr, "argument error\n");	
+				return -1;
+			}
+			i++;
+			screen_width = atoi(argv[i]);
+		}
+		else if( strcmp("-h", argv[i]) == 0 ) {
+			if( i == argc - 1 ) {
+				fprintf(stderr, "argument error\n");	
+				return -1;
+			}
+			i++;
+			screen_height = atoi(argv[i]);
+		}
+	}
+	if( (shmid = shmget(MYKEY, BUF_SIZE, IPC_CREAT|0666)) == -1 ) {
+		printf("shmget error\n");
+		exit(1);
+	}
+	if( (shmptr = shmat(shmid, 0, 0)) == (void *)-1 ) {
+		printf("shmat error\n");
+		exit(1);
+	}
+	screen_init();
+	bool quit = false;
+	SDL_Event e;
+	while(!quit) {
+		memcpy(screen_start, (void*)shmptr, screen_width*screen_height*4);
+		screen_reflash();
+		while( SDL_PollEvent(&e) != 0 ) {
+			if( e.type == SDL_QUIT ) {
+				quit = true;
+			}
+		}
+	}
+	screen_exit();
+	return 0;
+}
+

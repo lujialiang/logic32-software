@@ -1,0 +1,241 @@
+.set reorder
+.globl main
+.text
+.text
+.align 2
+.ent main
+main:
+.frame $sp,0,$31
+L.1:
+j $31
+.end main
+.globl f
+.text
+.align 2
+.ent f
+f:
+.frame $sp,8,$31
+addu $sp,$sp,-8
+.mask 0x80000000,-8
+sw $31,0($sp)
+sw $4,8($sp)
+jal f
+move $25,$2
+sw $25,-4+8($sp)
+jal f
+lw $24,-4+8($sp)
+addu $25,$24,$2
+sw $25,0+8($sp)
+L.2:
+lw $31,0($sp)
+addu $sp,$sp,8
+j $31
+.end f
+.globl f2
+.text
+.align 2
+.ent f2
+f2:
+.frame $sp,16,$31
+addu $sp,$sp,-16
+.mask 0xc0000000,-12
+sw $30,0($sp)
+sw $31,4($sp)
+sw $4,16($sp)
+jal f
+move $25,$2
+sw $25,-4+16($sp)
+lw $24,0+16($sp)
+beq $24,$0,L.8
+jal f
+move $25,$2
+move $30,$25
+b L.9
+L.8:
+la $30,1
+L.9:
+lw $25,-4+16($sp)
+addu $25,$25,$30
+sw $25,0+16($sp)
+L.6:
+lw $30,0($sp)
+lw $31,4($sp)
+addu $sp,$sp,16
+j $31
+.end f2
+.globl f3
+.text
+.align 2
+.ent f3
+f3:
+.frame $sp,56,$31
+addu $sp,$sp,-56
+.mask 0xc0ff0000,-20
+sw $16,0($sp)
+sw $17,4($sp)
+sw $18,8($sp)
+sw $19,12($sp)
+sw $20,16($sp)
+sw $21,20($sp)
+sw $22,24($sp)
+sw $23,28($sp)
+sw $30,32($sp)
+sw $31,36($sp)
+sw $4,56($sp)
+sw $5,60($sp)
+move $30,$0
+move $23,$0
+move $22,$0
+move $21,$0
+move $20,$0
+move $19,$0
+move $18,$0
+move $17,$0
+move $16,$0
+sw $0,-4+56($sp)
+lw $25,4+56($sp)
+sw $25,-12+56($sp)
+la $24,4($25)
+sw $24,4+56($sp)
+lw $24,0+56($sp)
+beq $24,$0,L.15
+jal f
+move $25,$2
+sw $25,-8+56($sp)
+b L.16
+L.15:
+sw $0,-8+56($sp)
+L.16:
+lw $25,-8+56($sp)
+lw $24,-12+56($sp)
+sw $25,($24)
+L.13:
+lw $16,0($sp)
+lw $17,4($sp)
+lw $18,8($sp)
+lw $19,12($sp)
+lw $20,16($sp)
+lw $21,20($sp)
+lw $22,24($sp)
+lw $23,28($sp)
+lw $30,32($sp)
+lw $31,36($sp)
+addu $sp,$sp,56
+j $31
+.end f3
+.globl f4
+.text
+.align 2
+.ent f4
+f4:
+.frame $sp,32,$31
+addu $sp,$sp,-32
+.mask 0x40fc0000,-8
+sw $18,0($sp)
+sw $19,4($sp)
+sw $20,8($sp)
+sw $21,12($sp)
+sw $22,16($sp)
+sw $23,20($sp)
+sw $30,24($sp)
+move $30,$0
+move $23,$0
+move $22,$0
+move $21,$0
+move $20,$0
+move $19,$0
+lw $25,i
+sll $24,$25,3
+l.d $f18,a($24)
+l.d $f16,b($24)
+l.d $f10,L.24
+add.d $f8,$f18,$f16
+c.eq.d $f8,$f10; bc1t L.22
+beq $25,$0,L.22
+sub.d $f18,$f18,$f16
+c.eq.d $f18,$f10; bc1t L.22
+la $18,1
+b L.23
+L.22:
+move $18,$0
+L.23:
+sw $18,i
+L.20:
+lw $18,0($sp)
+lw $19,4($sp)
+lw $20,8($sp)
+lw $21,12($sp)
+lw $22,16($sp)
+lw $23,20($sp)
+lw $30,24($sp)
+addu $sp,$sp,32
+j $31
+.end f4
+.globl f5
+.text
+.align 2
+.ent f5
+f5:
+.frame $sp,0,$31
+lw $25,k
+lw $24,m
+lw $15,A
+mul $14,$25,$24
+sll $14,$14,3
+addu $14,$14,$15
+lw $13,j
+mul $24,$13,$24
+sll $24,$24,3
+addu $24,$24,$15
+lw $15,n
+lw $12,B
+mul $25,$25,$15
+sll $25,$25,3
+addu $25,$25,$12
+mul $15,$13,$15
+sll $15,$15,3
+addu $15,$15,$12
+l.d $f18,($14)
+l.d $f16,($24)
+mul.d $f18,$f18,$f16
+l.d $f16,($25)
+l.d $f10,($15)
+mul.d $f16,$f16,$f10
+add.d $f18,$f18,$f16
+s.d $f18,x
+l.d $f18,($14)
+l.d $f16,($15)
+mul.d $f18,$f18,$f16
+l.d $f16,($25)
+l.d $f10,($24)
+mul.d $f16,$f16,$f10
+sub.d $f18,$f18,$f16
+s.d $f18,x
+L.30:
+j $31
+.end f5
+.globl x
+.comm x,8
+.globl B
+.comm B,4
+.globl A
+.comm A,4
+.globl n
+.comm n,4
+.globl m
+.comm m,4
+.globl k
+.comm k,4
+.globl j
+.comm j,4
+.globl i
+.comm i,4
+.globl b
+.comm b,80
+.globl a
+.comm a,80
+.rdata
+.align 3
+L.24:
+.word 0x0
+.word 0x0

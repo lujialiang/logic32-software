@@ -1,0 +1,94 @@
+Installing the GCC backend for TI-TMS320 C6x
+--------------------------------------------
+
+1. Download the GCC source distribution
+	- create a directory for the sources
+		$ export GCC_TGZ_DIR="<the directory you want to download into>"
+		$ mkdir -p "$GCC_TGZ_DIR"
+		$ cd "$GCC_TGZ_DIR"
+	- get the GCC 3.3 (May 13, 2003) sources 
+	- there are two recommended ways to do this:
+		1. download as tarball
+			- available releases are listed at http://gcc.gnu.org/releases.html
+			- download tarball from one of the mirrors listed at
+			  http://gcc.gnu.org/mirrors.html
+			- extract the files
+				$ tar xzvf <downloaded .tgz file>
+					- or $ tar xjvf <downloaded .bz2 file>
+		2. check out from anonymous CVS
+			- bash commands:
+				$ export CVS_RSH='ssh'
+				$ export CVSROOT=':ext:anoncvs@savannah.gnu.org:/cvsroot/gcc'
+				$ cvs -q -z9 checkout -P -r gcc_3_3_release -d gcc-3.3 gcc
+			- This checks out the CVS module 'gcc' in the version defined by
+			  CVS tag 'gcc_3_3_release'.  The directory created ('-d') is
+			  called 'gcc-3.3'.  '-q' makes cvs act somewhat quietly.  '-z9'
+			  sets a high compression level for downloading, which can make
+			  things faster over slow network connections.  '-P' prevents
+			  directories removed in the repository from being created locally.
+	- for convenience, set an environment variable pointing to the GCC sources
+		$ export GCC_SRC_DIR="$GCC_TGZ_DIR/gcc-3.3"
+
+2. Untar the gcc-c6x.tgz file from this distribution
+	- contains the files needed for adding basic c6x support to GCC
+    - steps:
+		$ cd "$GCC_TGZ_DIR"
+			- the directory in which you want to see the gcc-c6x directory
+			- you could also use any directory other than $GCC_TGZ_DIR
+		$ <put a copy of gcc-c6x.tgz into current dir>
+		$ tar xzvf gcc-c6x.tgz
+		$ export C6X_DIR="$GCC_TGZ_DIR/gcc-c6x"
+
+3. Apply the c6x patches
+	- use the `prepare-gcc-for-c6x' script for patching c6x support into the
+	  GCC makefiles and for creating symlinks pointing from within the GCC
+	  source tree to the c6x sources in $C6X_DIR.
+	- steps:
+		$ cd "$C6X_DIR"
+		$ ./prepare-gcc-for-c6x  "$GCC_SRC_DIR"  "$C6X_DIR"
+
+4. Configure GCC for target `c6x'
+	$ cd "$GCC_SRC_DIR"
+	$ ./configure --enable-languages="c" --target=c6x 2>&1 |tee config.log
+		- `--enable-languages="c"' disables any input language other than C in
+		  order to save compile time and to evade possible sources of trouble
+
+5. Build GCC
+	$ ulimit -Sv 64000
+		- Set a set soft limit on the size of virtual memory processes are
+		  allowed to allocate.  This is _important_ because the freshly built
+		  `cc1' tends to go into infinite recursions because of essential
+		  pattern definitions that are currently still missing in the .md file.
+		  It can bring a terrible and slow death to your machine, if you don't
+		  set a limit, here.
+		- Note: using 32000 instead of 64000 is too little for gdb to still
+		  work correctly.
+	$ vi Makefile
+		- In order to enable the debugging of C-macros (heavily used in
+		  GCC), you have to change the debugging options in `Makefile'.
+		- search for '/^CFLAGS =' and change the right-hand side to
+		  '-gdwarf-2 -g3'
+	$ make 2>&1 | tee build.log
+		- the actual make process
+		- At the current state of development, make will abort with an error
+		  message at some point.  This is because the make process includes
+		  compiling libgcc for the target architecture, which fails due to
+		  some features that are not yet implemented in the current c6x backend.
+		- Nevertheless, it will have generated the C compiler binary
+		  "$GCC_SRC_DIR/gcc/cc1" and the compiler driver
+		  "$GCC_SRC_DIR/gcc/xgcc" at that time ('x' like "cross compiler").
+
+5. Run the c6x cross compiler
+	- To see what the freshly built compiler does, use:
+		$ cd "$GCC_SRC_DIR/gcc/"
+		$ ./cc1 $C6X_DIR/testcases/t001.c
+	- This should produce an assembler file $C6X_DIR/testcases/t001.s,
+	  containing code for c6x.
+	- The testcases in $C6X_DIR/testcases/ should provide a pretty good
+	  overview of what kind of C input the backend is currently capable of.
+
+6. Debugging
+	- If you want to debug the compiler, you can use the following commands:
+		$ cd "$GCC_SRC_DIR/gcc/"
+		$ gdb --args ./cc1 testcase.c
+

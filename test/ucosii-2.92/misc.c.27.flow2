@@ -1,0 +1,450 @@
+
+;; Function panic
+
+(note 2 0 3 NOTE_INSN_DELETED)
+
+(note 3 2 18 NOTE_INSN_FUNCTION_BEG)
+
+;; Start of basic block 0, registers live: 27 [$k1] 29 [$sp] 30 [$fp]
+(note 18 3 21 0 [bb 0] NOTE_INSN_BASIC_BLOCK)
+
+(insn/f 21 18 22 0 (set (mem:SI (plus:SI (reg/f:SI 29 $sp)
+                (const_int -4 [0xfffffffc])) [0 S4 A32])
+        (reg:SI 31 $ra)) -1 (nil)
+    (nil))
+
+(insn/f 22 21 23 0 (set (mem:SI (plus:SI (reg/f:SI 29 $sp)
+                (const_int -8 [0xfffffff8])) [0 S4 A32])
+        (reg/f:SI 30 $fp)) -1 (nil)
+    (nil))
+
+(insn/f 23 22 24 0 (set (reg/f:SI 29 $sp)
+        (plus:SI (reg/f:SI 29 $sp)
+            (const_int -8 [0xfffffff8]))) -1 (nil)
+    (nil))
+
+(insn/f 24 23 25 0 (set (reg/f:SI 30 $fp)
+        (reg/f:SI 29 $sp)) -1 (nil)
+    (nil))
+
+(note 25 24 8 0 NOTE_INSN_PROLOGUE_END)
+
+(call_insn 8 25 10 0 (parallel [
+            (call (mem:SI (symbol_ref:SI ("cli") [flags 0x41] <function_decl 0xb74594a4 cli>) [0 S4 A32])
+                (const_int 0 [0x0]))
+            (clobber (reg:SI 31 $ra))
+        ]) 35 {*call_via_label} (nil)
+    (nil)
+    (nil))
+
+(insn 10 8 11 0 (set (reg:SI 4 $a0)
+        (symbol_ref/f:SI ("*.LC0") [flags 0x2] <string_cst 0xb777c44c>)) 4 {movsi_internal} (nil)
+    (nil))
+
+(call_insn 11 10 13 0 (parallel [
+            (set (reg:SI 2 $v0)
+                (call (mem:SI (symbol_ref:SI ("puts") [flags 0x41] <function_decl 0xb75308dc puts>) [0 S4 A32])
+                    (const_int 0 [0x0])))
+            (clobber (reg:SI 31 $ra))
+        ]) 37 {*call_value_via_label} (nil)
+    (expr_list:REG_EH_REGION (const_int 0 [0x0])
+        (nil))
+    (expr_list (use (reg:SI 4 $a0))
+        (nil)))
+
+(call_insn 13 11 15 0 (parallel [
+            (call (mem:SI (symbol_ref:SI ("halt") [flags 0x41] <function_decl 0xb7459510 halt>) [0 S4 A32])
+                (const_int 0 [0x0]))
+            (clobber (reg:SI 31 $ra))
+        ]) 35 {*call_via_label} (nil)
+    (nil)
+    (nil))
+
+(note 15 13 26 0 NOTE_INSN_FUNCTION_END)
+
+(note 26 15 27 0 NOTE_INSN_EPILOGUE_BEG)
+
+(insn 27 26 28 0 (set (reg/f:SI 29 $sp)
+        (reg/f:SI 30 $fp)) -1 (nil)
+    (nil))
+
+(insn 28 27 29 0 (set (reg/f:SI 29 $sp)
+        (plus:SI (reg/f:SI 29 $sp)
+            (const_int 8 [0x8]))) -1 (nil)
+    (nil))
+
+(insn 29 28 30 0 (set (reg:SI 31 $ra)
+        (mem:SI (plus:SI (reg/f:SI 29 $sp)
+                (const_int -4 [0xfffffffc])) [0 S4 A32])) -1 (nil)
+    (nil))
+
+(insn 30 29 31 0 (set (reg/f:SI 30 $fp)
+        (mem:SI (plus:SI (reg/f:SI 29 $sp)
+                (const_int -8 [0xfffffff8])) [0 S4 A32])) -1 (nil)
+    (nil))
+
+(jump_insn 31 30 32 0 (parallel [
+            (set (pc)
+                (return))
+            (use (reg:DI 31 $ra))
+        ]) -1 (nil)
+    (nil))
+;; End of basic block 0, registers live:
+ 27 [$k1] 29 [$sp] 30 [$fp]
+
+(barrier 32 31 20)
+
+(note 20 32 0 NOTE_INSN_DELETED)
+
+
+;; Function panic_undef_inst
+
+(note 2 0 3 NOTE_INSN_DELETED)
+
+(note 3 2 18 NOTE_INSN_FUNCTION_BEG)
+
+;; Start of basic block 0, registers live: 27 [$k1] 29 [$sp] 30 [$fp]
+(note 18 3 21 0 [bb 0] NOTE_INSN_BASIC_BLOCK)
+
+(insn/f 21 18 22 0 (set (mem:SI (plus:SI (reg/f:SI 29 $sp)
+                (const_int -4 [0xfffffffc])) [0 S4 A32])
+        (reg:SI 31 $ra)) -1 (nil)
+    (nil))
+
+(insn/f 22 21 23 0 (set (mem:SI (plus:SI (reg/f:SI 29 $sp)
+                (const_int -8 [0xfffffff8])) [0 S4 A32])
+        (reg/f:SI 30 $fp)) -1 (nil)
+    (nil))
+
+(insn/f 23 22 24 0 (set (reg/f:SI 29 $sp)
+        (plus:SI (reg/f:SI 29 $sp)
+            (const_int -8 [0xfffffff8]))) -1 (nil)
+    (nil))
+
+(insn/f 24 23 25 0 (set (reg/f:SI 30 $fp)
+        (reg/f:SI 29 $sp)) -1 (nil)
+    (nil))
+
+(note 25 24 8 0 NOTE_INSN_PROLOGUE_END)
+
+(call_insn 8 25 10 0 (parallel [
+            (call (mem:SI (symbol_ref:SI ("cli") [flags 0x41] <function_decl 0xb74594a4 cli>) [0 S4 A32])
+                (const_int 0 [0x0]))
+            (clobber (reg:SI 31 $ra))
+        ]) 35 {*call_via_label} (nil)
+    (nil)
+    (nil))
+
+(insn 10 8 11 0 (set (reg:SI 4 $a0)
+        (symbol_ref/f:SI ("*.LC1") [flags 0x2] <string_cst 0xb754b6f4>)) 4 {movsi_internal} (nil)
+    (nil))
+
+(call_insn 11 10 13 0 (parallel [
+            (set (reg:SI 2 $v0)
+                (call (mem:SI (symbol_ref:SI ("puts") [flags 0x41] <function_decl 0xb75308dc puts>) [0 S4 A32])
+                    (const_int 0 [0x0])))
+            (clobber (reg:SI 31 $ra))
+        ]) 37 {*call_value_via_label} (nil)
+    (expr_list:REG_EH_REGION (const_int 0 [0x0])
+        (nil))
+    (expr_list (use (reg:SI 4 $a0))
+        (nil)))
+
+(call_insn 13 11 15 0 (parallel [
+            (call (mem:SI (symbol_ref:SI ("halt") [flags 0x41] <function_decl 0xb7459510 halt>) [0 S4 A32])
+                (const_int 0 [0x0]))
+            (clobber (reg:SI 31 $ra))
+        ]) 35 {*call_via_label} (nil)
+    (nil)
+    (nil))
+
+(note 15 13 26 0 NOTE_INSN_FUNCTION_END)
+
+(note 26 15 27 0 NOTE_INSN_EPILOGUE_BEG)
+
+(insn 27 26 28 0 (set (reg/f:SI 29 $sp)
+        (reg/f:SI 30 $fp)) -1 (nil)
+    (nil))
+
+(insn 28 27 29 0 (set (reg/f:SI 29 $sp)
+        (plus:SI (reg/f:SI 29 $sp)
+            (const_int 8 [0x8]))) -1 (nil)
+    (nil))
+
+(insn 29 28 30 0 (set (reg:SI 31 $ra)
+        (mem:SI (plus:SI (reg/f:SI 29 $sp)
+                (const_int -4 [0xfffffffc])) [0 S4 A32])) -1 (nil)
+    (nil))
+
+(insn 30 29 31 0 (set (reg/f:SI 30 $fp)
+        (mem:SI (plus:SI (reg/f:SI 29 $sp)
+                (const_int -8 [0xfffffff8])) [0 S4 A32])) -1 (nil)
+    (nil))
+
+(jump_insn 31 30 32 0 (parallel [
+            (set (pc)
+                (return))
+            (use (reg:DI 31 $ra))
+        ]) -1 (nil)
+    (nil))
+;; End of basic block 0, registers live:
+ 27 [$k1] 29 [$sp] 30 [$fp]
+
+(barrier 32 31 20)
+
+(note 20 32 0 NOTE_INSN_DELETED)
+
+
+;; Function panic_div_by_zero
+
+(note 2 0 3 NOTE_INSN_DELETED)
+
+(note 3 2 18 NOTE_INSN_FUNCTION_BEG)
+
+;; Start of basic block 0, registers live: 27 [$k1] 29 [$sp] 30 [$fp]
+(note 18 3 21 0 [bb 0] NOTE_INSN_BASIC_BLOCK)
+
+(insn/f 21 18 22 0 (set (mem:SI (plus:SI (reg/f:SI 29 $sp)
+                (const_int -4 [0xfffffffc])) [0 S4 A32])
+        (reg:SI 31 $ra)) -1 (nil)
+    (nil))
+
+(insn/f 22 21 23 0 (set (mem:SI (plus:SI (reg/f:SI 29 $sp)
+                (const_int -8 [0xfffffff8])) [0 S4 A32])
+        (reg/f:SI 30 $fp)) -1 (nil)
+    (nil))
+
+(insn/f 23 22 24 0 (set (reg/f:SI 29 $sp)
+        (plus:SI (reg/f:SI 29 $sp)
+            (const_int -8 [0xfffffff8]))) -1 (nil)
+    (nil))
+
+(insn/f 24 23 25 0 (set (reg/f:SI 30 $fp)
+        (reg/f:SI 29 $sp)) -1 (nil)
+    (nil))
+
+(note 25 24 8 0 NOTE_INSN_PROLOGUE_END)
+
+(call_insn 8 25 10 0 (parallel [
+            (call (mem:SI (symbol_ref:SI ("cli") [flags 0x41] <function_decl 0xb74594a4 cli>) [0 S4 A32])
+                (const_int 0 [0x0]))
+            (clobber (reg:SI 31 $ra))
+        ]) 35 {*call_via_label} (nil)
+    (nil)
+    (nil))
+
+(insn 10 8 11 0 (set (reg:SI 4 $a0)
+        (symbol_ref/f:SI ("*.LC2") [flags 0x2] <string_cst 0xb777c4b0>)) 4 {movsi_internal} (nil)
+    (nil))
+
+(call_insn 11 10 13 0 (parallel [
+            (set (reg:SI 2 $v0)
+                (call (mem:SI (symbol_ref:SI ("puts") [flags 0x41] <function_decl 0xb75308dc puts>) [0 S4 A32])
+                    (const_int 0 [0x0])))
+            (clobber (reg:SI 31 $ra))
+        ]) 37 {*call_value_via_label} (nil)
+    (expr_list:REG_EH_REGION (const_int 0 [0x0])
+        (nil))
+    (expr_list (use (reg:SI 4 $a0))
+        (nil)))
+
+(call_insn 13 11 15 0 (parallel [
+            (call (mem:SI (symbol_ref:SI ("halt") [flags 0x41] <function_decl 0xb7459510 halt>) [0 S4 A32])
+                (const_int 0 [0x0]))
+            (clobber (reg:SI 31 $ra))
+        ]) 35 {*call_via_label} (nil)
+    (nil)
+    (nil))
+
+(note 15 13 26 0 NOTE_INSN_FUNCTION_END)
+
+(note 26 15 27 0 NOTE_INSN_EPILOGUE_BEG)
+
+(insn 27 26 28 0 (set (reg/f:SI 29 $sp)
+        (reg/f:SI 30 $fp)) -1 (nil)
+    (nil))
+
+(insn 28 27 29 0 (set (reg/f:SI 29 $sp)
+        (plus:SI (reg/f:SI 29 $sp)
+            (const_int 8 [0x8]))) -1 (nil)
+    (nil))
+
+(insn 29 28 30 0 (set (reg:SI 31 $ra)
+        (mem:SI (plus:SI (reg/f:SI 29 $sp)
+                (const_int -4 [0xfffffffc])) [0 S4 A32])) -1 (nil)
+    (nil))
+
+(insn 30 29 31 0 (set (reg/f:SI 30 $fp)
+        (mem:SI (plus:SI (reg/f:SI 29 $sp)
+                (const_int -8 [0xfffffff8])) [0 S4 A32])) -1 (nil)
+    (nil))
+
+(jump_insn 31 30 32 0 (parallel [
+            (set (pc)
+                (return))
+            (use (reg:DI 31 $ra))
+        ]) -1 (nil)
+    (nil))
+;; End of basic block 0, registers live:
+ 27 [$k1] 29 [$sp] 30 [$fp]
+
+(barrier 32 31 20)
+
+(note 20 32 0 NOTE_INSN_DELETED)
+
+
+;; Function save_sp
+
+(note 2 0 35 NOTE_INSN_DELETED)
+
+;; Start of basic block 0, registers live: 4 [$a0] 27 [$k1] 29 [$sp] 30 [$fp]
+(note 35 2 40 0 [bb 0] NOTE_INSN_BASIC_BLOCK)
+
+(insn/f 40 35 41 0 (set (mem:SI (plus:SI (reg/f:SI 29 $sp)
+                (const_int -4 [0xfffffffc])) [0 S4 A32])
+        (reg/f:SI 30 $fp)) -1 (nil)
+    (nil))
+
+(insn/f 41 40 42 0 (set (reg/f:SI 29 $sp)
+        (plus:SI (reg/f:SI 29 $sp)
+            (const_int -4 [0xfffffffc]))) -1 (nil)
+    (nil))
+
+(insn/f 42 41 43 0 (set (reg/f:SI 30 $fp)
+        (reg/f:SI 29 $sp)) -1 (nil)
+    (nil))
+
+(insn/f 43 42 44 0 (set (reg/f:SI 29 $sp)
+        (plus:SI (reg/f:SI 29 $sp)
+            (const_int -4 [0xfffffffc]))) -1 (nil)
+    (nil))
+
+(note 44 43 3 0 NOTE_INSN_PROLOGUE_END)
+
+(insn 3 44 4 0 (set (mem/f:SI (plus:SI (reg/f:SI 30 $fp)
+                (const_int -4 [0xfffffffc])) [0 p+0 S4 A32])
+        (reg:SI 4 $a0 [ p ])) 4 {movsi_internal} (nil)
+    (nil))
+
+(note 4 3 10 0 NOTE_INSN_FUNCTION_BEG)
+
+(insn 10 4 11 0 (set (reg/f:SI 5 $a1 [38])
+        (symbol_ref:SI ("OSIntNesting") [flags 0x40] <var_decl 0xb7539a8c OSIntNesting>)) 4 {movsi_internal} (nil)
+    (nil))
+
+(insn 11 10 12 0 (set (reg/f:SI 4 $a0 [39])
+        (symbol_ref:SI ("OSIntNesting") [flags 0x40] <var_decl 0xb7539a8c OSIntNesting>)) 4 {movsi_internal} (nil)
+    (nil))
+
+(insn 12 11 13 0 (set (reg:QI 4 $a0 [orig:40 OSIntNesting ] [40])
+        (mem/f:QI (reg/f:SI 4 $a0 [39]) [0 OSIntNesting+0 S1 A8])) 5 {movqi} (nil)
+    (nil))
+
+(insn 13 12 14 0 (set (reg:SI 4 $a0 [41])
+        (plus:SI (reg:SI 4 $a0 [orig:40 OSIntNesting ] [40])
+            (const_int 1 [0x1]))) 7 {addsi3} (nil)
+    (nil))
+
+(insn 14 13 16 0 (set (mem/f:QI (reg/f:SI 5 $a1 [38]) [0 OSIntNesting+0 S1 A8])
+        (reg:QI 4 $a0 [41])) 5 {movqi} (nil)
+    (nil))
+
+(insn 16 14 17 0 (set (reg/f:SI 4 $a0 [42])
+        (symbol_ref:SI ("OSIntNesting") [flags 0x40] <var_decl 0xb7539a8c OSIntNesting>)) 4 {movsi_internal} (nil)
+    (nil))
+
+(insn 17 16 18 0 (set (reg:QI 4 $a0 [orig:44 OSIntNesting ] [44])
+        (mem/f:QI (reg/f:SI 4 $a0 [42]) [0 OSIntNesting+0 S1 A8])) 5 {movqi} (nil)
+    (nil))
+
+(insn 18 17 19 0 (set (reg:SI 4 $a0 [43])
+        (ashift:SI (reg:SI 4 $a0 [orig:44 OSIntNesting ] [44])
+            (const_int 24 [0x18]))) 18 {ashlsi3} (nil)
+    (nil))
+
+(insn 19 18 20 0 (set (reg:SI 4 $a0 [43])
+        (lshiftrt:SI (reg:SI 4 $a0 [43])
+            (const_int 24 [0x18]))) 20 {lshrsi3} (nil)
+    (nil))
+
+(insn 20 19 21 0 (set (reg:SI 5 $a1 [45])
+        (const_int 1 [0x1])) 4 {movsi_internal} (nil)
+    (nil))
+
+(insn 21 20 22 0 (set (cc0)
+        (compare (reg:SI 4 $a0 [43])
+            (reg:SI 5 $a1 [45]))) 21 {cmpsi} (nil)
+    (nil))
+
+(jump_insn 22 21 36 0 (set (pc)
+        (if_then_else (ne (cc0)
+                (const_int 0 [0x0]))
+            (label_ref 34)
+            (pc))) 23 {bne} (nil)
+    (nil))
+;; End of basic block 0, registers live:
+ 27 [$k1] 29 [$sp] 30 [$fp]
+
+;; Start of basic block 1, registers live: 27 [$k1] 29 [$sp] 30 [$fp]
+(note 36 22 26 1 [bb 1] NOTE_INSN_BASIC_BLOCK)
+
+(insn 26 36 27 1 (set (reg/f:SI 4 $a0 [47])
+        (symbol_ref:SI ("OSTCBCur") [flags 0x40] <var_decl 0xb7539ca8 OSTCBCur>)) 4 {movsi_internal} (nil)
+    (nil))
+
+(insn 27 26 28 1 (set (reg/f:SI 5 $a1 [orig:46 OSTCBCur ] [46])
+        (mem/f:SI (reg/f:SI 4 $a0 [47]) [0 OSTCBCur+0 S4 A32])) 4 {movsi_internal} (nil)
+    (nil))
+
+(insn 28 27 29 1 (set (reg:SI 4 $a0 [orig:48 p ] [48])
+        (mem/f:SI (plus:SI (reg/f:SI 30 $fp)
+                (const_int -4 [0xfffffffc])) [0 p+0 S4 A32])) 4 {movsi_internal} (nil)
+    (nil))
+
+(insn 29 28 32 1 (set (mem/s/j:SI (reg/f:SI 5 $a1 [orig:46 OSTCBCur ] [46]) [0 <variable>.OSTCBStkPtr+0 S4 A32])
+        (reg:SI 4 $a0 [orig:48 p ] [48])) 4 {movsi_internal} (nil)
+    (nil))
+;; End of basic block 1, registers live:
+ 27 [$k1] 29 [$sp] 30 [$fp]
+
+(note 32 29 34 NOTE_INSN_FUNCTION_END)
+
+;; Start of basic block 3, registers live: 27 [$k1] 29 [$sp] 30 [$fp]
+(code_label 34 32 38 3 4 "" [1 uses])
+
+(note 38 34 45 3 [bb 3] NOTE_INSN_BASIC_BLOCK)
+
+(note 45 38 46 3 NOTE_INSN_EPILOGUE_BEG)
+
+(insn 46 45 47 3 (set (reg/f:SI 29 $sp)
+        (plus:SI (reg/f:SI 29 $sp)
+            (const_int 4 [0x4]))) -1 (nil)
+    (nil))
+
+(insn 47 46 48 3 (set (reg/f:SI 29 $sp)
+        (reg/f:SI 30 $fp)) -1 (nil)
+    (nil))
+
+(insn 48 47 49 3 (set (reg/f:SI 29 $sp)
+        (plus:SI (reg/f:SI 29 $sp)
+            (const_int 4 [0x4]))) -1 (nil)
+    (nil))
+
+(insn 49 48 50 3 (set (reg/f:SI 30 $fp)
+        (mem:SI (plus:SI (reg/f:SI 29 $sp)
+                (const_int -4 [0xfffffffc])) [0 S4 A32])) -1 (nil)
+    (nil))
+
+(jump_insn 50 49 51 3 (parallel [
+            (set (pc)
+                (return))
+            (use (reg:DI 31 $ra))
+        ]) -1 (nil)
+    (nil))
+;; End of basic block 3, registers live:
+ 27 [$k1] 29 [$sp] 30 [$fp]
+
+(barrier 51 50 39)
+
+(note 39 51 0 NOTE_INSN_DELETED)
+

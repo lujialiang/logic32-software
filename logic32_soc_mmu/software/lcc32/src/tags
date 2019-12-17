@@ -1,0 +1,1398 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADD	c.h	/^       ADD=19<<4,$/;"	e	enum:__anon10
+ADDD	c.h	/^       	ADDD=ADD+D,$/;"	e	enum:__anon10
+ADDD	l32.md.c	/^%term ADDD=306 ADDF=305 ADDI=309 ADDP=311 ADDU=310$/;"	v
+ADDF	c.h	/^       	ADDF=ADD+F,$/;"	e	enum:__anon10
+ADDI	c.h	/^       	ADDI=ADD+I,$/;"	e	enum:__anon10
+ADDP	c.h	/^       	ADDP=ADD+P,$/;"	e	enum:__anon10
+ADDRF	c.h	/^       ADDRF=17<<4,$/;"	e	enum:__anon10
+ADDRFP	c.h	/^       	ADDRFP=ADDRF+P,$/;"	e	enum:__anon10
+ADDRG	c.h	/^       ADDRG=16<<4,$/;"	e	enum:__anon10
+ADDRGP	c.h	/^       	ADDRGP=ADDRG+P,$/;"	e	enum:__anon10
+ADDRL	c.h	/^       ADDRL=18<<4,$/;"	e	enum:__anon10
+ADDRLP	c.h	/^       	ADDRLP=ADDRL+P,$/;"	e	enum:__anon10
+ADDU	c.h	/^       	ADDU=ADD+U,$/;"	e	enum:__anon10
+AND	c.h	/^	AND=38<<4,$/;"	e	enum:__anon27
+ARG	c.h	/^       ARG=2<<4,$/;"	e	enum:__anon10
+ARGB	c.h	/^       	ARGB=ARG+B,$/;"	e	enum:__anon10
+ARGD	c.h	/^       	ARGD=ARG+D,$/;"	e	enum:__anon10
+ARGF	c.h	/^       	ARGF=ARG+F,$/;"	e	enum:__anon10
+ARGI	c.h	/^       	ARGI=ARG+I,$/;"	e	enum:__anon10
+ARGP	c.h	/^       	ARGP=ARG+P,$/;"	e	enum:__anon10
+ARGS	c.h	26;"	d
+ARGS	c.h	28;"	d
+ARGS	profio.c	21;"	d	file:
+ASGN	c.h	/^       ASGN=3<<4,$/;"	e	enum:__anon10
+ASGNB	c.h	/^       	ASGNB=ASGN+B,$/;"	e	enum:__anon10
+ASGNC	c.h	/^       	ASGNC=ASGN+C,$/;"	e	enum:__anon10
+ASGND	c.h	/^       	ASGND=ASGN+D,$/;"	e	enum:__anon10
+ASGNF	c.h	/^       	ASGNF=ASGN+F,$/;"	e	enum:__anon10
+ASGNI	c.h	/^       	ASGNI=ASGN+I,$/;"	e	enum:__anon10
+ASGNP	c.h	/^       	ASGNP=ASGN+P,$/;"	e	enum:__anon10
+ASGNS	c.h	/^       	ASGNS=ASGN+S,$/;"	e	enum:__anon10
+Address	c.h	/^	enum { Blockbeg, Blockend, Local, Address, Defpoint,$/;"	e	enum:code::__anon13
+Aflag	main.c	/^int Aflag;		\/* >= 0 if -A specified *\/$/;"	v
+Apply	c.h	/^typedef void (*Apply) ARGS((void *, void *, void *));$/;"	t
+B	c.h	/^	B=STRUCT$/;"	e	enum:__anon9
+BAND	c.h	/^       BAND=24<<4,$/;"	e	enum:__anon10
+BANDU	c.h	/^       	BANDU=BAND+U,$/;"	e	enum:__anon10
+BCOM	c.h	/^       BCOM=25<<4,$/;"	e	enum:__anon10
+BCOMU	c.h	/^       	BCOMU=BCOM+U,$/;"	e	enum:__anon10
+BLANK	lex.c	/^enum { BLANK=01,  NEWLINE=02, LETTER=04,$/;"	e	enum:__anon2	file:
+BOR	c.h	/^       BOR=26<<4,$/;"	e	enum:__anon10
+BORU	c.h	/^       	BORU=BOR+U,$/;"	e	enum:__anon10
+BSS	c.h	/^enum { CODE=1, BSS, DATA, LIT };$/;"	e	enum:__anon11
+BUFSIZE	c.h	16;"	d
+BXOR	c.h	/^       BXOR=27<<4,$/;"	e	enum:__anon10
+BXORU	c.h	/^       	BXORU=BXOR+U,$/;"	e	enum:__anon10
+Binding	c.h	/^} Binding;$/;"	t	typeref:struct:binding
+Blockbeg	c.h	/^	enum { Blockbeg, Blockend, Local, Address, Defpoint,$/;"	e	enum:code::__anon13
+Blockend	c.h	/^	enum { Blockbeg, Blockend, Local, Address, Defpoint,$/;"	e	enum:code::__anon13
+C	c.h	/^	C=CHAR,$/;"	e	enum:__anon9
+CALL	c.h	/^       CALL=13<<4,$/;"	e	enum:__anon10
+CALLB	c.h	/^       	CALLB=CALL+B,$/;"	e	enum:__anon10
+CALLD	c.h	/^       	CALLD=CALL+D,$/;"	e	enum:__anon10
+CALLF	c.h	/^       	CALLF=CALL+F,$/;"	e	enum:__anon10
+CALLI	c.h	/^       	CALLI=CALL+I,$/;"	e	enum:__anon10
+CALLV	c.h	/^       	CALLV=CALL+V,$/;"	e	enum:__anon10
+CHAR_BIT	c.h	755;"	d
+CHAR_MAX	c.h	763;"	d
+CHAR_MIN	c.h	769;"	d
+CNST	c.h	/^enum { CNST=1<<4,$/;"	e	enum:__anon10
+CNSTC	c.h	/^       	CNSTC=CNST+C,$/;"	e	enum:__anon10
+CNSTD	c.h	/^       	CNSTD=CNST+D,$/;"	e	enum:__anon10
+CNSTF	c.h	/^       	CNSTF=CNST+F,$/;"	e	enum:__anon10
+CNSTI	c.h	/^       	CNSTI=CNST+I,$/;"	e	enum:__anon10
+CNSTP	c.h	/^       	CNSTP=CNST+P,$/;"	e	enum:__anon10
+CNSTS	c.h	/^       	CNSTS=CNST+S,$/;"	e	enum:__anon10
+CNSTU	c.h	/^       	CNSTU=CNST+U,$/;"	e	enum:__anon10
+CODE	c.h	/^enum { CODE=1, BSS, DATA, LIT };$/;"	e	enum:__anon11
+COND	c.h	/^	COND=41<<4,$/;"	e	enum:__anon27
+CONSTANTS	c.h	/^enum { CONSTANTS=1, LABELS, GLOBAL, PARAM, LOCAL };$/;"	e	enum:__anon25
+CVC	c.h	/^       CVC=5<<4,$/;"	e	enum:__anon10
+CVCI	c.h	/^       	CVCI=CVC+I,$/;"	e	enum:__anon10
+CVCU	c.h	/^       	CVCU=CVC+U,$/;"	e	enum:__anon10
+CVD	c.h	/^       CVD=6<<4,$/;"	e	enum:__anon10
+CVDF	c.h	/^       	CVDF=CVD+F,$/;"	e	enum:__anon10
+CVDI	c.h	/^       	CVDI=CVD+I,$/;"	e	enum:__anon10
+CVF	c.h	/^       CVF=7<<4,$/;"	e	enum:__anon10
+CVFD	c.h	/^       	CVFD=CVF+D,$/;"	e	enum:__anon10
+CVI	c.h	/^       CVI=8<<4,$/;"	e	enum:__anon10
+CVIC	c.h	/^       	CVIC=CVI+C,$/;"	e	enum:__anon10
+CVID	c.h	/^       	CVID=CVI+D,$/;"	e	enum:__anon10
+CVIS	c.h	/^       	CVIS=CVI+S,$/;"	e	enum:__anon10
+CVIU	c.h	/^       	CVIU=CVI+U,$/;"	e	enum:__anon10
+CVP	c.h	/^       CVP=9<<4,$/;"	e	enum:__anon10
+CVPU	c.h	/^       	CVPU=CVP+U,$/;"	e	enum:__anon10
+CVS	c.h	/^       CVS=10<<4,$/;"	e	enum:__anon10
+CVSI	c.h	/^       	CVSI=CVS+I,$/;"	e	enum:__anon10
+CVSU	c.h	/^       	CVSU=CVS+U,$/;"	e	enum:__anon10
+CVU	c.h	/^       CVU=11<<4,$/;"	e	enum:__anon10
+CVUC	c.h	/^       	CVUC=CVU+C,$/;"	e	enum:__anon10
+CVUI	c.h	/^       	CVUI=CVU+I,$/;"	e	enum:__anon10
+CVUP	c.h	/^       	CVUP=CVU+P,$/;"	e	enum:__anon10
+CVUS	c.h	/^       	CVUS=CVU+S,$/;"	e	enum:__anon10
+Code	c.h	/^typedef struct code *Code;$/;"	t	typeref:struct:code
+Coordinate	c.h	/^} Coordinate;$/;"	t	typeref:struct:coord
+D	c.h	/^	D=DOUBLE,$/;"	e	enum:__anon9
+DATA	c.h	/^enum { CODE=1, BSS, DATA, LIT };$/;"	e	enum:__anon11
+DBL_MAX	c.h	776;"	d
+DIGIT	lex.c	/^       DIGIT=010, HEX=020,    OTHER=040 };$/;"	e	enum:__anon2	file:
+DIV	c.h	/^       DIV=28<<4,$/;"	e	enum:__anon10
+DIVD	c.h	/^       	DIVD=DIV+D,$/;"	e	enum:__anon10
+DIVF	c.h	/^       	DIVF=DIV+F,$/;"	e	enum:__anon10
+DIVI	c.h	/^       	DIVI=DIV+I,$/;"	e	enum:__anon10
+DIVU	c.h	/^       	DIVU=DIV+U,$/;"	e	enum:__anon10
+Defpoint	c.h	/^	enum { Blockbeg, Blockend, Local, Address, Defpoint,$/;"	e	enum:code::__anon13
+EOF	profio.c	26;"	d	file:
+EQ	c.h	/^       EQ=30<<4,$/;"	e	enum:__anon10
+EQD	c.h	/^       	EQD=EQ+D,$/;"	e	enum:__anon10
+EQF	c.h	/^       	EQF=EQ+F,$/;"	e	enum:__anon10
+EQI	c.h	/^       	EQI=EQ+I,$/;"	e	enum:__anon10
+Env	config.h	/^} Env;$/;"	t	typeref:struct:__anon36
+Events	c.h	/^} Events;$/;"	t	typeref:struct:__anon7
+F	c.h	/^	F=FLOAT,$/;"	e	enum:__anon9
+FIELD	c.h	/^	FIELD=43<<4$/;"	e	enum:__anon27
+FLTRET	l32.c	7;"	d	file:
+FLTRET	l32.md.c	8;"	d	file:
+FLTRET	mips.c	7;"	d	file:
+FLTTMP	l32.c	3;"	d	file:
+FLTTMP	l32.md.c	4;"	d	file:
+FLTTMP	mips.c	3;"	d	file:
+FLTVAR	l32.c	4;"	d	file:
+FLTVAR	l32.md.c	5;"	d	file:
+FLTVAR	mips.c	4;"	d	file:
+FLT_MAX	c.h	775;"	d
+FREG	config.h	/^enum { IREG=0, FREG=1 };$/;"	e	enum:__anon33
+FUNC	c.h	/^enum { PERM=0, FUNC, STMT };$/;"	e	enum:__anon12
+Field	c.h	/^typedef struct field *Field;$/;"	t	typeref:struct:field
+GE	c.h	/^       GE=31<<4,$/;"	e	enum:__anon10
+GED	c.h	/^       	GED=GE+D,$/;"	e	enum:__anon10
+GEF	c.h	/^       	GEF=GE+F,$/;"	e	enum:__anon10
+GEI	c.h	/^       	GEI=GE+I,$/;"	e	enum:__anon10
+GEU	c.h	/^       	GEU=GE+U,$/;"	e	enum:__anon10
+GLOBAL	c.h	/^enum { CONSTANTS=1, LABELS, GLOBAL, PARAM, LOCAL };$/;"	e	enum:__anon25
+GT	c.h	/^       GT=32<<4,$/;"	e	enum:__anon10
+GTD	c.h	/^       	GTD=GT+D,$/;"	e	enum:__anon10
+GTF	c.h	/^       	GTF=GT+F,$/;"	e	enum:__anon10
+GTI	c.h	/^       	GTI=GT+I,$/;"	e	enum:__anon10
+GTU	c.h	/^       	GTU=GT+U,$/;"	e	enum:__anon10
+Gen	c.h	/^	       Label,    Start,    Gen,   Jump,    Switch$/;"	e	enum:code::__anon13
+HASHSIZE	sym.c	14;"	d	file:
+HEX	lex.c	/^       DIGIT=010, HEX=020,    OTHER=040 };$/;"	e	enum:__anon2	file:
+I	c.h	/^	I=INT,$/;"	e	enum:__anon9
+INDIR	c.h	/^       INDIR=4<<4,$/;"	e	enum:__anon10
+INDIRB	c.h	/^       	INDIRB=INDIR+B,$/;"	e	enum:__anon10
+INDIRC	c.h	/^       	INDIRC=INDIR+C,$/;"	e	enum:__anon10
+INDIRD	c.h	/^       	INDIRD=INDIR+D,$/;"	e	enum:__anon10
+INDIRF	c.h	/^       	INDIRF=INDIR+F,$/;"	e	enum:__anon10
+INDIRI	c.h	/^       	INDIRI=INDIR+I,$/;"	e	enum:__anon10
+INDIRP	c.h	/^       	INDIRP=INDIR+P,$/;"	e	enum:__anon10
+INDIRS	c.h	/^       	INDIRS=INDIR+S,$/;"	e	enum:__anon10
+INTRET	l32.c	6;"	d	file:
+INTRET	l32.md.c	7;"	d	file:
+INTRET	mips.c	6;"	d	file:
+INTTMP	l32.c	1;"	d	file:
+INTTMP	l32.md.c	2;"	d	file:
+INTTMP	mips.c	1;"	d	file:
+INTVAR	l32.c	2;"	d	file:
+INTVAR	l32.md.c	3;"	d	file:
+INTVAR	mips.c	2;"	d	file:
+INT_MAX	c.h	766;"	d
+INT_MIN	c.h	772;"	d
+IR	main.c	/^Interface *IR = NULL;$/;"	v
+IREG	config.h	/^enum { IREG=0, FREG=1 };$/;"	e	enum:__anon33
+Interface	c.h	/^} Interface;$/;"	t	typeref:struct:interface
+JUMP	c.h	/^       JUMP=36<<4,$/;"	e	enum:__anon10
+JUMPV	c.h	/^       	JUMPV=JUMP+V,$/;"	e	enum:__anon10
+Jump	c.h	/^	       Label,    Start,    Gen,   Jump,    Switch$/;"	e	enum:code::__anon13
+LABEL	c.h	/^       LABEL=37<<4,$/;"	e	enum:__anon10
+LABELS	c.h	/^enum { CONSTANTS=1, LABELS, GLOBAL, PARAM, LOCAL };$/;"	e	enum:__anon25
+LABELV	c.h	/^       	LABELV=LABEL+V };$/;"	e	enum:__anon10
+LAST	c.h	/^	LAST$/;"	e	enum:__anon8
+LBURG_MAX	config.h	86;"	d
+LE	c.h	/^       LE=33<<4,$/;"	e	enum:__anon10
+LED	c.h	/^       	LED=LE+D,$/;"	e	enum:__anon10
+LEF	c.h	/^       	LEF=LE+F,$/;"	e	enum:__anon10
+LEFT_CHILD	l32.c	20;"	d	file:
+LEFT_CHILD	l32.md.c	21;"	d	file:
+LEFT_CHILD	mips.c	20;"	d	file:
+LEI	c.h	/^       	LEI=LE+I,$/;"	e	enum:__anon10
+LETTER	lex.c	/^enum { BLANK=01,  NEWLINE=02, LETTER=04,$/;"	e	enum:__anon2	file:
+LEU	c.h	/^       	LEU=LE+U,$/;"	e	enum:__anon10
+LIT	c.h	/^enum { CODE=1, BSS, DATA, LIT };$/;"	e	enum:__anon11
+LOAD	c.h	/^       LOAD=14<<4,$/;"	e	enum:__anon10
+LOADB	c.h	/^       	LOADB=LOAD+B,$/;"	e	enum:__anon10
+LOADC	c.h	/^       	LOADC=LOAD+C,$/;"	e	enum:__anon10
+LOADD	c.h	/^       	LOADD=LOAD+D,$/;"	e	enum:__anon10
+LOADF	c.h	/^       	LOADF=LOAD+F,$/;"	e	enum:__anon10
+LOADI	c.h	/^       	LOADI=LOAD+I,$/;"	e	enum:__anon10
+LOADP	c.h	/^       	LOADP=LOAD+P,$/;"	e	enum:__anon10
+LOADS	c.h	/^       	LOADS=LOAD+S,$/;"	e	enum:__anon10
+LOADU	c.h	/^       	LOADU=LOAD+U,$/;"	e	enum:__anon10
+LOCAL	c.h	/^enum { CONSTANTS=1, LABELS, GLOBAL, PARAM, LOCAL };$/;"	e	enum:__anon25
+LONG_MAX	c.h	767;"	d
+LONG_MIN	c.h	773;"	d
+LSH	c.h	/^       LSH=21<<4,$/;"	e	enum:__anon10
+LSHI	c.h	/^       	LSHI=LSH+I,$/;"	e	enum:__anon10
+LSHU	c.h	/^       	LSHU=LSH+U,$/;"	e	enum:__anon10
+LT	c.h	/^       LT=34<<4,$/;"	e	enum:__anon10
+LTD	c.h	/^       	LTD=LT+D,$/;"	e	enum:__anon10
+LTF	c.h	/^       	LTF=LT+F,$/;"	e	enum:__anon10
+LTI	c.h	/^       	LTI=LT+I,$/;"	e	enum:__anon10
+LTU	c.h	/^       	LTU=LT+U,$/;"	e	enum:__anon10
+Label	c.h	/^	       Label,    Start,    Gen,   Jump,    Switch$/;"	e	enum:code::__anon13
+List	c.h	/^typedef struct list *List;$/;"	t	typeref:struct:list
+Local	c.h	/^	enum { Blockbeg, Blockend, Local, Address, Defpoint,$/;"	e	enum:code::__anon13
+MAXLINE	c.h	15;"	d
+MAXTOKEN	lex.c	4;"	d	file:
+MAXTOKEN	profio.c	19;"	d	file:
+MB_LEN_MAX	c.h	756;"	d
+MOD	c.h	/^       MOD=22<<4,$/;"	e	enum:__anon10
+MODI	c.h	/^       	MODI=MOD+I,$/;"	e	enum:__anon10
+MODU	c.h	/^       	MODU=MOD+U,$/;"	e	enum:__anon10
+MUL	c.h	/^       MUL=29<<4,$/;"	e	enum:__anon10
+MULD	c.h	/^       	MULD=MUL+D,$/;"	e	enum:__anon10
+MULF	c.h	/^       	MULF=MUL+F,$/;"	e	enum:__anon10
+MULI	c.h	/^       	MULI=MUL+I,$/;"	e	enum:__anon10
+MULU	c.h	/^       	MULU=MUL+U,$/;"	e	enum:__anon10
+Metrics	c.h	/^} Metrics;$/;"	t	typeref:struct:metrics
+NE	c.h	/^       NE=35<<4,$/;"	e	enum:__anon10
+NED	c.h	/^       	NED=NE+D,$/;"	e	enum:__anon10
+NEF	c.h	/^       	NEF=NE+F,$/;"	e	enum:__anon10
+NEG	c.h	/^       NEG=12<<4,$/;"	e	enum:__anon10
+NEGD	c.h	/^       	NEGD=NEG+D,$/;"	e	enum:__anon10
+NEGF	c.h	/^       	NEGF=NEG+F,$/;"	e	enum:__anon10
+NEGI	c.h	/^       	NEGI=NEG+I,$/;"	e	enum:__anon10
+NEI	c.h	/^       	NEI=NE+I,$/;"	e	enum:__anon10
+NELEMS	c.h	43;"	d
+NEW	c.h	1;"	d
+NEW0	c.h	2;"	d
+NEWLINE	lex.c	/^enum { BLANK=01,  NEWLINE=02, LETTER=04,$/;"	e	enum:__anon2	file:
+NODEPTR_TYPE	l32.c	18;"	d	file:
+NODEPTR_TYPE	l32.md.c	19;"	d	file:
+NODEPTR_TYPE	mips.c	18;"	d	file:
+NOT	c.h	/^	NOT=39<<4,$/;"	e	enum:__anon27
+NULL	c.h	42;"	d
+NeedsReg	gen.c	/^static char NeedsReg[] = {$/;"	v	file:
+Node	c.h	/^typedef struct node *Node;$/;"	t	typeref:struct:node
+OP_LABEL	l32.c	19;"	d	file:
+OP_LABEL	l32.md.c	20;"	d	file:
+OP_LABEL	mips.c	19;"	d	file:
+OR	c.h	/^	OR=40<<4,$/;"	e	enum:__anon27
+OTHER	lex.c	/^       DIGIT=010, HEX=020,    OTHER=040 };$/;"	e	enum:__anon2	file:
+P	c.h	/^	P=POINTER,$/;"	e	enum:__anon9
+PARAM	c.h	/^enum { CONSTANTS=1, LABELS, GLOBAL, PARAM, LOCAL };$/;"	e	enum:__anon25
+PERM	c.h	/^enum { PERM=0, FUNC, STMT };$/;"	e	enum:__anon12
+Pflag	main.c	/^int Pflag;		\/* != 0 if -P specified *\/$/;"	v
+RET	c.h	/^       RET=15<<4,$/;"	e	enum:__anon10
+RETD	c.h	/^       	RETD=RET+D,$/;"	e	enum:__anon10
+RETF	c.h	/^       	RETF=RET+F,$/;"	e	enum:__anon10
+RETI	c.h	/^       	RETI=RET+I,$/;"	e	enum:__anon10
+RIGHT	c.h	/^	RIGHT=42<<4,$/;"	e	enum:__anon27
+RIGHT_CHILD	l32.c	21;"	d	file:
+RIGHT_CHILD	l32.md.c	22;"	d	file:
+RIGHT_CHILD	mips.c	21;"	d	file:
+RSH	c.h	/^       RSH=23<<4,$/;"	e	enum:__anon10
+RSHI	c.h	/^       	RSHI=RSH+I,$/;"	e	enum:__anon10
+RSHU	c.h	/^       	RSHU=RSH+U,$/;"	e	enum:__anon10
+RX	config.h	/^enum { RX=2 };$/;"	e	enum:__anon35
+Regnode	config.h	/^} *Regnode;$/;"	t	typeref:struct:__anon32
+S	c.h	/^	S=SHORT,$/;"	e	enum:__anon9
+SCHAR_MAX	c.h	764;"	d
+SCHAR_MIN	c.h	770;"	d
+SHRT_MAX	c.h	765;"	d
+SHRT_MIN	c.h	771;"	d
+STATE_LABEL	l32.c	22;"	d	file:
+STATE_LABEL	l32.md.c	23;"	d	file:
+STATE_LABEL	mips.c	22;"	d	file:
+STMT	c.h	/^enum { PERM=0, FUNC, STMT };$/;"	e	enum:__anon12
+SUB	c.h	/^       SUB=20<<4,$/;"	e	enum:__anon10
+SUBD	c.h	/^       	SUBD=SUB+D,$/;"	e	enum:__anon10
+SUBF	c.h	/^       	SUBF=SUB+F,$/;"	e	enum:__anon10
+SUBI	c.h	/^       	SUBI=SUB+I,$/;"	e	enum:__anon10
+SUBP	c.h	/^       	SUBP=SUB+P,$/;"	e	enum:__anon10
+SUBU	c.h	/^       	SUBU=SUB+U,$/;"	e	enum:__anon10
+SWSIZE	stmt.c	3;"	d	file:
+Start	c.h	/^	       Label,    Start,    Gen,   Jump,    Switch$/;"	e	enum:code::__anon13
+Switch	c.h	/^	       Label,    Start,    Gen,   Jump,    Switch$/;"	e	enum:code::__anon13
+Swtch	c.h	/^typedef struct swtch *Swtch;$/;"	t	typeref:struct:swtch
+Symbol	c.h	/^typedef struct symbol *Symbol;$/;"	t	typeref:struct:symbol
+Table	c.h	/^typedef struct table *Table;$/;"	t	typeref:struct:table
+Tree	c.h	/^typedef struct tree *Tree;$/;"	t	typeref:struct:tree
+Type	c.h	/^typedef struct type *Type;$/;"	t	typeref:struct:type
+U	c.h	/^	U=UNSIGNED,$/;"	e	enum:__anon9
+UCHAR_MAX	c.h	758;"	d
+UINT_MAX	c.h	760;"	d
+ULONG_MAX	c.h	761;"	d
+USHRT_MAX	c.h	759;"	d
+V	c.h	/^	V=VOID,$/;"	e	enum:__anon9
+VARARGS	c.h	38;"	d
+VARARGS	c.h	40;"	d
+VREG	config.h	/^enum { VREG=(38<<4) };$/;"	e	enum:__anon37
+Value	c.h	/^} Value;$/;"	t	typeref:union:value
+Xflag	main.c	/^int Xflag;		\/* != 0 if -X specified to permit extensions *\/$/;"	v
+Xinterface	config.h	/^} Xinterface;$/;"	t	typeref:struct:__anon30
+Xnode	config.h	/^} Xnode;$/;"	t	typeref:struct:__anon31
+Xsymbol	config.h	/^} Xsymbol;$/;"	t	typeref:struct:__anon34
+Xtype	c.h	/^} Xtype;$/;"	t	typeref:struct:__anon6
+YYcheck	main.c	/^Symbol YYcheck;		\/* _YYcheck symbol if -nvalidate,check specified *\/$/;"	v
+YYcounts	prof.c	/^static Symbol YYcounts;	\/* symbol for _YYcounts if -b specified *\/$/;"	v	file:
+YYlink	prof.c	/^static Symbol YYlink;	\/* symbol for file's struct _bbdata *\/$/;"	v	file:
+YYnull	main.c	/^Symbol YYnull;		\/* _YYnull  symbol if -n or -nvalidate specified *\/$/;"	v
+__STDC__	c.h	22;"	d
+_acon	l32.c	/^		unsigned int _acon:2;$/;"	m	struct:_state::__anon1	file:
+_acon	mips.c	/^		unsigned int _acon:2;$/;"	m	struct:_state::__anon3	file:
+_acon_NT	l32.c	66;"	d	file:
+_acon_NT	mips.c	66;"	d	file:
+_addr	l32.c	/^		unsigned int _addr:3;$/;"	m	struct:_state::__anon1	file:
+_addr	mips.c	/^		unsigned int _addr:3;$/;"	m	struct:_state::__anon3	file:
+_addr_NT	l32.c	67;"	d	file:
+_addr_NT	mips.c	67;"	d	file:
+_ar	l32.c	/^		unsigned int _ar:2;$/;"	m	struct:_state::__anon1	file:
+_ar	mips.c	/^		unsigned int _ar:2;$/;"	m	struct:_state::__anon3	file:
+_ar_NT	l32.c	70;"	d	file:
+_ar_NT	mips.c	70;"	d	file:
+_arity	config.h	/^char *_arity;$/;"	m	struct:__anon30
+_arity	l32.c	/^static char _arity[] = {$/;"	v	file:
+_arity	mips.c	/^static char _arity[] = {$/;"	v	file:
+_closure_acon	l32.c	/^static void _closure_acon(a, c) NODEPTR_TYPE a; int c; {$/;"	f	file:
+_closure_acon	mips.c	/^static void _closure_acon(a, c) NODEPTR_TYPE a; int c; {$/;"	f	file:
+_closure_addr	l32.c	/^static void _closure_addr(a, c) NODEPTR_TYPE a; int c; {$/;"	f	file:
+_closure_addr	mips.c	/^static void _closure_addr(a, c) NODEPTR_TYPE a; int c; {$/;"	f	file:
+_closure_con	l32.c	/^static void _closure_con(a, c) NODEPTR_TYPE a; int c; {$/;"	f	file:
+_closure_con	mips.c	/^static void _closure_con(a, c) NODEPTR_TYPE a; int c; {$/;"	f	file:
+_closure_reg	l32.c	/^static void _closure_reg(a, c) NODEPTR_TYPE a; int c; {$/;"	f	file:
+_closure_reg	mips.c	/^static void _closure_reg(a, c) NODEPTR_TYPE a; int c; {$/;"	f	file:
+_con	l32.c	/^		unsigned int _con:3;$/;"	m	struct:_state::__anon1	file:
+_con	mips.c	/^		unsigned int _con:3;$/;"	m	struct:_state::__anon3	file:
+_con_NT	l32.c	65;"	d	file:
+_con_NT	mips.c	65;"	d	file:
+_decode_acon	l32.c	/^static short _decode_acon[] = {$/;"	v	file:
+_decode_acon	mips.c	/^static short _decode_acon[] = {$/;"	v	file:
+_decode_addr	l32.c	/^static short _decode_addr[] = {$/;"	v	file:
+_decode_addr	mips.c	/^static short _decode_addr[] = {$/;"	v	file:
+_decode_ar	l32.c	/^static short _decode_ar[] = {$/;"	v	file:
+_decode_ar	mips.c	/^static short _decode_ar[] = {$/;"	v	file:
+_decode_con	l32.c	/^static short _decode_con[] = {$/;"	v	file:
+_decode_con	mips.c	/^static short _decode_con[] = {$/;"	v	file:
+_decode_rc	l32.c	/^static short _decode_rc[] = {$/;"	v	file:
+_decode_rc	mips.c	/^static short _decode_rc[] = {$/;"	v	file:
+_decode_rc5	l32.c	/^static short _decode_rc5[] = {$/;"	v	file:
+_decode_rc5	mips.c	/^static short _decode_rc5[] = {$/;"	v	file:
+_decode_reg	l32.c	/^static short _decode_reg[] = {$/;"	v	file:
+_decode_reg	mips.c	/^static short _decode_reg[] = {$/;"	v	file:
+_decode_stmt	l32.c	/^static short _decode_stmt[] = {$/;"	v	file:
+_decode_stmt	mips.c	/^static short _decode_stmt[] = {$/;"	v	file:
+_isinstruction	config.h	/^char *_isinstruction;$/;"	m	struct:__anon30
+_isinstruction	l32.c	/^static char _isinstruction[] = {$/;"	v	file:
+_isinstruction	mips.c	/^static char _isinstruction[] = {$/;"	v	file:
+_kids	config.h	/^void (*_kids) ARGS((Node, int, Node*));$/;"	m	struct:__anon30
+_kids	l32.c	/^static void _kids(p, eruleno, kids) NODEPTR_TYPE p, kids[]; int eruleno; {$/;"	f	file:
+_kids	mips.c	/^static void _kids(p, eruleno, kids) NODEPTR_TYPE p, kids[]; int eruleno; {$/;"	f	file:
+_label	config.h	/^void (*_label) ARGS((Node));$/;"	m	struct:__anon30
+_label	l32.c	/^static void _label(a) NODEPTR_TYPE a; {$/;"	f	file:
+_label	mips.c	/^static void _label(a) NODEPTR_TYPE a; {$/;"	f	file:
+_ntname	config.h	/^char **_ntname;$/;"	m	struct:__anon30
+_ntname	l32.c	/^static char *_ntname[] = {$/;"	v	file:
+_ntname	mips.c	/^static char *_ntname[] = {$/;"	v	file:
+_nts	config.h	/^short **_nts;$/;"	m	struct:__anon30
+_nts	l32.c	/^static short *_nts[] = {$/;"	v	file:
+_nts	mips.c	/^static short *_nts[] = {$/;"	v	file:
+_nts_0	l32.c	/^static short _nts_0[] = { 0 };$/;"	v	file:
+_nts_0	mips.c	/^static short _nts_0[] = { 0 };$/;"	v	file:
+_nts_1	l32.c	/^static short _nts_1[] = { _reg_NT, 0 };$/;"	v	file:
+_nts_1	mips.c	/^static short _nts_1[] = { _reg_NT, 0 };$/;"	v	file:
+_nts_10	l32.c	/^static short _nts_10[] = { _ar_NT, 0 };$/;"	v	file:
+_nts_10	mips.c	/^static short _nts_10[] = { _ar_NT, 0 };$/;"	v	file:
+_nts_2	l32.c	/^static short _nts_2[] = { _con_NT, 0 };$/;"	v	file:
+_nts_2	mips.c	/^static short _nts_2[] = { _con_NT, 0 };$/;"	v	file:
+_nts_3	l32.c	/^static short _nts_3[] = { _reg_NT, _acon_NT, 0 };$/;"	v	file:
+_nts_3	mips.c	/^static short _nts_3[] = { _reg_NT, _acon_NT, 0 };$/;"	v	file:
+_nts_4	l32.c	/^static short _nts_4[] = { _acon_NT, 0 };$/;"	v	file:
+_nts_4	mips.c	/^static short _nts_4[] = { _acon_NT, 0 };$/;"	v	file:
+_nts_5	l32.c	/^static short _nts_5[] = { _addr_NT, 0 };$/;"	v	file:
+_nts_5	mips.c	/^static short _nts_5[] = { _addr_NT, 0 };$/;"	v	file:
+_nts_6	l32.c	/^static short _nts_6[] = { _addr_NT, _reg_NT, 0 };$/;"	v	file:
+_nts_6	mips.c	/^static short _nts_6[] = { _addr_NT, _reg_NT, 0 };$/;"	v	file:
+_nts_7	l32.c	/^static short _nts_7[] = { _reg_NT, _reg_NT, 0 };$/;"	v	file:
+_nts_7	mips.c	/^static short _nts_7[] = { _reg_NT, _reg_NT, 0 };$/;"	v	file:
+_nts_8	l32.c	/^static short _nts_8[] = { _reg_NT, _rc_NT, 0 };$/;"	v	file:
+_nts_8	mips.c	/^static short _nts_8[] = { _reg_NT, _rc_NT, 0 };$/;"	v	file:
+_nts_9	l32.c	/^static short _nts_9[] = { _reg_NT, _rc5_NT, 0 };$/;"	v	file:
+_nts_9	mips.c	/^static short _nts_9[] = { _reg_NT, _rc5_NT, 0 };$/;"	v	file:
+_opname	config.h	/^char **_opname;$/;"	m	struct:__anon30
+_opname	l32.c	/^static char *_opname[] = {$/;"	v	file:
+_opname	mips.c	/^static char *_opname[] = {$/;"	v	file:
+_rc	l32.c	/^		unsigned int _rc:2;$/;"	m	struct:_state::__anon1	file:
+_rc	mips.c	/^		unsigned int _rc:2;$/;"	m	struct:_state::__anon3	file:
+_rc5	l32.c	/^		unsigned int _rc5:2;$/;"	m	struct:_state::__anon1	file:
+_rc5	mips.c	/^		unsigned int _rc5:2;$/;"	m	struct:_state::__anon3	file:
+_rc5_NT	l32.c	69;"	d	file:
+_rc5_NT	mips.c	69;"	d	file:
+_rc_NT	l32.c	68;"	d	file:
+_rc_NT	mips.c	68;"	d	file:
+_reg	l32.c	/^		unsigned int _reg:7;$/;"	m	struct:_state::__anon1	file:
+_reg	mips.c	/^		unsigned int _reg:7;$/;"	m	struct:_state::__anon3	file:
+_reg_NT	l32.c	64;"	d	file:
+_reg_NT	mips.c	64;"	d	file:
+_rule	config.h	/^int (*_rule) ARGS((void*, int));$/;"	m	struct:__anon30
+_rule	l32.c	/^static int _rule(state, goalnt) void *state; int goalnt; {$/;"	f	file:
+_rule	mips.c	/^static int _rule(state, goalnt) void *state; int goalnt; {$/;"	f	file:
+_state	l32.c	/^struct _state {$/;"	s	file:
+_state	mips.c	/^struct _state {$/;"	s	file:
+_stmt	l32.c	/^		unsigned int _stmt:6;$/;"	m	struct:_state::__anon1	file:
+_stmt	mips.c	/^		unsigned int _stmt:6;$/;"	m	struct:_state::__anon3	file:
+_stmt_NT	l32.c	63;"	d	file:
+_stmt_NT	mips.c	63;"	d	file:
+_string	config.h	/^char **_string;$/;"	m	struct:__anon30
+_string	l32.c	/^static char *_string[] = {$/;"	v	file:
+_string	mips.c	/^static char *_string[] = {$/;"	v	file:
+_templates	config.h	/^char **_templates;$/;"	m	struct:__anon30
+_templates	l32.c	/^static char *_templates[] = {$/;"	v	file:
+_templates	mips.c	/^static char *_templates[] = {$/;"	v	file:
+a	alloc.c	/^	union align a;$/;"	m	union:header	typeref:union:header::align	file:
+acaller	profio.c	/^static void acaller(caller, file, x, y, count, callee)$/;"	f	file:
+add	decl.c	3;"	d	file:
+add	simp.c	/^static int add(x, y, min, max, needconst)$/;"	f	file:
+addlocal	stmt.c	/^void addlocal(p) Symbol p; {$/;"	f
+addr	c.h	/^		} addr;$/;"	m	union:code::__anon14	typeref:struct:code::__anon14::__anon16
+address	c.h	/^void (*address) ARGS((Symbol p, Symbol q, int n));$/;"	m	struct:interface
+address	l32.c	/^static void address(q, p, n) Symbol q, p; int n; {$/;"	f	file:
+address	l32.md.c	/^static void address(q, p, n) Symbol q, p; int n; {$/;"	f	file:
+address	mips.c	/^static void address(q, p, n) Symbol q, p; int n; {$/;"	f	file:
+address	null.c	/^static void address(q, p, n) Symbol q, p; int n; {}$/;"	f	file:
+address	symbolic.c	/^static void address(q, p, n) Symbol q, p; int n; {$/;"	f	file:
+addressed	c.h	/^	unsigned addressed:1;$/;"	m	struct:symbol
+addrof	enode.c	/^Tree addrof(p) Tree p; {$/;"	f
+addrtree	simp.c	/^static Tree addrtree(e, n, ty) Tree e; int n; Type ty; {$/;"	f	file:
+addtree	enode.c	/^static Tree addtree(op, l, r) int op; Tree l, r; {$/;"	f	file:
+afunc	prof.c	/^static Symbol afunc;	\/* current function's struct func *\/$/;"	v	file:
+afunction	profio.c	/^static struct func *afunction(name, file, x, y, count)$/;"	f	file:
+align	alloc.c	/^union align {$/;"	u	file:
+align	c.h	/^	int align;$/;"	m	struct:type
+align	c.h	/^	unsigned char size, align, outofline;$/;"	m	struct:metrics
+all	sym.c	/^	Symbol all;$/;"	m	struct:table	file:
+allocate	alloc.c	/^void *allocate(n, a) unsigned long n, a; {$/;"	f
+allocate	alloc.c	/^void *allocate(n, a) unsigned long n; unsigned a; {$/;"	f
+andtree	enode.c	/^static Tree andtree(op, l, r) int op; Tree l, r; {$/;"	f	file:
+apoint	profio.c	/^static void apoint(i, file, x, y, count)$/;"	f	file:
+append	list.c	/^List append(x, list) void *x; List list; {$/;"	f
+appendstr	trace.c	/^static void appendstr(str) char *str; {$/;"	f	file:
+apply	event.c	/^void apply(list, arg1, arg2) List list; void *arg1, *arg2; {$/;"	f
+arena	alloc.c	/^	*arena[] = { &first[0], &first[1], &first[2] };$/;"	v	typeref:struct:	file:
+arena	alloc.c	/^union header *arena[3];$/;"	v	typeref:union:header
+argno	config.h	/^	short argno;$/;"	m	struct:__anon31
+argoffset	gen.c	/^int argoffset;$/;"	v
+argreg	l32.c	/^static Symbol argreg(argno, offset, ty, ty0)$/;"	f	file:
+argreg	l32.md.c	/^static Symbol argreg(argno, offset, ty, ty0)$/;"	f	file:
+argreg	mips.c	/^static Symbol argreg(argno, offset, ty, ty0)$/;"	f	file:
+args	trace.c	/^static Tree args;		\/* printf arguments *\/$/;"	v	file:
+argv	l32.md.c	/^static void progbeg(argc, argv) int argc; char *argv[]; {$/;"	v
+array	types.c	/^Type array(ty, n, a) Type ty; int n, a; {$/;"	f
+asgn	enode.c	/^Tree asgn(p, e) Symbol p; Tree e; {$/;"	f
+asgnnode	dag.c	/^static Node asgnnode(tmp, p) Symbol tmp; Node p; {$/;"	f	file:
+asgntree	enode.c	/^Tree asgntree(op, l, r) int op; Tree l, r; {$/;"	f
+askfixedreg	gen.c	/^static Symbol askfixedreg(s) Symbol s; {$/;"	f	file:
+askreg	gen.c	/^static Symbol askreg(rs, rmask)$/;"	f	file:
+askregvar	gen.c	/^int askregvar(p, regs) Symbol p, regs; {$/;"	f
+assert	c.h	4;"	d
+assert	c.h	6;"	d
+assign	enode.c	/^Type assign(xty, e) Type xty; Tree e; {$/;"	f
+atop	types.c	/^Type atop(ty) Type ty; {$/;"	f
+attach	event.c	/^void attach(func, cl, list) Apply func; void *cl; List *list; {$/;"	f
+autos	decl.c	/^static List autos, registers;$/;"	v	file:
+avail	alloc.c	/^	char *avail;$/;"	m	struct:block	file:
+b	alloc.c	/^	struct block b;$/;"	m	union:header	typeref:struct:header::block	file:
+backslash	lex.c	/^static int backslash(q) int q; {$/;"	f	file:
+base	c.h	/^			Symbol base;$/;"	m	struct:code::__anon14::__anon16
+bbcall	prof.c	/^static void bbcall(yycounts, cp, e) Symbol yycounts; Coordinate *cp; Tree *e; {$/;"	f	file:
+bbentry	prof.c	/^static void bbentry(yylink, f) Symbol yylink, f; {$/;"	f	file:
+bbexit	prof.c	/^static void bbexit(yylink, f, e) Symbol yylink, f; Tree e; {$/;"	f	file:
+bbfile	prof.c	/^static int bbfile(file) char *file; {$/;"	f	file:
+bbfunc	prof.c	/^static void bbfunc(yylink, f) Symbol yylink, f; {$/;"	f	file:
+bbincr	prof.c	/^static void bbincr(yycounts, cp, e) Symbol yycounts; Coordinate *cp; Tree *e; {$/;"	f	file:
+bbvars	prof.c	/^static void bbvars(yylink) Symbol yylink; {$/;"	f	file:
+be	prof.c	/^		struct { unsigned int index:6,x:10,y:16; } be;$/;"	m	union:callsite::coordinate	typeref:struct:callsite::coordinate::__anon5	file:
+begin	c.h	/^		Code begin;$/;"	m	union:code::__anon14
+bflag	gen.c	/^int bflag = 0;  \/* omit *\/$/;"	v
+binary	expr.c	/^Type binary(xty, yty) Type xty, yty; {$/;"	f
+binding	c.h	/^typedef struct binding {$/;"	s
+bindings	bind.c	/^Binding bindings[] = {$/;"	v
+bitcount	l32.c	/^static int bitcount(mask) unsigned mask; {$/;"	f	file:
+bitcount	l32.md.c	/^static int bitcount(mask) unsigned mask; {$/;"	f	file:
+bitcount	mips.c	/^static int bitcount(mask) unsigned mask; {$/;"	f	file:
+bits2bytes	decl.c	5;"	d	file:
+bitsize	c.h	/^	short bitsize;$/;"	m	struct:field
+bittree	enode.c	/^Tree bittree(op, l, r) int op; Tree l, r; {$/;"	f
+blkcopy	gen.c	/^void blkcopy(dreg, doff, sreg, soff, size, tmp)$/;"	f
+blkfetch	config.h	/^	void (*blkfetch) ARGS((int size, int off, int reg, int tmp));$/;"	m	struct:__anon30
+blkfetch	l32.c	/^static void blkfetch(size, off, reg, tmp)$/;"	f	file:
+blkfetch	l32.md.c	/^static void blkfetch(size, off, reg, tmp)$/;"	f	file:
+blkfetch	mips.c	/^static void blkfetch(size, off, reg, tmp)$/;"	f	file:
+blkloop	config.h	/^	void (*blkloop)  ARGS((int dreg, int doff,$/;"	m	struct:__anon30
+blkloop	l32.c	/^static void blkloop(dreg, doff, sreg, soff, size, tmps)$/;"	f	file:
+blkloop	l32.md.c	/^static void blkloop(dreg, doff, sreg, soff, size, tmps)$/;"	f	file:
+blkloop	mips.c	/^static void blkloop(dreg, doff, sreg, soff, size, tmps)$/;"	f	file:
+blkreg	l32.c	/^static Symbol blkreg;$/;"	v	file:
+blkreg	mips.c	/^static Symbol blkreg;$/;"	v	file:
+blkstore	config.h	/^	void (*blkstore) ARGS((int size, int off, int reg, int tmp));$/;"	m	struct:__anon30
+blkstore	l32.c	/^static void blkstore(size, off, reg, tmp)$/;"	f	file:
+blkstore	l32.md.c	/^static void blkstore(size, off, reg, tmp)$/;"	f	file:
+blkstore	mips.c	/^static void blkstore(size, off, reg, tmp)$/;"	f	file:
+blkunroll	gen.c	/^static void blkunroll(k, dreg, doff, sreg, soff, size, tmp)$/;"	f	file:
+block	alloc.c	/^struct block {$/;"	s	file:
+block	c.h	/^		} block;$/;"	m	union:code::__anon14	typeref:struct:code::__anon14::__anon15
+blockbeg	c.h	/^void (*blockbeg) ARGS((Env *));$/;"	m	struct:interface
+blockbeg	gen.c	/^void blockbeg(e) Env *e; {$/;"	f
+blockbeg0	null.c	/^static void blockbeg0(e) Env *e; {}$/;"	f	file:
+blockend	c.h	/^void (*blockend) ARGS((Env *));$/;"	m	struct:interface
+blockend	gen.c	/^void blockend(e) Env *e; {$/;"	f
+blockend0	null.c	/^static void blockend0(e) Env *e; {}$/;"	f	file:
+bp	output.c	/^	char *bp;			\/* buffer pointer *\/$/;"	m	struct:io	file:
+bp	output.c	/^char *bp = buf1;			\/* current output buffer pointer *\/$/;"	v
+branch	stmt.c	/^static void branch(lab) int lab; {$/;"	f	file:
+bsize	input.c	/^static int bsize;$/;"	v	file:
+btot	types.c	/^Type btot(op) int op; {$/;"	f
+buckets	dag.c	/^} *buckets[16];$/;"	v	typeref:struct:dag	file:
+buckets	string.c	/^} *buckets[1024];$/;"	v	typeref:struct:string	file:
+buckets	sym.c	/^	} *buckets[256];$/;"	m	struct:table	typeref:struct:table::entry	file:
+buf1	output.c	/^static char buf1[4*1024], buf2[512];	\/* output buffers *\/$/;"	v	file:
+buf2	output.c	/^static char buf1[4*1024], buf2[512];	\/* output buffers *\/$/;"	v	file:
+buffer	input.c	/^static unsigned char buffer[MAXLINE+1 + BUFSIZE+1];$/;"	v	file:
+buffer	output.c	/^	char *buffer;			\/* buffer proper *\/$/;"	m	struct:io	file:
+c	c.h	/^		} c;$/;"	m	union:symbol::__anon19	typeref:struct:symbol::__anon19::__anon22
+call	enode.c	/^Tree call(f, fty, src) Tree f; Type fty; Coordinate src; {$/;"	f
+callee	c.h	/^			Symbol *callee;$/;"	m	struct:symbol::__anon19::__anon23
+caller	profio.c	/^		struct caller {		\/* caller data: *\/$/;"	s	struct:file::func	file:
+callers	prof.c	/^	struct caller *callers;$/;"	m	struct:func	typeref:struct:func::caller	file:
+callers	profio.c	/^		} *callers;$/;"	m	struct:file::func	typeref:struct:file::func::caller	file:
+calls	c.h	/^	List calls;$/;"	m	struct:__anon7
+callsite	prof.c	/^struct callsite {$/;"	s	file:
+calltree	enode.c	/^Tree calltree(f, ty, args, t3)$/;"	f
+caselabel	stmt.c	/^static void caselabel(swp, val, lab)$/;"	f	file:
+cast	expr.c	/^Tree cast(p, type) Tree p; Type type; {$/;"	f
+cfields	c.h	/^			unsigned cfields:1;$/;"	m	struct:symbol::__anon19::__anon21
+cfoldcnst	simp.c	41;"	d	file:
+cfunc	decl.c	/^Symbol cfunc;		\/* current function *\/$/;"	v
+charmetric	c.h	/^	Metrics charmetric;$/;"	m	struct:interface
+chartype	types.c	/^Type chartype;			\/* char *\/$/;"	v
+check	types.c	/^static Field check(ty, top, inherited, off)$/;"	f	file:
+checkfields	types.c	/^void checkfields(ty) Type ty; {$/;"	f
+checklab	decl.c	/^void checklab(p, cl) Symbol p; void *cl; {$/;"	f
+checkref	decl.c	/^static void checkref(p, cl) Symbol p; void *cl; {$/;"	f	file:
+chkoverflow	decl.c	4;"	d	file:
+ck	gen.c	262;"	d	file:
+cl	event.c	/^	void *cl;$/;"	m	struct:entry	file:
+clobber	config.h	/^	void (*clobber) ARGS((Node));$/;"	m	struct:__anon30
+clobber	l32.c	/^static void clobber(p) Node p; {$/;"	f	file:
+clobber	l32.md.c	/^static void clobber(p) Node p; {$/;"	f	file:
+clobber	mips.c	/^static void clobber(p) Node p; {$/;"	f	file:
+cmp	stmt.c	/^static void cmp(op, p, n, lab) int op, n, lab; Symbol p; {$/;"	f	file:
+cmptree	enode.c	/^static Tree cmptree(op, l, r) int op; Tree l, r; {$/;"	f	file:
+cns	sym.c	/^	cns = { CONSTANTS },$/;"	v	typeref:struct:table	file:
+code	c.h	/^struct code {$/;"	s
+code	stmt.c	/^Code code(kind) int kind; {$/;"	f
+codehead	stmt.c	/^struct code codehead = { Start };$/;"	v	typeref:struct:code
+codelist	stmt.c	/^Code codelist = &codehead;$/;"	v
+commute	simp.c	8;"	d	file:
+compare	profio.c	/^static int compare(a, b) struct count *a, *b; {$/;"	f	file:
+compatible	enode.c	/^static int compatible(ty1, ty2) Type ty1, ty2; {$/;"	f	file:
+compile	main.c	/^static void compile(str) char *str; {$/;"	f	file:
+compose	types.c	/^Type compose(ty1, ty2) Type ty1, ty2; {$/;"	f
+compound	decl.c	/^void compound(loop, swp, lev)$/;"	f
+computed	c.h	/^	unsigned computed:1;$/;"	m	struct:symbol
+cond	expr.c	/^Tree cond(p) Tree p; {$/;"	f
+conditional	stmt.c	/^static Tree conditional(tok) int tok; {$/;"	f	file:
+condtree	enode.c	/^Tree condtree(e, l, r) Tree e, l, r; {$/;"	f
+constant	sym.c	/^Symbol constant(ty, v) Type ty; Value v; {$/;"	f
+constants	sym.c	/^Table constants   = &cns;$/;"	v
+constexpr	simp.c	/^Tree constexpr(tok) int tok; {$/;"	f
+consttree	enode.c	/^Tree consttree(n, ty) unsigned n; Type ty; {$/;"	f
+coord	c.h	/^typedef struct coord {$/;"	s
+coord	prof.c	/^		unsigned int coord;$/;"	m	union:callsite::coordinate	file:
+coordinate	prof.c	/^	union coordinate {$/;"	u	struct:callsite	file:
+copy	config.h	/^	unsigned copy:1;$/;"	m	struct:__anon31
+cost	l32.c	/^	short cost[9];$/;"	m	struct:_state	file:
+cost	mips.c	/^	short cost[9];$/;"	m	struct:_state	file:
+count	c.h	/^	short count;$/;"	m	struct:node
+count	profio.c	/^			int count;		\/* number of calls from this site *\/$/;"	m	struct:file::func::caller	file:
+count	profio.c	/^		struct count count;		\/* total number of calls *\/$/;"	m	struct:file::func	typeref:struct:file::func::count	file:
+count	profio.c	/^	int count;			\/* associated execution count *\/$/;"	m	struct:count	file:
+count	profio.c	/^	int count;			\/* counts[0..count-1] hold valid data *\/$/;"	m	struct:file	file:
+count	profio.c	/^struct count {			\/* count data: *\/$/;"	s	file:
+counts	profio.c	/^	struct count *counts;		\/* count data *\/$/;"	m	struct:file	typeref:struct:file::count	file:
+cp	input.c	/^unsigned char *cp;	\/* current input character *\/$/;"	v
+cse	c.h	/^			Node cse;$/;"	m	struct:symbol::__anon19::__anon24
+cseg	l32.c	/^static int cseg;$/;"	v	file:
+cseg	mips.c	/^static int cseg;$/;"	v	file:
+current	init.c	/^} *current;$/;"	v	typeref:struct:structexp	file:
+currentfile	l32.c	/^static char *currentfile;$/;"	v	file:
+currentfile	l32.md.c	/^static char *currentfile;$/;"	v	file:
+currentfile	mips.c	/^static char *currentfile;$/;"	v	file:
+curseg	init.c	/^static int curseg;		\/* current segment *\/$/;"	v	file:
+cvtcnst	simp.c	18;"	d	file:
+cvtconst	dag.c	/^Tree cvtconst(p) Tree p; {$/;"	f
+d	alloc.c	/^	double d;$/;"	m	union:align	file:
+d	c.h	/^	double d;$/;"	m	union:value
+d6	l32.c	/^static Symbol ireg[32], freg2[32], d6;$/;"	v	file:
+d6	mips.c	/^static Symbol ireg[32], freg2[32], d6;$/;"	v	file:
+dag	dag.c	/^static struct dag {$/;"	s	file:
+dagnode	dag.c	/^static struct dag *dagnode(op, l, r, sym)$/;"	f	file:
+dalign	gen.c	/^int dalign, salign;$/;"	v
+dclglobal	decl.c	/^static Symbol dclglobal(sclass, id, ty, pos)$/;"	f	file:
+dcllocal	decl.c	/^static Symbol dcllocal(sclass, id, ty, pos)$/;"	f	file:
+dclparam	decl.c	/^static Symbol dclparam(sclass, id, ty, pos)$/;"	f	file:
+dclr	decl.c	/^static Type dclr(basety, id, params, abstract)$/;"	f	file:
+dclr1	decl.c	/^static Type dclr1(id, params, abstract)$/;"	f	file:
+deallocate	alloc.c	/^void deallocate(a) unsigned a; {$/;"	f
+debug	config.h	101;"	d
+debug	config.h	99;"	d
+decl	decl.c	/^static void decl(dcl)$/;"	f	file:
+defaddress	c.h	/^void (*defaddress) ARGS((Symbol));$/;"	m	struct:interface
+defaddress	l32.c	/^static void defaddress(p) Symbol p; {$/;"	f	file:
+defaddress	l32.md.c	/^static void defaddress(p) Symbol p; {$/;"	f	file:
+defaddress	mips.c	/^static void defaddress(p) Symbol p; {$/;"	f	file:
+defaddress	null.c	/^static void defaddress(p) Symbol p; {}$/;"	f	file:
+defaddress	symbolic.c	/^static void defaddress(p) Symbol p; {$/;"	f	file:
+defconst	c.h	/^void (*defconst)   ARGS((int ty, Value v));$/;"	m	struct:interface
+defconst	l32.c	/^static void defconst(ty, v) int ty; Value v; {$/;"	f	file:
+defconst	l32.md.c	/^static void defconst(ty, v) int ty; Value v; {$/;"	f	file:
+defconst	mips.c	/^static void defconst(ty, v) int ty; Value v; {$/;"	f	file:
+defconst	null.c	/^static void defconst(ty, v) int ty; Value v; {}$/;"	f	file:
+defconst	symbolic.c	/^static void defconst(ty, v) int ty; Value v; {$/;"	f	file:
+defglobal	decl.c	/^void defglobal(p, seg) Symbol p; int seg; {$/;"	f
+defined	c.h	/^	unsigned defined:1;$/;"	m	struct:symbol
+definelab	stmt.c	/^void definelab(lab) int lab; {$/;"	f
+definept	stmt.c	/^void definept(p) Coordinate *p; {$/;"	f
+deflab	c.h	/^			Symbol deflab;$/;"	m	struct:code::__anon14::__anon18
+deflab	stmt.c	/^	Symbol deflab;$/;"	m	struct:swtch	file:
+defpointer	init.c	/^void defpointer(p) Symbol p; {$/;"	f
+defstring	c.h	/^void (*defstring) ARGS((int n, char *s));$/;"	m	struct:interface
+defstring	l32.c	/^static void defstring(n, str) int n; char *str; {$/;"	f	file:
+defstring	l32.md.c	/^static void defstring(n, str) int n; char *str; {$/;"	f	file:
+defstring	mips.c	/^static void defstring(n, str) int n; char *str; {$/;"	f	file:
+defstring	null.c	/^static void defstring(len, s) int len; char *s; {}$/;"	f	file:
+defstring	symbolic.c	/^static void defstring(len, s) int len; char *s; {$/;"	f	file:
+defsymbol	c.h	/^void (*defsymbol) ARGS((Symbol));$/;"	m	struct:interface
+defsymbol	l32.c	/^static void defsymbol(p) Symbol p; {$/;"	f	file:
+defsymbol	l32.md.c	/^static void defsymbol(p) Symbol p; {$/;"	f	file:
+defsymbol	mips.c	/^static void defsymbol(p) Symbol p; {$/;"	f	file:
+defsymbol	null.c	/^static void defsymbol(p) Symbol p; {}$/;"	f	file:
+defsymbol	symbolic.c	/^static void defsymbol(p) Symbol p; {$/;"	f	file:
+den	stmt.c	5;"	d	file:
+density	stmt.c	/^float density = 0.5;$/;"	v
+depth	dag.c	/^static int depth = 0;$/;"	v	file:
+deref	types.c	/^Type deref(ty) Type ty; {$/;"	f
+dflag	gen.c	/^int dflag = 0;$/;"	v
+div	simp.c	/^static int div(x, y, min, max, needconst)$/;"	f	file:
+doarg	config.h	/^	void (*doarg) ARGS((Node));$/;"	m	struct:__anon30
+doarg	l32.c	/^static void doarg(p) Node p; {$/;"	f	file:
+doarg	l32.md.c	/^static void doarg(p) Node p; {$/;"	f	file:
+doarg	mips.c	/^static void doarg(p) Node p; {$/;"	f	file:
+doargs	main.c	/^static int doargs(argc, argv) int argc; char *argv[]; {$/;"	f	file:
+docall	gen.c	/^static void docall(p) Node p; {$/;"	f	file:
+doconst	decl.c	/^void doconst(p, cl) Symbol p; void *cl; {$/;"	f
+doextern	decl.c	/^static void doextern(p, cl) Symbol p; void *cl; {$/;"	f	file:
+doglobal	decl.c	/^static void doglobal(p, cl) Symbol p; void *cl; {$/;"	f	file:
+dostmt	stmt.c	/^static void dostmt(lab, swp, lev) int lab, lev; Swtch swp; {$/;"	f	file:
+doublemetric	c.h	/^	Metrics doublemetric;$/;"	m	struct:interface
+doubletype	types.c	/^Type doubletype;		\/* double *\/$/;"	v
+dumpcover	gen.c	/^static void dumpcover(p, nt, in) Node p; int nt, in; {$/;"	f	file:
+dumpregs	gen.c	/^static void dumpregs(msg, a, b) char *a, *b, *msg; {$/;"	f	file:
+dumprule	gen.c	/^static void dumprule(rulenum) int rulenum; {$/;"	f	file:
+dumptree	gen.c	/^static void dumptree(p) Node p; {$/;"	f	file:
+eaddr	config.h	/^	unsigned int eaddr;  \/* omit *\/$/;"	m	struct:__anon34
+emit	c.h	/^void (*emit)     ARGS((Node));$/;"	m	struct:interface
+emit	gen.c	/^void emit(p) Node p; {$/;"	f
+emit0	null.c	/^static void emit0(p) Node p; {}$/;"	f	file:
+emit0	symbolic.c	/^static void emit0(p) Node p; {$/;"	f	file:
+emit2	config.h	/^	void (*emit2) ARGS((Node));$/;"	m	struct:__anon30
+emit2	l32.c	/^static void emit2(p) Node p; {$/;"	f	file:
+emit2	l32.md.c	/^static void emit2(p) Node p; {$/;"	f	file:
+emit2	mips.c	/^static void emit2(p) Node p; {$/;"	f	file:
+emitYYnull	main.c	/^static void emitYYnull() {$/;"	f	file:
+emitasm	gen.c	/^static unsigned emitasm(p, nt) Node p; int nt; {$/;"	f	file:
+emitcode	dag.c	/^void emitcode() {$/;"	f
+emitted	config.h	/^	unsigned emitted:1;$/;"	m	struct:__anon31
+emitter	gen.c	/^unsigned (*emitter) ARGS((Node, int)) = emitasm;$/;"	v
+end	c.h	/^	List end;$/;"	m	struct:__anon7
+enterscope	sym.c	/^void enterscope() {$/;"	f
+entry	c.h	/^	List entry;$/;"	m	struct:__anon7
+entry	event.c	/^struct entry {$/;"	s	file:
+entry	sym.c	/^	struct entry {$/;"	s	struct:table	file:
+entry	types.c	/^static struct entry {$/;"	s	file:
+enumdcl	decl.c	/^Type enumdcl() {$/;"	f
+eqtree	enode.c	/^Tree eqtree(op, l, r) int op; Tree l, r; {$/;"	f
+eqtype	types.c	/^int eqtype(ty1, ty2, ret) Type ty1, ty2; int ret; {$/;"	f
+equal	stmt.c	/^static int equal(lprime, dst) Symbol lprime, dst; {$/;"	f	file:
+equalp	sym.c	3;"	d	file:
+equatable	config.h	/^	unsigned equatable:1;$/;"	m	struct:__anon31
+equated	dag.c	/^static Symbol equated(p) Symbol p; {$/;"	f	file:
+equatedto	c.h	/^			Symbol equatedto;$/;"	m	struct:symbol::__anon19::__anon20
+equatelab	stmt.c	/^void equatelab(old, new) Symbol old, new; {$/;"	f
+errcnt	error.c	/^int errcnt   = 0;$/;"	v
+errfd	output.c	/^int errfd = 2;$/;"	v
+errlimit	error.c	/^int errlimit = 20;$/;"	v
+error	error.c	/^void error VARARGS((char *fmt, ...),$/;"	f
+events	event.c	/^Events events;$/;"	v
+exit	c.h	/^	List exit;$/;"	m	struct:__anon7
+exitparams	decl.c	/^static void exitparams(params) Symbol params[]; {$/;"	f	file:
+exitscope	sym.c	/^void exitscope() {$/;"	f
+expect	error.c	/^void expect(tok) int tok; {$/;"	f
+export	c.h	/^void (*export) ARGS((Symbol));$/;"	m	struct:interface
+export	l32.c	/^static void export(p) Symbol p; {$/;"	f	file:
+export	l32.md.c	/^static void export(p) Symbol p; {$/;"	f	file:
+export	mips.c	/^static void export(p) Symbol p; {$/;"	f	file:
+export	null.c	/^static void export(p) Symbol p; {}$/;"	f	file:
+export	symbolic.c	/^static void export(p) Symbol p; {$/;"	f	file:
+expr	expr.c	/^Tree expr(tok) int tok; {$/;"	f
+expr0	expr.c	/^Tree expr0(tok) int tok; {$/;"	f
+expr1	expr.c	/^Tree expr1(tok) int tok; {$/;"	f
+expr2	expr.c	/^static Tree expr2() {$/;"	f	file:
+expr3	expr.c	/^static Tree expr3(k) int k; {$/;"	f	file:
+ext	sym.c	/^	ext = { GLOBAL },$/;"	v	typeref:struct:	file:
+extends	types.c	/^Field extends(ty, fty) Type ty, fty; {$/;"	f
+externals	sym.c	/^Table externals   = &ext;$/;"	v
+f	alloc.c	/^	int (*f) ARGS((void));$/;"	m	union:align	file:
+f	c.h	/^		} f;$/;"	m	union:symbol::__anon19	typeref:struct:symbol::__anon19::__anon23
+f	c.h	/^		} f;$/;"	m	union:type::__anon28	typeref:struct:type::__anon28::__anon29
+f	c.h	/^	float f;$/;"	m	union:value
+fatal	error.c	/^int fatal(name, fmt, n) char *name, *fmt; int n; {$/;"	f
+fcon	lex.c	/^static Symbol fcon() {$/;"	f	file:
+fd	output.c	/^	int fd;				\/* file descriptor *\/$/;"	m	struct:io	file:
+fd	output.c	/^static int fd = 1;			\/* current output file *\/$/;"	v	file:
+field	c.h	/^		Field field;$/;"	m	union:tree::__anon26
+field	c.h	/^struct field {$/;"	s
+field	expr.c	/^Tree field(p, name) Tree p; char *name; {$/;"	f
+fieldleft	c.h	73;"	d
+fieldlist	types.c	/^Field fieldlist(ty) Type ty; {$/;"	f
+fieldmask	c.h	75;"	d
+fieldref	types.c	/^Field fieldref(name, ty) char *name; Type ty; {$/;"	f
+fieldright	c.h	72;"	d
+fields	decl.c	/^static void fields(ty) Type ty; {$/;"	f	file:
+fieldsize	c.h	71;"	d
+file	c.h	/^	char *file;$/;"	m	struct:coord
+file	input.c	/^char *file;		\/* current input file name *\/$/;"	v
+file	prof.c	/^	char *file, *name;$/;"	m	struct:callsite	file:
+file	profio.c	/^			char *file;		\/* call site: file, x, y *\/$/;"	m	struct:file::func::caller	file:
+file	profio.c	/^struct file {			\/* per-file prof.out data: *\/$/;"	s	file:
+filelist	prof.c	/^static List filelist;	\/* list of file names *\/$/;"	v	file:
+filelist	profio.c	/^} *filelist;$/;"	v	typeref:struct:file
+fillbuf	input.c	/^void fillbuf() {$/;"	f
+finalize	decl.c	/^void finalize() {$/;"	f
+findcount	profio.c	/^int findcount(file, x, y) char *file; int x, y;{$/;"	f
+findfile	profio.c	/^static struct file *findfile(name) char *name; {$/;"	f	file:
+findfunc	profio.c	/^int findfunc(name, file) char *name, *file; {$/;"	f
+findlabel	sym.c	/^Symbol findlabel(lab) int lab; {$/;"	f
+findtype	sym.c	/^Symbol findtype(ty) Type ty; {$/;"	f
+first	alloc.c	/^	 first[] = {  { NULL },  { NULL },  { NULL } },$/;"	v	typeref:struct:block	file:
+firstarg	dag.c	/^static Tree firstarg;$/;"	v	file:
+firstfile	input.c	/^char *firstfile;	\/* first input file *\/$/;"	v
+fixup	dag.c	/^static void fixup(p) Node p; {$/;"	f	file:
+flist	c.h	/^			Field flist;$/;"	m	struct:symbol::__anon19::__anon21
+floatmetric	c.h	/^	Metrics floatmetric;$/;"	m	struct:interface
+floattype	types.c	/^Type floattype;			\/* float *\/$/;"	v
+fmt	trace.c	/^static char *fmt, *fp, *fmtend;	\/* format string, current & limit pointer *\/$/;"	v	file:
+fmtend	trace.c	/^static char *fmt, *fp, *fmtend;	\/* format string, current & limit pointer *\/$/;"	v	file:
+foldaddp	simp.c	46;"	d	file:
+foldcnst	simp.c	3;"	d	file:
+foldcond	stmt.c	/^static int foldcond(e1, e2) Tree e1, e2; {$/;"	f	file:
+foreach	sym.c	/^void foreach(tp, lev, apply, cl) Table tp; int lev;$/;"	f
+forest	c.h	/^		Node forest;$/;"	m	union:code::__anon14
+forest	dag.c	/^static Node forest;$/;"	v	file:
+forstmt	stmt.c	/^static void forstmt(lab, swp, lev)$/;"	f	file:
+fp	profio.c	/^static FILE *fp;$/;"	v	file:
+fp	trace.c	/^static char *fmt, *fp, *fmtend;	\/* format string, current & limit pointer *\/$/;"	v	file:
+fprint	output.c	/^void fprint VARARGS((int f, char *fmt, ...),(f, fmt, va_alist),char *fmt; va_dcl) {$/;"	f
+frameno	trace.c	/^static Symbol frameno;		\/* local holding frame number *\/$/;"	v	file:
+framesize	gen.c	/^int framesize;$/;"	v
+freeblocks	alloc.c	/^static struct block *freeblocks;$/;"	v	typeref:struct:block	file:
+freemask	config.h	/^	unsigned freemask[2];$/;"	m	struct:__anon36
+freemask	gen.c	/^unsigned freemask[2];$/;"	v
+freenodes	list.c	/^static List freenodes;		\/* free list nodes *\/$/;"	v	file:
+freg2	l32.c	/^static Symbol ireg[32], freg2[32], d6;$/;"	v	file:
+freg2	mips.c	/^static Symbol ireg[32], freg2[32], d6;$/;"	v	file:
+freturn	types.c	/^Type freturn(ty) Type ty; {$/;"	f
+ftab	c.h	/^			Table ftab;		\/* omit *\/$/;"	m	struct:symbol::__anon19::__anon21
+ftype	types.c	/^Type ftype(rty, ty) Type rty, ty; {$/;"	f
+func	event.c	/^	Apply func;$/;"	m	struct:entry	file:
+func	prof.c	/^struct func {$/;"	s	file:
+func	profio.c	/^	struct func {			\/* function data: *\/$/;"	s	struct:file	file:
+func	types.c	/^Type func(ty, proto, style) Type ty, *proto; int style; {$/;"	f
+funcdefn	decl.c	/^static void funcdefn(sclass, id, ty, params, pt) int sclass;$/;"	f	file:
+funclist	prof.c	/^static Symbol funclist;	\/* list of struct func *'s *\/$/;"	v	file:
+funcname	expr.c	/^char *funcname(f) Tree f; {$/;"	f
+funcs	profio.c	/^	} *funcs;			\/* list of functions *\/$/;"	m	struct:file	typeref:struct:file::func	file:
+function	c.h	/^void (*function) ARGS((Symbol, Symbol[], Symbol[], int));$/;"	m	struct:interface
+function	l32.c	/^static void function(f, caller, callee, ncalls)$/;"	f	file:
+function	l32.md.c	/^static void function(f, caller, callee, ncalls)$/;"	f	file:
+function	mips.c	/^static void function(f, caller, callee, ncalls)$/;"	f	file:
+function	null.c	/^static void function(f, caller, callee, ncalls) Symbol f, caller[], callee[]; int ncalls; {}$/;"	f	file:
+function	symbolic.c	/^static void function(f, caller, callee, ncalls)$/;"	f	file:
+gather	profio.c	/^static int gather() {$/;"	f	file:
+gen	c.h	/^Node (*gen)      ARGS((Node));$/;"	m	struct:interface
+gen	gen.c	/^Node gen(forest) Node forest; {$/;"	f
+gen0	null.c	/^static Node gen0(p) Node p; { return p; }$/;"	f	file:
+gen0	symbolic.c	/^static Node gen0(p) Node p; {$/;"	f	file:
+gen1	symbolic.c	/^static int gen1(p, n) Node p; int n; {$/;"	f	file:
+genasgn	init.c	/^static int genasgn(e, sp) Tree e; struct structexp *sp; {$/;"	f	file:
+genchar	init.c	/^static void genchar(p, sp) Symbol p; struct structexp *sp; {$/;"	f	file:
+gencode	dag.c	/^void gencode(caller, callee) Symbol caller[], callee[]; {$/;"	f
+genconst	init.c	/^static int genconst(e, def) Tree e; int def; {$/;"	f	file:
+generated	c.h	/^	unsigned generated:1;$/;"	m	struct:symbol
+generic	c.h	45;"	d
+genident	sym.c	/^Symbol genident(scls, ty, lev) int scls, lev; Type ty; {$/;"	f
+genlabel	sym.c	/^int genlabel(n) int n; {$/;"	f
+genreload	gen.c	/^static void genreload(p, tmp, i)$/;"	f	file:
+genspace	init.c	/^static void genspace(n, sp) int n; struct structexp *sp; {$/;"	f	file:
+genspill	gen.c	/^static void genspill(r, last, tmp)$/;"	f	file:
+getchr	lex.c	/^int getchr() {$/;"	f
+getd	profio.c	/^static int getd() {$/;"	f	file:
+getreg	gen.c	/^static Symbol getreg(s, mask, p)$/;"	f	file:
+getregnum	gen.c	/^int getregnum(p) Node p; {$/;"	f
+getrule	gen.c	/^static int getrule(p, nt) Node p; int nt; {$/;"	f	file:
+getstr	profio.c	/^static char *getstr() {$/;"	f	file:
+gettok	lex.c	/^int gettok() {$/;"	f
+geu	simp.c	57;"	d	file:
+glevel	main.c	/^int glevel;		\/* == [0-9] if -g[0-9] specified *\/$/;"	v
+global	c.h	/^void (*global) ARGS((Symbol));$/;"	m	struct:interface
+global	l32.c	/^static void global(p) Symbol p; {$/;"	f	file:
+global	l32.md.c	/^static void global(p) Symbol p; {$/;"	f	file:
+global	mips.c	/^static void global(p) Symbol p; {$/;"	f	file:
+global	null.c	/^static void global(p) Symbol p; {}$/;"	f	file:
+global	symbolic.c	/^static void global(p) Symbol p; {$/;"	f	file:
+globals	sym.c	/^Table globals     = &ids;$/;"	v
+gnum	l32.c	/^static int gnum = 8;$/;"	v	file:
+gnum	mips.c	/^static int gnum = 8;$/;"	v	file:
+hascall	expr.c	/^int hascall(p) Tree p; {$/;"	f
+hasproto	types.c	/^int hasproto(ty) Type ty; {$/;"	f
+head	gen.c	/^Node head;$/;"	v
+header	alloc.c	/^union header {$/;"	u	file:
+hlink	dag.c	/^	struct dag *hlink;$/;"	m	struct:dag	typeref:struct:dag::dag	file:
+i	c.h	/^	int i;$/;"	m	union:value
+icon	lex.c	/^static Symbol icon(n, overflow, base)$/;"	f	file:
+idempotent	simp.c	61;"	d	file:
+identifiers	c.h	/^			Table identifiers, types;$/;"	m	struct:code::__anon14::__anon15
+identifiers	sym.c	/^Table identifiers = &ids;$/;"	v
+identity	simp.c	31;"	d	file:
+idlist	c.h	/^		Symbol *idlist;$/;"	m	union:symbol::__anon19
+ids	sym.c	/^	ids = { GLOBAL },$/;"	v	typeref:struct:	file:
+ids	tree.c	/^} ids[500];			\/* if ids[i].node == p, then p's id is i *\/$/;"	v	typeref:struct:nodeid	file:
+idtree	expr.c	/^Tree idtree(p) Symbol p; {$/;"	f
+ifstmt	stmt.c	/^static void ifstmt(lab, loop, swp, lev)$/;"	f	file:
+import	c.h	/^void (*import) ARGS((Symbol));$/;"	m	struct:interface
+import	l32.c	/^static void import(p) Symbol p; {$/;"	f	file:
+import	l32.md.c	/^static void import(p) Symbol p; {$/;"	f	file:
+import	mips.c	/^static void import(p) Symbol p; {$/;"	f	file:
+import	null.c	/^static void import(p) Symbol p; {}$/;"	f	file:
+import	symbolic.c	/^static void import(p) Symbol p; {$/;"	f	file:
+incr	expr.c	/^Tree incr(op, v, e) int op; Tree v, e; {$/;"	f
+index	prof.c	/^		struct { unsigned int index:6,x:10,y:16; } be;$/;"	m	struct:callsite::coordinate::__anon5	file:
+index	prof.c	/^		struct { unsigned int y:16,x:10,index:6; } le;$/;"	m	struct:callsite::coordinate::__anon4	file:
+infd	input.c	/^int infd;		\/* input file descriptor *\/$/;"	v
+infile	main.c	/^static char *infile, *outfile;$/;"	v	file:
+initarray	init.c	/^static int initarray(len, ty, lev) Type ty; int len, lev; {$/;"	f	file:
+initchar	init.c	/^static int initchar(len, ty) Type ty; int len; {$/;"	f	file:
+initend	init.c	/^static void initend(lev, follow) int lev; char follow[]; {$/;"	f	file:
+initfields	init.c	/^static int initfields(p, q) Field p, q; {$/;"	f	file:
+initglobal	decl.c	/^static void initglobal(p, flag) Symbol p; int flag; {$/;"	f	file:
+initializer	init.c	/^Type initializer(ty, lev) Type ty; int lev; {$/;"	f
+initstruct	init.c	/^static int initstruct(len, ty, lev) Type ty; int len, lev; {$/;"	f	file:
+initvalue	init.c	/^static Tree initvalue(ty) Type ty; {$/;"	f	file:
+inputInit	input.c	/^void inputInit() {$/;"	f
+inputstring	input.c	/^void inputstring(str) char *str; {$/;"	f
+inst	config.h	/^	short inst;$/;"	m	struct:__anon31
+install	sym.c	/^Symbol install(name, tpp, level, arena)$/;"	f
+intconst	sym.c	/^Symbol intconst(n) int n; {$/;"	f
+interface	c.h	/^typedef struct interface {$/;"	s
+intexpr	simp.c	/^int intexpr(tok, n) int tok, n; {$/;"	f
+intmetric	c.h	/^	Metrics intmetric;$/;"	m	struct:interface
+inttype	types.c	/^Type inttype;			\/* signed int *\/$/;"	v
+io	output.c	/^static struct io {$/;"	s	file:
+io	output.c	/^}, *io[] = {$/;"	v	typeref:struct:io	file:
+iob	output.c	/^} iob[] = {$/;"	v	typeref:struct:io	file:
+ir	c.h	/^	Interface *ir;$/;"	m	struct:binding
+ireg	l32.c	/^static Symbol ireg[32], freg2[32], d6;$/;"	v	file:
+ireg	mips.c	/^static Symbol ireg[32], freg2[32], d6;$/;"	v	file:
+isaddrop	c.h	12;"	d
+isarith	c.h	65;"	d
+isarray	c.h	55;"	d
+iscall	dag.c	3;"	d	file:
+iscallb	enode.c	/^int iscallb(e) Tree e; {$/;"	f
+ischar	c.h	61;"	d
+isconst	c.h	53;"	d
+isdouble	c.h	67;"	d
+isenum	c.h	70;"	d
+isfield	types.c	/^static Field isfield(name, flist) char *name; Field flist; {$/;"	f	file:
+isfloat	c.h	64;"	d
+isfunc	c.h	59;"	d
+isint	c.h	62;"	d
+isnullptr	enode.c	/^static int isnullptr(e) Tree e; {$/;"	f	file:
+ispow2	simp.c	/^int ispow2(u) unsigned u; {$/;"	f
+isptr	c.h	60;"	d
+isqual	c.h	48;"	d
+isscalar	c.h	68;"	d
+isstruct	c.h	56;"	d
+istypename	c.h	18;"	d
+isunion	c.h	58;"	d
+isunsigned	c.h	66;"	d
+isvoidptr	enode.c	10;"	d	file:
+isvolatile	c.h	51;"	d
+jump	stmt.c	/^Node jump(lab) int lab; {$/;"	f
+kids	c.h	/^	Node kids[2];$/;"	m	struct:node
+kids	c.h	/^	Tree kids[2];$/;"	m	struct:tree
+kids	config.h	/^	Node kids[3];$/;"	m	struct:__anon31
+kill	dag.c	/^static void kill(p) Symbol p; {$/;"	f	file:
+kind	c.h	/^	} kind;$/;"	m	struct:code	typeref:enum:code::__anon13
+kind	error.c	/^char kind[] = {$/;"	v
+l	alloc.c	/^	long l;$/;"	m	union:align	file:
+l	c.h	/^		} l;$/;"	m	union:symbol::__anon19	typeref:struct:symbol::__anon19::__anon20
+l32IR	l32.c	/^Interface l32IR = {$/;"	v
+l32IR	l32.md.c	/^Interface l32IR = {$/;"	v
+lab	stmt.c	/^	int lab;$/;"	m	struct:swtch	file:
+label	c.h	/^			int label;$/;"	m	struct:symbol::__anon19::__anon20
+label	c.h	/^			int label;$/;"	m	struct:symbol::__anon19::__anon23
+labelnode	dag.c	/^static void labelnode(lab) int lab; {$/;"	f	file:
+labels	c.h	/^			Symbol *labels;$/;"	m	struct:code::__anon14::__anon18
+labels	stmt.c	/^	Symbol *labels;$/;"	m	struct:swtch	file:
+labels	sym.c	/^Table labels;$/;"	v
+lastuse	config.h	/^	Node lastuse;$/;"	m	struct:__anon34
+le	prof.c	/^		struct { unsigned int y:16,x:10,index:6; } le;$/;"	m	union:callsite::coordinate	typeref:struct:callsite::coordinate::__anon4	file:
+left_to_right	c.h	/^	unsigned left_to_right:1;$/;"	m	struct:interface
+len	string.c	/^	int len;$/;"	m	struct:string	file:
+length	list.c	/^int length(list) List list; {$/;"	f
+level	c.h	/^			int level;$/;"	m	struct:code::__anon14::__anon15
+level	sym.c	/^	int level;$/;"	m	struct:table	file:
+level	sym.c	/^int level = GLOBAL;$/;"	v
+limit	alloc.c	/^	char *limit;$/;"	m	struct:block	file:
+limit	input.c	/^unsigned char *limit;	\/* points to last character + 1 *\/$/;"	v
+limit	output.c	/^	char *limit;			\/* high water limit *\/$/;"	m	struct:io	file:
+line	input.c	/^char *line;		\/* current line *\/$/;"	v
+linearize	gen.c	/^static void linearize(p, next) Node next, p; {$/;"	f	file:
+lineno	input.c	/^int lineno;		\/* line number of current line *\/$/;"	v
+link	c.h	/^	Field link;$/;"	m	struct:field
+link	c.h	/^	List link;$/;"	m	struct:list
+link	c.h	/^	Node link;$/;"	m	struct:node
+link	init.c	/^	struct structexp *link;		\/* outer structure expression *\/$/;"	m	struct:structexp	typeref:struct:structexp::structexp	file:
+link	prof.c	/^	struct func *link;$/;"	m	struct:func	typeref:struct:func::func	file:
+link	profio.c	/^			struct caller *link;	\/* link to next caller *\/$/;"	m	struct:file::func::caller	typeref:struct:file::func::caller::caller	file:
+link	profio.c	/^		struct func *link;		\/* link to next function *\/$/;"	m	struct:file::func	typeref:struct:file::func::func	file:
+link	profio.c	/^	struct file *link;		\/* link to next file *\/$/;"	m	struct:file	typeref:struct:file::file	file:
+link	string.c	/^	struct string *link;$/;"	m	struct:string	typeref:struct:string::string	file:
+link	sym.c	/^		struct entry *link;$/;"	m	struct:table::entry	typeref:struct:table::entry::entry	file:
+link	types.c	/^	struct entry *link;$/;"	m	struct:entry	typeref:struct:entry::entry	file:
+list	c.h	/^struct list {$/;"	s
+list	dag.c	/^static void list(p) Node p; {$/;"	f	file:
+listed	config.h	/^	unsigned listed:1;$/;"	m	struct:__anon31
+listnodes	dag.c	/^Node listnodes(tp, tlab, flab) Tree tp; int tlab, flab; {$/;"	f
+little_endian	c.h	/^	unsigned little_endian:1;$/;"	m	struct:interface
+loc	c.h	/^			Symbol loc;$/;"	m	struct:symbol::__anon19::__anon22
+local	c.h	/^void (*local) ARGS((Symbol));$/;"	m	struct:interface
+local	l32.c	/^static void local(p) Symbol p; {$/;"	f	file:
+local	l32.md.c	/^static void local(p) Symbol p; {$/;"	f	file:
+local	mips.c	/^static void local(p) Symbol p; {$/;"	f	file:
+local	null.c	/^static void local(p) Symbol p; {}$/;"	f	file:
+local	symbolic.c	/^static void local(p) Symbol p; {$/;"	f	file:
+localaddr	stmt.c	/^static Symbol localaddr(p) Tree p; {$/;"	f	file:
+locals	c.h	/^			Symbol *locals;$/;"	m	struct:code::__anon14::__anon15
+loci	sym.c	/^List loci, symbols;$/;"	v
+locus	sym.c	/^void locus(tp, cp) Table tp; Coordinate *cp; {$/;"	f
+longdouble	types.c	/^Type longdouble;		\/* long double *\/$/;"	v
+longtype	types.c	/^Type longtype;			\/* long *\/$/;"	v
+lookup	sym.c	/^Symbol lookup(name, tp) char *name; Table tp; {$/;"	f
+lsb	c.h	/^	short lsb;$/;"	m	struct:field
+ltov	list.c	/^void *ltov(list, arena) List *list; unsigned arena; {$/;"	f
+lvalue	expr.c	/^Tree lvalue(p) Tree p; {$/;"	f
+main	main.c	/^int main(argc, argv) int argc; char *argv[]; {$/;"	f
+map	lex.c	/^static unsigned char map[256] = { \/* 000 nul *\/	0,$/;"	v	file:
+map	prof.c	/^struct map {		\/* source code map; 200 coordinates\/map *\/$/;"	s	file:
+maplist	prof.c	/^static List maplist;	\/* list of struct map *'s *\/$/;"	v	file:
+marked	c.h	/^	unsigned marked:1;$/;"	m	struct:__anon6
+mask	config.h	/^	unsigned mask;$/;"	m	struct:__anon32
+max_unaligned_load	config.h	/^	unsigned char max_unaligned_load;$/;"	m	struct:__anon30
+maxargoffset	gen.c	/^int maxargoffset;$/;"	v
+maxlevel	types.c	/^static int maxlevel;$/;"	v	file:
+maxoffset	gen.c	/^int maxoffset;$/;"	v
+mayrecalc	config.h	/^	unsigned mayrecalc:1;$/;"	m	struct:__anon31
+mayrecalc	gen.c	/^int mayrecalc(p) Node p; {$/;"	f
+metrics	c.h	/^typedef struct metrics {$/;"	s
+mipsebIR	mips.c	/^Interface mipsebIR = {$/;"	v
+mipselIR	mips.c	/^}, mipselIR = {$/;"	v
+mkactual	gen.c	/^int mkactual(align, size) int align, size; {$/;"	f
+mkauto	gen.c	/^void mkauto(p) Symbol p; {$/;"	f
+mkreg	gen.c	/^Symbol mkreg(fmt, n, mask, set)$/;"	f
+mkstr	sym.c	/^Symbol mkstr(str) char *str; {$/;"	f
+mksymbol	sym.c	/^Symbol mksymbol(sclass, name, ty) int sclass; char *name; Type ty; {$/;"	f
+mkwildcard	gen.c	/^Symbol mkwildcard(syms) Symbol *syms; {$/;"	f
+move	gen.c	/^int move(p) Node p; {$/;"	f
+moveself	gen.c	/^static int moveself(p) Node p; {$/;"	f	file:
+mul	simp.c	/^static int mul(x, y, min, max, needconst)$/;"	f	file:
+mulops_calls	c.h	/^	unsigned mulops_calls:1;$/;"	m	struct:interface
+multree	enode.c	/^static Tree multree(op, l, r) int op; Tree l, r; {$/;"	f	file:
+name	c.h	/^	char *name;$/;"	m	struct:binding
+name	c.h	/^	char *name;$/;"	m	struct:field
+name	c.h	/^	char *name;$/;"	m	struct:symbol
+name	config.h	/^	char *name;$/;"	m	struct:__anon34
+name	prof.c	/^	char *file, *name;$/;"	m	struct:callsite	file:
+name	prof.c	/^	char *name;$/;"	m	struct:func	file:
+name	profio.c	/^			char *name;		\/* caller's name *\/$/;"	m	struct:file::func::caller	file:
+name	profio.c	/^		char *name;			\/* function name *\/$/;"	m	struct:file::func	file:
+name	profio.c	/^	char *name;			\/* file name *\/$/;"	m	struct:file	file:
+ncalled	prof.c	/^int ncalled = -1;	\/* #times prof.out says current function was called *\/$/;"	v
+ncalls	c.h	/^			int ncalls;$/;"	m	struct:symbol::__anon19::__anon23
+ncases	stmt.c	/^	int ncases;$/;"	m	struct:swtch	file:
+needconst	simp.c	/^int needconst;$/;"	v
+newarray	alloc.c	/^void *newarray(m, n, a) unsigned long m, n; unsigned a; {$/;"	f
+newfield	types.c	/^Field newfield(name, ty, fty) char *name; Type ty, fty; {$/;"	f
+newnode	dag.c	/^Node newnode(op, l, r, sym) int op; Node l, r; Symbol sym; {$/;"	f
+newstruct	types.c	/^Type newstruct(op, tag) int op; char *tag; {$/;"	f
+newtemp	sym.c	/^Symbol newtemp(sclass, tc) int sclass, tc; {$/;"	f
+next	alloc.c	/^	struct block *next;$/;"	m	struct:block	typeref:struct:block::block	file:
+next	c.h	/^	Code prev, next;$/;"	m	struct:code
+next	config.h	/^	Node prev, next;$/;"	m	struct:__anon31
+nextline	input.c	/^void nextline() {$/;"	f
+ngetc	profio.c	22;"	d	file:
+ngetc	profio.c	27;"	d	file:
+nid	tree.c	/^static int nid = 1;		\/* identifies trees & nodes in debugging output *\/$/;"	v	file:
+node	c.h	/^	Node node;$/;"	m	struct:tree
+node	c.h	/^struct node {$/;"	s
+node	dag.c	/^	struct node node;$/;"	m	struct:dag	typeref:struct:dag::node	file:
+node	dag.c	/^static Node node(op, l, r, sym)$/;"	f	file:
+node	tree.c	/^	Tree node;$/;"	m	struct:nodeid	file:
+nodecount	dag.c	/^int nodecount;$/;"	v
+nodeid	tree.c	/^int nodeid(p) Tree p; {$/;"	f
+nodeid	tree.c	/^static struct nodeid {$/;"	s	file:
+notarget	gen.c	/^int notarget(p) Node p; {$/;"	f
+npoints	prof.c	/^int npoints;		\/* # of execution points if -b specified *\/$/;"	v
+nullIR	null.c	/^Interface nullIR = {$/;"	v
+nullcall	expr.c	/^Tree nullcall(pty, f, p, e) Type pty; Symbol f; Tree p, e; {$/;"	f
+nullcheck	expr.c	/^static Tree nullcheck(p) Tree p; {$/;"	f	file:
+number	config.h	/^	short number;$/;"	m	struct:__anon32
+off	init.c	/^	int off;			\/* offset in var *\/$/;"	m	struct:structexp	file:
+offset	c.h	/^			int offset;$/;"	m	struct:code::__anon14::__anon16
+offset	c.h	/^	int offset;$/;"	m	struct:field
+offset	config.h	/^	int offset;$/;"	m	struct:__anon34
+offset	config.h	/^	int offset;$/;"	m	struct:__anon36
+offset	gen.c	/^int offset;$/;"	v
+oldparam	decl.c	/^static void oldparam(p, cl) Symbol p; void *cl; {$/;"	f	file:
+oldstyle	c.h	/^			unsigned oldstyle:1;$/;"	m	struct:type::__anon28::__anon29
+op	c.h	/^	int op;$/;"	m	struct:tree
+op	c.h	/^	int op;$/;"	m	struct:type
+op	c.h	/^	short op;$/;"	m	struct:node
+oper	expr.c	/^static int oper[] = {$/;"	v	file:
+opindex	c.h	46;"	d
+opname	tree.c	/^char *opname(op) int op; {$/;"	f
+optree	enode.c	/^Tree (*optree[]) ARGS((int, Tree, Tree)) = {$/;"	v
+optype	c.h	47;"	d
+outfd	output.c	/^int outfd = 1;$/;"	v
+outfile	main.c	/^static char *infile, *outfile;$/;"	v	file:
+outflush	output.c	/^void outflush() {$/;"	f
+outofline	c.h	/^	unsigned char size, align, outofline;$/;"	m	struct:metrics
+outputInit	output.c	/^void outputInit() {$/;"	f
+outs	output.c	/^void outs(s) char *s; {$/;"	f
+outtype	types.c	/^void outtype(ty) Type ty; {$/;"	f
+p	alloc.c	/^	char *p;$/;"	m	union:align	file:
+p	c.h	/^	void *p;$/;"	m	union:value
+parameters	decl.c	/^static Symbol *parameters(fty) Type fty; {$/;"	f	file:
+parseflags	gen.c	/^void parseflags(argc, argv) int argc; char *argv[]; {$/;"	f
+point	c.h	/^			int point;$/;"	m	struct:code::__anon14::__anon17
+point	c.h	/^		} point; $/;"	m	union:code::__anon14	typeref:struct:code::__anon14::__anon17
+pointer	expr.c	/^Tree pointer(p) Tree p; {$/;"	f
+pointersym	types.c	/^static Symbol pointersym;$/;"	v	file:
+points	c.h	/^	List points;$/;"	m	struct:__anon7
+postfix	expr.c	/^static Tree postfix(p) Tree p; {$/;"	f	file:
+ppnumber	lex.c	/^static void ppnumber(which) char *which; {$/;"	f	file:
+pragma	input.c	/^static void pragma() {$/;"	f	file:
+prec	expr.c	/^static char prec[] = {$/;"	v	file:
+prelabel	gen.c	/^static void prelabel(p) Node p; {$/;"	f	file:
+prev	c.h	/^	Code prev, next;$/;"	m	struct:code
+prev	config.h	/^	Node prev, next;$/;"	m	struct:__anon31
+previous	sym.c	/^	Table previous;$/;"	m	struct:table	file:
+prevuse	config.h	/^	Node prevuse;$/;"	m	struct:__anon31
+primary	expr.c	/^static Tree primary() {$/;"	f	file:
+print	output.c	/^void print VARARGS((char *fmt, ...),$/;"	f
+printdag	dag.c	/^void printdag(p, fd) Node p; int fd; {$/;"	f
+printdag1	dag.c	/^static void printdag1(p, fd, lev) Node p; int fd, lev; {$/;"	f	file:
+printdecl	types.c	/^void printdecl(p, ty) Symbol p; Type ty; {$/;"	f
+printed	c.h	/^	unsigned printed:1;$/;"	m	struct:__anon6
+printed	tree.c	/^	int printed;$/;"	m	struct:nodeid	file:
+printed	tree.c	/^int *printed(id) int id; {$/;"	f
+printnode	dag.c	/^static void printnode(p, fd, lev) Node p; int fd, lev; {$/;"	f	file:
+printproto	types.c	/^void printproto(p, callee) Symbol p, callee[]; {$/;"	f
+printtoken	error.c	/^static void printtoken() {$/;"	f	file:
+printtree	tree.c	/^void printtree(p, fd) Tree p; int fd; {$/;"	f
+printtree1	tree.c	/^static void printtree1(p, fd, lev) Tree p; int fd, lev; {$/;"	f	file:
+printtype	types.c	/^void printtype(ty, fd) Type ty; int fd; {$/;"	f
+process	profio.c	/^int process(file) char *file; {$/;"	f
+profInit	prof.c	/^void profInit(opt) char *opt; {$/;"	f
+progbeg	c.h	/^void (*progbeg) ARGS((int argc, char *argv[]));$/;"	m	struct:interface
+progbeg	l32.c	/^static void progbeg(argc, argv) int argc; char *argv[]; {$/;"	f	file:
+progbeg	mips.c	/^static void progbeg(argc, argv) int argc; char *argv[]; {$/;"	f	file:
+progbeg	null.c	/^static void progbeg(argc, argv) int argc; char *argv[]; {}$/;"	f	file:
+progbeg	symbolic.c	/^static void progbeg(argc, argv) int argc; char *argv[]; {$/;"	f	file:
+progend	c.h	/^void (*progend) ARGS((void));$/;"	m	struct:interface
+progend	l32.c	/^static void progend()$/;"	f	file:
+progend	mips.c	/^static void progend(){}$/;"	f	file:
+progend	null.c	/^static void progend() {}$/;"	f	file:
+progend	symbolic.c	/^static void progend() {}$/;"	f	file:
+program	decl.c	/^void program() {$/;"	f
+promote	types.c	/^Type promote(ty) Type ty; {$/;"	f
+proto	c.h	/^			Type *proto;$/;"	m	struct:type::__anon28::__anon29
+prune	gen.c	/^static Node *prune(p, pp) Node p, pp[]; {$/;"	f	file:
+pt	c.h	/^			Coordinate pt;$/;"	m	struct:symbol::__anon19::__anon23
+ptr	types.c	/^Type ptr(ty) Type ty; {$/;"	f
+ptrmetric	c.h	/^	Metrics ptrmetric;$/;"	m	struct:interface
+putreg	gen.c	/^static void putreg(r) Symbol r; {$/;"	f	file:
+qual	types.c	/^Type qual(op, ty) int op; Type ty; {$/;"	f
+ralloc	gen.c	/^static void ralloc(p) Node p; {$/;"	f	file:
+range	gen.c	/^int range(p, lo, hi) Node p; int lo, hi; {$/;"	f
+rcsid	main.c	/^static char rcsid[] = "$Revision: 3.2 $ $Date: 1994\/12\/12 21:09:28 $";$/;"	v	file:
+readsreg	gen.c	3;"	d	file:
+readsreg	l32.c	9;"	d	file:
+readsreg	l32.md.c	10;"	d	file:
+readsreg	mips.c	9;"	d	file:
+reduce	gen.c	/^static void reduce(p, nt) Node p; int nt; {$/;"	f	file:
+ref	c.h	/^	float ref;$/;"	m	struct:symbol
+refinc	expr.c	/^float refinc = 1.0;$/;"	v
+regcount	decl.c	/^static int regcount;$/;"	v	file:
+registered	config.h	/^	unsigned registered:1;$/;"	m	struct:__anon31
+registers	decl.c	/^static List autos, registers;$/;"	v	file:
+regloc	gen.c	/^unsigned regloc(p) Symbol p; {$/;"	f
+regnode	config.h	/^	Regnode regnode;$/;"	m	struct:__anon34
+relink	gen.c	9;"	d	file:
+relink	l32.c	15;"	d	file:
+relink	l32.md.c	16;"	d	file:
+relink	mips.c	15;"	d	file:
+reprune	gen.c	/^static int reprune(pp, k, n, p) Node p, *pp; int k, n; {$/;"	f	file:
+requate	gen.c	/^static int requate(q) Node q; {$/;"	f	file:
+reset	dag.c	/^static void reset() {$/;"	f	file:
+resynch	input.c	/^static void resynch() {$/;"	f	file:
+retcode	stmt.c	/^void retcode(p) Tree p; {$/;"	f
+returns	c.h	/^	List returns;$/;"	m	struct:__anon7
+retv	decl.c	/^Symbol retv;		\/* return value location for structs *\/$/;"	v
+retype	expr.c	/^Tree retype(p, ty) Tree p; Type ty;{$/;"	f
+reuse	gen.c	/^static Node reuse(p, nt) Node p; int nt; {$/;"	f	file:
+rewrite	gen.c	/^static void rewrite(p) Node p; {$/;"	f	file:
+right	tree.c	/^Tree right(p, q) Tree p, q; {$/;"	f
+rightkid	expr.c	/^Tree rightkid(p) Tree p; {$/;"	f
+rmap	gen.c	/^Symbol rmap[16];$/;"	v
+rmtypes	types.c	/^void rmtypes(lev) int lev; {$/;"	f
+root	tree.c	/^Tree root(p) Tree p; {$/;"	f
+roundup	c.h	44;"	d
+rtarget	gen.c	/^void rtarget(p, n, r) Node p; int n; Symbol r; {$/;"	f
+rule	l32.c	/^	} rule;$/;"	m	struct:_state	typeref:struct:_state::__anon1	file:
+rule	mips.c	/^	} rule;$/;"	m	struct:_state	typeref:struct:_state::__anon3	file:
+rvalue	expr.c	/^Tree rvalue(p) Tree p; {$/;"	f
+s	c.h	/^		} s;$/;"	m	union:symbol::__anon19	typeref:struct:symbol::__anon19::__anon21
+salign	gen.c	/^int dalign, salign;$/;"	v
+sc	c.h	/^	\/* signed *\/ char sc;$/;"	m	union:value
+scatter	string.c	/^static int scatter[] = {	\/* map characters to random values *\/$/;"	v	file:
+sclass	c.h	/^	int sclass;$/;"	m	struct:symbol
+scope	c.h	/^	int scope;$/;"	m	struct:symbol
+seg	c.h	/^		int seg;$/;"	m	union:symbol::__anon19
+segment	c.h	/^void (*segment) ARGS((int));$/;"	m	struct:interface
+segment	l32.c	/^static void segment(n) int n; {$/;"	f	file:
+segment	l32.md.c	/^static void segment(n) int n; {$/;"	f	file:
+segment	mips.c	/^static void segment(n) int n; {$/;"	f	file:
+segment	null.c	/^static void segment(s) int s; {}$/;"	f	file:
+segment	symbolic.c	/^static void segment(s) int s; {$/;"	f	file:
+set	config.h	/^	short set;$/;"	m	struct:__anon32
+setreg	gen.c	/^void setreg(p, r) Node p; Symbol r; {$/;"	f
+setsrc	gen.c	5;"	d	file:
+setsrc	l32.c	11;"	d	file:
+setsrc	l32.md.c	12;"	d	file:
+setsrc	mips.c	11;"	d	file:
+sfoldcnst	simp.c	52;"	d	file:
+shortmetric	c.h	/^	Metrics shortmetric;$/;"	m	struct:interface
+shorttype	types.c	/^Type shorttype;			\/* signed short int *\/$/;"	v
+shtree	enode.c	/^Tree shtree(op, l, r) int op; Tree l, r; {$/;"	f
+signedchar	types.c	/^Type signedchar;		\/* signed char *\/$/;"	v
+simplify	simp.c	/^Tree simplify(op, ty, l, r) int op; Type ty; Tree l, r; {$/;"	f
+size	c.h	/^			int size;$/;"	m	struct:code::__anon14::__anon18
+size	c.h	/^	int size;$/;"	m	struct:type
+size	c.h	/^	unsigned char size, align, outofline;$/;"	m	struct:metrics
+size	prof.c	/^	int size;$/;"	m	struct:map	file:
+size	profio.c	/^	int size;			\/* size of counts[] *\/$/;"	m	struct:file	file:
+size	stmt.c	/^	int size;$/;"	m	struct:swtch	file:
+skipto	error.c	/^void skipto(tok, set) int tok; char set[]; {$/;"	f
+space	c.h	/^void (*space) ARGS((int));$/;"	m	struct:interface
+space	l32.c	/^static void space(n) int n; {$/;"	f	file:
+space	l32.md.c	/^static void space(n) int n; {$/;"	f	file:
+space	mips.c	/^static void space(n) int n; {$/;"	f	file:
+space	null.c	/^static void space(n) int n; {}$/;"	f	file:
+space	symbolic.c	/^static void space(n) int n; {$/;"	f	file:
+specifier	decl.c	/^static Type specifier(sclass) int *sclass; {$/;"	f	file:
+spill	gen.c	/^void spill(mask, n, here) unsigned mask; int n; Node here; {$/;"	f
+spillee	gen.c	/^static Symbol spillee(set, here) Node here; Symbol set; {$/;"	f	file:
+spillr	gen.c	/^static void spillr(r, here) Symbol r; Node here; {$/;"	f	file:
+src	c.h	/^			Coordinate src;$/;"	m	struct:code::__anon14::__anon17
+src	c.h	/^	Coordinate src;$/;"	m	struct:symbol
+src	lex.c	/^Coordinate src;		\/* current source coordinate *\/$/;"	v
+src	prof.c	/^	union coordinate src;$/;"	m	struct:func	typeref:union:func::coordinate	file:
+ss	c.h	/^	short ss;$/;"	m	union:value
+stabblock	c.h	/^void (*stabblock) ARGS((int, int, Symbol*));$/;"	m	struct:interface
+stabend	c.h	/^void (*stabend)   ARGS((Coordinate *, Symbol, Coordinate **,                   	Symbol *, Symbol *));$/;"	m	struct:interface
+stabend	symbolic.c	/^static void stabend(cp, p, cpp, sp, stab) Coordinate *cp, **cpp; Symbol p, *sp, *stab; {$/;"	f	file:
+stabfend	c.h	/^void (*stabfend)  ARGS((Symbol, int));$/;"	m	struct:interface
+stabinit	c.h	/^void (*stabinit)  ARGS((char *, int, char *[]));$/;"	m	struct:interface
+stabinit	l32.c	/^static void stabinit(file, argc, argv) int argc; char *file, *argv[]; {$/;"	f	file:
+stabinit	l32.md.c	/^static void stabinit(file, argc, argv) int argc; char *file, *argv[]; {$/;"	f	file:
+stabinit	mips.c	/^static void stabinit(file, argc, argv) int argc; char *file, *argv[]; {$/;"	f	file:
+stabline	c.h	/^void (*stabline)  ARGS((Coordinate *));$/;"	m	struct:interface
+stabline	l32.c	/^static void stabline(cp) Coordinate *cp; {$/;"	f	file:
+stabline	l32.md.c	/^static void stabline(cp) Coordinate *cp; {$/;"	f	file:
+stabline	mips.c	/^static void stabline(cp) Coordinate *cp; {$/;"	f	file:
+stabline	symbolic.c	/^static void stabline(cp) Coordinate *cp; {$/;"	f	file:
+stabsym	c.h	/^void (*stabsym)   ARGS((Symbol));$/;"	m	struct:interface
+stabsym	l32.c	/^static void stabsym(p) Symbol p; {$/;"	f	file:
+stabsym	l32.md.c	/^static void stabsym(p) Symbol p; {$/;"	f	file:
+stabsym	mips.c	/^static void stabsym(p) Symbol p; {$/;"	f	file:
+stabtype	c.h	/^void (*stabtype)  ARGS((Symbol));$/;"	m	struct:interface
+state	config.h	/^	void *state;$/;"	m	struct:__anon31
+statement	stmt.c	/^void statement(loop, swp, lev) int loop, lev; Swtch swp; {$/;"	f
+stmtlabel	stmt.c	/^static void stmtlabel() {$/;"	f	file:
+stmtlabs	stmt.c	/^Table stmtlabs;$/;"	v
+str	string.c	/^	char *str;$/;"	m	struct:string	file:
+string	string.c	/^char *string(str) char *str; {$/;"	f
+string	string.c	/^static struct string {$/;"	s	file:
+stringd	string.c	/^char *stringd(n) int n; {$/;"	f
+stringf	output.c	/^char *stringf VARARGS((char *fmt, ...),(fmt, va_alist),char *fmt; va_dcl) {$/;"	f
+stringn	string.c	/^char *stringn(str, len) char *str; int len; {$/;"	f
+structarg	c.h	/^	unsigned structarg:1;$/;"	m	struct:symbol
+structdcl	decl.c	/^static Type structdcl(op) int op; {$/;"	f	file:
+structexp	init.c	/^Tree structexp(ty, t1) Type ty; Symbol t1; {$/;"	f
+structexp	init.c	/^static struct structexp {	\/* current structure expression: *\/$/;"	s	file:
+structmetric	c.h	/^	Metrics structmetric;$/;"	m	struct:interface
+sub	simp.c	/^static int sub(x, y, min, max, needconst)$/;"	f	file:
+subtree	enode.c	/^static Tree subtree(op, l, r) int op; Tree l, r; {$/;"	f	file:
+super	expr.c	/^static Type super(ty) Type ty; {$/;"	f	file:
+swap	gen.c	/^int swap;$/;"	v
+swcode	stmt.c	/^static void swcode(swp, b, lb, ub)$/;"	f	file:
+swgen	stmt.c	/^static void swgen(swp) Swtch swp; {$/;"	f	file:
+swstmt	stmt.c	/^static void swstmt(loop, lab, lev) int loop, lab, lev; {$/;"	f	file:
+swtch	c.h	/^		} swtch;$/;"	m	union:code::__anon14	typeref:struct:code::__anon14::__anon18
+swtch	stmt.c	/^struct swtch {$/;"	s	file:
+swtoseg	init.c	/^void swtoseg(seg) int seg; {$/;"	f
+sym	c.h	/^			Symbol sym;$/;"	m	struct:code::__anon14::__anon16
+sym	c.h	/^			Symbol sym;$/;"	m	struct:code::__anon14::__anon18
+sym	c.h	/^		Symbol sym;$/;"	m	union:tree::__anon26
+sym	c.h	/^		Symbol sym;$/;"	m	union:type::__anon28
+sym	stmt.c	/^	Symbol sym;$/;"	m	struct:swtch	file:
+sym	sym.c	/^		struct symbol sym;$/;"	m	struct:table::entry	typeref:struct:table::entry::symbol	file:
+sym	symbolic.c	/^static void sym(kind, p, str) char *kind, *str; Symbol p; {$/;"	f	file:
+symbol	c.h	/^struct symbol {$/;"	s
+symbolicIR	symbolic.c	/^Interface symbolicIR = {$/;"	v
+symbols	sym.c	/^List loci, symbols;$/;"	v
+symname	symbolic.c	/^static void symname(p) Symbol p; {$/;"	f	file:
+syms	c.h	/^ 	Symbol syms[3];$/;"	m	struct:node
+t	c.h	/^		} t;$/;"	m	union:symbol::__anon19	typeref:struct:symbol::__anon19::__anon24
+t	lex.c	/^int t;$/;"	v
+table	c.h	/^			Symbol table;$/;"	m	struct:code::__anon14::__anon18
+table	sym.c	/^Table table(tp, level) Table tp; int level; {$/;"	f
+table	sym.c	/^struct table {$/;"	s	file:
+tail	dag.c	/^static Node *tail;$/;"	v	file:
+tail	symbolic.c	/^static Node *tail;$/;"	v	file:
+target	config.h	/^	void (*target) ARGS((Node));$/;"	m	struct:__anon30
+target	l32.c	/^static void target(p) Node p; {$/;"	f	file:
+target	l32.md.c	/^static void target(p) Node p; {$/;"	f	file:
+target	mips.c	/^static void target(p) Node p; {$/;"	f	file:
+temporary	c.h	/^	unsigned temporary:1;$/;"	m	struct:symbol
+temporary	sym.c	/^Symbol temporary(scls, ty, lev) Type ty; int scls, lev; {$/;"	f
+test	error.c	/^void test(tok, set) int tok; char set[]; {$/;"	f
+texpr	tree.c	/^Tree texpr(f, tok, a) Tree (*f) ARGS((int)); int tok, a; {$/;"	f
+tmask	gen.c	/^unsigned tmask[2];$/;"	v
+tmpnode	dag.c	/^static Node tmpnode(p) Node p; {$/;"	f	file:
+tmpregs	l32.c	/^static int tmpregs[] = {3, 9, 10};$/;"	v	file:
+tmpregs	mips.c	/^static int tmpregs[] = {3, 9, 10};$/;"	v	file:
+tnode	decl.c	/^static Type tnode(op, type) int op; Type type; {$/;"	f	file:
+token	lex.c	/^char *token;		\/* current token *\/$/;"	v
+traceInit	trace.c	/^void traceInit(print) char *print; {$/;"	f
+tracecall	trace.c	/^static void tracecall(printer, f) Symbol printer, f; {$/;"	f	file:
+tracefinis	trace.c	/^static void tracefinis(printer) Symbol printer; {$/;"	f	file:
+tracereturn	trace.c	/^static void tracereturn(printer, f, e) Symbol printer, f; Tree e; {$/;"	f	file:
+tracevalue	trace.c	/^static void tracevalue(e, lev) Tree e; int lev; {$/;"	f	file:
+trashes	gen.c	/^static int trashes(p, q) Node p, q; {$/;"	f	file:
+tree	c.h	/^struct tree {$/;"	s
+tree	init.c	/^	Tree tree;			\/* evolving tree *\/$/;"	m	struct:structexp	file:
+tree	tree.c	/^Tree tree(op, type, left, right)$/;"	f
+tsym	lex.c	/^Symbol tsym;		\/* symbol table entry for current token *\/$/;"	v
+ttob	types.c	/^int ttob(ty) Type ty; {$/;"	f
+tval	lex.c	/^static struct symbol tval;$/;"	v	typeref:struct:symbol	file:
+type	c.h	/^	Type type;$/;"	m	struct:field
+type	c.h	/^	Type type;$/;"	m	struct:symbol
+type	c.h	/^	Type type;$/;"	m	struct:tree
+type	c.h	/^	Type type;$/;"	m	struct:type
+type	c.h	/^struct type {$/;"	s
+type	types.c	/^	struct type type;$/;"	m	struct:entry	typeref:struct:entry::type	file:
+type	types.c	/^static Type type(op, ty, size, align, sym)$/;"	f	file:
+typeInit	types.c	/^void typeInit() {$/;"	f
+typeerror	enode.c	/^void typeerror(op, l, r) int op; Tree l, r; {$/;"	f
+typename	decl.c	/^Type typename() {$/;"	f
+typeno	c.h	/^	unsigned short typeno;$/;"	m	struct:__anon6
+types	c.h	/^			Table identifiers, types;$/;"	m	struct:code::__anon14::__anon15
+types	sym.c	/^Table types       = &tys;$/;"	v
+typestab	dag.c	/^static void typestab(p, cl) Symbol p; void *cl; {$/;"	f	file:
+typestab	main.c	/^static void typestab(p, cl) Symbol p; void *cl; {$/;"	f	file:
+typestring	types.c	/^char *typestring(ty, str) Type ty; char *str; {$/;"	f
+typetable	types.c	/^} *typetable[128];$/;"	v	typeref:struct:entry	file:
+tys	sym.c	/^	tys = { GLOBAL };$/;"	v	typeref:struct:	file:
+u	c.h	/^	unsigned int u;$/;"	m	union:value
+u	c.h	/^	} u;$/;"	m	struct:code	typeref:union:code::__anon14
+u	c.h	/^	} u;$/;"	m	struct:symbol	typeref:union:symbol::__anon19
+u	c.h	/^	} u;$/;"	m	struct:tree	typeref:union:tree::__anon26
+u	c.h	/^	} u;$/;"	m	struct:type	typeref:union:type::__anon28
+u	prof.c	/^	union coordinate u[200];$/;"	m	struct:map	typeref:union:map::coordinate	file:
+u	prof.c	/^	} u;$/;"	m	struct:callsite	typeref:union:callsite::coordinate	file:
+uc	c.h	/^	unsigned char uc;$/;"	m	union:value
+ufoldcnst	simp.c	51;"	d	file:
+unary	expr.c	/^static Tree unary() {$/;"	f	file:
+undag	dag.c	/^static Node undag(forest) Node forest; {$/;"	f	file:
+unlist	dag.c	/^static void unlist() {$/;"	f	file:
+unqual	c.h	49;"	d
+unsignedchar	types.c	/^Type unsignedchar;		\/* unsigned char *\/$/;"	v
+unsignedlong	types.c	/^Type unsignedlong;		\/* unsigned long int *\/$/;"	v
+unsignedshort	types.c	/^Type unsignedshort;		\/* unsigned short int *\/$/;"	v
+unsignedtype	types.c	/^Type unsignedtype;		\/* unsigned int *\/$/;"	v
+up	c.h	/^	Symbol up;$/;"	m	struct:symbol
+us	c.h	/^	unsigned short us;$/;"	m	union:value
+use	sym.c	/^void use(p, src) Symbol p; Coordinate src; {$/;"	f
+usecount	config.h	/^	int usecount;$/;"	m	struct:__anon34
+usedmask	gen.c	/^unsigned usedmask[2];$/;"	v
+uses	c.h	/^	List uses;$/;"	m	struct:symbol
+uses	gen.c	/^static int uses(p, mask) Node p; unsigned mask; {$/;"	f	file:
+utod	simp.c	62;"	d	file:
+v	c.h	/^			Value v;$/;"	m	struct:symbol::__anon19::__anon22
+v	c.h	/^		Value v;$/;"	m	union:tree::__anon26
+va_init	c.h	32;"	d
+va_init	c.h	35;"	d
+value	c.h	/^		int value;$/;"	m	union:symbol::__anon19
+value	c.h	/^typedef union value {$/;"	u
+value	expr.c	/^Tree value(p) Tree p; {$/;"	f
+values	c.h	/^			int *values;$/;"	m	struct:code::__anon14::__anon18
+values	stmt.c	/^	int *values;$/;"	m	struct:swtch	file:
+var	c.h	/^		Symbol var;$/;"	m	union:code::__anon14
+var	init.c	/^	Symbol var;			\/* temporary variable *\/$/;"	m	struct:structexp	file:
+variadic	types.c	/^int variadic(ty) Type ty; {$/;"	f
+vbl	config.h	/^	Symbol vbl;$/;"	m	struct:__anon32
+vfields	c.h	/^			unsigned vfields:1;$/;"	m	struct:symbol::__anon19::__anon21
+vfprint	output.c	/^void vfprint(f, fmt, ap) int f; char *fmt; va_list ap; {$/;"	f
+visit	dag.c	/^static Node visit(p, listed) Node p; int listed; {$/;"	f	file:
+vmask	gen.c	/^unsigned vmask[2];$/;"	v
+voidptype	types.c	/^Type voidptype;			\/* void* *\/$/;"	v
+voidtype	types.c	/^Type voidtype;			\/* basic types: void *\/$/;"	v
+vprint	output.c	/^void vprint(fmt, ap) char *fmt; va_list ap; {$/;"	f
+vtoa	sym.c	/^char *vtoa(ty, v) Type ty; Value v; {$/;"	f
+walk	dag.c	/^void walk(tp, tlab, flab) Tree tp; int tlab, flab; {$/;"	f
+wants_argb	c.h	/^	unsigned wants_argb:1;$/;"	m	struct:interface
+wants_callb	c.h	/^	unsigned wants_callb:1;$/;"	m	struct:interface
+wants_dag	c.h	/^	unsigned wants_dag:1;$/;"	m	struct:interface
+warning	error.c	/^void warning VARARGS((char *fmt, ...),(fmt, va_alist),char *fmt; va_dcl) {$/;"	f
+wflag	error.c	/^int wflag;		\/* != 0 to suppress warning messages *\/$/;"	v
+where	tree.c	/^static int where = STMT;$/;"	v	file:
+whilestmt	stmt.c	/^static void whilestmt(lab, swp, lev) int lab, lev; Swtch swp; {$/;"	f	file:
+widen	c.h	76;"	d
+wildcard	config.h	/^	Symbol *wildcard;$/;"	m	struct:__anon34
+x	c.h	/^			Env x;$/;"	m	struct:code::__anon14::__anon15
+x	c.h	/^	Xinterface x;$/;"	m	struct:interface
+x	c.h	/^	Xnode x;$/;"	m	struct:node
+x	c.h	/^	Xsymbol x;$/;"	m	struct:symbol
+x	c.h	/^	Xtype x;$/;"	m	struct:type
+x	c.h	/^	unsigned x, y;$/;"	m	struct:coord
+x	c.h	/^	void *x;$/;"	m	struct:list
+x	prof.c	/^		struct { unsigned int index:6,x:10,y:16; } be;$/;"	m	struct:callsite::coordinate::__anon5	file:
+x	prof.c	/^		struct { unsigned int y:16,x:10,index:6; } le;$/;"	m	struct:callsite::coordinate::__anon4	file:
+x	profio.c	/^			int x, y;$/;"	m	struct:file::func::caller	file:
+x	profio.c	/^	int x, y;			\/* source coordinate *\/$/;"	m	struct:count	file:
+xcvtcnst	simp.c	23;"	d	file:
+xfoldcnst	simp.c	11;"	d	file:
+xref	main.c	/^int xref;		\/* != 0 for cross-reference data *\/$/;"	v
+xx	c.h	179;"	d
+xx	enode.c	14;"	d	file:
+xx	error.c	7;"	d	file:
+xx	expr.c	4;"	d	file:
+xx	expr.c	9;"	d	file:
+xx	output.c	152;"	d	file:
+xx	token.h	133;"	d
+xx	types.c	54;"	d	file:
+xx	types.c	71;"	d	file:
+y	c.h	/^		Ysymbol y;$/;"	m	struct:symbol
+y	c.h	/^	Ytype y;	\/* omit *\/$/;"	m	struct:type
+y	c.h	/^	unsigned x, y;$/;"	m	struct:coord
+y	prof.c	/^		struct { unsigned int index:6,x:10,y:16; } be;$/;"	m	struct:callsite::coordinate::__anon5	file:
+y	prof.c	/^		struct { unsigned int y:16,x:10,index:6; } le;$/;"	m	struct:callsite::coordinate::__anon4	file:
+y	profio.c	/^			int x, y;$/;"	m	struct:file::func::caller	file:
+y	profio.c	/^	int x, y;			\/* source coordinate *\/$/;"	m	struct:count	file:
+yy	c.h	180;"	d
+yy	enode.c	15;"	d	file:
+yy	error.c	8;"	d	file:
+yy	expr.c	10;"	d	file:
+yy	expr.c	5;"	d	file:
+yy	output.c	153;"	d	file:
+yy	token.h	134;"	d
+zerofield	simp.c	34;"	d	file:

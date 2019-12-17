@@ -1,0 +1,4308 @@
+%!PS-Adobe-1.0
+%%Title: Installing lcc
+%%DocumentFonts: Helvetica Helvetica-Bold Helvetica-Oblique Courier Courier-Bold Courier-Oblique
+%%Creator: NCSA Mosaic, Postscript by Ameet Raval & Frans van Hoesel
+%%Pages: (atend)
+%%EndComments
+save
+/D {def} def /E {exch} D
+/M {moveto} D
+/S {show} D
+/R {rmoveto} D
+/L {lineto} D
+/RL {rlineto} D
+/SQ {newpath 0 0 M 0 1 L 1 1 L 1 0 L closepath} D
+/U {gsave currentpoint currentfont /FontInfo get /UnderlinePosition get
+ 0 E currentfont /FontMatrix get dtransform E pop add newpath moveto
+ dup stringwidth rlineto stroke grestore S } D
+/B {/r E D gsave -13 0  R currentpoint 
+  newpath r 0 360 arc closepath fill grestore } D
+/OB {/r E D gsave -13 0  R currentpoint 
+  newpath r 0 360 arc closepath stroke grestore } D
+/NP {xmargin topmargin translate scalfac dup scale } D
+/HR {/l E D gsave l 0 RL  stroke grestore } D
+/SF {E findfont E scalefont setfont } D
+/FF {/Courier } D
+/FB {/Courier-Bold } D
+/FI {/Courier-Oblique } D
+/RF {/Helvetica} D
+/BF {/Helvetica-Bold} D
+/IF {/Helvetica-Oblique} D
+/reencodeISO {
+dup dup findfont dup length dict begin
+{ 1 index /FID ne { def }{ pop pop } ifelse } forall
+/Encoding ISOLatin1Encoding D
+currentdict end definefont
+} D
+/ISOLatin1Encoding [
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/space/exclam/quotedbl/numbersign/dollar/percent/ampersand/quoteright
+/parenleft/parenright/asterisk/plus/comma/minus/period/slash
+/zero/one/two/three/four/five/six/seven/eight/nine/colon/semicolon
+/less/equal/greater/question/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N
+/O/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft/backslash/bracketright
+/asciicircum/underscore/quoteleft/a/b/c/d/e/f/g/h/i/j/k/l/m
+/n/o/p/q/r/s/t/u/v/w/x/y/z/braceleft/bar/braceright/asciitilde
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/dotlessi/grave/acute/circumflex/tilde/macron/breve
+/dotaccent/dieresis/.notdef/ring/cedilla/.notdef/hungarumlaut
+/ogonek/caron/space/exclamdown/cent/sterling/currency/yen/brokenbar
+/section/dieresis/copyright/ordfeminine/guillemotleft/logicalnot
+/hyphen/registered/macron/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/periodcentered/cedilla/onesuperior/ordmasculine
+/guillemotright/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute/Icircumflex
+/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis
+/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute
+/Thorn/germandbls/agrave/aacute/acircumflex/atilde/adieresis
+/aring/ae/ccedilla/egrave/eacute/ecircumflex/edieresis/igrave
+/iacute/icircumflex/idieresis/eth/ntilde/ograve/oacute/ocircumflex
+/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex/udieresis
+/yacute/thorn/ydieresis
+] D
+[RF BF IF FF FB FI] {reencodeISO D} forall
+/xmargin 43 D
+/topmargin 720 D
+/scalfac 0.69689 D
+%%EndProlog
+%%Page: 1 1
+save
+NP
+0 -20 M
+BF 18 SF
+0 -15 R
+(Installing lcc)S
+0 -42 M
+0 -57 M
+BF 14 SF
+0 -12 R
+(Christopher W. Fraser)U
+0 -74 M
+0 -12 R
+(AT&T Bell Laboratories Rm. 2C-300, 600 Mountain Ave., Murray Hill, NJ 07974-0636)S
+0 -91 M
+0 -106 M
+0 -12 R
+(David R. Hanson)U
+0 -123 M
+0 -12 R
+(Department of Computer Science, Princeton University, 35 Olden St., Princeton, NJ)S
+0 -140 M
+0 -12 R
+(08544)S
+0 -157 M
+0 -172 M
+BF 17 SF
+0 -14 R
+(Contents)S
+0 -192 M
+26 -207 M
+RF 14 SF
+0 -12 R
+(1. )S
+(Introduction)U
+( )S
+26 -224 M
+0 -12 R
+(2. )S
+(Paths)U
+( )S
+26 -241 M
+0 -12 R
+(3. )S
+(Installing the Preprocessor)U
+( )S
+26 -258 M
+0 -12 R
+(4. )S
+(Installing the Driver)U
+45 -275 M
+0 -12 R
+(4.1 )S
+(Installing bprint)U
+( )S
+26 -292 M
+0 -12 R
+(5. )S
+(Installing the Compiler Proper)U
+45 -309 M
+0 -12 R
+(5.1 )S
+(Using lcc as Cross-Compiler)U
+45 -326 M
+0 -12 R
+(5.2 )S
+(Installing the Code-Generator Generator)U
+( )S
+26 -343 M
+0 -12 R
+(6. )S
+(lcc on a PC)U
+45 -360 M
+0 -12 R
+(6.1 )S
+(Installing lcc under DOS)U
+45 -377 M
+0 -12 R
+(6.2 )S
+(Using lcc under DOS)U
+45 -394 M
+0 -12 R
+(6.3 )S
+(Building lcc under DOS)U
+( )S
+26 -411 M
+0 -12 R
+(7. )S
+(Reporting Bugs)U
+( )S
+26 -428 M
+0 -12 R
+(8. )S
+(Keeping in Touch)U
+( )S
+45 -445 M
+0 -460 M
+BF 17 SF
+0 -14 R
+(1. Introduction)S
+0 -480 M
+0 -495 M
+FF 14 SF
+0 -12 R
+(lcc)U
+RF 14 SF
+( is the ANSI C compiler described in our book )S
+IF 14 SF
+(A Retargetable C Compiler: Design and)S
+0 -512 M
+0 -12 R
+(Implementation)S
+RF 14 SF
+( \(Benjamin/Cummings, 1995, ISBN 0-8053-1670-1\).)S
+0 -529 M
+0 -544 M
+0 -12 R
+(Extract the distribution into its own directory. All paths below are relative to this directory.)S
+0 -561 M
+0 -12 R
+(The distribution holds the following subdirectories. )S
+0 -578 M
+0 -593 M
+FF 14 SF
+0 -12 R
+(src)S
+RF 14 SF
+( )S
+45 -610 M
+0 -12 R
+(source code )S
+0 -627 M
+FF 14 SF
+0 -12 R
+(etc)S
+RF 14 SF
+( )S
+45 -644 M
+0 -12 R
+(driver, accessories )S
+0 -661 M
+FF 14 SF
+0 -12 R
+(cpp)S
+RF 14 SF
+( )S
+45 -678 M
+0 -12 R
+(preprocessor source code )S
+0 -695 M
+FF 14 SF
+0 -12 R
+(lburg)S
+RF 14 SF
+( )S
+45 -712 M
+0 -12 R
+(code-generator generator source code )S
+0 -729 M
+FF 14 SF
+0 -12 R
+(doc)S
+RF 14 SF
+( )S
+45 -746 M
+0 -12 R
+(this document, man pages )S
+0 -763 M
+FF 14 SF
+0 -12 R
+(include)S
+RF 14 SF
+( )S
+45 -780 M
+0 -12 R
+(ANSI include files )S
+0 -797 M
+FF 14 SF
+0 -12 R
+(tst)S
+RF 14 SF
+( )S
+45 -814 M
+0 -12 R
+(test suite )S
+0 -831 M
+FF 14 SF
+0 -12 R
+(mips/* mips/*/tst)S
+RF 14 SF
+( )S
+45 -848 M
+0 -12 R
+(MIPS build directories, test outputs )S
+0 -865 M
+FF 14 SF
+0 -10 R
+(sparc/* sparc/*/tst)S
+45 -880 M
+RF 14 SF
+0 -12 R
+(SPARC build directories, test outputs )S
+0 -897 M
+FF 14 SF
+0 -12 R
+(x86/* x86/*/tst)S
+RF 14 SF
+( )S
+45 -914 M
+0 -12 R
+(x86 build directories, test outputs )S
+45 -931 M
+showpage restore
+%%Page: 2 2
+save
+NP
+RF 14 SF
+0 0 M
+0 -12 R
+(Distributions include code generators for the MIPS, SPARC, and the Intel 386 and its)S
+0 -17 M
+0 -12 R
+(successors.)S
+0 -34 M
+0 -49 M
+0 -12 R
+(Installation on Unix systems involves three steps performed in the following order.)S
+0 -66 M
+26 -81 M
+0 -12 R
+(1. )S
+(Decide where to install the man page, the include files, the compiler, and )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+(, the)S
+45 -98 M
+0 -12 R
+(driver program; see )S
+(Sec. 2)U
+(.)S
+45 -115 M
+26 -130 M
+0 -12 R
+(2. )S
+(Install a preprocessor; see )S
+(Sec. 3)U
+(.)S
+45 -147 M
+26 -162 M
+0 -12 R
+(3. )S
+(Install a host-specific driver; see )S
+(Sec. 4)U
+(.)S
+45 -179 M
+26 -194 M
+0 -12 R
+(4. )S
+(Install the compiler; see )S
+(Sec. 5)U
+(.)S
+45 -211 M
+0 -226 M
+0 -12 R
+(The value of the variable )S
+FF 14 SF
+(rcsid)S
+RF 14 SF
+( in )S
+FF 14 SF
+(src/main.c)S
+RF 14 SF
+( identifies the version of the distribution. If)S
+0 -243 M
+0 -12 R
+(the file )S
+FF 14 SF
+(LOG)S
+RF 14 SF
+( appears, it describes the changes from the previous version.)S
+0 -260 M
+0 -275 M
+0 -12 R
+(If you're installing )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( on a PC, go to )S
+(Sec. 6)U
+( after skimming Secs. 2-5.)S
+0 -292 M
+0 -307 M
+FF 14 SF
+0 -12 R
+(doc/install.html)S
+RF 14 SF
+( is the HTML file for this document. )S
+FF 14 SF
+(doc/install.ps)S
+RF 14 SF
+( and )S
+0 -324 M
+FF 14 SF
+0 -12 R
+(doc/install.txt)S
+RF 14 SF
+( are PostScript and plain ASCII versions.)S
+0 -341 M
+0 -356 M
+BF 17 SF
+0 -14 R
+(2. Paths)S
+0 -376 M
+0 -391 M
+RF 14 SF
+0 -12 R
+(Installation consists of four files and one directory; these are summarized below along with)S
+0 -408 M
+0 -12 R
+(paths used in typical installations. )S
+0 -425 M
+0 -440 M
+FF 14 SF
+0 -12 R
+(/usr/local/man/man1/lcc.1)S
+RF 14 SF
+( )S
+45 -457 M
+0 -12 R
+(the man page )S
+0 -474 M
+FF 14 SF
+0 -12 R
+(/usr/local/bin/lcc)S
+RF 14 SF
+( )S
+45 -491 M
+0 -12 R
+(the driver )S
+0 -508 M
+FF 14 SF
+0 -12 R
+(/usr/local/lib/cpp)S
+RF 14 SF
+( )S
+45 -525 M
+0 -12 R
+(the preprocessor )S
+0 -542 M
+FF 14 SF
+0 -12 R
+(/usr/local/lib/rcc)S
+RF 14 SF
+( )S
+45 -559 M
+0 -12 R
+(the compiler )S
+0 -576 M
+FF 14 SF
+0 -12 R
+(/usr/local/include/ansi)S
+RF 14 SF
+( )S
+45 -593 M
+0 -12 R
+(include files \(a directory\) )S
+45 -610 M
+0 -625 M
+0 -12 R
+(These files can be placed in other, site-specific locations, but the compiler should be)S
+0 -642 M
+0 -12 R
+(named )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+(. If the driver isn't named )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+(, edit the man page \()S
+FF 14 SF
+(doc/lcc.1)S
+RF 14 SF
+(\).)S
+0 -659 M
+0 -674 M
+0 -12 R
+(Include files are in directories named )S
+FF 14 SF
+(include/)S
+IF 14 SF
+(target)S
+FF 14 SF
+(/)S
+IF 14 SF
+(system)S
+RF 14 SF
+(; the meaningful)S
+0 -691 M
+0 -12 R
+(combinations are )S
+0 -708 M
+0 -723 M
+FF 14 SF
+0 -12 R
+(mips/irix)S
+RF 14 SF
+( )S
+45 -740 M
+0 -12 R
+(IRIX Release 4.0 )S
+0 -757 M
+FF 14 SF
+0 -12 R
+(mips/ultrix)S
+RF 14 SF
+( )S
+45 -774 M
+0 -12 R
+(ULTRIX 4.3 )S
+0 -791 M
+FF 14 SF
+0 -12 R
+(sparc/sun)S
+RF 14 SF
+( )S
+45 -808 M
+0 -12 R
+(SunOS 4.1 )S
+0 -825 M
+FF 14 SF
+0 -12 R
+(sparc/solaris)S
+RF 14 SF
+( )S
+45 -842 M
+0 -12 R
+(Solaris 2.3 )S
+0 -859 M
+FF 14 SF
+0 -12 R
+(x86/dos)S
+RF 14 SF
+( )S
+45 -876 M
+0 -12 R
+(DOS 6.0, Windows 3.1 )S
+45 -893 M
+0 -908 M
+0 -12 R
+(Choose the include files that are appropriate for your system, or make a copy of a closely)S
+0 -925 M
+0 -12 R
+(related set and edit them.)S
+0 -942 M
+showpage restore
+%%Page: 3 3
+save
+NP
+RF 14 SF
+0 0 M
+0 -12 R
+(For example, if the paths shown above are chosen and if )S
+FF 14 SF
+(include/mips/ultrix)S
+RF 14 SF
+( has)S
+0 -17 M
+0 -12 R
+(the appropriate include files, install the man page and include files by )S
+0 -34 M
+0 -49 M
+FF 12 SF
+0 -9 R
+(% cp doc/lcc.1 /usr/local/man/man1)S
+0 -62 M
+0 -9 R
+(% cp include/mips/ultrix/*.h /usr/local/include/ansi)S
+0 -75 M
+0 -90 M
+BF 17 SF
+0 -14 R
+(3. Installing the Preprocessor)S
+0 -110 M
+0 -125 M
+FF 14 SF
+0 -12 R
+(lcc)S
+RF 14 SF
+( is intended to be used with an ANSI preprocessor, like the GNU C preprocessor)S
+0 -142 M
+0 -12 R
+(available from the Free Software Foundation. If you have the GNU C preprocessor, you can)S
+0 -159 M
+0 -12 R
+(use it and skip the reset of this section. You'll need the preprocessor's location to configure)S
+0 -176 M
+0 -12 R
+(the driver, as described in the )S
+(next)U
+( section.)S
+0 -193 M
+0 -208 M
+0 -12 R
+(The directory )S
+FF 14 SF
+(cpp)S
+RF 14 SF
+( contains the source code for an ANSI preprocessor written by Dennis)S
+0 -225 M
+0 -12 R
+(Ritchie. It's written in ANSI C, so you must use an ANSI C compiler to compile it.)S
+0 -242 M
+0 -12 R
+(Alternatively, you can install )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( with an existing preprocessor, use )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( to build and install)S
+0 -259 M
+FF 14 SF
+0 -12 R
+(cpp)S
+RF 14 SF
+(, and then reconfigure the driver to use the new )S
+FF 14 SF
+(cpp)S
+RF 14 SF
+(.)S
+0 -276 M
+0 -291 M
+0 -12 R
+(To build and install )S
+FF 14 SF
+(cpp)S
+RF 14 SF
+(, execute the commands )S
+0 -308 M
+0 -323 M
+FF 12 SF
+0 -9 R
+(% cd cpp)S
+0 -336 M
+0 -9 R
+(% make)S
+0 -349 M
+0 -9 R
+(% cp cpp /usr/local/lib)S
+0 -362 M
+0 -377 M
+RF 14 SF
+0 -12 R
+(where the destination is the location chosen for )S
+FF 14 SF
+(cpp)S
+RF 14 SF
+( in )S
+(Sec. 2)U
+(. Use the )S
+FF 14 SF
+(CC=)S
+RF 14 SF
+( option to)S
+0 -394 M
+0 -12 R
+(specify an ANSI C compiler, if necessary; e.g., )S
+FF 14 SF
+(CC=gcc)S
+RF 14 SF
+(. The command ``)S
+FF 14 SF
+(make clean)S
+RF 14 SF
+('')S
+0 -411 M
+0 -12 R
+(cleans up, but does not remove )S
+FF 14 SF
+(cpp)S
+RF 14 SF
+(, and ``)S
+FF 14 SF
+(make clobber)S
+RF 14 SF
+('' cleans up and removes )S
+FF 14 SF
+(cpp)S
+RF 14 SF
+(.)S
+0 -428 M
+0 -443 M
+0 -12 R
+(This preprocessor makes )S
+IF 14 SF
+(no)S
+RF 14 SF
+( assumptions about the standard include files. You must)S
+0 -460 M
+0 -12 R
+(specify the appropriate )S
+FF 14 SF
+(-I)S
+RF 14 SF
+( options in the )S
+FF 14 SF
+(include)S
+RF 14 SF
+( array defined in the host-specific part of)S
+0 -477 M
+0 -12 R
+(the driver, as detailed in the next section.)S
+0 -494 M
+0 -509 M
+BF 17 SF
+0 -14 R
+(4. Installing the Driver)S
+0 -529 M
+0 -544 M
+RF 14 SF
+0 -12 R
+(The preprocessor, compiler, assembler, and loader are invoked by a driver program, )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+(,)S
+0 -561 M
+0 -12 R
+(which is similar to )S
+FF 14 SF
+(cc)S
+RF 14 SF
+( on most systems. It's described in the man page )S
+FF 14 SF
+(doc/lcc.1)S
+RF 14 SF
+(. The)S
+0 -578 M
+0 -12 R
+(driver is built by combining the host-independent part, )S
+FF 14 SF
+(etc/lcc.c)S
+RF 14 SF
+(, with a small)S
+0 -595 M
+0 -12 R
+(host-specific part. By convention, host-specific parts are named )S
+IF 14 SF
+(hostname)S
+FF 14 SF
+(.c)S
+RF 14 SF
+(, where )S
+0 -612 M
+IF 14 SF
+0 -12 R
+(hostname)S
+RF 14 SF
+( is the local name for the host on which )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( is being installed. )S
+FF 14 SF
+(etc)S
+RF 14 SF
+( holds many)S
+0 -629 M
+0 -12 R
+(examples. Comments in most give the details of the particular host; pick one that is closely)S
+0 -646 M
+0 -12 R
+(related to your host, copy it to )S
+FF 14 SF
+(etc/)S
+IF 14 SF
+(yourhostname)S
+FF 14 SF
+(.c)S
+RF 14 SF
+(, and edit it as described below. You)S
+0 -663 M
+0 -12 R
+(should not have to edit )S
+FF 14 SF
+(etc/lcc.c)S
+RF 14 SF
+(.)S
+0 -680 M
+0 -695 M
+0 -12 R
+(Debug your version of the driver by running it with the )S
+FF 14 SF
+(-v -v)S
+RF 14 SF
+( options, which cause it to)S
+0 -712 M
+0 -12 R
+(echo the commands it would execute, but not to execute them.)S
+0 -729 M
+0 -744 M
+0 -12 R
+(Here's )S
+FF 14 SF
+(etc/hart.c)S
+RF 14 SF
+(, which we'll use as an example in describing how to edit a)S
+0 -761 M
+0 -12 R
+(host-specific part. This example illustrates all the important features. )S
+0 -778 M
+0 -793 M
+FF 12 SF
+0 -9 R
+(/* DECStations running ULTRIX at Princeton University */)S
+0 -806 M
+0 -819 M
+0 -9 R
+(#include <string.h>)S
+0 -832 M
+0 -845 M
+0 -9 R
+(char *cpp[] = {)S
+0 -858 M
+0 -9 R
+(        "/usr/gnu/lib/gcc-cpp", "-undef",)S
+0 -871 M
+0 -9 R
+(        "-DLANGUAGE_C", "-D_LANGUAGE_C", "-D__LANGUAGE_C",)S
+0 -884 M
+0 -9 R
+(        "-D_unix", "-D__unix", "-Dultrix", "-D_ultrix", "-D__ultrix",)S
+0 -897 M
+0 -9 R
+(        "-Dmips", "-D_mips", "-D__mips",)S
+0 -910 M
+0 -9 R
+(        "-Dhost_mips", "-D_host_mips", "-D__host_mips",)S
+0 -923 M
+0 -9 R
+(        "-DMIPSEL", "-D_MIPSEL", "-D__MIPSEL",)S
+0 -936 M
+0 -9 R
+(        "$1", "$2", "$3", 0 };)S
+showpage restore
+%%Page: 4 4
+save
+NP
+FF 12 SF
+0 0 M
+0 -9 R
+(char *include[] = { "-I/usr/local/include/ansi", 0 };)S
+0 -13 M
+0 -9 R
+(char *com[] =  { "/usr/local/lib/rcc", "-target=mips-ultrix",)S
+0 -26 M
+0 -9 R
+(        "$1", "$2", "$3", 0 };)S
+0 -39 M
+0 -9 R
+(char *as[] =  { "/bin/as", "-o", "$3", "", "$1",)S
+0 -52 M
+0 -9 R
+(        "-nocpp", "-EL", "$2", 0 };)S
+0 -65 M
+0 -9 R
+(char *ld[] =  { "/usr/bin/ld", "-o", "$3", "/usr/lib/crt0.o",)S
+0 -78 M
+0 -9 R
+(        "$1", "$2", "", "", "-lm", "-lc", 0 };)S
+0 -91 M
+0 -104 M
+0 -9 R
+(int option\(arg\) char *arg; {)S
+0 -117 M
+0 -9 R
+(        if \(strcmp\(arg, "-g"\) == 0\))S
+0 -130 M
+0 -9 R
+(                as[3] = "-g";)S
+0 -143 M
+0 -9 R
+(        else if \(strcmp\(arg, "-p"\) == 0)S
+0 -156 M
+0 -9 R
+(        && strcmp\(ld[3], "/usr/lib/crt0.o"\) == 0\) {)S
+0 -169 M
+0 -9 R
+(                ld[3] = "/usr/lib/mcrt0.o";)S
+0 -182 M
+0 -9 R
+(                ld[7] = "/usr/lib/libprof1.a";)S
+0 -195 M
+0 -9 R
+(        } else if \(strcmp\(arg, "-b"\) == 0)S
+0 -208 M
+0 -9 R
+(        && access\("/usr/local/lib/bbexit.o", 4\) == 0\))S
+0 -221 M
+0 -9 R
+(                ld[6] = "/usr/local/lib/bbexit.o";)S
+0 -234 M
+0 -9 R
+(        else)S
+0 -247 M
+0 -9 R
+(                return 0;)S
+0 -260 M
+0 -9 R
+(        return 1;)S
+0 -273 M
+0 -9 R
+(})S
+0 -286 M
+0 -301 M
+RF 14 SF
+0 -12 R
+(Most of the host-specific code is data that gives prototypes for the commands that invoke)S
+0 -318 M
+0 -12 R
+(the preprocessor, compiler, assembler, and loader. Each command prototype is an array of)S
+0 -335 M
+0 -12 R
+(pointers to strings terminated with a null pointer; the first string is the full path name of the)S
+0 -352 M
+0 -12 R
+(command and the others are the arguments or argument placeholders, which are described)S
+0 -369 M
+0 -12 R
+(below.)S
+0 -386 M
+0 -401 M
+0 -12 R
+(The )S
+FF 14 SF
+(cpp)S
+RF 14 SF
+( array gives the command for running the preprocessor. )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( is intended to be)S
+0 -418 M
+0 -12 R
+(used with an ANSI preprocessor, like the GNU C preprocessor. If the GNU C preprocessor)S
+0 -435 M
+0 -12 R
+(is used, as shown in this example, it must be named )S
+FF 14 SF
+(gcc-cpp)S
+RF 14 SF
+( in order for )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+('s )S
+FF 14 SF
+(-N)S
+RF 14 SF
+( option)S
+0 -452 M
+0 -12 R
+(to work correctly.)S
+0 -469 M
+0 -484 M
+0 -12 R
+(Literal arguments specified in prototypes, e.g., )S
+FF 14 SF
+("-Dmips")S
+RF 14 SF
+( in the )S
+FF 14 SF
+(cpp)S
+RF 14 SF
+( command above, are)S
+0 -501 M
+0 -12 R
+(passed to the command as given.)S
+0 -518 M
+0 -533 M
+0 -12 R
+(The strings )S
+FF 14 SF
+("$1")S
+RF 14 SF
+(, )S
+FF 14 SF
+("$2")S
+RF 14 SF
+(, and )S
+FF 14 SF
+("$3")S
+RF 14 SF
+( in prototypes are placeholders for )S
+IF 14 SF
+(lists)S
+RF 14 SF
+( of arguments)S
+0 -550 M
+0 -12 R
+(that are substituted in a copy of the prototype before the command is executed. )S
+FF 14 SF
+($1)S
+RF 14 SF
+( is)S
+0 -567 M
+0 -12 R
+(replaced by the )S
+IF 14 SF
+(options)S
+RF 14 SF
+( specified by the user; for the preprocessor, this list always contains)S
+0 -584 M
+0 -12 R
+(at least )S
+FF 14 SF
+(-Dunix)S
+RF 14 SF
+( and )S
+FF 14 SF
+(-D__LCC__)S
+RF 14 SF
+(. )S
+FF 14 SF
+($2)S
+RF 14 SF
+( is replaced by the )S
+IF 14 SF
+(input)S
+RF 14 SF
+( files, and )S
+FF 14 SF
+($3)S
+RF 14 SF
+( is replaced by)S
+0 -601 M
+0 -12 R
+(the )S
+IF 14 SF
+(output)S
+RF 14 SF
+( file.)S
+0 -618 M
+0 -633 M
+0 -12 R
+(Zero-length arguments after replacement are removed from the argument list before the)S
+0 -650 M
+0 -12 R
+(command is invoked. So, e.g., if the preprocessor is invoked without an output file, )S
+FF 14 SF
+("$3")S
+0 -667 M
+RF 14 SF
+0 -12 R
+(becomes )S
+FF 14 SF
+("")S
+RF 14 SF
+(, which is removed from the final argument list.)S
+0 -684 M
+0 -699 M
+0 -12 R
+(For example, to specify a preprocessor command prototype to invoke the preprocessor)S
+0 -716 M
+0 -12 R
+(installed in )S
+(Sec. 3)U
+( with the options )S
+FF 14 SF
+(-Dmips)S
+RF 14 SF
+( and )S
+FF 14 SF
+(-Dultrix)S
+RF 14 SF
+(, the )S
+FF 14 SF
+(cpp)S
+RF 14 SF
+( array would be )S
+0 -733 M
+0 -748 M
+FF 12 SF
+0 -9 R
+(char *cpp[] = { "/usr/local/lib/cpp", "-Dmips", "-Dultrix",)S
+0 -761 M
+0 -9 R
+(        "$1", "$2", "$3", 0 };)S
+0 -774 M
+0 -789 M
+RF 14 SF
+0 -12 R
+(where )S
+FF 14 SF
+(cpp[0])S
+RF 14 SF
+( is the location chosen for )S
+FF 14 SF
+(cpp)S
+RF 14 SF
+( in )S
+(Sec. 2)U
+(.)S
+0 -806 M
+0 -821 M
+0 -12 R
+(The )S
+FF 14 SF
+(include)S
+RF 14 SF
+( array is a list of )S
+FF 14 SF
+(-I)S
+RF 14 SF
+( options that specify which directives should be searched)S
+0 -838 M
+0 -12 R
+(to satisfy include directives. These directories are searched in the order given. The first)S
+0 -855 M
+0 -12 R
+(directory should be the one to which the ANSI header files were copied in )S
+(Sec. 2)U
+(. The driver)S
+0 -872 M
+0 -12 R
+(adds these options to )S
+FF 14 SF
+(cpp)S
+RF 14 SF
+('s arguments when it invokes the preprocessor, except when )S
+FF 14 SF
+(-N)S
+0 -889 M
+RF 14 SF
+0 -12 R
+(is specified.)S
+0 -906 M
+0 -921 M
+0 -12 R
+(Design this list carefully. Mixing ANSI and pre-ANSI headers \(e.g., by listing )S
+0 -938 M
+FF 14 SF
+0 -12 R
+(/usr/include)S
+RF 14 SF
+( after the directory of ANSI headers, as shown above\) may mix)S
+showpage restore
+%%Page: 5 5
+save
+NP
+RF 14 SF
+0 0 M
+0 -12 R
+(incompatible headers. Unless the default list holds )S
+IF 14 SF
+(only)S
+RF 14 SF
+( )S
+FF 14 SF
+(/usr/include)S
+RF 14 SF
+( or )S
+IF 14 SF
+(only)S
+RF 14 SF
+( the ANSI)S
+0 -17 M
+0 -12 R
+(headers, many users may be forced to use )S
+FF 14 SF
+(-N)S
+RF 14 SF
+( and )S
+FF 14 SF
+(-I)S
+RF 14 SF
+( incessantly.)S
+0 -34 M
+0 -49 M
+FF 14 SF
+0 -12 R
+(com)S
+RF 14 SF
+( gives the command for invoking the compiler. This prototype can appear as shown)S
+0 -66 M
+0 -12 R
+(above, with two important changes. The command name should be edited to reflect the)S
+0 -83 M
+0 -12 R
+(location of the compiler chosen in )S
+(Sec. 2)U
+(, and the option )S
+FF 14 SF
+(-target=mips-ultrix)S
+RF 14 SF
+( should)S
+0 -100 M
+0 -12 R
+(be edited to the )S
+IF 14 SF
+(target)S
+FF 14 SF
+(-)S
+IF 14 SF
+(system)S
+RF 14 SF
+( for your host. )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( can generate code for )S
+IF 14 SF
+(all)S
+RF 14 SF
+( of the )S
+IF 14 SF
+(target)S
+FF 14 SF
+(-)S
+0 -117 M
+IF 14 SF
+0 -12 R
+(system)S
+RF 14 SF
+( combinations listed in the file )S
+FF 14 SF
+(src/bind.c)S
+RF 14 SF
+(. The )S
+FF 14 SF
+(-target)S
+RF 14 SF
+( option specifies the)S
+0 -134 M
+0 -12 R
+(default combination. The driver's )S
+FF 14 SF
+(-Wf)S
+RF 14 SF
+( option can be used to specify other combinations; the)S
+0 -151 M
+0 -12 R
+(man page)U
+( elaborates.)S
+0 -168 M
+0 -183 M
+FF 14 SF
+0 -12 R
+(as)S
+RF 14 SF
+( gives the command for invoking the assembler.)S
+0 -200 M
+0 -215 M
+FF 14 SF
+0 -12 R
+(ld)S
+RF 14 SF
+( gives the command for invoking the loader. For the other commands, the list )S
+FF 14 SF
+($2)S
+RF 14 SF
+( contains)S
+0 -232 M
+0 -12 R
+(a single file; for )S
+FF 14 SF
+(ld)S
+RF 14 SF
+(, )S
+FF 14 SF
+($2)S
+RF 14 SF
+( contains all ``.o'' files and libraries, and )S
+FF 14 SF
+($3)S
+RF 14 SF
+( is )S
+FF 14 SF
+(a.out)S
+RF 14 SF
+(, unless the )S
+FF 14 SF
+(-o)S
+0 -249 M
+RF 14 SF
+0 -12 R
+(option is specified. As suggested in the code above, )S
+FF 14 SF
+(ld)S
+RF 14 SF
+( must also specify the appropriate)S
+0 -266 M
+0 -12 R
+(startup code and default libraries.)S
+0 -283 M
+0 -298 M
+0 -12 R
+(The )S
+FF 14 SF
+(option)S
+RF 14 SF
+( function is described below; for now, use an existing )S
+FF 14 SF
+(option)S
+RF 14 SF
+( function or one)S
+0 -315 M
+0 -12 R
+(that returns 0.)S
+0 -332 M
+0 -347 M
+0 -12 R
+(After specifying the prototypes, compile the driver by )S
+0 -364 M
+0 -379 M
+FF 12 SF
+0 -9 R
+(% cd etc)S
+0 -392 M
+0 -9 R
+(% make HOST=hart)S
+0 -405 M
+0 -9 R
+(cc  -c hart.c)S
+0 -418 M
+0 -9 R
+(cc  -c lcc.c)S
+0 -431 M
+0 -9 R
+(cc -s hart.o lcc.o; rm -f hart.o lcc.o)S
+0 -444 M
+0 -459 M
+RF 14 SF
+0 -12 R
+(where )S
+FF 14 SF
+(hart)S
+RF 14 SF
+( is replaced by )S
+IF 14 SF
+(yourhostname)S
+RF 14 SF
+(. Run the resulting )S
+FF 14 SF
+(a.out)S
+RF 14 SF
+( with the options )S
+FF 14 SF
+(-v -v)S
+0 -476 M
+RF 14 SF
+0 -12 R
+(to display the commands that would be executed, e.g., )S
+0 -493 M
+0 -508 M
+FF 12 SF
+0 -9 R
+(% a.out -v -v foo.c baz.c mylib.a -lX11)S
+0 -521 M
+0 -9 R
+(a.out $ Revision: 3.2 $ $ Date: 1994/09/08 17:15:13 $)S
+0 -534 M
+0 -9 R
+(foo.c:)S
+0 -547 M
+0 -9 R
+(/usr/gnu/lib/gcc-cpp -undef -DLANGUAGE_C -D_LANGUAGE_C -D__LANGUAGE_C)S
+0 -560 M
+0 -9 R
+(   -D_unix -D__unix -Dultrix -D_ultrix -D__ultrix -Dmips -D_mips -D__mips)S
+0 -573 M
+0 -9 R
+(   -Dhost_mips -D_host_mips -D__host_mips -DMIPSEL -D_MIPSEL -D__MIPSEL)S
+0 -586 M
+0 -9 R
+(   -Dunix -D__LCC__ -v -I/usr/local/include/ansi foo.c |)S
+0 -599 M
+0 -9 R
+(   /usr/local/lib/rcc -target=mips-ultrix -v - /tmp/lcc11717.s)S
+0 -612 M
+0 -9 R
+(/bin/as -o foo.o -nocpp -EL /tmp/lcc11717.s)S
+0 -625 M
+0 -9 R
+(baz.c:)S
+0 -638 M
+0 -9 R
+(/usr/gnu/lib/gcc-cpp -undef -DLANGUAGE_C -D_LANGUAGE_C -D__LANGUAGE_C)S
+0 -651 M
+0 -9 R
+(   -D_unix -D__unix -Dultrix -D_ultrix -D__ultrix -Dmips -D_mips -D__mips)S
+0 -664 M
+0 -9 R
+(   -Dhost_mips -D_host_mips -D__host_mips -DMIPSEL -D_MIPSEL -D__MIPSEL)S
+0 -677 M
+0 -9 R
+(   -Dunix -D__LCC__ -v -I/usr/local/include/ansi baz.c |)S
+0 -690 M
+0 -9 R
+(   /usr/local/lib/rcc -target=mips-ultrix -v - /tmp/lcc11717.s)S
+0 -703 M
+0 -9 R
+(/bin/as -o baz.o -nocpp -EL /tmp/lcc11717.s)S
+0 -716 M
+0 -9 R
+(/usr/bin/ld -o a.out /usr/lib/crt0.o foo.o baz.o mylib.a -lX11 -lm -lc)S
+0 -729 M
+0 -9 R
+(rm /tmp/lcc11717.s)S
+0 -742 M
+0 -757 M
+RF 14 SF
+0 -12 R
+(Leading spaces indicate lines that have been folded manually to fit this page. Note the use)S
+0 -774 M
+0 -12 R
+(of a pipeline to connect the preprocessor and compiler. )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( arranges this pipeline itself; it)S
+0 -791 M
+0 -12 R
+(does not call the shell. If you want )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( to use temporary files instead of a pipeline, define )S
+0 -808 M
+FF 14 SF
+0 -12 R
+(PIPE=0)S
+RF 14 SF
+( in )S
+FF 14 SF
+(CFLAGS)S
+RF 14 SF
+( when making the driver: )S
+0 -825 M
+0 -840 M
+FF 12 SF
+0 -9 R
+(% make CFLAGS='-DPIPE=0' HOST=hart)S
+0 -853 M
+0 -868 M
+RF 14 SF
+0 -12 R
+(The option )S
+FF 14 SF
+(-pipe)S
+RF 14 SF
+( forces )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( to use a pipeline between the preprocessor and the compiler)S
+0 -885 M
+0 -12 R
+(regardless of )S
+FF 14 SF
+(PIPE)S
+RF 14 SF
+('s value.)S
+0 -902 M
+0 -917 M
+0 -12 R
+(As the output shows, )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( places temporary files in )S
+FF 14 SF
+(/tmp)S
+RF 14 SF
+(. Alternatives can be specified by)S
+0 -934 M
+0 -12 R
+(defining )S
+FF 14 SF
+(TEMPDIR)S
+RF 14 SF
+( in )S
+FF 14 SF
+(CFLAGS)S
+RF 14 SF
+( when making the driver, e.g., )S
+showpage restore
+%%Page: 6 6
+save
+NP
+RF 14 SF
+0 0 M
+0 -15 M
+FF 12 SF
+0 -9 R
+(% make CFLAGS='-DTEMPDIR=\\"/usr/tmp\\"' HOST=hart)S
+0 -28 M
+0 -43 M
+RF 14 SF
+0 -12 R
+(causes )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( to place temporary files in )S
+FF 14 SF
+(/usr/tmp)S
+RF 14 SF
+(. Once the driver is completed, install it)S
+0 -60 M
+0 -12 R
+(by )S
+0 -77 M
+0 -92 M
+FF 12 SF
+0 -9 R
+(% cp a.out /usr/local/bin/lcc)S
+0 -105 M
+0 -120 M
+RF 14 SF
+0 -12 R
+(where the destination is the location chosen for )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( in )S
+(Sec. 2)U
+(.)S
+0 -137 M
+0 -152 M
+0 -12 R
+(The )S
+FF 14 SF
+(option)S
+RF 14 SF
+( function is called for the options )S
+FF 14 SF
+(-g)S
+RF 14 SF
+(, )S
+FF 14 SF
+(-p)S
+RF 14 SF
+(, )S
+FF 14 SF
+(-pg)S
+RF 14 SF
+(, and )S
+FF 14 SF
+(-b)S
+RF 14 SF
+( because these compiler)S
+0 -169 M
+0 -12 R
+(options might also affect the loader's arguments. For these options, the driver calls )S
+0 -186 M
+FF 14 SF
+0 -12 R
+(option\(arg\))S
+RF 14 SF
+( to give the host-specific code an opportunity to edit the )S
+FF 14 SF
+(ld)S
+RF 14 SF
+( command, if)S
+0 -203 M
+0 -12 R
+(necessary. )S
+FF 14 SF
+(option)S
+RF 14 SF
+( can change )S
+FF 14 SF
+(ld)S
+RF 14 SF
+(, if necessary, and return 1 to announce its acceptance)S
+0 -220 M
+0 -12 R
+(of the option. If the option is unsupported, )S
+FF 14 SF
+(option)S
+RF 14 SF
+( should return 0.)S
+0 -237 M
+0 -252 M
+0 -12 R
+(For example, in response to )S
+FF 14 SF
+(-g)S
+RF 14 SF
+(, the )S
+FF 14 SF
+(option)S
+RF 14 SF
+( function shown above changes )S
+FF 14 SF
+(as[3])S
+RF 14 SF
+( from )S
+FF 14 SF
+("")S
+0 -269 M
+RF 14 SF
+0 -12 R
+(to )S
+FF 14 SF
+("-g")S
+RF 14 SF
+(, which specifies the debugging option to the assembler. If )S
+FF 14 SF
+(-g)S
+RF 14 SF
+( is not specified, the )S
+FF 14 SF
+("")S
+0 -286 M
+RF 14 SF
+0 -12 R
+(argument is omitted from the )S
+FF 14 SF
+(as)S
+RF 14 SF
+( command because it's empty.)S
+0 -303 M
+0 -318 M
+0 -12 R
+(Likewise, the )S
+FF 14 SF
+(-p)S
+RF 14 SF
+( causes )S
+FF 14 SF
+(option)S
+RF 14 SF
+( to change the name of the startup code and add the)S
+0 -335 M
+0 -12 R
+(name of the profiling library. Note that )S
+FF 14 SF
+(option)S
+RF 14 SF
+( has been written to support simultaneous)S
+0 -352 M
+0 -12 R
+(use of )S
+FF 14 SF
+(-g)S
+RF 14 SF
+( and )S
+FF 14 SF
+(-p)S
+RF 14 SF
+(, e.g., )S
+0 -369 M
+0 -384 M
+FF 12 SF
+0 -9 R
+(% a.out -v -v -g -p foo.s baz.o -o myfoo)S
+0 -397 M
+0 -9 R
+(a.out $ Revision: 3.2 $ $ Date: 1994/09/08 17:15:13 $)S
+0 -410 M
+0 -9 R
+(/bin/as -o foo.o -g -nocpp -EL foo.s)S
+0 -423 M
+0 -9 R
+(/usr/bin/ld -o myfoo /usr/lib/mcrt0.o foo.o baz.o)S
+0 -436 M
+0 -9 R
+(   /usr/lib/libprof1.a -lm -lc)S
+0 -449 M
+0 -9 R
+(rm /tmp/lcc12270.s)S
+0 -462 M
+0 -477 M
+RF 14 SF
+0 -12 R
+(On Suns, the driver also recognizes )S
+FF 14 SF
+(-Bstatic)S
+RF 14 SF
+( and )S
+FF 14 SF
+(-Bdynamic)S
+RF 14 SF
+( as linker options, and)S
+0 -494 M
+0 -12 R
+(recognizes but ignores Sun's ``)S
+FF 14 SF
+(-target)S
+RF 14 SF
+( )S
+IF 14 SF
+(name)S
+RF 14 SF
+('' option.)S
+0 -511 M
+0 -526 M
+0 -12 R
+(The option )S
+FF 14 SF
+(-Wo)S
+IF 14 SF
+(arg)S
+RF 14 SF
+( causes the driver to pass )S
+IF 14 SF
+(arg)S
+RF 14 SF
+( to )S
+FF 14 SF
+(option)S
+RF 14 SF
+(. Such options have no other)S
+0 -543 M
+0 -12 R
+(effect; this mechanism is provided to support system-specific options that affect the)S
+0 -560 M
+0 -12 R
+(commands executed by the driver.)S
+0 -577 M
+0 -592 M
+0 -12 R
+(To complete the driver, write an appropriate )S
+FF 14 SF
+(option)S
+RF 14 SF
+( function for your system, and make)S
+0 -609 M
+0 -12 R
+(and install the driver as described above.)S
+0 -626 M
+0 -641 M
+BF 14 SF
+0 -12 R
+(4.1 Installing bprint)S
+0 -658 M
+0 -673 M
+RF 14 SF
+0 -12 R
+(The )S
+FF 14 SF
+(-b)S
+RF 14 SF
+( option causes the compiler to generate code to count the number of times each)S
+0 -690 M
+0 -12 R
+(expression is executed. The )S
+FF 14 SF
+(exit)S
+RF 14 SF
+( function in )S
+FF 14 SF
+(etc/bbexit.c)S
+RF 14 SF
+( writes these counts to )S
+0 -707 M
+FF 14 SF
+0 -12 R
+(prof.out)S
+RF 14 SF
+( when the program terminates. If )S
+FF 14 SF
+(option)S
+RF 14 SF
+( is called with )S
+FF 14 SF
+(-b)S
+RF 14 SF
+(, it must edit the )S
+FF 14 SF
+(ld)S
+0 -724 M
+RF 14 SF
+0 -12 R
+(command accordingly, as shown above. This version of )S
+FF 14 SF
+(option)S
+RF 14 SF
+( uses the )S
+FF 14 SF
+(access)S
+RF 14 SF
+( system)S
+0 -741 M
+0 -12 R
+(call to insure that )S
+FF 14 SF
+(bbexit.o)S
+RF 14 SF
+( is installed before editing the )S
+FF 14 SF
+(ld)S
+RF 14 SF
+( command. To install )S
+0 -758 M
+FF 14 SF
+0 -12 R
+(bbexit.o)S
+RF 14 SF
+( execute )S
+0 -775 M
+0 -790 M
+FF 12 SF
+0 -9 R
+(% make bbexit.o)S
+0 -803 M
+0 -9 R
+(% cp bbexit.o /usr/local/lib/bbexit.o)S
+0 -816 M
+0 -831 M
+RF 14 SF
+0 -12 R
+(If necessary, change )S
+FF 14 SF
+(/usr/local/lib)S
+RF 14 SF
+( to reflect local conventions. The )S
+FF 14 SF
+(exit)S
+RF 14 SF
+( function in )S
+0 -848 M
+FF 14 SF
+0 -12 R
+(etc/bbexit.c)S
+RF 14 SF
+( works on the systems listed in )S
+(Sec. 2)U
+(, but may need to be modified for)S
+0 -865 M
+0 -12 R
+(other systems.)S
+0 -882 M
+0 -897 M
+0 -12 R
+(If )S
+FF 14 SF
+(option)S
+RF 14 SF
+( supports )S
+FF 14 SF
+(-b)S
+RF 14 SF
+(, you should also install )S
+FF 14 SF
+(etc/bprint.c)S
+RF 14 SF
+(, which reads )S
+FF 14 SF
+(prof.out)S
+0 -914 M
+RF 14 SF
+0 -12 R
+(and generates a listing annotated with execution counts. After )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( is installed, install )S
+0 -931 M
+FF 14 SF
+0 -12 R
+(bprint)S
+RF 14 SF
+( with the commands )S
+showpage restore
+%%Page: 7 7
+save
+NP
+RF 14 SF
+0 0 M
+0 -15 M
+FF 12 SF
+0 -9 R
+(% make bprint)S
+0 -28 M
+0 -9 R
+(% cp bprint /usr/local/bin/bprint)S
+0 -41 M
+0 -9 R
+(% cp ../doc/bprint.1 /usr/local/man/man1)S
+0 -54 M
+0 -69 M
+RF 14 SF
+0 -12 R
+(The )S
+FF 14 SF
+(makefile)S
+RF 14 SF
+( uses )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( to compile )S
+FF 14 SF
+(bprint.c)S
+RF 14 SF
+(; you must use )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( or another ANSI C)S
+0 -86 M
+0 -12 R
+(compiler, e.g., )S
+FF 14 SF
+(gcc)S
+RF 14 SF
+(, because )S
+FF 14 SF
+(bprint.c)S
+RF 14 SF
+( is written in ANSI C. Also, )S
+FF 14 SF
+(bprint.c)S
+RF 14 SF
+( )S
+IF 14 SF
+(includes)S
+RF 14 SF
+( )S
+0 -103 M
+FF 14 SF
+0 -12 R
+("../src/profio.c")S
+RF 14 SF
+(, so it must be compiled in )S
+FF 14 SF
+(etc)S
+RF 14 SF
+(.)S
+0 -120 M
+0 -135 M
+BF 17 SF
+0 -14 R
+(5. Installing the Compiler Proper)S
+0 -155 M
+0 -170 M
+RF 14 SF
+0 -12 R
+(The compiler proper, )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+(, is built by compiling it with the host C compiler and then using the)S
+0 -187 M
+0 -12 R
+(result to re-compile itself. A test suite is used to verify that the compiler is working correctly.)S
+0 -204 M
+0 -12 R
+(The examples below illustrate this process on a MIPS under Ultrix. You must have the)S
+0 -221 M
+0 -12 R
+(driver, )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+(, installed in order to test )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+(. If any of the steps below fail, contact us \(see )S
+(Sec.)U
+0 -238 M
+0 -12 R
+(7)U
+(\).)S
+0 -255 M
+0 -270 M
+0 -12 R
+(The object files, )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+(, and the generated code for the programs in the test suite are placed)S
+0 -287 M
+0 -12 R
+(in the directory )S
+IF 14 SF
+(target/system)S
+RF 14 SF
+( where )S
+IF 14 SF
+(target)S
+RF 14 SF
+( and )S
+IF 14 SF
+(system)S
+RF 14 SF
+( are the names of your target machine)S
+0 -304 M
+0 -12 R
+(and its operating system, respectively. There are directories for the supported )S
+IF 14 SF
+(target/system)S
+0 -321 M
+RF 14 SF
+0 -12 R
+(combinations, e.g., )S
+FF 14 SF
+(mips/ultrix)S
+RF 14 SF
+(.)S
+0 -338 M
+0 -353 M
+0 -12 R
+(The default target in )S
+FF 14 SF
+(src/makefile)S
+RF 14 SF
+( is )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+(. )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( is built by executing )S
+FF 14 SF
+(make)S
+RF 14 SF
+( from the)S
+0 -370 M
+0 -12 R
+(apppropriate )S
+IF 14 SF
+(target/system)S
+RF 14 SF
+( directory and specifying system-specific values for )S
+FF 14 SF
+(CFLAGS)S
+0 -387 M
+RF 14 SF
+0 -12 R
+(and )S
+FF 14 SF
+(LDFLAGS)S
+RF 14 SF
+(, if necessary. For example, to build )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+( for a MIPS running Ultrix, execute)S
+0 -404 M
+0 -12 R
+(the commands )S
+0 -421 M
+0 -436 M
+FF 12 SF
+0 -9 R
+(% cd mips/ultrix)S
+0 -449 M
+0 -9 R
+(% make -f ../../src/makefile )S
+0 -462 M
+0 -9 R
+(cc -c -O ../../src/alloc.c)S
+0 -475 M
+0 -9 R
+(...)S
+0 -488 M
+0 -9 R
+(cc -c -O ../../src/x86.c)S
+0 -501 M
+0 -9 R
+(cc -o rcc  alloc.o bind.o ... mips.o sparc.o x86.o)S
+0 -514 M
+0 -529 M
+RF 14 SF
+0 -12 R
+(There may be a few warnings, but there should be no errors. If your host is an SGI machine)S
+0 -546 M
+0 -12 R
+(running IRIX 4.0 or later, you might need )S
+FF 14 SF
+(CFLAGS=-cckr)S
+RF 14 SF
+(. If )S
+FF 14 SF
+(cc)S
+RF 14 SF
+( doesn't automatically)S
+0 -563 M
+0 -12 R
+(search the directory that holds the source file, specify )S
+FF 14 SF
+(CFLAGS=-I../../src)S
+RF 14 SF
+(. If you use )S
+0 -580 M
+FF 14 SF
+0 -12 R
+(gcc)S
+RF 14 SF
+(, specify )S
+FF 14 SF
+(CFLAGS="-ansi -fno-builtin")S
+RF 14 SF
+(.)S
+0 -597 M
+0 -612 M
+0 -12 R
+(Once )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+( is built with the host C compiler, run the test suite to verify that )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+( is working)S
+0 -629 M
+0 -12 R
+(correctly. The commands in )S
+FF 14 SF
+(src/makefile)S
+RF 14 SF
+( run the shell script )S
+FF 14 SF
+(src/run)S
+RF 14 SF
+( on each C)S
+0 -646 M
+0 -12 R
+(program in the test suite, )S
+FF 14 SF
+(tst/*.c)S
+RF 14 SF
+(. It uses the driver, )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+(, so you must have the driver)S
+0 -663 M
+0 -12 R
+(installed before testing )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+(. The )S
+IF 14 SF
+(target)S
+FF 14 SF
+(-)S
+IF 14 SF
+(system)S
+RF 14 SF
+( combination is read from the variable )S
+0 -680 M
+FF 14 SF
+0 -12 R
+(TARGET)S
+RF 14 SF
+(, which is specified when invoking )S
+FF 14 SF
+(make)S
+RF 14 SF
+(: )S
+0 -697 M
+0 -712 M
+FF 12 SF
+0 -9 R
+(% make -f ../../src/makefile TARGET=mips-ultrix test)S
+0 -725 M
+0 -9 R
+(../rcc -target=mips-ultrix 8q:)S
+0 -738 M
+0 -9 R
+(../rcc -target=mips-ultrix array:)S
+0 -751 M
+0 -9 R
+(../rcc -target=mips-ultrix cf:)S
+0 -764 M
+0 -9 R
+(../rcc -target=mips-ultrix cq:)S
+0 -777 M
+0 -9 R
+(../rcc -target=mips-ultrix cvt:)S
+0 -790 M
+0 -9 R
+(../rcc -target=mips-ultrix fields:)S
+0 -803 M
+0 -9 R
+(../rcc -target=mips-ultrix front:)S
+0 -816 M
+0 -9 R
+(../rcc -target=mips-ultrix incr:)S
+0 -829 M
+0 -9 R
+(../rcc -target=mips-ultrix init:)S
+0 -842 M
+0 -9 R
+(../rcc -target=mips-ultrix limits:)S
+0 -855 M
+0 -9 R
+(../rcc -target=mips-ultrix paranoia:)S
+0 -868 M
+0 -9 R
+(../rcc -target=mips-ultrix sort:)S
+0 -881 M
+0 -9 R
+(../rcc -target=mips-ultrix spill:)S
+0 -894 M
+0 -9 R
+(../rcc -target=mips-ultrix stdarg:)S
+0 -907 M
+0 -9 R
+(../rcc -target=mips-ultrix struct:)S
+0 -920 M
+0 -9 R
+(../rcc -target=mips-ultrix switch:)S
+0 -933 M
+0 -9 R
+(../rcc -target=mips-ultrix wf1:)S
+0 -946 M
+0 -9 R
+(../rcc -target=mips-ultrix yacc:)S
+showpage restore
+%%Page: 8 8
+save
+NP
+FF 12 SF
+0 0 M
+0 -15 M
+RF 14 SF
+0 -12 R
+(For each C program in the test suite, )S
+FF 14 SF
+(src/run)S
+RF 14 SF
+( compiles the program and uses )S
+FF 14 SF
+(diff)S
+RF 14 SF
+( to)S
+0 -32 M
+0 -12 R
+(compare the generated assembly code with the expected code \(the MIPS code expected)S
+0 -49 M
+0 -12 R
+(for )S
+FF 14 SF
+(tst/8q.c)S
+RF 14 SF
+( is in )S
+FF 14 SF
+(mips/ultrix/tst/8q.sbk)S
+RF 14 SF
+(, etc.\). If there are differences, the script)S
+0 -66 M
+0 -12 R
+(executes the generated code with the input given in )S
+FF 14 SF
+(tst)S
+RF 14 SF
+( \(the input for )S
+FF 14 SF
+(tst/8q.c)S
+RF 14 SF
+( is in )S
+0 -83 M
+FF 14 SF
+0 -12 R
+(tst/8q.0)S
+RF 14 SF
+(, etc.\) and compares the output with the expected output \(the expected output)S
+0 -100 M
+0 -12 R
+(from )S
+FF 14 SF
+(tst/8q.c)S
+RF 14 SF
+( on the MIPS is in )S
+FF 14 SF
+(mips/ultrix/tst/8q.1bk)S
+RF 14 SF
+(, etc.\). The script also)S
+0 -117 M
+0 -12 R
+(compares the diagnostics from the compiler with the expected diagnostics.)S
+0 -134 M
+0 -149 M
+0 -12 R
+(On some systems, there may be a few differences between the generated code and the)S
+0 -166 M
+0 -12 R
+(expected code. These differences occur because the expected code is generated by cross)S
+0 -183 M
+0 -12 R
+(compilation on a MIPS and the least significant bits of some floating-point constants differ)S
+0 -200 M
+0 -12 R
+(from those bits in constants generated on your system. There should be no differences in)S
+0 -217 M
+0 -12 R
+(the output from executing the test programs.)S
+0 -234 M
+0 -249 M
+0 -12 R
+(The )S
+FF 14 SF
+(../rcc)S
+RF 14 SF
+( and )S
+FF 14 SF
+(-target=mips-ultrix)S
+RF 14 SF
+( preceding the name of each test program in)S
+0 -266 M
+0 -12 R
+(the output above indicate the compiler and the target, e.g., ``)S
+FF 14 SF
+(../rcc)S
+RF 14 SF
+( is generating code for)S
+0 -283 M
+0 -12 R
+(a )S
+FF 14 SF
+(mips)S
+RF 14 SF
+( running the )S
+FF 14 SF
+(ultrix)S
+RF 14 SF
+( operating system.'')S
+0 -300 M
+0 -315 M
+0 -12 R
+(Next, build )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+( again using the just-built )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+(: )S
+0 -332 M
+0 -347 M
+FF 12 SF
+0 -9 R
+(%  make -f ../../src/makefile TARGET=mips-ultrix triple)S
+0 -360 M
+0 -9 R
+(rm -f *.o)S
+0 -373 M
+0 -9 R
+(make -f ../../src/makefile CC='lcc -B./ -d0.1 -A')S
+0 -386 M
+0 -9 R
+(   CFLAGS='-Wf-target=mips-ultrix)S
+0 -399 M
+0 -9 R
+(   -I../../src/../include/`echo mips-ultrix|tr - /`)S
+0 -412 M
+0 -9 R
+(   -I../../src' LDFLAGS='')S
+0 -425 M
+0 -9 R
+(lcc -B./ -d0.1 -A -c -Wf-target=mips-ultrix)S
+0 -438 M
+0 -9 R
+(   -I../../src/../include/`echo mips-ultrix|tr - /`)S
+0 -451 M
+0 -9 R
+(   -I../../src ../../src/alloc.c)S
+0 -464 M
+0 -9 R
+(...)S
+0 -477 M
+0 -9 R
+(lcc -B./ -d0.1 -A -c -Wf-target=mips-ultrix)S
+0 -490 M
+0 -9 R
+(   -I../../src/../include/`echo mips-ultrix|tr - /`)S
+0 -503 M
+0 -9 R
+(   -I../../src ../../src/x86.c)S
+0 -516 M
+0 -9 R
+(lcc -B./ -d0.1 -A -o rcc  alloc.o ... sparc.o x86.o)S
+0 -529 M
+0 -9 R
+(strip rcc)S
+0 -542 M
+0 -9 R
+(od rcc +8 >od2)S
+0 -555 M
+0 -9 R
+(rm -f *.o)S
+0 -568 M
+0 -9 R
+(make -f ../../src/makefile CC='lcc -B./ -d0.1 -A')S
+0 -581 M
+0 -9 R
+(   CFLAGS='-Wf-target=mips-ultrix)S
+0 -594 M
+0 -9 R
+(   -I../../src/../include/`echo mips-ultrix|tr - /`)S
+0 -607 M
+0 -9 R
+(   -I../../src' LDFLAGS='')S
+0 -620 M
+0 -9 R
+(lcc -B./ -d0.1 -A -c -Wf-target=mips-ultrix)S
+0 -633 M
+0 -9 R
+(   -I../../src/../include/`echo mips-ultrix|tr - /`)S
+0 -646 M
+0 -9 R
+(   -I../../src ../../src/alloc.c)S
+0 -659 M
+0 -9 R
+(...)S
+0 -672 M
+0 -9 R
+(lcc -B./ -d0.1 -A -c -Wf-target=mips-ultrix)S
+0 -685 M
+0 -9 R
+(   -I../../src/../include/`echo mips-ultrix|tr - /`)S
+0 -698 M
+0 -9 R
+(   -I../../src ../../src/x86.c)S
+0 -711 M
+0 -9 R
+(lcc -B./ -d0.1 -A -o rcc  alloc.o ... sparc.o x86.o)S
+0 -724 M
+0 -9 R
+(strip rcc)S
+0 -737 M
+0 -9 R
+(od rcc +8 >od3)S
+0 -750 M
+0 -9 R
+(cmp od[23] && rm od[23])S
+0 -763 M
+0 -778 M
+RF 14 SF
+0 -12 R
+(This command builds )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+( twice; once using the )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+( built by )S
+FF 14 SF
+(cc)S
+RF 14 SF
+( and again using the )S
+FF 14 SF
+(rcc)S
+0 -795 M
+RF 14 SF
+0 -12 R
+(built by )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+(. After building each version, an octal dump of the resulting binary is made, and)S
+0 -812 M
+0 -12 R
+(the two dumps are compared. They should be identical, as shown at the end of the output)S
+0 -829 M
+0 -12 R
+(above. If they aren't, our compiler is generating bad code; )S
+(contact)U
+( us.)S
+0 -846 M
+0 -861 M
+0 -12 R
+(The final version of )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+( should also pass the test suite; i.e., the output from )S
+0 -878 M
+0 -893 M
+FF 12 SF
+0 -9 R
+( make -f ../../src/makefile TARGET=mips-ultrix test)S
+0 -906 M
+0 -921 M
+RF 14 SF
+0 -12 R
+(should be identical to that from the previous )S
+FF 14 SF
+(make test)S
+RF 14 SF
+(.)S
+0 -938 M
+showpage restore
+%%Page: 9 9
+save
+NP
+RF 14 SF
+0 0 M
+0 -12 R
+(Now install the final version of )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+(: )S
+0 -17 M
+0 -32 M
+FF 12 SF
+0 -9 R
+(% cp rcc /usr/local/lib/rcc)S
+0 -45 M
+0 -60 M
+RF 14 SF
+0 -12 R
+(where the destination is the location chosen for )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+( in )S
+(Sec. 2)U
+(.)S
+0 -77 M
+0 -92 M
+0 -12 R
+(On some systems, you may be able to use environment variables and )S
+FF 14 SF
+(make)S
+RF 14 SF
+('s )S
+FF 14 SF
+(-e)S
+RF 14 SF
+( option to)S
+0 -109 M
+0 -12 R
+(avoid specifying )S
+FF 14 SF
+(TARGET)S
+RF 14 SF
+( on each )S
+FF 14 SF
+(make)S
+RF 14 SF
+( command, and the )S
+FF 14 SF
+(make)S
+RF 14 SF
+( commands described)S
+0 -126 M
+0 -12 R
+(above can be done with a single command: )S
+0 -143 M
+0 -158 M
+FF 12 SF
+0 -9 R
+(% setenv TARGET mips-ultrix)S
+0 -171 M
+0 -9 R
+(% cd mips/ultrix)S
+0 -184 M
+0 -9 R
+(% make -e -f ../../src/makefile test triple test clean)S
+0 -197 M
+0 -212 M
+RF 14 SF
+0 -12 R
+(The command )S
+0 -229 M
+0 -244 M
+FF 12 SF
+0 -9 R
+(make -f ../../src/makefile clean)S
+0 -257 M
+0 -272 M
+RF 14 SF
+0 -12 R
+(cleans up, but does not remove )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+(, and )S
+0 -289 M
+0 -304 M
+FF 12 SF
+0 -9 R
+(make -f ../../src/makefile clobber)S
+0 -317 M
+0 -332 M
+RF 14 SF
+0 -12 R
+(cleans up and removes )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+(.)S
+0 -349 M
+0 -364 M
+0 -12 R
+(The code generators for the other targets can be tested by running )S
+FF 14 SF
+(make)S
+RF 14 SF
+( from the)S
+0 -381 M
+0 -12 R
+(appropriate target-specific directory and setting some environment variables to control)S
+0 -398 M
+0 -12 R
+(what )S
+FF 14 SF
+(src/run)S
+RF 14 SF
+( does. For example, if you built )S
+FF 14 SF
+(mips/ultrix/rcc)S
+RF 14 SF
+( and installed it in )S
+0 -415 M
+FF 14 SF
+0 -12 R
+(/usr/local/lib/rcc)S
+RF 14 SF
+(, you can test the SPARC code generator for the SunOS operating)S
+0 -432 M
+0 -12 R
+(system as follows. )S
+0 -449 M
+0 -464 M
+FF 12 SF
+0 -9 R
+(% setenv REMOTEHOST noexecute)S
+0 -477 M
+0 -9 R
+(% setenv BUILDDIR /usr/local/lib/)S
+0 -490 M
+0 -9 R
+(% cd sparc/sun)S
+0 -503 M
+0 -9 R
+(% make -f ../../src/makefile RCC= TARGET=sparc-sun test)S
+0 -516 M
+0 -9 R
+(/usr/local/lib/rcc -target=sparc-sun 8q:)S
+0 -529 M
+0 -9 R
+(/usr/local/lib/rcc -target=sparc-sun array:)S
+0 -542 M
+0 -9 R
+(/usr/local/lib/rcc -target=sparc-sun cf:)S
+0 -555 M
+0 -9 R
+(/usr/local/lib/rcc -target=sparc-sun cq:)S
+0 -568 M
+0 -9 R
+(/usr/local/lib/rcc -target=sparc-sun cvt:)S
+0 -581 M
+0 -9 R
+(/usr/local/lib/rcc -target=sparc-sun fields:)S
+0 -594 M
+0 -9 R
+(/usr/local/lib/rcc -target=sparc-sun front:)S
+0 -607 M
+0 -9 R
+(/usr/local/lib/rcc -target=sparc-sun incr:)S
+0 -620 M
+0 -9 R
+(/usr/local/lib/rcc -target=sparc-sun init:)S
+0 -633 M
+0 -9 R
+(/usr/local/lib/rcc -target=sparc-sun limits:)S
+0 -646 M
+0 -9 R
+(/usr/local/lib/rcc -target=sparc-sun paranoia:)S
+0 -659 M
+0 -9 R
+(/usr/local/lib/rcc -target=sparc-sun sort:)S
+0 -672 M
+0 -9 R
+(/usr/local/lib/rcc -target=sparc-sun spill:)S
+0 -685 M
+0 -9 R
+(/usr/local/lib/rcc -target=sparc-sun stdarg:)S
+0 -698 M
+0 -9 R
+(/usr/local/lib/rcc -target=sparc-sun struct:)S
+0 -711 M
+0 -9 R
+(/usr/local/lib/rcc -target=sparc-sun switch:)S
+0 -724 M
+0 -9 R
+(/usr/local/lib/rcc -target=sparc-sun wf1:)S
+0 -737 M
+0 -9 R
+(/usr/local/lib/rcc -target=sparc-sun yacc:)S
+0 -750 M
+0 -765 M
+RF 14 SF
+0 -12 R
+(As above, )S
+FF 14 SF
+(src/run)S
+RF 14 SF
+( compares the SPARC code generated with what's expected. There)S
+0 -782 M
+0 -12 R
+(should be no differences. Setting )S
+FF 14 SF
+(REMOTEHOST)S
+RF 14 SF
+( to )S
+FF 14 SF
+(noexecute)S
+RF 14 SF
+( suppresses the assembly)S
+0 -799 M
+0 -12 R
+(and execution of the generated code. )S
+FF 14 SF
+(BUILDDIR)S
+RF 14 SF
+( gives the directory that holds )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+(, and)S
+0 -816 M
+0 -12 R
+(specifying )S
+FF 14 SF
+(RCC=)S
+RF 14 SF
+( to )S
+FF 14 SF
+(make)S
+RF 14 SF
+( insures that )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+( is not rebuilt in the )S
+FF 14 SF
+(sparc/sun)S
+RF 14 SF
+( directory.)S
+0 -833 M
+0 -848 M
+0 -12 R
+(If you set )S
+FF 14 SF
+(REMOTEHOST)S
+RF 14 SF
+( to the name of a SPARC machine to which you can )S
+FF 14 SF
+(rlogin)S
+RF 14 SF
+(, )S
+0 -865 M
+FF 14 SF
+0 -12 R
+(src/run)S
+RF 14 SF
+( will )S
+FF 14 SF
+(rcp)S
+RF 14 SF
+( the generated code to that machine and execute it there, if necessary.)S
+0 -882 M
+0 -12 R
+(See )S
+FF 14 SF
+(src/run)S
+RF 14 SF
+( for the details.)S
+0 -899 M
+0 -914 M
+BF 14 SF
+0 -12 R
+(5.1 Using lcc as Cross-Compiler)S
+0 -931 M
+showpage restore
+%%Page: 10 10
+save
+NP
+BF 14 SF
+0 0 M
+RF 14 SF
+0 -12 R
+(Once everything is installed, you can use )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( as a cross compiler. The options )S
+FF 14 SF
+(-S)S
+RF 14 SF
+( and )S
+0 -17 M
+FF 14 SF
+0 -12 R
+(-Wf-target=)S
+IF 14 SF
+(target-system)S
+RF 14 SF
+( generate assembly code for the specified target, which is any)S
+0 -34 M
+0 -12 R
+(of those listed in the file )S
+FF 14 SF
+(src/bind.c)S
+RF 14 SF
+(. For example, )S
+0 -51 M
+0 -66 M
+FF 12 SF
+0 -9 R
+(% lcc -Wf-target=sparc-sun -S tst/8q.c)S
+0 -79 M
+0 -94 M
+RF 14 SF
+0 -12 R
+(generates SPARC code for )S
+FF 14 SF
+(tst/8q.c)S
+RF 14 SF
+( in )S
+FF 14 SF
+(8q.s)S
+RF 14 SF
+(.)S
+0 -111 M
+0 -126 M
+FF 14 SF
+0 -12 R
+(lcc)S
+RF 14 SF
+( can also generate code for a ``symbolic'' target. This target is used routinely in)S
+0 -143 M
+0 -12 R
+(front-end development, and its output is a printable representation of the input program,)S
+0 -160 M
+0 -12 R
+(e.g., the dags constructed by the front end are printed, and other interface functions print)S
+0 -177 M
+0 -12 R
+(their arguments. You can specify this target with the option )S
+FF 14 SF
+(-Wf-target=symbolic)S
+RF 14 SF
+(. For)S
+0 -194 M
+0 -12 R
+(example, )S
+0 -211 M
+0 -226 M
+FF 12 SF
+0 -9 R
+(% lcc -Wf-target=symbolic -S tst/8q.c)S
+0 -239 M
+0 -254 M
+RF 14 SF
+0 -12 R
+(generates symbolic output for )S
+FF 14 SF
+(tst/8q.c)S
+RF 14 SF
+( in )S
+FF 14 SF
+(8q.s)S
+RF 14 SF
+(. Finally, the option )S
+FF 14 SF
+(-Wf-target=null)S
+0 -271 M
+RF 14 SF
+0 -12 R
+(specifies the ``null'' target for which )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( emits nothing and thus only checks the syntax and)S
+0 -288 M
+0 -12 R
+(semantics of its inputs files.)S
+0 -305 M
+0 -320 M
+BF 14 SF
+0 -12 R
+(5.2 Installing the Code-Generator Generator)S
+0 -337 M
+0 -352 M
+RF 14 SF
+0 -12 R
+(The directory )S
+FF 14 SF
+(lburg)S
+RF 14 SF
+( holds the source code for the code-generator generator. To build )S
+0 -369 M
+FF 14 SF
+0 -12 R
+(lburg)S
+RF 14 SF
+(, execute the commands )S
+0 -386 M
+0 -401 M
+FF 12 SF
+0 -9 R
+(% cd lburg)S
+0 -414 M
+0 -9 R
+(% make)S
+0 -427 M
+0 -442 M
+RF 14 SF
+0 -12 R
+(You must use )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( or another ANSI C compiler, e.g., )S
+FF 14 SF
+(gcc)S
+RF 14 SF
+(, because )S
+FF 14 SF
+(lburg)S
+RF 14 SF
+( is written in)S
+0 -459 M
+0 -12 R
+(ANSI C.)S
+0 -476 M
+0 -491 M
+0 -12 R
+(To test )S
+FF 14 SF
+(lburg)S
+RF 14 SF
+(, use it process one of the machine descriptions in )S
+FF 14 SF
+(src/*.md)S
+RF 14 SF
+( and compare)S
+0 -508 M
+0 -12 R
+(the output with the corresponding )S
+FF 14 SF
+(src/*.c)S
+RF 14 SF
+( file. For example, )S
+0 -525 M
+0 -540 M
+FF 12 SF
+0 -9 R
+(% lburg <../src/x86.md | diff ../src/x86.nw -)S
+0 -553 M
+0 -9 R
+(40c40)S
+0 -566 M
+0 -9 R
+(< generated at Mon Dec  5 17:49:52 1994)S
+0 -579 M
+0 -9 R
+(---)S
+0 -592 M
+0 -9 R
+(> generated at Tue Dec  6 13:35:42 1994)S
+0 -605 M
+0 -620 M
+RF 14 SF
+0 -12 R
+(processes )S
+FF 14 SF
+(src/x86.md)S
+RF 14 SF
+( and compares the output with what's expected. You may get 1-2)S
+0 -637 M
+0 -12 R
+(lines of differences, because )S
+FF 14 SF
+(lburg)S
+RF 14 SF
+('s output includes a timestamp and a version stamp.)S
+0 -654 M
+0 -12 R
+(Move )S
+FF 14 SF
+(lburg)S
+RF 14 SF
+( to the desired installation directory. The command ``)S
+FF 14 SF
+(make clean)S
+RF 14 SF
+('' cleans up,)S
+0 -671 M
+0 -12 R
+(but does not remove )S
+FF 14 SF
+(lburg)S
+RF 14 SF
+(, and ``)S
+FF 14 SF
+(make clobber)S
+RF 14 SF
+('' cleans up more and removes )S
+FF 14 SF
+(lburg)S
+RF 14 SF
+(.)S
+0 -688 M
+0 -703 M
+FF 14 SF
+0 -12 R
+(src/makefile)S
+RF 14 SF
+( includes three rules for building )S
+FF 14 SF
+(src/mips.c)S
+RF 14 SF
+(, )S
+FF 14 SF
+(src/sparc.c)S
+RF 14 SF
+(, and )S
+0 -720 M
+FF 14 SF
+0 -12 R
+(src/x86.c)S
+RF 14 SF
+( from the corresponding machine descriptions in )S
+FF 14 SF
+(src/mips.md)S
+RF 14 SF
+(, )S
+0 -737 M
+FF 14 SF
+0 -12 R
+(src/sparc.md)S
+RF 14 SF
+(, and )S
+FF 14 SF
+(src/x86.md)S
+RF 14 SF
+(. These rules are commented out in the distributed )S
+0 -754 M
+FF 14 SF
+0 -12 R
+(src/makefile)S
+RF 14 SF
+(; remove the leading ``)S
+FF 14 SF
+(#)S
+RF 14 SF
+('' to uncomment these lines, if you want to run )S
+0 -771 M
+FF 14 SF
+0 -12 R
+(lburg)S
+RF 14 SF
+( whenever these )S
+FF 14 SF
+(src/*.md)S
+RF 14 SF
+( files are changed. You may also want to remove the)S
+0 -788 M
+0 -12 R
+(leading ``)S
+FF 14 SF
+(#)S
+RF 14 SF
+('' on the )S
+FF 14 SF
+(rm)S
+RF 14 SF
+( command in the )S
+FF 14 SF
+(clobber)S
+RF 14 SF
+( rule, if you want ``)S
+FF 14 SF
+(make clobber)S
+RF 14 SF
+('' to)S
+0 -805 M
+0 -12 R
+(remove the )S
+FF 14 SF
+(src/*.c)S
+RF 14 SF
+( files generated by )S
+FF 14 SF
+(lburg)S
+RF 14 SF
+(.)S
+0 -822 M
+0 -837 M
+0 -12 R
+(Chapters 13-15 in )S
+IF 14 SF
+(A Retargetable C Compiler: Design and Implementation)S
+RF 14 SF
+( describe the)S
+0 -854 M
+0 -12 R
+(overall structure of )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+('s code generator, and the use of )S
+FF 14 SF
+(lburg)S
+RF 14 SF
+(. Chapters 16-18 describe)S
+0 -871 M
+0 -12 R
+(the target-specific parts, including the )S
+FF 14 SF
+(lburg)S
+RF 14 SF
+( rules, for the MIPS, SPARC, and x86)S
+0 -888 M
+0 -12 R
+(architectures. The easiest way to write a code generator for a new target is to make a copy)S
+0 -905 M
+0 -12 R
+(of the )S
+FF 14 SF
+(.md)S
+RF 14 SF
+( file for the architecture that's closest to your intended target, and edit the copy,)S
+0 -922 M
+0 -12 R
+(using the corresponding chapter as a guide.)S
+0 -939 M
+showpage restore
+%%Page: 11 11
+save
+NP
+RF 14 SF
+0 0 M
+0 -12 R
+(For example, the following steps add a code generator for the PowerPC under AIX. )S
+0 -17 M
+26 -32 M
+0 -12 R
+(1. )S
+(Copy )S
+FF 14 SF
+(src/mips.md)S
+RF 14 SF
+( to, say, )S
+FF 14 SF
+(src/power.md)S
+RF 14 SF
+(, and edit this copy into a code)S
+45 -49 M
+0 -12 R
+(generator for the PowerPC.)S
+45 -66 M
+26 -81 M
+0 -12 R
+(2. )S
+(Edit )S
+FF 14 SF
+(src/makefile)S
+RF 14 SF
+(: Add )S
+FF 14 SF
+(power.o)S
+RF 14 SF
+( to the definition of )S
+FF 14 SF
+(OBJS)S
+RF 14 SF
+(, and add the following)S
+45 -98 M
+0 -12 R
+(rules. )S
+45 -115 M
+45 -130 M
+FF 12 SF
+0 -9 R
+(power.o:        $\(SRC\)/power.c;         $\(CC\) -c $\(CFLAGS\) $\(SRC\)/power.c)S
+45 -143 M
+0 -9 R
+($\(SRC\)/power.c: $\(SRC\)/power.md;        lburg <$\(SRC\)/power.md >$\(SRC\)/power.c)S
+45 -156 M
+26 -171 M
+RF 14 SF
+0 -12 R
+(3. )S
+(Create the directories )S
+FF 14 SF
+(power)S
+RF 14 SF
+(, )S
+FF 14 SF
+(power/aix)S
+RF 14 SF
+(, and )S
+FF 14 SF
+(power/aix/tst)S
+RF 14 SF
+(.)S
+45 -188 M
+26 -203 M
+0 -12 R
+(4. )S
+(Bind the new code generator to the front end by including it in the initialization of )S
+45 -220 M
+FF 14 SF
+0 -12 R
+(bindings)S
+RF 14 SF
+( in )S
+FF 14 SF
+(src/bind.c)S
+RF 14 SF
+( as described in Section 5.11 of )S
+IF 14 SF
+(A Retargetable C)S
+45 -237 M
+0 -12 R
+(Compiler)S
+RF 14 SF
+(. For example, if the variable )S
+FF 14 SF
+(powerIR)S
+RF 14 SF
+( is the interface record for the)S
+45 -254 M
+0 -12 R
+(PowerPC code generator, add the declaration )S
+45 -271 M
+45 -286 M
+FF 12 SF
+0 -9 R
+(extern Interface powerIR;)S
+45 -299 M
+45 -314 M
+RF 14 SF
+0 -12 R
+(to the beginning of )S
+FF 14 SF
+(src/bind.c)S
+RF 14 SF
+(, and add the line )S
+45 -331 M
+45 -346 M
+FF 12 SF
+0 -9 R
+("power-aix",       &powerIR,)S
+45 -359 M
+45 -374 M
+RF 14 SF
+0 -12 R
+(to the initialization of )S
+FF 14 SF
+(bindings)S
+RF 14 SF
+(.)S
+45 -391 M
+0 -406 M
+0 -12 R
+(Once these steps are completed, the commands )S
+0 -423 M
+0 -438 M
+FF 12 SF
+0 -9 R
+(% cd power/aix)S
+0 -451 M
+0 -9 R
+(% make -f ../../src/makefile TARGET=power-aix)S
+0 -464 M
+0 -479 M
+RF 14 SF
+0 -12 R
+(build an )S
+FF 14 SF
+(rcc)S
+RF 14 SF
+( that includes the new code generator. It's a good idea to do all these steps)S
+0 -496 M
+0 -12 R
+(changing )S
+FF 14 SF
+(src/power.md)S
+RF 14 SF
+( as little as possible to get the machinery in place first, then finish)S
+0 -513 M
+0 -12 R
+(editing )S
+FF 14 SF
+(src/power.md)S
+RF 14 SF
+( into the new code generator.)S
+0 -530 M
+0 -545 M
+BF 17 SF
+0 -14 R
+(6. lcc on a PC)S
+0 -565 M
+0 -580 M
+RF 14 SF
+0 -12 R
+(This section describes installing and operating )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( under MS-DOS. Read all sections)S
+0 -597 M
+0 -12 R
+(above first. The DOS distribution does not support )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+('s )S
+FF 14 SF
+(-b)S
+RF 14 SF
+(, )S
+FF 14 SF
+(-g)S
+RF 14 SF
+(, and )S
+FF 14 SF
+(-p)S
+RF 14 SF
+( options.)S
+0 -614 M
+0 -629 M
+0 -12 R
+(On the X86, )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( emits assembler code that uses a 32-bit flat address space. It requires)S
+0 -646 M
+0 -12 R
+(an external assembler, linker, library, and DOS extender. We assemble )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+('s emitted code)S
+0 -663 M
+0 -12 R
+(with Borland Turbo Assembler 4.0 or Microsoft's MASM 6.11, and we turn the resulting)S
+0 -680 M
+0 -12 R
+(object code into a )S
+FF 14 SF
+(.exe)S
+RF 14 SF
+( file using the linker, library, and DOS extender from Borland C++)S
+0 -697 M
+0 -12 R
+(4.02 plus Borland PowerPack for DOS. Warning: Borland's start-up code initializes the)S
+0 -714 M
+0 -12 R
+(floating-point unit to convert floats and doubles to integers by rounding instead of)S
+0 -731 M
+0 -12 R
+(truncating them, which the ANSI Standard specifies.)S
+0 -748 M
+0 -763 M
+0 -12 R
+(Small changes to )S
+FF 14 SF
+(src\\x86.c)S
+RF 14 SF
+( have allowed it to work with the linker, library, and DOS)S
+0 -780 M
+0 -12 R
+(extender from Symantec C++ 6.1.)S
+0 -797 M
+0 -812 M
+BF 14 SF
+0 -12 R
+(6.1 Installing lcc under DOS)S
+0 -829 M
+0 -844 M
+RF 14 SF
+0 -12 R
+(The distribution includes the following files: )S
+0 -861 M
+0 -876 M
+FF 14 SF
+0 -12 R
+(x86\\dos\\cpp.exe)S
+RF 14 SF
+( )S
+45 -893 M
+0 -12 R
+(the preprocessor )S
+0 -910 M
+FF 14 SF
+0 -12 R
+(x86\\dos\\rcc.exe)S
+RF 14 SF
+( )S
+45 -927 M
+0 -12 R
+(the compiler proper )S
+showpage restore
+%%Page: 12 12
+save
+NP
+RF 14 SF
+0 0 M
+FF 14 SF
+0 -12 R
+(x86\\dos\\lcc.exe)S
+RF 14 SF
+( )S
+45 -17 M
+0 -12 R
+(the compiler's driver )S
+0 -34 M
+FF 14 SF
+0 -12 R
+(x86\\dos\\32rtm.exe)S
+RF 14 SF
+( )S
+45 -51 M
+0 -12 R
+(Borland PowerPack runtime manager )S
+0 -68 M
+FF 14 SF
+0 -12 R
+(x86\\dos\\dpmi32vm.ovl)S
+RF 14 SF
+( )S
+45 -85 M
+0 -12 R
+(Borland PowerPack DPMI server )S
+0 -102 M
+FF 14 SF
+0 -12 R
+(x86\\dos\\windpmi.386)S
+RF 14 SF
+( )S
+45 -119 M
+0 -12 R
+(Borland PowerPack Windows DPMI driver )S
+45 -136 M
+0 -151 M
+0 -12 R
+(Copy the )S
+FF 14 SF
+(.exe)S
+RF 14 SF
+( and )S
+FF 14 SF
+(.ovl)S
+RF 14 SF
+( files to a directory in your )S
+FF 14 SF
+(PATH)S
+RF 14 SF
+(. If you want to use )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( in a)S
+0 -168 M
+0 -12 R
+(full-screen DOS window under Windows 3.1, copy )S
+FF 14 SF
+(windpmi.386)S
+RF 14 SF
+( to your )S
+0 -185 M
+FF 14 SF
+0 -12 R
+(\\windows\\system)S
+RF 14 SF
+( directory, and add the lines )S
+0 -202 M
+0 -217 M
+FF 12 SF
+0 -9 R
+([386Enh])S
+0 -230 M
+0 -9 R
+(device=windpmi.386)S
+0 -243 M
+0 -258 M
+RF 14 SF
+0 -12 R
+(to your )S
+FF 14 SF
+(system.ini)S
+RF 14 SF
+( \(which is located in )S
+FF 14 SF
+(\\windows)S
+RF 14 SF
+(\).)S
+0 -275 M
+0 -290 M
+FF 14 SF
+0 -12 R
+(lcc.exe)S
+RF 14 SF
+( is a prebuilt driver for use with Borland's Turbo Assembler 4.0, Borland C++ 4.02,)S
+0 -307 M
+0 -12 R
+(and Borland PowerPack for DOS. To use some other combination of assembler, linker,)S
+0 -324 M
+0 -12 R
+(library, and DOS extender, or to change the path names compiled into the driver, you will)S
+0 -341 M
+0 -12 R
+(have to build a new driver. You'll probably have to modify the driver and )S
+0 -358 M
+FF 14 SF
+0 -12 R
+(include\\x86\\dos\\*.h)S
+RF 14 SF
+( if you want to use them. The source code for the PC version of)S
+0 -375 M
+0 -12 R
+(the driver is in )S
+FF 14 SF
+(etc\\lcc-pc.c)S
+RF 14 SF
+( and )S
+FF 14 SF
+(etc\\bc4.c)S
+RF 14 SF
+(. It is unlikely that you'll need to rebuild )S
+0 -392 M
+FF 14 SF
+0 -12 R
+(cpp.exe)S
+RF 14 SF
+( or )S
+FF 14 SF
+(rcc.exe)S
+RF 14 SF
+(.)S
+0 -409 M
+0 -424 M
+FF 14 SF
+0 -12 R
+(lcc)S
+RF 14 SF
+( comes with a preprocessor and ANSI include files \()S
+FF 14 SF
+(include\\x86\\dos\\*.h)S
+RF 14 SF
+(\) that)S
+0 -441 M
+0 -12 R
+(work with the library and DOS extender included with Symantec C++ 6.1. Include files are)S
+0 -458 M
+0 -12 R
+(generally tailored, however, for a specific library, so use the headers that come with your)S
+0 -475 M
+0 -12 R
+(library, or adapt )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+('s headers to work with your library.)S
+0 -492 M
+0 -507 M
+0 -12 R
+(If you use headers that exploit language extensions, you must also use their companion)S
+0 -524 M
+0 -12 R
+(preprocessor, or you must protect )S
+FF 14 SF
+(cpp.exe)S
+RF 14 SF
+( from the extensions, because )S
+FF 14 SF
+(cpp.exe)S
+0 -541 M
+RF 14 SF
+0 -12 R
+(obeys the ANSI specification. For example, when we use )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( with the library from Borland)S
+0 -558 M
+0 -12 R
+(C++ 4.02, we use Borland's headers too, and they annotate many declarations with a)S
+0 -575 M
+0 -12 R
+(non-ANSI attribute, )S
+FF 14 SF
+(__cdecl)S
+RF 14 SF
+(. The distribution's )S
+FF 14 SF
+(cpp.exe)S
+RF 14 SF
+( won't recognize )S
+FF 14 SF
+(__cdecl)S
+RF 14 SF
+(, so)S
+0 -592 M
+0 -12 R
+(we use the )S
+FF 14 SF
+(cpp.exe)S
+RF 14 SF
+( option )S
+FF 14 SF
+(-D__cdecl=)S
+RF 14 SF
+( to eliminate this extension, or we use Borland's)S
+0 -609 M
+0 -12 R
+(preprocessor. )S
+0 -626 M
+0 -641 M
+BF 14 SF
+0 -12 R
+(6.2 Using lcc under DOS)S
+0 -658 M
+0 -673 M
+RF 14 SF
+0 -12 R
+(The default executable file is )S
+FF 14 SF
+(a.exe)S
+RF 14 SF
+(, and object files have the extension )S
+FF 14 SF
+(.obj)S
+RF 14 SF
+(. The other)S
+0 -690 M
+0 -12 R
+(extensions are as described in )S
+(Sec. 4)U
+(, above, including assembler files, which end in )S
+FF 14 SF
+(.s)S
+RF 14 SF
+(,)S
+0 -707 M
+0 -12 R
+(not )S
+FF 14 SF
+(.asm)S
+RF 14 SF
+(.)S
+0 -724 M
+0 -739 M
+0 -12 R
+(The Unix driver for )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( invokes the process for each compiler subphase that's needed. In)S
+0 -756 M
+0 -12 R
+(principle, the DOS driver could do likewise, but doing so fails under at least some DOS)S
+0 -773 M
+0 -12 R
+(extenders. For maximum portability, the distributed DOS driver thus merely emits a)S
+0 -790 M
+0 -12 R
+(command file, into )S
+FF 14 SF
+(dolcc.bat)S
+RF 14 SF
+( in the current directory, which must be run to compile)S
+0 -807 M
+0 -12 R
+(anything; for example, )S
+0 -824 M
+0 -839 M
+FF 12 SF
+0 -9 R
+(C:> lcc 8q.c)S
+0 -852 M
+0 -9 R
+(C:> dolcc.bat)S
+0 -865 M
+0 -880 M
+RF 14 SF
+0 -12 R
+(compiles, assembles, and links )S
+FF 14 SF
+(8q.c)S
+RF 14 SF
+(. and leaves the executable in )S
+FF 14 SF
+(a.exe)S
+RF 14 SF
+(. )S
+FF 14 SF
+(lcc.exe)S
+0 -897 M
+RF 14 SF
+0 -12 R
+(writes commands to )S
+FF 14 SF
+(dolcc.bat)S
+RF 14 SF
+( that generate and consume temporary files. These files)S
+0 -914 M
+0 -12 R
+(have names like )S
+FF 14 SF
+(c:\\tmp\\lcc)S
+IF 14 SF
+(ddddd)S
+FF 14 SF
+(.*)S
+RF 14 SF
+(, so create the directory )S
+FF 14 SF
+(c:\\tmp)S
+RF 14 SF
+(, if it doesn't exist.)S
+0 -931 M
+showpage restore
+%%Page: 13 13
+save
+NP
+RF 14 SF
+0 0 M
+0 -12 R
+(Users running programs like )S
+FF 14 SF
+(doskey)S
+RF 14 SF
+( can easily create a macro that abbreviates this idiom,)S
+0 -17 M
+0 -12 R
+(but makefiles and batch files must invoke )S
+FF 14 SF
+(dolcc.bat)S
+RF 14 SF
+( explicitly. If the library routines )S
+0 -34 M
+FF 14 SF
+0 -12 R
+(system)S
+RF 14 SF
+( or )S
+FF 14 SF
+(execv)S
+RF 14 SF
+( work with your DOS extender, you might be able to modify the routine )S
+0 -51 M
+FF 14 SF
+0 -12 R
+(execute)S
+RF 14 SF
+( in )S
+FF 14 SF
+(etc\\lcc-pc.c)S
+RF 14 SF
+( to avoid this irritation.)S
+0 -68 M
+0 -83 M
+0 -12 R
+(Note that the distributed )S
+FF 14 SF
+(lcc.exe)S
+RF 14 SF
+( obviates the option )S
+FF 14 SF
+(-v -v)S
+RF 14 SF
+( decsribed in )S
+(Sec. 4)U
+( because)S
+0 -100 M
+0 -12 R
+(it never executes commands anyway. Also, it complicates the idiom that saves the)S
+0 -117 M
+0 -12 R
+(preprocessed source in a file. That is, )S
+0 -134 M
+0 -149 M
+FF 12 SF
+0 -9 R
+(C:> lcc -E 8q.c >8q.i)S
+0 -162 M
+0 -177 M
+RF 14 SF
+0 -12 R
+(fails to capture the preprocessed )S
+FF 14 SF
+(8q.c)S
+RF 14 SF
+( in )S
+FF 14 SF
+(8q.i)S
+RF 14 SF
+( because )S
+FF 14 SF
+(lcc.exe)S
+RF 14 SF
+( creates but does not)S
+0 -194 M
+0 -12 R
+(execute a preprocessor command.)S
+0 -211 M
+0 -226 M
+BF 14 SF
+0 -12 R
+(6.3 Building lcc under DOS)S
+0 -243 M
+0 -258 M
+RF 14 SF
+0 -12 R
+(It is not likely that you'll need to rebuild )S
+FF 14 SF
+(cpp.exe)S
+RF 14 SF
+(, nor is it likely that you'll need to rebuild )S
+0 -275 M
+FF 14 SF
+0 -12 R
+(rcc.exe)S
+RF 14 SF
+(, unless your assembler or library, say, requires the compiler to emit different)S
+0 -292 M
+0 -12 R
+(assembler code. Read the rest of this section only if you need to modify )S
+FF 14 SF
+(rcc.exe)S
+RF 14 SF
+(.)S
+0 -309 M
+0 -324 M
+0 -12 R
+(On MS-DOS systems, several batch files replace the Unix make and shell files described in)S
+0 -341 M
+0 -12 R
+(the sections above. )S
+FF 14 SF
+(src\\triple.bat)S
+RF 14 SF
+( replaces the )S
+FF 14 SF
+(make triple)S
+RF 14 SF
+( process described in)S
+0 -358 M
+0 -12 R
+(Sec. 5)U
+(. It calls )S
+FF 14 SF
+(src\\lccn.bat)S
+RF 14 SF
+( to compile )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+('s modules using )S
+FF 14 SF
+(lcc.exe)S
+RF 14 SF
+(. )S
+0 -375 M
+FF 14 SF
+0 -12 R
+(src\\test.bat)S
+RF 14 SF
+( runs )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+('s test suite. It calls )S
+FF 14 SF
+(src\\run.bat)S
+RF 14 SF
+( once for each test program.)S
+0 -392 M
+0 -12 R
+(The batch files compile the test files in the directory )S
+FF 14 SF
+(x86\\dos\\tst)S
+RF 14 SF
+(, but they compile the)S
+0 -409 M
+0 -12 R
+(compiler itself in the )S
+FF 14 SF
+(src)S
+RF 14 SF
+( directory. )S
+FF 14 SF
+(lccn.bat)S
+RF 14 SF
+( and )S
+FF 14 SF
+(run.bat)S
+RF 14 SF
+( include )S
+FF 14 SF
+(dolcc.bat)S
+RF 14 SF
+( as a)S
+0 -426 M
+0 -12 R
+(hard path name; edit them if you changed the driver to deliver its commands elsewhere.)S
+0 -443 M
+0 -458 M
+FF 14 SF
+0 -12 R
+(src\\triple.bat)S
+RF 14 SF
+( builds )S
+FF 14 SF
+(rcc.exe)S
+RF 14 SF
+( three times. It builds the first with Borland C++ 4.02,)S
+0 -475 M
+0 -12 R
+(and builds the other two with the )S
+FF 14 SF
+(rcc.exe)S
+RF 14 SF
+( built just before. For the first of these three)S
+0 -492 M
+0 -12 R
+(stages, )S
+FF 14 SF
+(triple.bat)S
+RF 14 SF
+( copies the generated executable to directory )S
+FF 14 SF
+(src\\rcc1)S
+RF 14 SF
+(. The)S
+0 -509 M
+0 -12 R
+(second and third stages do likewise with directories )S
+FF 14 SF
+(src\\rcc2)S
+RF 14 SF
+( and )S
+FF 14 SF
+(src\\rcc3)S
+RF 14 SF
+(, and they)S
+0 -526 M
+0 -12 R
+(move the )S
+FF 14 SF
+(.s)S
+RF 14 SF
+( files there as well, so that they can be compared. Clear these directories once)S
+0 -543 M
+0 -12 R
+(all tests pass.)S
+0 -560 M
+0 -575 M
+0 -12 R
+(Each stage runs )S
+FF 14 SF
+(src\\test.bat)S
+RF 14 SF
+(. Once all tests pass, go to the directory )S
+FF 14 SF
+(x86\\dos\\tst)S
+0 -592 M
+RF 14 SF
+0 -12 R
+(and run )S
+FF 14 SF
+(clean.bat)S
+RF 14 SF
+(, which cleans up.)S
+0 -609 M
+0 -624 M
+0 -12 R
+(Ideally, )S
+FF 14 SF
+(rcc2\\rcc.exe)S
+RF 14 SF
+( and )S
+FF 14 SF
+(rcc3\\rcc.exe)S
+RF 14 SF
+( or )S
+FF 14 SF
+(rcc2\\*.obj)S
+RF 14 SF
+( and )S
+FF 14 SF
+(rcc3\\*.obj)S
+RF 14 SF
+( would)S
+0 -641 M
+0 -12 R
+(be identical, but at least some DOS assemblers and linkers emit slightly different object and)S
+0 -658 M
+0 -12 R
+(executable files when rerun on some fixed assembler modules, so )S
+FF 14 SF
+(triple.bat)S
+RF 14 SF
+( can)S
+0 -675 M
+0 -12 R
+(confirm that )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( consistently emits the same code for itself only by comparing )S
+FF 14 SF
+(rcc2\\*.s)S
+0 -692 M
+RF 14 SF
+0 -12 R
+(with )S
+FF 14 SF
+(rcc3\\*.s)S
+RF 14 SF
+(.)S
+0 -709 M
+0 -724 M
+BF 17 SF
+0 -14 R
+(7. Reporting Bugs)S
+0 -744 M
+0 -759 M
+FF 14 SF
+0 -12 R
+(lcc)S
+RF 14 SF
+( is a large, complex program. We find and repair errors routinely. If you think that you've)S
+0 -776 M
+0 -12 R
+(found a error, follow the steps below, which are adapted from the instructions in Chapter 1 of )S
+0 -793 M
+IF 14 SF
+0 -12 R
+(A Retargetable C Compiler: Design and Implementation)S
+RF 14 SF
+(.)S
+0 -810 M
+26 -825 M
+0 -12 R
+(1. )S
+(If you don't have a source file that displays the error, create one. Most errors are)S
+45 -842 M
+0 -12 R
+(exposed when programmers try to compile a program they think is valid, so you)S
+45 -859 M
+0 -12 R
+(probably have a demonstration program already.)S
+45 -876 M
+26 -891 M
+0 -12 R
+(2. )S
+(Preprocess the source file and capture the preprocessor output. Discard the original)S
+45 -908 M
+0 -12 R
+(code.)S
+45 -925 M
+26 -940 M
+0 -12 R
+(3. )S
+(Prune your source code until it can be pruned no more without sending the error into)S
+showpage restore
+%%Page: 14 14
+save
+NP
+RF 14 SF
+45 0 M
+0 -12 R
+(hiding. We prune most error demonstrations to fewer than five lines.)S
+45 -17 M
+26 -32 M
+0 -12 R
+(4. )S
+(Confirm that the source file displays the error with the )S
+IF 14 SF
+(distributed)S
+RF 14 SF
+( version of )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+(. If)S
+45 -49 M
+0 -12 R
+(you've changed )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( and the error appears only in your version, then you'll have to)S
+45 -66 M
+0 -12 R
+(chase the error yourself, even if it turns out to be our fault, because we can't work on)S
+45 -83 M
+0 -12 R
+(your code.)S
+45 -100 M
+26 -115 M
+0 -12 R
+(5. )S
+(Annotate your code with comments that explain why you think that )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( is wrong. If )S
+45 -132 M
+FF 14 SF
+0 -12 R
+(lcc)S
+RF 14 SF
+( dies with an assertion failure, please tell us where it died. If )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( crashes, please)S
+45 -149 M
+0 -12 R
+(report the last part of the call chain if you can. If )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( is rejecting a program you think)S
+45 -166 M
+0 -12 R
+(is valid, please tell us why you think it's valid, and include supporting page numbers)S
+45 -183 M
+0 -12 R
+(in the ANSI Standard, Appendix A in )S
+IF 14 SF
+(The C Programming Language)S
+RF 14 SF
+(, 2nd edition by)S
+45 -200 M
+0 -12 R
+(B. W. Kernighan and D. M. Ritchie \(Prentice Hall, 1988\), or the appropriate section in )S
+45 -217 M
+IF 14 SF
+0 -12 R
+(C: A Reference Manual)S
+RF 14 SF
+(, 3rd edition by S. B. Harbison and G. L. Steele, Jr. \(Prentice)S
+45 -234 M
+0 -12 R
+(Hall, 1991\). If )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( silently generates incorrect code for some construct, please)S
+45 -251 M
+0 -12 R
+(include the corrupt assembly code in the comments and flag the bad instructions if)S
+45 -268 M
+0 -12 R
+(you can.)S
+45 -285 M
+26 -300 M
+0 -12 R
+(6. )S
+(Confirm that your error hasn't been fixed already. The latest version of )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( is always)S
+45 -317 M
+0 -12 R
+(available for anonymous )S
+FF 14 SF
+(ftp)S
+RF 14 SF
+( from )S
+FF 14 SF
+(ftp.cs.princeton.edu)S
+RF 14 SF
+( in )S
+FF 14 SF
+(pub/lcc)U
+RF 14 SF
+(. A )S
+45 -334 M
+FF 14 SF
+0 -12 R
+(README)U
+RF 14 SF
+( file there gives acquistion details, and a )S
+FF 14 SF
+(LOG)U
+RF 14 SF
+( file reports what errors were)S
+45 -351 M
+0 -12 R
+(fixed and when they were fixed. If you report a error that's been fixed, you might get a)S
+45 -368 M
+0 -12 R
+(canned reply.)S
+45 -385 M
+26 -400 M
+0 -12 R
+(7. )S
+(Send your program by electronic mail to )S
+FF 14 SF
+(lcc-bugs@cs.princeton.edu)S
+RF 14 SF
+(. Please)S
+45 -417 M
+0 -12 R
+(send only valid C programs; put all remarks in C comments so that we can process)S
+45 -434 M
+0 -12 R
+(reports semiautomatically.)S
+45 -451 M
+0 -466 M
+BF 17 SF
+0 -14 R
+(8. Keeping in Touch)S
+0 -486 M
+0 -501 M
+RF 14 SF
+0 -12 R
+(There is an )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+( mailing list for general information about )S
+FF 14 SF
+(lcc)S
+RF 14 SF
+(. To be added to the list, send)S
+0 -518 M
+0 -12 R
+(a message with the 1-line body )S
+0 -535 M
+0 -550 M
+FF 12 SF
+0 -9 R
+(subscribe lcc)S
+0 -563 M
+0 -578 M
+RF 14 SF
+0 -12 R
+(to )S
+FF 14 SF
+(majordomo@cs.princeton.edu)S
+RF 14 SF
+(. This line must appear in the message body;)S
+0 -595 M
+0 -12 R
+(``Subject:'' lines are ignored. To learn more about mailing lists served by )S
+FF 14 SF
+(majordomo)S
+RF 14 SF
+(, send)S
+0 -612 M
+0 -12 R
+(a message with the 1-word body ``)S
+FF 14 SF
+(help)S
+RF 14 SF
+('' to )S
+FF 14 SF
+(majordomo@cs.princeton.edu)S
+RF 14 SF
+(. Mail sent)S
+0 -629 M
+0 -12 R
+(to )S
+FF 14 SF
+(lcc@cs.princeton.edu)S
+RF 14 SF
+( is forwarded to everyone on the mailing list.)S
+0 -646 M
+0 -661 M
+0 -12 R
+(There is also an )S
+FF 14 SF
+(lcc-bugs)S
+RF 14 SF
+( mailing list for reporting bugs; subscribe to it by sending a)S
+0 -678 M
+0 -12 R
+(message with the 1-line body )S
+0 -695 M
+0 -710 M
+FF 12 SF
+0 -9 R
+(subscribe lcc-bugs)S
+0 -723 M
+0 -738 M
+RF 14 SF
+0 -12 R
+(to )S
+FF 14 SF
+(majordomo@cs.princeton.edu)S
+RF 14 SF
+(. Mail addressed to )S
+IF 14 SF
+(lcc-bugs@cs.princeton.edu)S
+RF 14 SF
+( is)S
+0 -755 M
+0 -12 R
+(forwarded to everyone on this list.)S
+0 -772 M
+0 -787 M
+627 HR
+0 -804 M
+IF 14 SF
+0 -12 R
+(Chris Fraser)U
+( / cwf@research.att.com)S
+( )S
+0 -821 M
+0 -12 R
+(David Hanson)U
+( / drh@cs.princeton.edu )S
+0 -838 M
+0 -12 R
+($Revision: 1.14 $ $Date: 1994/12/16 15:31:42 $ )S
+showpage restore
+%%Trailer
+restore
+%%Pages: 14

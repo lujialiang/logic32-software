@@ -1,0 +1,3 @@
+These *.s files have been pregenereated in order to give you an idea of what
+the present c6x cross compiler should output when feeded with the C files in
+the 'testcases' directory.

@@ -1,0 +1,321 @@
+
+.text
+
+.include "config.inc"
+
+.extern _main
+.extern _panic
+.extern _panic_undef
+.extern _OS_CPU_SysTickHandler
+
+.extern  _OSRunning
+.extern  _OSPrioCur
+.extern  _OSPrioHighRdy
+.extern  _OSTCBCur
+.extern  _OSTCBHighRdy
+.extern  _OSIntExit
+.extern  _OSTaskSwHook
+.extern  _OS_CPU_ExceptStkBase
+
+.global  _OS_CPU_SR_Save
+.global  _OS_CPU_SR_Restore
+.global  _OSStartHighRdy
+.global  _OSCtxSw
+.global  _OSIntCtxSw
+
+.extern _OSIntNesting
+
+.org 0
+	lea $sp, 0x100000
+	jal _main
+	halt
+
+.org VECTOR_SYSTICK_ISR
+	jmp systick_isr
+	halt
+
+.org VECTOR_UART0_ISR
+	halt
+
+.org VECTOR_TRAP_UNDF
+	disi
+	jal _panic_undef
+	halt
+
+.org VECTOR_TRAP_SWI
+	jmp _OSIntCtxSw_no_save
+	halt
+
+.org VECTOR_DMA_CH0
+	halt
+
+.org VECTOR_IRQ_DISK0
+	halt
+
+.org VECTOR_IRQ_TMR0
+	halt
+
+/* void halt(void); */
+.global _halt
+_halt:
+	halt
+
+/* void sei(void); */
+.global _sei
+_sei:
+	enai
+	jmp $31
+
+/* void cli(void); */
+.global _cli
+_cli:
+	disi
+	jmp $31
+
+/* OS_CPU_SR OS_CPU_SR_Save(void); */
+.global _OS_CPU_SR_Save
+_OS_CPU_SR_Save:
+	mfc $2, $psw
+	disi
+	jmp $31
+
+/* void OS_CPU_SR_Restore(OS_CPU_SR cpu_sr); */
+.global _OS_CPU_SR_Restore
+_OS_CPU_SR_Restore:
+	mtc $psw, $4
+	jmp $31
+
+/* void OSStartHighRdy(void) */
+_OSStartHighRdy:
+	/* OSRunning := 1 */
+	lea $4, 1
+	sb $4, _OSRunning
+
+	lw $29, _OSTCBHighRdy	/* $29 = OSTCBHighRdy->OSTCBStkPtr */
+	lw $29, ($29)			/* $sp = ($29) */
+	;lw $0, 0($29)
+	lw $1, 4($29)
+	lw $2, 8($29)
+	lw $3, 12($29)
+	lw $4, 16($29)
+	lw $5, 20($29)
+	lw $6, 24($29)
+	lw $7, 28($29)
+	lw $8, 32($29)
+	lw $9, 36($29)
+	lw $10,40($29)
+	lw $11,44($29)
+	lw $12,48($29)
+	lw $13,52($29)
+	lw $14,56($29)
+	lw $15,60($29)
+	lw $16,64($29)
+	lw $17,68($29)
+	lw $18,72($29)
+	lw $19,76($29)
+	lw $20,80($29)
+	lw $21,84($29)
+	lw $22,88($29)
+	lw $23,92($29)
+	lw $24,96($29)
+	lw $25,100($29)
+	lw $26,104($29)
+	lw $27,108($29)
+	lw $28,112($29)
+	;lw $29,116($29)
+	lw $30,120($29)
+	lw $31,124($29)
+
+	add $sp, $sp, 124
+	reti
+
+// void OSCtxSw(void)
+_OSCtxSw:
+	trap
+	jmp $31
+
+// void OSIntCtxSw(void);
+_OSIntCtxSw_no_save:
+	add $sp, $sp, -124
+	;sw $0, 0($sp)
+	sw $1,  4($sp)
+	sw $2,  8($sp)
+	sw $3, 12($sp)
+	sw $4, 16($sp)
+	sw $5, 20($sp)
+	sw $6, 24($sp)
+	sw $7, 28($sp)
+	sw $8, 32($sp)
+	sw $9, 36($sp)
+	sw $10,40($sp)
+	sw $11,44($sp)
+	sw $12,48($sp)
+	sw $13,52($sp)
+	sw $14,56($sp)
+	sw $15,60($sp)
+	sw $16,64($sp)
+	sw $17,68($sp)
+	sw $18,72($sp)
+	sw $19,76($sp)
+	sw $20,80($sp)
+	sw $21,84($sp)
+	sw $22,88($sp)
+	sw $23,92($sp)
+	sw $24,96($sp)
+	sw $25,100($sp)
+	sw $26,104($sp)
+	sw $27,108($sp)
+	sw $28,112($sp)
+	;sw $29,116($29)
+	sw $30,120($sp)
+	sw $31,124($sp)
+
+	lw $2, _OSTCBCur		/* $1 = OSTCBCur->OSTCBStkPtr */
+	sw $sp, ($2)
+
+_OSIntCtxSw:
+
+	lw $29, _OSTCBHighRdy	/* $29 = OSTCBHighRdy->OSTCBStkPtr */
+	lw $29, ($29)			/* $sp = ($29) */
+
+	/* void OSTaskSwHook(void) */
+	jal _OSTaskSwHook
+
+	lw $2, _OSTCBHighRdy
+	sw $2, _OSTCBCur
+	lb $2, _OSPrioHighRdy
+	sb $2, _OSPrioCur
+
+	;lw $0, 0($29)
+	lw $1, 4($29)
+	lw $2, 8($29)
+	lw $3, 12($29)
+	lw $4, 16($29)
+	lw $5, 20($29)
+	lw $6, 24($29)
+	lw $7, 28($29)
+	lw $8, 32($29)
+	lw $9, 36($29)
+	lw $10,40($29)
+	lw $11,44($29)
+	lw $12,48($29)
+	lw $13,52($29)
+	lw $14,56($29)
+	lw $15,60($29)
+	lw $16,64($29)
+	lw $17,68($29)
+	lw $18,72($29)
+	lw $19,76($29)
+	lw $20,80($29)
+	lw $21,84($29)
+	lw $22,88($29)
+	lw $23,92($29)
+	lw $24,96($29)
+	lw $25,100($29)
+	lw $26,104($29)
+	lw $27,108($29)
+	lw $28,112($29)
+	;lw $29,116($29)
+	lw $30,120($29)
+	lw $31,124($29)
+
+	add $sp, $sp, 124
+	reti
+
+systick_isr:
+	add $sp, $sp, -124
+	;sw $0, 0($sp)
+	sw $1,  4($sp)
+	sw $2,  8($sp)
+	sw $3, 12($sp)
+	sw $4, 16($sp)
+	sw $5, 20($sp)
+	sw $6, 24($sp)
+	sw $7, 28($sp)
+	sw $8, 32($sp)
+	sw $9, 36($sp)
+	sw $10,40($sp)
+	sw $11,44($sp)
+	sw $12,48($sp)
+	sw $13,52($sp)
+	sw $14,56($sp)
+	sw $15,60($sp)
+	sw $16,64($sp)
+	sw $17,68($sp)
+	sw $18,72($sp)
+	sw $19,76($sp)
+	sw $20,80($sp)
+	sw $21,84($sp)
+	sw $22,88($sp)
+	sw $23,92($sp)
+	sw $24,96($sp)
+	sw $25,100($sp)
+	sw $26,104($sp)
+	sw $27,108($sp)
+	sw $28,112($sp)
+	;sw $29,116($29)
+	sw $30,120($sp)
+	sw $31,124($sp)
+
+/*
+    lb $2, _OSIntNesting
+	add $2, $2, 1
+	sb $2, _OSIntNesting
+
+	sub $0, $2, 1
+	bnz NO_SAVE_SP
+	lw $2, _OSTCBCur		// $1 = OSTCBCur->OSTCBStkPtr
+	sw $sp, ($2)
+*/
+	.extern _save_sp
+	mov $4, $sp
+	jal _save_sp
+
+NO_SAVE_SP:
+	// OSTimeTick */
+	.extern _OSTimeTick
+	// OSIntExit */
+	.extern _OSIntExit
+    jal _OSTimeTick
+    jal _OSIntExit
+
+	/* void return_from_systick_isr(void) */
+	;.extern _return_from_systick_isr
+	;jal _return_from_systick_isr
+
+	;lw $0, 0($29)
+	lw $1, 4($29)
+	lw $2, 8($29)
+	lw $3, 12($29)
+	lw $4, 16($29)
+	lw $5, 20($29)
+	lw $6, 24($29)
+	lw $7, 28($29)
+	lw $8, 32($29)
+	lw $9, 36($29)
+	lw $10,40($29)
+	lw $11,44($29)
+	lw $12,48($29)
+	lw $13,52($29)
+	lw $14,56($29)
+	lw $15,60($29)
+	lw $16,64($29)
+	lw $17,68($29)
+	lw $18,72($29)
+	lw $19,76($29)
+	lw $20,80($29)
+	lw $21,84($29)
+	lw $22,88($29)
+	lw $23,92($29)
+	lw $24,96($29)
+	lw $25,100($29)
+	lw $26,104($29)
+	lw $27,108($29)
+	lw $28,112($29)
+	;lw $29,116($29)
+	lw $30,120($29)
+	lw $31,124($29)
+
+	add $sp, $sp, 124
+	reti
+

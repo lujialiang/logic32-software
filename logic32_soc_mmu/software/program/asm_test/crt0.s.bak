@@ -1,0 +1,125 @@
+
+.text
+
+.include "config.inc"
+
+.extern _main
+.extern _systick_isr
+
+.org 0
+	ldi $sp, 0x100000
+	jal _main
+	halt
+
+.org VECTOR_SYSTICK_ISR
+	jmp _systick_isr0
+	reti
+
+.org VECTOR_UART0_ISR
+	reti
+
+.org VECTOR_TRAP_UNDF
+	halt
+
+.org VECTOR_TRAP_SWI
+	reti
+
+.org VECTOR_DMA_CH0
+	reti
+
+.org VECTOR_IRQ_DISK0
+	reti
+
+.org VECTOR_IRQ_TMR0
+	reti
+
+.global _seti
+_seti:
+	enai
+	jmp $31
+
+.global _disi
+_disi:
+	disi
+	jmp $31
+
+_systick_isr0:
+	add $sp,$sp,-8
+	sw $31,0($sp)
+	;jal _systick_isr
+	jal _task_switch0
+	lw $31,0($sp)
+	add $sp,$sp,8
+	reti
+
+_task_switch0:
+	add $sp, $sp, -128
+	sw $31, 0($sp)	; lr
+	sw $30, 4($sp)
+	sw $29, 8($sp)	; sp
+	sw $28, 12($sp)
+	sw $27, 16($sp)
+	sw $26, 20($sp)
+	sw $25, 24($sp)
+	sw $24, 28($sp)
+	sw $23, 32($sp)
+	sw $22, 36($sp)
+	sw $21, 40($sp)
+	sw $20, 44($sp)
+	sw $19, 48($sp)
+	sw $18, 52($sp)
+	sw $17, 56($sp)
+	sw $16, 60($sp)
+	sw $15, 64($sp)
+	sw $14, 68($sp)
+	sw $13, 72($sp)
+	sw $12, 76($sp)
+	sw $11, 80($sp)
+	sw $10, 84($sp)
+	sw $9, 88($sp)
+	sw $8, 92($sp)
+	sw $7, 96($sp)
+	sw $6, 100($sp)
+	sw $5, 104($sp)
+	sw $4, 108($sp)
+	sw $3, 112($sp)
+	sw $2, 116($sp)
+	sw $1, 120($sp)
+	
+	; foo
+	jal _systick_isr
+
+	lw $31, 0($sp)	; lr
+	lw $30, 4($sp)
+	lw $29, 8($sp)	; sp
+	lw $28, 12($sp)
+	lw $27, 16($sp)
+	lw $26, 20($sp)
+	lw $25, 24($sp)
+	lw $24, 28($sp)
+	lw $23, 32($sp)
+	lw $22, 36($sp)
+	lw $21, 40($sp)
+	lw $20, 44($sp)
+	lw $19, 48($sp)
+	lw $18, 52($sp)
+	lw $17, 56($sp)
+	lw $16, 60($sp)
+	lw $15, 64($sp)
+	lw $14, 68($sp)
+	lw $13, 72($sp)
+	lw $12, 76($sp)
+	lw $11, 80($sp)
+	lw $10, 84($sp)
+	lw $9, 88($sp)
+	lw $8, 92($sp)
+	lw $7, 96($sp)
+	lw $6, 100($sp)
+	lw $5, 104($sp)
+	lw $4, 108($sp)
+	lw $3, 112($sp)
+	lw $2, 116($sp)
+	lw $1, 120($sp)
+	add $sp, $sp, 128
+	jmp $31
+

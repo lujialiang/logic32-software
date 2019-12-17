@@ -1,0 +1,6 @@
+PC(00000008) 0 0000:	 IR(0xc0000364)	jal 00000d90	main
+PC(00000db4) 0 0000:	 IR(0xc0000030)	jal 000000c0	puts
+PC(00000dbc) 0 0000:	 IR(0xc0000698)	jal 00001a60	pf_mount
+PC(00001a98) 0 0100:	 IR(0xc000040c)	jal 00001030	disk_initialize
+PC(00001ac0) 0 0000:	 IR(0xc0000410)	jal 00001040	disk_readp
+PC(0000106c) 0 0000:	 IR(0xc0000c40)	jal 00003100	disk_readp0

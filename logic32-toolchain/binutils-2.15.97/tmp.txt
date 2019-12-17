@@ -1,0 +1,258 @@
+./opcodes/configure.in:185:	bfd_logic32_arch)		ta="$ta logic32-dis.lo" ;;
+./opcodes/configure:8608:	bfd_logic32_arch)		ta="$ta logic32-dis.lo" ;;
+./opcodes/Makefile.am:67:	logic32-dis.c \
+./opcodes/Makefile.am:193:	logic32-dis.lo \
+./opcodes/Makefile.am:573:logic32-dis.lo: logic32-dis.c sysdep.h config.h $(INCDIR)/ansidecl.h \
+./opcodes/Makefile.am:574:  $(INCDIR)/dis-asm.h $(BFD_H) $(INCDIR)/symcat.h $(INCDIR)/opcode/logic32.h
+./opcodes/po/POTFILES.in:25:logic32-dis.c
+./opcodes/Makefile.in:290:	logic32-dis.c \
+./opcodes/Makefile.in:416:	logic32-dis.lo \
+./opcodes/Makefile.in:1104:logic32-dis.lo: logic32-dis.c sysdep.h config.h $(INCDIR)/ansidecl.h \
+./opcodes/Makefile.in:1105:  $(INCDIR)/dis-asm.h $(BFD_H) $(INCDIR)/symcat.h $(INCDIR)/opcode/logic32.h
+./ld/Makefile.am:150:	eelf32_logic32.o \
+./ld/Makefile.am:615:eelf32_logic32.c: $(srcdir)/emulparams/elf32_logic32.sh \
+./ld/Makefile.am:616:  $(srcdir)/emultempl/elf32.em $(srcdir)/scripttempl/logic32.sc ${GEN_DEPENDS}
+./ld/Makefile.am:617:	${GENSCRIPTS} elf32_logic32 "$(tdir_elf32_logic32)"
+./ld/testsuite/ld-selective/selective.exp:87:    setup_xfail "alpha*-*" "arc*-*" "d30v*-*" "dlx*-*" "i370*-*" "i860*-*" "logic32*-*"
+./ld/testsuite/ld-selective/sel-dump.exp:28:    setup_xfail "alpha*-*" "arc*-*" "d30v*-*" "dlx*-*" "i370*-*" "i860*-*" "logic32*-*"
+./ld/testsuite/ld-elf/merge.d:4:#xfail: "arc-*-*" "avr-*-*" "cris-*-*" "dlx-*-*" "fr30-*-*" "frv-*-*" "logic32-*-*"
+./ld/testsuite/ld-discard/discard.exp:44:    setup_xfail "arc-*" "d30v-*" "dlx-*" "i960-*" "m6812-*" "m68hc12-*" "logic32-*"
+./ld/configure.tgt:44:logic32-*-elf*)		targ_emul=elf32_logic32 ;;
+./ld/emulparams/elf32_logic32.sh:1:SCRIPT_NAME=logic32
+./ld/emulparams/elf32_logic32.sh:3:OUTPUT_FORMAT="elf32-logic32"
+./ld/emulparams/elf32_logic32.sh:4:ARCH=logic32
+./ld/Makefile.in:275:	eelf32_logic32.o \
+./ld/Makefile.in:1352:eelf32_logic32.c: $(srcdir)/emulparams/elf32_logic32.sh \
+./ld/Makefile.in:1353:  $(srcdir)/emultempl/elf32.em $(srcdir)/scripttempl/logic32.sc ${GEN_DEPENDS}
+./ld/Makefile.in:1354:	${GENSCRIPTS} elf32_logic32 "$(tdir_elf32_logic32)"
+./config.sub:236:	| logic32 \
+./config.sub:306:	| logic32-* \
+./binutils/Makefile.am:471:  $(INCDIR)/elf/logic32.h \
+./binutils/readelf.c:79:#include "elf/logic32.h"
+./binutils/readelf.c:680:    case EM_LOGIC32:
+./binutils/readelf.c:1102:	case EM_LOGIC32:
+./binutils/readelf.c:1103:	  rtype = elf_logic32_reloc_type (type);
+./binutils/readelf.c:1724:    case EM_LOGIC32:		return "OpenLOIGIC32";
+./binutils/NEWS:11:    logic32-*-*
+./binutils/Makefile.in:1210:  $(INCDIR)/elf/logic32.h \
+./bfd/libbfd.h:1294:  "BFD_RELOC_LOGIC32_HI16_S",
+./bfd/libbfd.h:1295:  "BFD_RELOC_LOGIC32_LO16",
+./bfd/libbfd.h:1296:  "BFD_RELOC_LOGIC32_JMP26",
+./bfd/bfd-in2.h:1668:  bfd_arch_logic32,   /* LOGIC32 */
+./bfd/bfd-in2.h:2897:/* LOGIC32 relocs  */
+./bfd/bfd-in2.h:2898:  BFD_RELOC_LOGIC32_HI16_S,
+./bfd/bfd-in2.h:2900:/* LOGIC32 relocs  */
+./bfd/bfd-in2.h:2901:  BFD_RELOC_LOGIC32_LO16,
+./bfd/bfd-in2.h:2904:/* LOGIC32 relocs  */
+./bfd/bfd-in2.h:2905:  BFD_RELOC_LOGIC32_JMP26,
+./bfd/bfd-in2.h:2908:/* LOGIC32 relocs  */
+./bfd/bfd-in2.h:2909:  BFD_RELOC_LOGIC32_JMP24,
+./bfd/bfd-in2.h:2911:/* LOGIC32 relocs  */
+./bfd/bfd-in2.h:2912:  BFD_RELOC_LOGIC32_JMP32,
+./bfd/bfd-in2.h:2914:/* LOGIC32 relocs  */
+./bfd/bfd-in2.h:2915:  BFD_RELOC_LOGIC32_LDI,
+./bfd/configure.in:596:    bfd_elf32_logic32_vec)	tb="$tb elf32-logic32.lo elf32.lo $elf" ;;
+./bfd/configure:11549:    bfd_elf32_logic32_vec)	tb="$tb elf32-logic32.lo elf32.lo $elf" ;;
+./bfd/Makefile.am:67:	cpu-logic32.lo \
+./bfd/Makefile.am:126:	cpu-logic32.c \
+./bfd/Makefile.am:233:	elf32-logic32.lo \
+./bfd/Makefile.am:403:	elf32-logic32.c \
+./bfd/Makefile.am:957:cpu-logic32.lo: cpu-logic32.c $(INCDIR)/filenames.h
+./bfd/Makefile.am:1201:elf32-logic32.lo: elf32-logic32.c $(INCDIR)/filenames.h elf-bfd.h \
+./bfd/Makefile.am:1203:  $(INCDIR)/bfdlink.h $(INCDIR)/elf/logic32.h $(INCDIR)/elf/reloc-macros.h \
+./bfd/cpu-logic32.c:1:/* BFD support for the logic32 Microprocessor architecture.
+./bfd/cpu-logic32.c:25:const bfd_arch_info_type bfd_logic32_arch =
+./bfd/cpu-logic32.c:30:    bfd_arch_logic32,
+./bfd/cpu-logic32.c:32:    "logic32",
+./bfd/cpu-logic32.c:33:    "logic32",
+./bfd/targets.c:555:extern const bfd_target bfd_elf32_logic32_vec;
+./bfd/targets.c:855:	&bfd_elf32_logic32_vec,
+./bfd/config.bfd:67:logic32*)	 targ_archs=bfd_logic32_arch ;;
+./bfd/config.bfd:355:  logic32-*-elf*)
+./bfd/config.bfd:356:    targ_defvec=bfd_elf32_logic32_vec
+./bfd/config.bfd:357:    targ_selvecs="bfd_elf32_logic32_vec"
+./bfd/elf32-logic32.c:1:/* logic32 specific support for 32-bit ELF
+./bfd/elf32-logic32.c:24:#include "elf/logic32.h"
+./bfd/elf32-logic32.c:26:int    set_logic32_skip_hi16_flag PARAMS ((int));
+./bfd/elf32-logic32.c:28:static bfd_boolean elf32_logic32_check_relocs
+./bfd/elf32-logic32.c:31:static void elf32_logic32_info_to_howto
+./bfd/elf32-logic32.c:33:static void elf32_logic32_info_to_howto_rel
+./bfd/elf32-logic32.c:35:static bfd_reloc_status_type elf32_logic32_relocate16
+./bfd/elf32-logic32.c:39:static bfd_reloc_status_type elf32_logic32_relocate26
+./bfd/elf32-logic32.c:42:static bfd_reloc_status_type elf32_logic32_relocate24
+./bfd/elf32-logic32.c:44:static bfd_reloc_status_type elf32_logic32_relocate_jmp32
+./bfd/elf32-logic32.c:46:static bfd_reloc_status_type elf32_logic32_relocate_ldi
+./bfd/elf32-logic32.c:49:static reloc_howto_type *elf32_logic32_reloc_type_lookup
+./bfd/elf32-logic32.c:51:static bfd_reloc_status_type _bfd_logic32_elf_hi16_reloc
+./bfd/elf32-logic32.c:53:static reloc_howto_type * logic32_rtype_to_howto
+./bfd/elf32-logic32.c:59:#define bfd_elf32_bfd_reloc_type_lookup elf32_logic32_reloc_type_lookup
+./bfd/elf32-logic32.c:60:#define elf_info_to_howto               elf32_logic32_info_to_howto
+./bfd/elf32-logic32.c:61:#define elf_info_to_howto_rel           elf32_logic32_info_to_howto_rel
+./bfd/elf32-logic32.c:62:#define elf_backend_check_relocs        elf32_logic32_check_relocs
+./bfd/elf32-logic32.c:64:static reloc_howto_type logic32_elf_howto_table[]=
+./bfd/elf32-logic32.c:67:    HOWTO (R_LOGIC32_NONE,            /* type */
+./bfd/elf32-logic32.c:75:	   "R_LOGIC32_NONE",          /* name */
+./bfd/elf32-logic32.c:82:    HOWTO (R_LOGIC32_RELOC_8,         /* type */
+./bfd/elf32-logic32.c:90:	   "R_LOGIC32_RELOC_8",       /* name */
+./bfd/elf32-logic32.c:97:    HOWTO (R_LOGIC32_RELOC_16,        /* type */
+./bfd/elf32-logic32.c:105:	   "R_LOGIC32_RELOC_16",      /* name */
+./bfd/elf32-logic32.c:112:    HOWTO (R_LOGIC32_RELOC_32,        /* type */
+./bfd/elf32-logic32.c:120:	   "R_LOGIC32_RELOC_32",      /* name */
+./bfd/elf32-logic32.c:127:    HOWTO (R_LOGIC32_GNU_VTINHERIT,   /* type */
+./bfd/elf32-logic32.c:135:	   "R_LOGIC32_GNU_VTINHERIT", /* name */
+./bfd/elf32-logic32.c:142:    HOWTO (R_LOGIC32_GNU_VTENTRY,     /* type */
+./bfd/elf32-logic32.c:150:	   "R_LOGIC32_GNU_VTENTRY",	  /* name */
+./bfd/elf32-logic32.c:158:static reloc_howto_type elf_logic32_gnu_rel16_s2 =
+./bfd/elf32-logic32.c:159:HOWTO (R_LOGIC32_RELOC_16_PCREL,  /* type */
+./bfd/elf32-logic32.c:166:       elf32_logic32_relocate16,  /* special_function */
+./bfd/elf32-logic32.c:167:       "R_LOGIC32_RELOC_16_PCREL",/* name */
+./bfd/elf32-logic32.c:175:static reloc_howto_type elf_logic32_gnu_rel26_s2 =
+./bfd/elf32-logic32.c:176:HOWTO (R_LOGIC32_RELOC_26_PCREL,  /* type */
+./bfd/elf32-logic32.c:183:       elf32_logic32_relocate26,  /* special_function */
+./bfd/elf32-logic32.c:184:       "R_LOGIC32_RELOC_26_PCREL",/* name */
+./bfd/elf32-logic32.c:192:static reloc_howto_type elf_logic32_gnu_rel24_s2 =
+./bfd/elf32-logic32.c:193:HOWTO (R_LOGIC32_RELOC_24_PCREL,  /* type */
+./bfd/elf32-logic32.c:200:       elf32_logic32_relocate24,  /* special_function */
+./bfd/elf32-logic32.c:201:       "R_LOGIC32_RELOC_24_PCREL",/* name */
+./bfd/elf32-logic32.c:208:static reloc_howto_type elf_logic32_gnu_jmp32_s2 =
+./bfd/elf32-logic32.c:209:HOWTO (R_LOGIC32_RELOC_32_JMP,  /* type */
+./bfd/elf32-logic32.c:216:       elf32_logic32_relocate_jmp32,  /* special_function */
+./bfd/elf32-logic32.c:217:       "R_LOGIC32_RELOC_32_JMP",/* name */
+./bfd/elf32-logic32.c:224:static reloc_howto_type elf_logic32_gnu_ldi_s2 =
+./bfd/elf32-logic32.c:225:HOWTO (R_LOGIC32_RELOC_LDI,  /* type */
+./bfd/elf32-logic32.c:232:       elf32_logic32_relocate_ldi,  /* special_function */
+./bfd/elf32-logic32.c:233:       "R_LOGIC32_RELOC_LDI", /* name */
+./bfd/elf32-logic32.c:240:static reloc_howto_type elf_logic32_reloc_16_hi =
+./bfd/elf32-logic32.c:241:HOWTO (R_LOGIC32_RELOC_16_HI,     /* type */
+./bfd/elf32-logic32.c:248:       _bfd_logic32_elf_hi16_reloc,/* special_function */
+./bfd/elf32-logic32.c:249:       "R_LOGIC32_RELOC_16_HI",   /* name */
+./bfd/elf32-logic32.c:256:static reloc_howto_type elf_logic32_reloc_16_lo =
+./bfd/elf32-logic32.c:257:HOWTO (R_LOGIC32_RELOC_16_LO,     /* type */
+./bfd/elf32-logic32.c:265:       "R_LOGIC32_RELOC_16_LO",   /* name */
+./bfd/elf32-logic32.c:278:static int skip_logic32_elf_hi16_reloc = 0;
+./bfd/elf32-logic32.c:281:set_logic32_skip_hi16_flag (flag)
+./bfd/elf32-logic32.c:284:  skip_logic32_elf_hi16_reloc = flag;
+./bfd/elf32-logic32.c:289:_bfd_logic32_elf_hi16_reloc (abfd, reloc_entry, symbol, data,
+./bfd/elf32-logic32.c:303:     is more of a hack for logic32 gas/gld, so we do not need to do the %hi/%lo
+./bfd/elf32-logic32.c:305:  if (skip_logic32_elf_hi16_reloc)
+./bfd/elf32-logic32.c:351:elf32_logic32_relocate16  (abfd, reloc_entry, symbol, data,
+./bfd/elf32-logic32.c:369:  if (skip_logic32_elf_hi16_reloc)
+./bfd/elf32-logic32.c:417:elf32_logic32_relocate26  (abfd, reloc_entry, symbol, data,
+./bfd/elf32-logic32.c:435:  if (skip_logic32_elf_hi16_reloc)
+./bfd/elf32-logic32.c:482:elf32_logic32_relocate24  (abfd, reloc_entry, symbol, data,
+./bfd/elf32-logic32.c:500:  if (skip_logic32_elf_hi16_reloc)
+./bfd/elf32-logic32.c:550:elf32_logic32_relocate_jmp32  (abfd, reloc_entry, symbol, data,
+./bfd/elf32-logic32.c:572:  if (skip_logic32_elf_hi16_reloc)
+./bfd/elf32-logic32.c:621:elf32_logic32_relocate_ldi  (abfd, reloc_entry, symbol, data,
+./bfd/elf32-logic32.c:640:  if (skip_logic32_elf_hi16_reloc)
+./bfd/elf32-logic32.c:667:/* A mapping from BFD reloc types to LOGIC32 ELF reloc types.
+./bfd/elf32-logic32.c:670:   More about this table - for logic32 elf relocation we do not really
+./bfd/elf32-logic32.c:678:  enum elf_logic32_reloc_type elf_reloc_val;
+./bfd/elf32-logic32.c:681:static const struct elf_reloc_map logic32_reloc_map[] =
+./bfd/elf32-logic32.c:683:    { BFD_RELOC_NONE,           R_LOGIC32_NONE },
+./bfd/elf32-logic32.c:684:    { BFD_RELOC_16,             R_LOGIC32_RELOC_16 },
+./bfd/elf32-logic32.c:685:    { BFD_RELOC_32,             R_LOGIC32_RELOC_32 },
+./bfd/elf32-logic32.c:686:    { BFD_RELOC_LOGIC32_HI16_S,     R_LOGIC32_RELOC_16_HI },
+./bfd/elf32-logic32.c:687:    { BFD_RELOC_LOGIC32_LO16,       R_LOGIC32_RELOC_16_LO },
+./bfd/elf32-logic32.c:688:    { BFD_RELOC_VTABLE_INHERIT,	R_LOGIC32_GNU_VTINHERIT },
+./bfd/elf32-logic32.c:689:    { BFD_RELOC_VTABLE_ENTRY,	R_LOGIC32_GNU_VTENTRY }
+./bfd/elf32-logic32.c:698:elf32_logic32_check_relocs (abfd, info, sec, relocs)
+./bfd/elf32-logic32.c:734:        case R_LOGIC32_GNU_VTINHERIT:
+./bfd/elf32-logic32.c:741:        case R_LOGIC32_GNU_VTENTRY:
+./bfd/elf32-logic32.c:754:elf32_logic32_reloc_type_lookup (abfd, code)
+./bfd/elf32-logic32.c:760:  for (i = 0; i < sizeof (logic32_reloc_map) / sizeof (struct elf_reloc_map); i++)
+./bfd/elf32-logic32.c:761:    if (logic32_reloc_map[i].bfd_reloc_val == code)
+./bfd/elf32-logic32.c:762:      return &logic32_elf_howto_table[(int) logic32_reloc_map[i].elf_reloc_val];
+./bfd/elf32-logic32.c:770:      return &elf_logic32_gnu_rel16_s2;
+./bfd/elf32-logic32.c:772:    case BFD_RELOC_LOGIC32_JMP26:
+./bfd/elf32-logic32.c:773:      return &elf_logic32_gnu_rel26_s2;
+./bfd/elf32-logic32.c:775:    case BFD_RELOC_LOGIC32_JMP24:
+./bfd/elf32-logic32.c:776:      return &elf_logic32_gnu_rel24_s2;
+./bfd/elf32-logic32.c:777:    case BFD_RELOC_LOGIC32_JMP32:
+./bfd/elf32-logic32.c:778:      return &elf_logic32_gnu_jmp32_s2;
+./bfd/elf32-logic32.c:779:    case BFD_RELOC_LOGIC32_LDI:
+./bfd/elf32-logic32.c:780:      return &elf_logic32_gnu_ldi_s2;
+./bfd/elf32-logic32.c:782:      return &elf_logic32_reloc_16_hi;
+./bfd/elf32-logic32.c:784:      return &elf_logic32_reloc_16_lo;
+./bfd/elf32-logic32.c:789:logic32_rtype_to_howto (r_type)
+./bfd/elf32-logic32.c:794:    case R_LOGIC32_RELOC_16_PCREL:
+./bfd/elf32-logic32.c:795:      return & elf_logic32_gnu_rel16_s2;
+./bfd/elf32-logic32.c:798:    case R_LOGIC32_RELOC_26_PCREL:
+./bfd/elf32-logic32.c:799:      return & elf_logic32_gnu_rel26_s2;
+./bfd/elf32-logic32.c:802:    case R_LOGIC32_RELOC_24_PCREL:
+./bfd/elf32-logic32.c:803:      return & elf_logic32_gnu_rel24_s2;
+./bfd/elf32-logic32.c:805:    case R_LOGIC32_RELOC_32_JMP:
+./bfd/elf32-logic32.c:806:      return & elf_logic32_gnu_jmp32_s2;
+./bfd/elf32-logic32.c:808:    case R_LOGIC32_RELOC_LDI:
+./bfd/elf32-logic32.c:809:      return & elf_logic32_gnu_ldi_s2;
+./bfd/elf32-logic32.c:811:    case R_LOGIC32_RELOC_16_HI:
+./bfd/elf32-logic32.c:812:      return & elf_logic32_reloc_16_hi;
+./bfd/elf32-logic32.c:814:    case R_LOGIC32_RELOC_16_LO:
+./bfd/elf32-logic32.c:815:      return & elf_logic32_reloc_16_lo;
+./bfd/elf32-logic32.c:819:      BFD_ASSERT (r_type < (unsigned int) R_LOGIC32_max);
+./bfd/elf32-logic32.c:820:      return & logic32_elf_howto_table[r_type];
+./bfd/elf32-logic32.c:826:elf32_logic32_info_to_howto (abfd, cache_ptr, dst)
+./bfd/elf32-logic32.c:835:elf32_logic32_info_to_howto_rel (abfd, cache_ptr, dst)
+./bfd/elf32-logic32.c:843:  cache_ptr->howto = logic32_rtype_to_howto (r_type);
+./bfd/elf32-logic32.c:847:#define TARGET_LITTLE_SYM          bfd_elf32_logic32_vec
+./bfd/elf32-logic32.c:848:#define TARGET_LITTLE_NAME         "elf32-logic32"
+./bfd/elf32-logic32.c:849:#define ELF_ARCH                bfd_arch_logic32
+./bfd/elf32-logic32.c:850:#define ELF_MACHINE_CODE        EM_LOGIC32
+./bfd/autom4te.cache/output.0:12281:    bfd_elf32_logic32_vec)	tb="$tb elf32-logic32.lo elf32.lo $elf" ;;
+./bfd/reloc.c:3014:  BFD_RELOC_LOGIC32_HI16_S
+./bfd/reloc.c:3020:  LOGIC32 relocs
+./bfd/reloc.c:3022:  BFD_RELOC_LOGIC32_JMP26
+./bfd/reloc.c:3024:  LOGIC32 relocs
+./bfd/po/SRC-POTFILES.in:75:cpu-logic32.c
+./bfd/po/SRC-POTFILES.in:140:elf32-logic32.c
+./bfd/doc/reloc.texi:1320:@deffn {} BFD_RELOC_LOGIC32_HI16_S
+./bfd/doc/reloc.texi:1321:LOGIC32 relocs
+./bfd/doc/reloc.texi:1323:@deffn {} BFD_RELOC_LOGIC32_LO16
+./bfd/doc/reloc.texi:1324:LOGIC32 relocs
+./bfd/doc/reloc.texi:1326:@deffn {} BFD_RELOC_LOGIC32_JMP26
+./bfd/doc/reloc.texi:1327:LOGIC32 relocs
+./bfd/doc/archures.texi:189:  bfd_arch_logic32,       /* LOGIC32 */
+./bfd/archures.c:223:.  bfd_arch_logic32,       {* LOGIC32 *}
+./bfd/archures.c:411:extern const bfd_arch_info_type bfd_logic32_arch;
+./bfd/archures.c:475:    &bfd_logic32_arch,
+./bfd/Makefile.in:305:	cpu-logic32.lo \
+./bfd/Makefile.in:364:	cpu-logic32.c \
+./bfd/Makefile.in:472:	elf32-logic32.lo \
+./bfd/Makefile.in:642:	elf32-logic32.c \
+./bfd/Makefile.in:1513:cpu-logic32.lo: cpu-logic32.c $(INCDIR)/filenames.h
+./bfd/Makefile.in:1757:elf32-logic32.lo: elf32-logic32.c $(INCDIR)/filenames.h elf-bfd.h \
+./bfd/Makefile.in:1759:  $(INCDIR)/bfdlink.h $(INCDIR)/elf/logic32.h $(INCDIR)/elf/reloc-macros.h \
+./gas/Makefile.am:53:	logic32 \
+./gas/Makefile.am:252:	config/tc-logic32.c \
+./gas/Makefile.am:306:	config/tc-logic32.h \
+./gas/Makefile.am:1100:DEPTC_logic32_coff = $(INCDIR)/safe-ctype.h $(INCDIR)/symcat.h \
+./gas/Makefile.am:1101:  $(srcdir)/config/obj-coff.h $(srcdir)/config/tc-logic32.h \
+./gas/Makefile.am:1103:  $(INCDIR)/opcode/logic32.h
+./gas/Makefile.am:1104:DEPTC_logic32_elf = $(INCDIR)/safe-ctype.h $(INCDIR)/symcat.h \
+./gas/Makefile.am:1107:  $(srcdir)/config/tc-logic32.h $(INCDIR)/opcode/logic32.h
+./gas/Makefile.am:1693:DEPOBJ_logic32_coff = $(INCDIR)/symcat.h $(srcdir)/config/obj-coff.h \
+./gas/Makefile.am:1694:  $(srcdir)/config/tc-logic32.h $(INCDIR)/coff/internal.h \
+./gas/Makefile.am:1697:DEPOBJ_logic32_elf = $(INCDIR)/symcat.h $(srcdir)/config/obj-elf.h \
+./gas/Makefile.am:1699:  $(INCDIR)/elf/external.h $(INCDIR)/bfdlink.h $(srcdir)/config/tc-logic32.h \
+./gas/Makefile.am:2187:DEP_logic32_coff = $(srcdir)/config/obj-coff.h $(srcdir)/config/tc-logic32.h \
+./gas/Makefile.am:2190:DEP_logic32_elf = $(srcdir)/config/obj-elf.h $(INCDIR)/symcat.h \
+./gas/Makefile.am:2192:  $(INCDIR)/elf/external.h $(INCDIR)/bfdlink.h $(srcdir)/config/tc-logic32.h
+./gas/config/tc-logic32.h:1:/* tc-logic32.h -- Assemble for the LOGIC32
+./gas/configure.tgt:140:  logic32-*-*)				fmt=elf ;;
+./gas/po/POTFILES.in:63:config/tc-logic32.c
+./gas/po/POTFILES.in:64:config/tc-logic32.h
+./gas/Makefile.in:282:	logic32 \
+./gas/Makefile.in:479:	config/tc-logic32.c \
+./gas/Makefile.in:533:	config/tc-logic32.h \
+./gas/Makefile.in:902:DEPTC_logic32_coff = $(INCDIR)/safe-ctype.h $(INCDIR)/symcat.h \
+./gas/Makefile.in:903:  $(srcdir)/config/obj-coff.h $(srcdir)/config/tc-logic32.h \
+./gas/Makefile.in:905:  $(INCDIR)/opcode/logic32.h
+./gas/Makefile.in:907:DEPTC_logic32_elf = $(INCDIR)/safe-ctype.h $(INCDIR)/symcat.h \
+./gas/Makefile.in:910:  $(srcdir)/config/tc-logic32.h $(INCDIR)/opcode/logic32.h
+./gas/Makefile.in:1616:DEPOBJ_logic32_coff = $(INCDIR)/symcat.h $(srcdir)/config/obj-coff.h \
+./gas/Makefile.in:1617:  $(srcdir)/config/tc-logic32.h $(INCDIR)/coff/internal.h \
+./gas/Makefile.in:1621:DEPOBJ_logic32_elf = $(INCDIR)/symcat.h $(srcdir)/config/obj-elf.h \
+./gas/Makefile.in:1623:  $(INCDIR)/elf/external.h $(INCDIR)/bfdlink.h $(srcdir)/config/tc-logic32.h \
+./gas/Makefile.in:2230:DEP_logic32_coff = $(srcdir)/config/obj-coff.h $(srcdir)/config/tc-logic32.h \
+./gas/Makefile.in:2234:DEP_logic32_elf = $(srcdir)/config/obj-elf.h $(INCDIR)/symcat.h \
+./gas/Makefile.in:2236:  $(INCDIR)/elf/external.h $(INCDIR)/bfdlink.h $(srcdir)/config/tc-logic32.h

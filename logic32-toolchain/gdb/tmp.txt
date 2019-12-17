@@ -1,0 +1,16 @@
+./configure.in:628:  zpu-*-*)
+./readline/support/config.sub:274:	zpu)
+./configure:1408:  zpu-*-*)
+./config.sub:274:	zpu)
+./config.sub:275:		# Zylin ZPU
+./gdb/MAINTAINERS:101:	zpu		--target=zpu-elf ,-Werror ,
+./gdb/config/djgpp/fnchange.lst:14:@V@/bfd/cpu-zpu.c @V@/bfd/cmzpu.c
+./gdb/config/djgpp/fnchange.lst:23:@V@/bfd/elf32-m68hc11.c @V@/bfd/emzpu.c
+./gdb/config/djgpp/fnchange.lst:278:@V@/opcodes/zpu-dis.c @V@/opcodes/zpudis.c
+./gdb/config/djgpp/fnchange.lst:279:@V@/opcodes/zpu-opc.c @V@/opcodes/zpuopc.c
+./gdb/config/zpu/zpu.mt:1:# Target: Zylin ZPU processor
+./gdb/config/zpu/zpu.mt:2:TDEPFILES= zpu-tdep.o
+./gdb/configure.tgt:20:zpu*)	gdb_target_cpu=zpu ;;
+./gdb/configure.tgt:109:zpu-*-*)	gdb_target=zpu ;;
+./gdb/Makefile.in:579:opcode_zpu_h = $(INCLUDE_DIR)/opcode/zpu.h
+./gdb/Makefile.in:2062:	$(opcode_zpu_h) $(elf_zpu_h) $(elf_bfd_h)

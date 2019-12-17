@@ -1,0 +1,49 @@
+*** /home/jpar/studies/diplom/local/src/gcc/src/gcc-3.3-3.3ds9/src/config.sub	Fri Jan 31 00:25:36 2003
+--- /tmp/src/config.sub	Mon Jul 21 21:06:25 2003
+***************
+*** 296,302 ****
+  	| arm-*  | armbe-* | armle-* | armeb-* | armv*-* \
+  	| avr-* \
+  	| bs2000-* \
+! 	| c[123]* | c30-* | [cjt]90-* | c4x-* | c54x-* \
+  	| clipper-* | cydra-* \
+  	| d10v-* | d30v-* | dlx-* \
+  	| elxsi-* \
+--- 296,302 ----
+  	| arm-*  | armbe-* | armle-* | armeb-* | armv*-* \
+  	| avr-* \
+  	| bs2000-* \
+! 	| c[123]* | c30-* | [cjt]90-* | c4x-* | c54x-* | c6x-* \
+  	| clipper-* | cydra-* \
+  	| d10v-* | d30v-* | dlx-* \
+  	| elxsi-* \
+***************
+*** 333,339 ****
+  	| shle-* | sh[1234]le-* | sh3ele-* | sh64-* | sh64le-* \
+  	| sparc-* | sparc64-* | sparc86x-* | sparclet-* | sparclite-* \
+  	| sparcv9-* | sparcv9b-* | strongarm-* | sv1-* | sx?-* \
+! 	| tahoe-* | thumb-* | tic30-* | tic4x-* | tic54x-* | tic80-* | tron-* \
+  	| v850-* | v850e-* | vax-* \
+  	| we32k-* \
+  	| x86-* | x86_64-* | xps100-* | xscale-* | xstormy16-* \
+--- 333,339 ----
+  	| shle-* | sh[1234]le-* | sh3ele-* | sh64-* | sh64le-* \
+  	| sparc-* | sparc64-* | sparc86x-* | sparclet-* | sparclite-* \
+  	| sparcv9-* | sparcv9b-* | strongarm-* | sv1-* | sx?-* \
+! 	| tahoe-* | thumb-* | tic30-* | tic4x-* | tic54x-* | tic6x-* | tic80-* | tron-* \
+  	| v850-* | v850e-* | vax-* \
+  	| we32k-* \
+  	| x86-* | x86_64-* | xps100-* | xscale-* | xstormy16-* \
+***************
+*** 925,930 ****
+--- 925,934 ----
+  		basic_machine=tic54x-unknown
+  		os=-coff
+  		;;
++         tic6x | c6x*)
++ 		basic_machine=tic6x-unknown
++ 		os=-coff
++ 		;;
+  	tx39)
+  		basic_machine=mipstx39-unknown
+  		;;
