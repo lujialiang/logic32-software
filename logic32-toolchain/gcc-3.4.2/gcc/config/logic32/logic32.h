@@ -705,6 +705,8 @@ enum reg_class
    is not one of those letters, the value should be 0 regardless of VALUE.  */
 #define CONST_OK_FOR_LETTER_P(VALUE, C)							\
  (  (C) == 'I' ? IN_RANGE (VALUE,    -32768,       32767)		\
+  :	(C) == 'J' ? (VALUE == 0)									\
+  :	(C) == 'K' ? (VALUE != 0)									\
   : 0)
 
 /* A C expression that defines the machine-dependent operand constraint letters

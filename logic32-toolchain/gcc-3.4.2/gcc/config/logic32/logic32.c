@@ -595,6 +595,11 @@ int arith_operand (rtx op, enum machine_mode mode)
   return const_arith_operand (op, mode) || register_operand (op, mode);
 }
 
+int register_or_const0_operand (rtx op, enum machine_mode mode)
+{
+  return (GET_CODE (op) == CONST_INT && INTVAL(op) == 0) || register_operand (op, mode);
+}
+
 /* Implement RETURN_ADDR_RTX.  Note, we do not support moving
    back to a previous frame.  */
 rtx logic32_return_addr (int count, rtx frame ATTRIBUTE_UNUSED)

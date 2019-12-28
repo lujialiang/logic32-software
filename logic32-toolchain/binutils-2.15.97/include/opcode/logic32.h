@@ -29,6 +29,8 @@
 #define OP_FPU		(0x02<<26)
 #define OP_FPU_MISC	(0x03<<26)
 // 0x04 ???
+#define OP_SUBI		(0x04<<26)	// LJL ++ 20191224
+
 #define OP_ANDI		(0x05<<26)
 #define OP_ORI		(0x06<<26)
 #define OP_XORI		(0x07<<26)

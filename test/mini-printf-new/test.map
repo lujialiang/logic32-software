@@ -1,0 +1,52 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/crt1.o
+LOAD test1.o
+LOAD mini-printf.o
+LOAD uart.o
+LOAD /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a
+LOAD /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a
+Address of section .data set to 0x20000
+                0x00000000                . = 0x0
+
+.text           0x00000000      0xb54
+ CREATE_OBJECT_SYMBOLS
+ *(.text)
+ .text          0x00000000       0x94 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/crt1.o
+                0x00000000                __start
+ *fill*         0x00000094        0xc 00
+ .text          0x000000a0      0x184 test1.o
+                0x000000a0                main
+ *fill*         0x00000224        0xc 00
+ .text          0x00000230      0x870 mini-printf.o
+                0x00000a40                mini_snprintf
+                0x000006a0                mini_vsnprintf
+ .text          0x00000aa0       0xb4 uart.o
+                0x00000ae0                uart_puts
+                0x00000aa0                uart_putchar
+                0x00000b54                etext = ALIGN (0x1)
+                0x00000b54                . = ALIGN (0x1)
+
+.data           0x00020000        0x0
+ *(.data)
+                0x00020000                edata = .
+
+.bss            0x00020000        0x0
+ *(.bss)
+ *(COMMON)
+                0x00020000                end = .
+OUTPUT(a.out elf32-logic32)
+
+.rodata         0x00020000       0x57
+ .rodata        0x00020000       0x57 test1.o
+
+.comment        0x00020057       0x36
+ .comment       0x00020057       0x12 test1.o
+ .comment       0x00020069       0x12 mini-printf.o
+ .comment       0x0002007b       0x12 uart.o

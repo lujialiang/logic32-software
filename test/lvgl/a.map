@@ -1,0 +1,2075 @@
+Archive member included because of file (symbol)
+
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sprintf.o)
+                              ./build/main.o (sprintf)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strlen.o)
+                              ./build/lv_table.o (strlen)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strcpy.o)
+                              ./build/lv_table.o (strcpy)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memset.o)
+                              ./build/lv_table.o (memset)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memcpy.o)
+                              ./build/lv_led.o (memcpy)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strcmp.o)
+                              ./build/lv_kb.o (strcmp)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sprintf.o) (_vfprintf_r)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(impure.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sprintf.o) (_impure_ptr)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(locale.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o) (localeconv)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wsetup.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o) (__swsetup)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fvwrite.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o) (__sfvwrite)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(malloc.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o) (free)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(s_isinf.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o) (isinf)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcrtomb.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o) (_wcrtomb_r)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mallocr.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o) (_malloc_r)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcsrtombs.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o) (_wcsrtombs_r)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memchr.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o) (memchr)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(s_isnan.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o) (isnan)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fflush.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o) (fflush)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(findfp.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o) (__sinit)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o) (_dtoa_r)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(freer.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wsetup.o) (_free_r)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(makebuf.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wsetup.o) (__smakebuf)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(reallocr.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fvwrite.o) (_realloc_r)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memmove.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fvwrite.o) (memmove)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wctomb_r.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcrtomb.o) (_wctomb_r)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mlock.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mallocr.o) (__malloc_lock)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sbrkr.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mallocr.o) (_sbrk_r)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fwalk.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fflush.o) (_fwalk)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(stdio.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(findfp.o) (__sread)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mprec.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o) (__mprec_bigtens)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fstatr.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(makebuf.o) (_fstat_r)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(readr.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(stdio.o) (_read_r)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(lseekr.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(stdio.o) (_lseek_r)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(writer.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(stdio.o) (_write_r)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(closer.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(stdio.o) (_close_r)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(callocr.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mprec.o) (_calloc_r)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_lt_df.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o) (__ltdf2)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ne_df.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o) (__nedf2)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_eq_df.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o) (__eqdf2)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_si_to_df.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o) (__floatsidf)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_addsub_df.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o) (__adddf3)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_mul_df.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o) (__muldf3)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_df_to_si.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o) (__fixdfsi)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_gt_df.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o) (__gtdf2)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_div_df.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o) (__divdf3)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ge_df.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o) (__gedf2)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_unpack_df.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_lt_df.o) (__unpack_d)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_fpcmp_parts_df.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_lt_df.o) (__fpcmp_parts_d)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_pack_df.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_si_to_df.o) (__pack_d)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_negdi2.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_addsub_df.o) (__negdi2)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_thenan_df.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_addsub_df.o) (__thenan_df)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_muldi3.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_mul_df.o) (__muldi3)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_lshrdi3.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_df_to_si.o) (__lshrdi3)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ashldi3.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_pack_df.o) (__ashldi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+lv_style_pretty_color
+                    0x50              ./build/lv_style.o
+lv_style_transp     0x50              ./build/lv_style.o
+_lv_task_ll         0xc               ./build/lv_gc.o
+lv_style_btn_rel    0x50              ./build/lv_style.o
+_lv_indev_ll        0xc               ./build/lv_gc.o
+lv_style_btn_pr     0x50              ./build/lv_style.o
+errno               0x4               ./build/syscall.o
+_lv_draw_buf        0x4               ./build/lv_gc.o
+lv_style_pretty     0x50              ./build/lv_style.o
+label3              0x4               ./build/main.o
+_lv_disp_ll         0xc               ./build/lv_gc.o
+buff                0x100             ./build/syscall.o
+label1              0x4               ./build/main.o
+_lv_img_defoder_ll  0xc               ./build/lv_gc.o
+_lv_drv_ll          0xc               ./build/lv_gc.o
+lv_style_transp_tight
+                    0x50              ./build/lv_style.o
+_lv_task_act        0x4               ./build/lv_gc.o
+label2              0x4               ./build/main.o
+lv_style_btn_ina    0x50              ./build/lv_style.o
+lv_style_transp_fit
+                    0x50              ./build/lv_style.o
+heap                0x2800            ./build/sbrk.o
+_lv_img_cache_array
+                    0x4               ./build/lv_gc.o
+lv_style_plain      0x50              ./build/lv_style.o
+lv_style_btn_tgl_rel
+                    0x50              ./build/lv_style.o
+_lv_anim_ll         0xc               ./build/lv_gc.o
+lv_style_scr        0x50              ./build/lv_style.o
+_lv_group_ll        0xc               ./build/lv_gc.o
+_lv_file_ll         0xc               ./build/lv_gc.o
+lv_style_btn_tgl_pr
+                    0x50              ./build/lv_style.o
+screen_point        0x4               ./build/l32_screen.o
+lv_style_plain_color
+                    0x50              ./build/lv_style.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/crt1.o
+LOAD ./build/main.o
+LOAD ./build/uart.o
+LOAD ./build/l32_screen.o
+LOAD ./build/syscall.o
+LOAD ./build/sbrk.o
+LOAD ./build/lv_table.o
+LOAD ./build/lv_led.o
+LOAD ./build/lv_canvas.o
+LOAD ./build/lv_kb.o
+LOAD ./build/lv_tabview.o
+LOAD ./build/lv_cont.o
+LOAD ./build/lv_cb.o
+LOAD ./build/lv_objx_templ.o
+LOAD ./build/lv_chart.o
+LOAD ./build/lv_mbox.o
+LOAD ./build/lv_tileview.o
+LOAD ./build/lv_bar.o
+LOAD ./build/lv_imgbtn.o
+LOAD ./build/lv_btnm.o
+LOAD ./build/lv_sw.o
+LOAD ./build/lv_lmeter.o
+LOAD ./build/lv_line.o
+LOAD ./build/lv_arc.o
+LOAD ./build/lv_calendar.o
+LOAD ./build/lv_win.o
+LOAD ./build/lv_btn.o
+LOAD ./build/lv_img.o
+LOAD ./build/lv_spinbox.o
+LOAD ./build/lv_label.o
+LOAD ./build/lv_ddlist.o
+LOAD ./build/lv_slider.o
+LOAD ./build/lv_gauge.o
+LOAD ./build/lv_page.o
+LOAD ./build/lv_roller.o
+LOAD ./build/lv_preload.o
+LOAD ./build/lv_list.o
+LOAD ./build/lv_ta.o
+LOAD ./build/lv_txt.o
+LOAD ./build/lv_log.o
+LOAD ./build/lv_templ.o
+LOAD ./build/lv_utils.o
+LOAD ./build/lv_color.o
+LOAD ./build/lv_ll.o
+LOAD ./build/lv_area.o
+LOAD ./build/lv_math.o
+LOAD ./build/lv_circ.o
+LOAD ./build/lv_fs.o
+LOAD ./build/lv_anim.o
+LOAD ./build/lv_task.o
+LOAD ./build/lv_async.o
+LOAD ./build/lv_gc.o
+LOAD ./build/lv_mem.o
+LOAD ./build/lv_theme_nemo.o
+LOAD ./build/lv_theme_default.o
+LOAD ./build/lv_theme_material.o
+LOAD ./build/lv_theme_templ.o
+LOAD ./build/lv_theme_alien.o
+LOAD ./build/lv_theme.o
+LOAD ./build/lv_theme_mono.o
+LOAD ./build/lv_theme_night.o
+LOAD ./build/lv_theme_zen.o
+LOAD ./build/lv_draw.o
+LOAD ./build/lv_img_decoder.o
+LOAD ./build/lv_draw_arc.o
+LOAD ./build/lv_draw_rect.o
+LOAD ./build/lv_draw_basic.o
+LOAD ./build/lv_draw_line.o
+LOAD ./build/lv_draw_label.o
+LOAD ./build/lv_draw_img.o
+LOAD ./build/lv_img_cache.o
+LOAD ./build/lv_draw_triangle.o
+LOAD ./build/lv_group.o
+LOAD ./build/lv_obj.o
+LOAD ./build/lv_style.o
+LOAD ./build/lv_indev.o
+LOAD ./build/lv_refr.o
+LOAD ./build/lv_disp.o
+LOAD ./build/lv_hal_indev.o
+LOAD ./build/lv_hal_tick.o
+LOAD ./build/lv_hal_disp.o
+LOAD ./build/lv_font_roboto_28.o
+LOAD ./build/lv_font_roboto_12.o
+LOAD ./build/lv_font_fmt_txt.o
+LOAD ./build/lv_font.o
+LOAD ./build/lv_font_roboto_16.o
+LOAD ./build/lv_font_unscii_8.o
+LOAD ./build/lv_font_roboto_22.o
+LOAD /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a
+LOAD /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a
+LOAD /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a
+                0x00000000                . = 0x0
+
+.text           0x00000000    0x89d04
+ CREATE_OBJECT_SYMBOLS
+ *(.text)
+ .text          0x00000000       0x94 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/crt1.o
+                0x00000000                __start
+ *fill*         0x00000094        0xc 00
+ .text          0x000000a0      0x534 ./build/main.o
+                0x000002b0                my_rounder
+                0x00000370                main
+                0x00000320                delay
+                0x000001c0                my_flush_cb
+                0x00000130                my_input_read
+                0x000002e0                my_set_px_cb
+                0x00000190                flush_one_row
+ *fill*         0x000005d4        0xc 00
+ .text          0x000005e0       0xac ./build/uart.o
+                0x00000620                uart_puts
+                0x000005e0                uart_putchar
+ *fill*         0x0000068c        0x4 00
+ .text          0x00000690      0x1a8 ./build/l32_screen.o
+                0x00000690                put_pixel_ex
+                0x000006f0                put_pixel
+                0x00000730                get_pixel
+                0x000007f0                screen_init
+                0x00000790                goto_xy
+ *fill*         0x00000838        0x8 00
+ .text          0x00000840      0x344 ./build/syscall.o
+                0x00000860                isatty
+                0x000009b0                lseek
+                0x00000a40                write
+                0x000008e0                fstat
+                0x00000920                read
+                0x00000840                halt
+                0x00000af0                close
+ *fill*         0x00000b84        0xc 00
+ .text          0x00000b90       0xa8 ./build/sbrk.o
+                0x00000b90                sbrk
+ *fill*         0x00000c38        0x8 00
+ .text          0x00000c40     0x2b4c ./build/lv_table.o
+                0x00001c90                lv_table_set_style
+                0x00001f60                lv_table_get_col_width
+                0x000023c0                lv_table_get_cell_merge_right
+                0x00002000                lv_table_get_cell_align
+                0x00002140                lv_table_get_cell_type
+                0x000016e0                lv_table_set_cell_type
+                0x000024f0                lv_table_get_style
+                0x00001150                lv_table_set_row_cnt
+                0x00001490                lv_table_set_col_width
+                0x00001f10                lv_table_get_col_cnt
+                0x00002280                lv_table_get_cell_crop
+                0x00001d90                lv_table_get_cell_value
+                0x00000f50                lv_table_set_cell_value
+                0x00001520                lv_table_set_cell_align
+                0x000012e0                lv_table_set_col_cnt
+                0x00000c40                lv_table_create
+                0x000018e0                lv_table_set_cell_crop
+                0x00001ec0                lv_table_get_row_cnt
+                0x00001aa0                lv_table_set_cell_merge_right
+ *fill*         0x0000378c        0x4 00
+ .text          0x00003790      0x8dc ./build/lv_led.o
+                0x00003a70                lv_led_off
+                0x00003ab0                lv_led_toggle
+                0x000039b0                lv_led_set_bright
+                0x00003a30                lv_led_on
+                0x00003790                lv_led_create
+                0x00003b20                lv_led_get_bright
+ *fill*         0x0000406c        0x4 00
+ .text          0x00004070     0x22e4 ./build/lv_canvas.o
+                0x00004410                lv_canvas_set_palette
+                0x00004480                lv_canvas_set_style
+                0x000048b0                lv_canvas_rotate
+                0x000055c0                lv_canvas_draw_rect
+                0x000046e0                lv_canvas_copy_buf
+                0x00004070                lv_canvas_create
+                0x00005810                lv_canvas_draw_text
+                0x000045c0                lv_canvas_get_img
+                0x00005e50                lv_canvas_draw_polygon
+                0x00005c30                lv_canvas_draw_line
+                0x00004230                lv_canvas_set_buffer
+                0x00006020                lv_canvas_draw_arc
+                0x000054d0                lv_canvas_fill_bg
+                0x00004610                lv_canvas_get_style
+                0x00004390                lv_canvas_set_px
+                0x00004530                lv_canvas_get_px
+                0x00005a60                lv_canvas_draw_img
+ *fill*         0x00006354        0xc 00
+ .text          0x00006360      0xfbc ./build/lv_kb.o
+                0x00006a40                lv_kb_get_ta
+                0x00006640                lv_kb_set_ta
+                0x00006950                lv_kb_set_style
+                0x00006730                lv_kb_set_mode
+                0x00006c50                lv_kb_def_event_cb
+                0x00006360                lv_kb_create
+                0x00006ae0                lv_kb_get_cursor_manage
+                0x00006a90                lv_kb_get_mode
+                0x00006810                lv_kb_set_cursor_manage
+                0x00006b30                lv_kb_get_style
+ *fill*         0x0000731c        0x4 00
+ .text          0x00007320     0x37cc ./build/lv_tabview.o
+                0x00008d20                lv_tabview_get_anim_time
+                0x00008d70                lv_tabview_get_style
+                0x00008a40                lv_tabview_set_btns_pos
+                0x00008f10                lv_tabview_get_btns_hidden
+                0x00008840                lv_tabview_set_anim_time
+                0x00008cd0                lv_tabview_get_sliding
+                0x000087a0                lv_tabview_set_sliding
+                0x00008890                lv_tabview_set_style
+                0x00008b90                lv_tabview_get_tab_count
+                0x00008ac0                lv_tabview_set_btns_hidden
+                0x00007320                lv_tabview_create
+                0x00008150                lv_tabview_set_tab_act
+                0x00008eb0                lv_tabview_get_btns_pos
+                0x00007a40                lv_tabview_clean
+                0x00008b40                lv_tabview_get_tab_act
+                0x00008be0                lv_tabview_get_tab
+                0x00007a90                lv_tabview_add_tab
+ *fill*         0x0000aaec        0x4 00
+ .text          0x0000aaf0     0x2254 ./build/lv_cont.o
+                0x0000ae50                lv_cont_set_layout
+                0x0000aaf0                lv_cont_create
+                0x0000af10                lv_cont_set_fit4
+                0x0000b100                lv_cont_get_layout
+                0x0000b1c0                lv_cont_get_fit_right
+                0x0000b280                lv_cont_get_fit_bottom
+                0x0000b160                lv_cont_get_fit_left
+                0x0000b220                lv_cont_get_fit_top
+ *fill*         0x0000cd44        0xc 00
+ .text          0x0000cd50      0xda4 ./build/lv_cb.o
+                0x0000d140                lv_cb_set_text
+                0x0000cd50                lv_cb_create
+                0x0000d1e0                lv_cb_set_style
+                0x0000d330                lv_cb_get_text
+                0x0000d190                lv_cb_set_static_text
+                0x0000d380                lv_cb_get_style
+ *fill*         0x0000daf4        0xc 00
+ .text          0x0000db00     0x4384 ./build/lv_chart.o
+                0x0000e140                lv_chart_set_div_line_count
+                0x0000eeb0                lv_chart_get_type
+                0x0000db00                lv_chart_create
+                0x0000ed10                lv_chart_set_y_tick_length
+                0x0000ef00                lv_chart_get_point_cnt
+                0x0000e9d0                lv_chart_set_next
+                0x0000e1f0                lv_chart_set_range
+                0x0000e810                lv_chart_set_series_darking
+                0x0000ee50                lv_chart_set_margin
+                0x0000f040                lv_chart_refresh
+                0x0000ecb0                lv_chart_set_x_tick_length
+                0x0000ede0                lv_chart_set_y_tick_texts
+                0x0000e2a0                lv_chart_set_type
+                0x0000f080                lv_chart_get_margin
+                0x0000eff0                lv_chart_get_series_darking
+                0x0000ed70                lv_chart_set_x_tick_texts
+                0x0000dec0                lv_chart_add_series
+                0x0000e790                lv_chart_set_series_width
+                0x0000e950                lv_chart_set_points
+                0x0000efa0                lv_chart_get_series_width
+                0x0000ef50                lv_chart_get_series_opa
+                0x0000e890                lv_chart_init_points
+                0x0000e070                lv_chart_clear_serie
+                0x0000ec00                lv_chart_set_update_mode
+                0x0000e320                lv_chart_set_point_count
+                0x0000e710                lv_chart_set_series_opa
+ *fill*         0x00011e84        0xc 00
+ .text          0x00011e90     0x13b0 ./build/lv_mbox.o
+                0x00012150                lv_mbox_add_btns
+                0x00012a90                lv_mbox_get_btnm
+                0x000126c0                lv_mbox_set_recolor
+                0x00012590                lv_mbox_set_style
+                0x00011e90                lv_mbox_create
+                0x00012270                lv_mbox_set_text
+                0x00012860                lv_mbox_get_anim_time
+                0x000128b0                lv_mbox_get_style
+                0x000122d0                lv_mbox_set_anim_time
+                0x000127f0                lv_mbox_get_active_btn_text
+                0x00012770                lv_mbox_get_active_btn
+                0x00012550                lv_mbox_stop_auto_close
+                0x00012330                lv_mbox_start_auto_close
+                0x00012a10                lv_mbox_get_recolor
+                0x00012720                lv_mbox_get_text
+ .text          0x00013240     0x1a80 ./build/lv_tileview.o
+                0x00013aa0                lv_tileview_set_style
+                0x00013b00                lv_tileview_get_style
+                0x00013790                lv_tileview_set_tile_act
+                0x00013240                lv_tileview_create
+                0x000135f0                lv_tileview_add_element
+                0x00013670                lv_tileview_set_valid_positions
+ .text          0x00014cc0     0x1588 ./build/lv_bar.o
+                0x00015670                lv_bar_get_style
+                0x00014fb0                lv_bar_set_value
+                0x00015310                lv_bar_set_sym
+                0x00015400                lv_bar_set_style
+                0x000151d0                lv_bar_set_range
+                0x000154a0                lv_bar_get_value
+                0x00015580                lv_bar_get_max_value
+                0x000153b0                lv_bar_set_anim_time
+                0x000155d0                lv_bar_get_sym
+                0x00015620                lv_bar_get_anim_time
+                0x00014cc0                lv_bar_create
+                0x00015530                lv_bar_get_min_value
+ *fill*         0x00016248        0x8 00
+ .text          0x00016250      0x71c ./build/lv_imgbtn.o
+                0x000163e0                lv_imgbtn_set_src
+                0x000164a0                lv_imgbtn_get_src
+                0x00016510                lv_imgbtn_get_style
+                0x00016450                lv_imgbtn_set_style
+                0x00016250                lv_imgbtn_create
+ *fill*         0x0001696c        0x4 00
+ .text          0x00016970     0x376c ./build/lv_btnm.o
+                0x00016c80                lv_btnm_set_map
+                0x00017810                lv_btnm_clear_btn_ctrl_all
+                0x00017310                lv_btnm_set_ctrl_map
+                0x00017450                lv_btnm_set_style
+                0x000175e0                lv_btnm_set_btn_ctrl
+                0x000179e0                lv_btnm_set_one_toggle
+                0x00017390                lv_btnm_set_pressed
+                0x00017b50                lv_btnm_get_active_btn_text
+                0x00017ab0                lv_btnm_get_recolor
+                0x00017e50                lv_btnm_get_style
+                0x00016970                lv_btnm_create
+                0x00017f50                lv_btnm_get_one_toggle
+                0x000176b0                lv_btnm_clear_btn_ctrl
+                0x00017d80                lv_btnm_get_btn_ctrl
+                0x00017b00                lv_btnm_get_active_btn
+                0x000178a0                lv_btnm_set_btn_width
+                0x00017c20                lv_btnm_get_btn_text
+                0x00017a60                lv_btnm_get_map_array
+                0x00017560                lv_btnm_set_recolor
+                0x00017780                lv_btnm_set_btn_ctrl_all
+                0x00017bd0                lv_btnm_get_pressed_btn
+ *fill*         0x0001a0dc        0x4 00
+ .text          0x0001a0e0      0xf50 ./build/lv_sw.o
+                0x0001a5e0                lv_sw_set_style
+                0x0001a540                lv_sw_toggle
+                0x0001a0e0                lv_sw_create
+                0x0001a720                lv_sw_set_anim_time
+                0x0001a770                lv_sw_get_style
+                0x0001a880                lv_sw_get_anim_time
+                0x0001a4d0                lv_sw_off
+                0x0001a410                lv_sw_on
+ .text          0x0001b030     0x107c ./build/lv_lmeter.o
+                0x0001b3a0                lv_lmeter_set_range
+                0x0001b030                lv_lmeter_create
+                0x0001b290                lv_lmeter_set_value
+                0x0001b670                lv_lmeter_get_line_count
+                0x0001b4d0                lv_lmeter_set_scale
+                0x0001b620                lv_lmeter_get_max_value
+                0x0001b5d0                lv_lmeter_get_min_value
+                0x0001b6c0                lv_lmeter_get_scale_angle
+                0x0001b580                lv_lmeter_get_value
+ *fill*         0x0001c0ac        0x4 00
+ .text          0x0001c0b0      0xce0 ./build/lv_line.o
+                0x0001c5c0                lv_line_set_y_invert
+                0x0001c0b0                lv_line_create
+                0x0001c2a0                lv_line_set_points
+                0x0001c6f0                lv_line_get_y_invert
+                0x0001c4c0                lv_line_set_auto_size
+                0x0001c6a0                lv_line_get_auto_size
+ .text          0x0001cd90      0x994 ./build/lv_arc.o
+                0x0001d060                lv_arc_get_angle_start
+                0x0001cd90                lv_arc_create
+                0x0001d000                lv_arc_set_style
+                0x0001d100                lv_arc_get_style
+                0x0001cf60                lv_arc_set_angles
+                0x0001d0b0                lv_arc_get_angle_end
+ *fill*         0x0001d724        0xc 00
+ .text          0x0001d730     0x2e98 ./build/lv_calendar.o
+                0x0001dd20                lv_calendar_set_highlighted_dates
+                0x0001df60                lv_calendar_get_today_date
+                0x0001dc20                lv_calendar_set_today_date
+                0x0001e080                lv_calendar_get_highlighted_dates
+                0x0001ddf0                lv_calendar_set_month_names
+                0x0001d730                lv_calendar_create
+                0x0001de50                lv_calendar_set_style
+                0x0001e1c0                lv_calendar_get_style
+                0x0001e120                lv_calendar_get_day_names
+                0x0001e000                lv_calendar_get_pressed_date
+                0x0001e170                lv_calendar_get_month_names
+                0x0001e0d0                lv_calendar_get_highlighted_dates_num
+                0x0001dd90                lv_calendar_set_day_names
+                0x0001dfb0                lv_calendar_get_showed_date
+                0x0001dca0                lv_calendar_set_showed_date
+ *fill*         0x000205c8        0x8 00
+ .text          0x000205d0     0x1514 ./build/lv_win.o
+                0x00021460                lv_win_focus
+                0x00020f80                lv_win_set_drag
+                0x000211f0                lv_win_get_sb_mode
+                0x000205d0                lv_win_create
+                0x00020c00                lv_win_set_btn_size
+                0x00020ff0                lv_win_get_title
+                0x00021040                lv_win_get_content
+                0x00021140                lv_win_get_layout
+                0x00020a60                lv_win_add_btn
+                0x00020b40                lv_win_close_event_cb
+                0x00020dc0                lv_win_set_style
+                0x000212a0                lv_win_get_width
+                0x00020c80                lv_win_set_layout
+                0x00020a10                lv_win_clean
+                0x00020d20                lv_win_set_sb_mode
+                0x00020ba0                lv_win_set_title
+                0x00021250                lv_win_get_anim_time
+                0x00020d70                lv_win_set_anim_time
+                0x00021340                lv_win_get_style
+                0x00021090                lv_win_get_btn_size
+                0x000210e0                lv_win_get_from_btn
+ *fill*         0x00021ae4        0xc 00
+ .text          0x00021af0     0x10c8 ./build/lv_btn.o
+                0x000222c0                lv_btn_get_ink_in_time
+                0x00022320                lv_btn_get_ink_out_time
+                0x000220b0                lv_btn_set_ink_wait_time
+                0x000222f0                lv_btn_get_ink_wait_time
+                0x00021fa0                lv_btn_toggle
+                0x00022210                lv_btn_get_state
+                0x00021ee0                lv_btn_set_state
+                0x00022350                lv_btn_get_style
+                0x000220e0                lv_btn_set_ink_out_time
+                0x00021e40                lv_btn_set_toggle
+                0x00022110                lv_btn_set_style
+                0x00022080                lv_btn_set_ink_in_time
+                0x00021af0                lv_btn_create
+                0x00022270                lv_btn_get_toggle
+ *fill*         0x00022bb8        0x8 00
+ .text          0x00022bc0      0xed0 ./build/lv_img.o
+                0x000234a0                lv_img_get_offset_x
+                0x000234f0                lv_img_get_offset_y
+                0x00023290                lv_img_set_offset_x
+                0x00023390                lv_img_get_src
+                0x000233e0                lv_img_get_file_name
+                0x00023450                lv_img_get_auto_size
+                0x00023310                lv_img_set_offset_y
+                0x00022e20                lv_img_set_src
+                0x00022bc0                lv_img_create
+                0x000231f0                lv_img_set_auto_size
+ .text          0x00023a90     0x11a0 ./build/lv_spinbox.o
+                0x00023da0                lv_spinbox_set_value
+                0x00024170                lv_spinbox_step_next
+                0x000241f0                lv_spinbox_step_prev
+                0x00024120                lv_spinbox_get_value
+                0x00024090                lv_spinbox_set_padding_left
+                0x000243e0                lv_spinbox_decrement
+                0x00023fc0                lv_spinbox_set_range
+                0x00023e50                lv_spinbox_set_digit_format
+                0x00023a90                lv_spinbox_create
+                0x00024300                lv_spinbox_increment
+                0x00023f60                lv_spinbox_set_step
+ .text          0x00024c30     0x3938 ./build/lv_label.o
+                0x000260f0                lv_label_get_letter_on
+                0x00025250                lv_label_set_array_text
+                0x00025bb0                lv_label_get_letter_pos
+                0x000250c0                lv_label_set_text
+                0x00025610                lv_label_set_align
+                0x000253c0                lv_label_set_static_text
+                0x00026c10                lv_label_cut_text
+                0x000257a0                lv_label_set_body_draw
+                0x00025480                lv_label_set_long_mode
+                0x00025b60                lv_label_get_anim_speed
+                0x00025ac0                lv_label_get_recolor
+                0x00025980                lv_label_set_text_sel_end
+                0x00025880                lv_label_set_anim_speed
+                0x00025a00                lv_label_get_long_mode
+                0x00026ad0                lv_label_ins_text
+                0x000259b0                lv_label_get_text
+                0x00026590                lv_label_get_text_sel_end
+                0x00026560                lv_label_get_text_sel_start
+                0x00025950                lv_label_set_text_sel_start
+                0x00025b10                lv_label_get_body_draw
+                0x000256c0                lv_label_set_recolor
+                0x00024c30                lv_label_create
+                0x00025a60                lv_label_get_align
+                0x000265c0                lv_label_is_char_under_pos
+ *fill*         0x00028568        0x8 00
+ .text          0x00028570     0x2ab0 ./build/lv_ddlist.o
+                0x00029560                lv_ddlist_get_fix_height
+                0x00028570                lv_ddlist_create
+                0x00028f90                lv_ddlist_set_draw_arrow
+                0x00028e20                lv_ddlist_set_fix_width
+                0x00028da0                lv_ddlist_set_fix_height
+                0x00028ca0                lv_ddlist_set_selected
+                0x00029030                lv_ddlist_set_stay_open
+                0x000292d0                lv_ddlist_get_options
+                0x00029320                lv_ddlist_get_selected
+                0x000290d0                lv_ddlist_set_style
+                0x00029730                lv_ddlist_get_align
+                0x00029600                lv_ddlist_get_stay_open
+                0x000291c0                lv_ddlist_set_align
+                0x00028ac0                lv_ddlist_set_options
+                0x00029810                lv_ddlist_close
+                0x000295b0                lv_ddlist_get_draw_arrow
+                0x00029650                lv_ddlist_get_style
+                0x00029790                lv_ddlist_open
+                0x00029370                lv_ddlist_get_selected_str
+ .text          0x0002b020     0x1fd8 ./build/lv_slider.o
+                0x0002b280                lv_slider_set_knob_in
+                0x0002b020                lv_slider_create
+                0x0002b430                lv_slider_get_value
+                0x0002b360                lv_slider_set_style
+                0x0002b530                lv_slider_get_knob_in
+                0x0002b4c0                lv_slider_is_dragged
+                0x0002b580                lv_slider_get_style
+ *fill*         0x0002cff8        0x8 00
+ .text          0x0002d000     0x1654 ./build/lv_gauge.o
+                0x0002d000                lv_gauge_create
+                0x0002d340                lv_gauge_set_needle_count
+                0x0002d6c0                lv_gauge_set_scale
+                0x0002d730                lv_gauge_get_value
+                0x0002d840                lv_gauge_get_label_count
+                0x0002d7f0                lv_gauge_get_needle_count
+                0x0002d510                lv_gauge_set_value
+ *fill*         0x0002e654        0xc 00
+ .text          0x0002e660     0x410c ./build/lv_page.o
+                0x0002f280                lv_page_get_fit_height
+                0x0002f1d0                lv_page_get_fit_width
+                0x0002f030                lv_page_get_scrl
+                0x0002ef00                lv_page_set_style
+                0x0002f130                lv_page_get_scroll_propagation
+                0x0002f180                lv_page_get_edge_flash
+                0x0002f330                lv_page_get_style
+                0x0002eb40                lv_page_clean
+                0x0002edc0                lv_page_set_scroll_propagation
+                0x0002ee60                lv_page_set_edge_flash
+                0x0002e660                lv_page_create
+                0x0002f080                lv_page_get_anim_time
+                0x0002f430                lv_page_on_edge
+                0x0002fd60                lv_page_scroll_ver
+                0x0002f670                lv_page_focus
+                0x0002fc70                lv_page_scroll_hor
+                0x0002f0d0                lv_page_get_sb_mode
+                0x0002f620                lv_page_glue_obj
+                0x0002fe50                lv_page_start_edge_flash
+                0x0002eb90                lv_page_set_sb_mode
+                0x0002ed70                lv_page_set_anim_time
+ *fill*         0x0003276c        0x4 00
+ .text          0x00032770     0x222c ./build/lv_roller.o
+                0x00033030                lv_roller_get_selected
+                0x00033170                lv_roller_get_hor_fit
+                0x00032770                lv_roller_create
+                0x00032e60                lv_roller_set_visible_row_count
+                0x00033230                lv_roller_get_style
+                0x00032b00                lv_roller_set_options
+                0x00032cc0                lv_roller_set_align
+                0x00032fa0                lv_roller_set_style
+                0x00032de0                lv_roller_set_selected
+                0x000330f0                lv_roller_get_align
+ *fill*         0x0003499c        0x4 00
+ .text          0x000349a0      0xd74 ./build/lv_preload.o
+                0x00034fe0                lv_preload_set_dir
+                0x00035070                lv_preload_get_arc_length
+                0x000349a0                lv_preload_create
+                0x00034cb0                lv_preload_set_style
+                0x00034c50                lv_preload_set_spin_time
+                0x000351f0                lv_preload_get_dir
+                0x00035190                lv_preload_get_type
+                0x000350c0                lv_preload_get_spin_time
+                0x00034d10                lv_preload_set_type
+                0x00035250                lv_preload_spinner_anim
+                0x00035110                lv_preload_get_style
+                0x00034c00                lv_preload_set_arc_length
+ *fill*         0x00035714        0xc 00
+ .text          0x00035720     0x25bc ./build/lv_list.o
+                0x00036a00                lv_list_get_btn_selected
+                0x00036540                lv_list_get_single_mode
+                0x00036820                lv_list_get_next_btn
+                0x00036320                lv_list_set_style
+                0x00036100                lv_list_set_single_mode
+                0x00036760                lv_list_get_prev_btn
+                0x000369b0                lv_list_get_size
+                0x00036600                lv_list_get_btn_label
+                0x00035c90                lv_list_add_btn
+                0x00036f00                lv_list_focus
+                0x000366b0                lv_list_get_btn_img
+                0x00035c30                lv_list_clean
+                0x000368e0                lv_list_get_btn_index
+                0x00035720                lv_list_create
+                0x00036d70                lv_list_down
+                0x00036590                lv_list_get_btn_text
+                0x00035ff0                lv_list_remove
+                0x00036170                lv_list_set_btn_selected
+                0x00036a50                lv_list_get_style
+                0x00036ba0                lv_list_up
+ *fill*         0x00037cdc        0x4 00
+ .text          0x00037ce0     0x4d34 ./build/lv_ta.o
+                0x00039e00                lv_ta_set_max_length
+                0x00039630                lv_ta_set_cursor_type
+                0x0003a4a0                lv_ta_get_max_length
+                0x0003a7f0                lv_ta_cursor_left
+                0x0003a710                lv_ta_get_cursor_blink_time
+                0x00039ff0                lv_ta_set_text_sel
+                0x00039a00                lv_ta_set_one_line
+                0x0003a760                lv_ta_clear_selection
+                0x00039c50                lv_ta_set_text_align
+                0x0003a300                lv_ta_get_cursor_type
+                0x0003a400                lv_ta_get_one_line
+                0x00039e90                lv_ta_set_style
+                0x0003a660                lv_ta_text_is_selected
+                0x0003a6c0                lv_ta_get_pwd_show_time
+                0x0003a070                lv_ta_set_cursor_blink_time
+                0x000391f0                lv_ta_set_cursor_pos
+                0x0003a2b0                lv_ta_get_cursor_pos
+                0x0003a790                lv_ta_cursor_right
+                0x00038b40                lv_ta_del_char
+                0x0003a450                lv_ta_get_accepted_chars
+                0x0003a260                lv_ta_get_label
+                0x00037ce0                lv_ta_create
+                0x00038e70                lv_ta_set_text
+                0x0003a360                lv_ta_get_cursor_click_pos
+                0x00038440                lv_ta_add_char
+                0x0003a3b0                lv_ta_get_pwd_mode
+                0x00039110                lv_ta_set_placeholder_text
+                0x00038df0                lv_ta_del_char_forward
+                0x00039e50                lv_ta_set_insert_replace
+                0x0003a690                lv_ta_get_text_sel_en
+                0x0003a020                lv_ta_set_pwd_show_time
+                0x0003a170                lv_ta_get_text
+                0x00039db0                lv_ta_set_accepted_chars
+                0x0003a990                lv_ta_cursor_up
+                0x000387e0                lv_ta_add_text
+                0x0003a1f0                lv_ta_get_placeholder_text
+                0x0003a4f0                lv_ta_get_style
+                0x00039780                lv_ta_set_pwd_mode
+                0x0003a860                lv_ta_cursor_down
+                0x000396e0                lv_ta_set_cursor_click_pos
+ *fill*         0x0003ca14        0xc 00
+ .text          0x0003ca20     0x16e0 ./build/lv_txt.o
+                0x0003d3f0                lv_txt_cut
+                0x0003d020                lv_txt_get_width
+                0x0003d2f0                lv_txt_ins
+                0x0003cd30                lv_txt_get_next_line
+                0x0003d1e0                lv_txt_is_cmd
+                0x0003ca20                lv_txt_get_size
+ .text          0x0003e100      0x310 ./build/lv_utils.o
+                0x0003e100                lv_utils_num_to_str
+                0x0003e310                lv_utils_bsearch
+ .text          0x0003e410      0x6a8 ./build/lv_color.o
+                0x0003e410                lv_color_hsv_to_rgb
+                0x0003e790                lv_color_rgb_to_hsv
+ *fill*         0x0003eab8        0x8 00
+ .text          0x0003eac0      0xba0 ./build/lv_ll.o
+                0x0003f360                lv_ll_swap
+                0x0003f390                lv_ll_move_before
+                0x0003f1e0                lv_ll_get_next
+                0x0003ee20                lv_ll_rem
+                0x0003ec10                lv_ll_ins_prev
+                0x0003eac0                lv_ll_init
+                0x0003ed30                lv_ll_ins_tail
+                0x0003f000                lv_ll_chg_list
+                0x0003f2e0                lv_ll_get_len
+                0x0003f140                lv_ll_get_head
+                0x0003f4a0                lv_ll_is_empty
+                0x0003f260                lv_ll_get_prev
+                0x0003eb40                lv_ll_ins_head
+                0x0003ef70                lv_ll_clear
+                0x0003f190                lv_ll_get_tail
+ .text          0x0003f660      0x93c ./build/lv_area.o
+                0x0003f6d0                lv_area_set_width
+                0x0003f720                lv_area_set_height
+                0x0003f8a0                lv_area_get_size
+                0x0003f930                lv_area_intersect
+                0x0003f660                lv_area_set
+                0x0003fdc0                lv_area_is_on
+                0x0003f770                lv_area_set_pos
+                0x0003fb40                lv_area_join
+                0x0003feb0                lv_area_is_in
+                0x0003fcd0                lv_area_is_point_on
+ *fill*         0x0003ff9c        0x4 00
+ .text          0x0003ffa0      0x2ec ./build/lv_math.o
+                0x0003ffa0                lv_trigo_sin
+                0x00040160                lv_bezier3
+ *fill*         0x0004028c        0x4 00
+ .text          0x00040290      0x1b4 ./build/lv_circ.o
+                0x00040290                lv_circ_init
+                0x000402f0                lv_circ_cont
+                0x00040360                lv_circ_next
+ *fill*         0x00040444        0xc 00
+ .text          0x00040450     0x16d0 ./build/lv_fs.o
+                0x000412d0                lv_fs_free_space
+                0x00041400                lv_fs_drv_register
+                0x00040b70                lv_fs_seek
+                0x000418c0                lv_fs_get_last
+                0x00040830                lv_fs_remove
+                0x00040fa0                lv_fs_dir_open
+                0x00041110                lv_fs_dir_read
+                0x00040e60                lv_fs_rename
+                0x000416f0                lv_fs_up
+                0x00040530                lv_fs_open
+                0x00040950                lv_fs_read
+                0x000413c0                lv_fs_drv_init
+                0x00040450                lv_fs_init
+                0x00040d90                lv_fs_size
+                0x000415d0                lv_fs_get_ext
+                0x00040a60                lv_fs_write
+                0x00040490                lv_fs_is_ready
+                0x00040750                lv_fs_close
+                0x00040c20                lv_fs_tell
+                0x000411e0                lv_fs_dir_close
+                0x00041510                lv_fs_get_letters
+                0x00040ce0                lv_fs_trunc
+                0x00041470                lv_fs_get_drv
+ .text          0x00041b20     0x10d0 ./build/lv_anim.o
+                0x00041b80                lv_anim_init
+                0x00041b20                lv_anim_core_init
+                0x00042290                lv_anim_path_ease_in_out
+                0x00041c00                lv_anim_create
+                0x00042780                lv_anim_path_step
+                0x00041cf0                lv_anim_del
+                0x000423a0                lv_anim_path_overshoot
+                0x000424b0                lv_anim_path_bounce
+                0x00041f90                lv_anim_path_linear
+                0x00041de0                lv_anim_count_running
+                0x00042180                lv_anim_path_ease_out
+                0x00042070                lv_anim_path_ease_in
+                0x00041e70                lv_anim_speed_to_time
+ .text          0x00042bf0      0xb54 ./build/lv_task.o
+                0x00042c30                lv_task_handler
+                0x00043020                lv_task_create_basic
+                0x00042bf0                lv_task_core_init
+                0x00043530                lv_task_once
+                0x000432a0                lv_task_set_cb
+                0x00043570                lv_task_reset
+                0x00043350                lv_task_set_prio
+                0x000434d0                lv_task_ready
+                0x000431f0                lv_task_create
+                0x00043600                lv_task_get_idle
+                0x000435c0                lv_task_enable
+                0x00043490                lv_task_set_period
+                0x000432e0                lv_task_del
+ *fill*         0x00043744        0xc 00
+ .text          0x00043750      0x128 ./build/lv_async.o
+                0x00043750                lv_async_call
+ *fill*         0x00043878        0x8 00
+ .text          0x00043880      0x970 ./build/lv_mem.o
+                0x00043b10                lv_mem_realloc
+                0x00043a00                lv_mem_free
+                0x00043f00                lv_mem_get_size
+                0x00043d80                lv_mem_monitor
+                0x00043c60                lv_mem_defrag
+                0x00043880                lv_mem_init
+                0x00043900                lv_mem_alloc
+ .text          0x000441f0     0x38b8 ./build/lv_theme_nemo.o
+                0x00047910                lv_theme_nemo_init
+                0x00047a80                lv_theme_get_nemo
+ *fill*         0x00047aa8        0x8 00
+ .text          0x00047ab0     0x1708 ./build/lv_theme_default.o
+                0x00049030                lv_theme_default_init
+                0x00049190                lv_theme_get_default
+ *fill*         0x000491b8        0x8 00
+ .text          0x000491c0     0x3478 ./build/lv_theme_material.o
+                0x0004c4a0                lv_theme_material_init
+                0x0004c610                lv_theme_get_material
+ *fill*         0x0004c638        0x8 00
+ .text          0x0004c640     0x1328 ./build/lv_theme_templ.o
+                0x0004d940                lv_theme_get_templ
+                0x0004d7d0                lv_theme_templ_init
+ *fill*         0x0004d968        0x8 00
+ .text          0x0004d970     0x3ad8 ./build/lv_theme_alien.o
+                0x00051420                lv_theme_get_alien
+                0x000512b0                lv_theme_alien_init
+ *fill*         0x00051448        0x8 00
+ .text          0x00051450      0x20c ./build/lv_theme.o
+                0x00051600                lv_theme_get_current
+                0x00051450                lv_theme_set_current
+ *fill*         0x0005165c        0x4 00
+ .text          0x00051660     0x1538 ./build/lv_theme_mono.o
+                0x00052b70                lv_theme_get_mono
+                0x00052a20                lv_theme_mono_init
+ *fill*         0x00052b98        0x8 00
+ .text          0x00052ba0     0x2d08 ./build/lv_theme_night.o
+                0x00055710                lv_theme_night_init
+                0x00055880                lv_theme_get_night
+ *fill*         0x000558a8        0x8 00
+ .text          0x000558b0     0x31d8 ./build/lv_theme_zen.o
+                0x00058a60                lv_theme_get_zen
+                0x000588f0                lv_theme_zen_init
+ *fill*         0x00058a88        0x8 00
+ .text          0x00058a90      0x4d0 ./build/lv_draw.o
+                0x00058e50                lv_draw_aa_hor_seg
+                0x00058bb0                lv_draw_free_buf
+                0x00058d40                lv_draw_aa_ver_seg
+                0x00058a90                lv_draw_get_buf
+                0x00058c20                lv_draw_aa_get_opa
+ .text          0x00058f60     0x1d34 ./build/lv_img_decoder.o
+                0x00059300                lv_img_decoder_read_line
+                0x00059560                lv_img_decoder_set_open_cb
+                0x00059010                lv_img_decoder_get_info
+                0x00059100                lv_img_decoder_open
+                0x00059f80                lv_img_decoder_built_in_close
+                0x000595e0                lv_img_decoder_set_close_cb
+                0x00059da0                lv_img_decoder_built_in_read_line
+                0x00059520                lv_img_decoder_set_info_cb
+                0x00059880                lv_img_decoder_built_in_open
+                0x000594d0                lv_img_decoder_delete
+                0x000595a0                lv_img_decoder_set_read_line_cb
+                0x00058f60                lv_img_decoder_init
+                0x000593b0                lv_img_decoder_close
+                0x00059620                lv_img_decoder_built_in_info
+                0x00059450                lv_img_decoder_create
+ *fill*         0x0005ac94        0xc 00
+ .text          0x0005aca0      0xe1c ./build/lv_draw_arc.o
+                0x0005aca0                lv_draw_arc
+ *fill*         0x0005babc        0x4 00
+ .text          0x0005bac0     0x643c ./build/lv_draw_rect.o
+                0x0005bac0                lv_draw_rect
+ *fill*         0x00061efc        0x4 00
+ .text          0x00061f00     0x1f1c ./build/lv_draw_basic.o
+                0x00061f00                lv_draw_px
+                0x00063010                lv_draw_map
+                0x00062380                lv_draw_fill
+                0x00062510                lv_draw_letter
+ *fill*         0x00063e1c        0x4 00
+ .text          0x00063e20     0x3038 ./build/lv_draw_line.o
+                0x00063e20                lv_draw_line
+ *fill*         0x00066e58        0x8 00
+ .text          0x00066e60      0xd74 ./build/lv_draw_label.o
+                0x00066e60                lv_draw_label
+ *fill*         0x00067bd4        0xc 00
+ .text          0x00067be0     0x1eac ./build/lv_draw_img.o
+                0x000694d0                lv_img_color_format_has_alpha
+                0x00069210                lv_img_buf_set_palette
+                0x00069570                lv_img_src_get_type
+                0x00069350                lv_img_color_format_get_px_size
+                0x000682e0                lv_img_buf_get_px_alpha
+                0x00067d50                lv_img_buf_get_px_color
+                0x00067be0                lv_draw_img
+                0x00068d50                lv_img_buf_set_px_alpha
+                0x00069430                lv_img_color_format_is_chroma_keyed
+                0x000687f0                lv_img_buf_set_px_color
+ *fill*         0x00069a8c        0x4 00
+ .text          0x00069a90      0x798 ./build/lv_img_cache.o
+                0x00069a90                lv_img_cache_open
+                0x0006a0b0                lv_img_cache_invalidate_src
+                0x00069f20                lv_img_cache_set_size
+ *fill*         0x0006a228        0x8 00
+ .text          0x0006a230     0x1b2c ./build/lv_draw_triangle.o
+                0x0006a230                lv_draw_triangle
+                0x0006a890                tri_draw_flat
+                0x0006b3c0                tri_draw_tall
+                0x0006a770                lv_draw_polygon
+ *fill*         0x0006bd5c        0x4 00
+ .text          0x0006bd60     0x1c90 ./build/lv_group.o
+                0x0006c710                lv_group_set_style_mod_cb
+                0x0006beb0                lv_group_del
+                0x0006cac0                lv_group_mod_style
+                0x0006c810                lv_group_set_editing
+                0x0006cc90                lv_group_get_focus_cb
+                0x0006cbf0                lv_group_get_style_mod_cb
+                0x0006c300                lv_group_focus_obj
+                0x0006c0c0                lv_group_remove_obj
+                0x0006cc40                lv_group_get_style_mod_edit_cb
+                0x0006bf90                lv_group_add_obj
+                0x0006c9d0                lv_group_set_refocus_policy
+                0x0006bda0                lv_group_create
+                0x0006c940                lv_group_set_click_focus
+                0x0006ca30                lv_group_set_wrap
+                0x0006c230                lv_group_remove_all_objs
+                0x0006c7d0                lv_group_set_focus_cb
+                0x0006c500                lv_group_focus_next
+                0x0006c5a0                lv_group_focus_freeze
+                0x0006bd60                lv_group_init
+                0x0006c770                lv_group_set_style_mod_edit_cb
+                0x0006cd40                lv_group_get_click_focus
+                0x0006c610                lv_group_send_data
+                0x0006cce0                lv_group_get_editing
+                0x0006cda0                lv_group_get_wrap
+                0x0006c550                lv_group_focus_prev
+                0x0006cb80                lv_group_get_focused
+                0x0006ce00                lv_group_report_style_mod
+ .text          0x0006d9f0     0x4b34 ./build/lv_obj.o
+                0x000716a0                lv_obj_get_hidden
+                0x00070d40                lv_obj_get_child
+                0x00070760                lv_event_send
+                0x0006fef0                lv_obj_set_style
+                0x0006ef50                lv_obj_align
+                0x000717f0                lv_obj_get_drag_throw
+                0x00071830                lv_obj_get_drag_parent
+                0x0006f700                lv_obj_align_origo
+                0x00070670                lv_obj_set_protect
+                0x00071390                lv_obj_get_height_fit
+                0x000718b0                lv_obj_get_opa_scale_enable
+                0x000717a0                lv_obj_get_drag_dir
+                0x00071160                lv_obj_get_y
+                0x0006e640                lv_obj_clean
+                0x00070200                lv_obj_set_top
+                0x000709c0                lv_event_get_data
+                0x00070290                lv_obj_set_drag
+                0x0006e890                lv_obj_set_parent
+                0x0006e600                lv_obj_del_async
+                0x0006e3d0                lv_obj_del
+                0x00071990                lv_obj_get_protect
+                0x00070a90                lv_obj_set_design_cb
+                0x0006eaf0                lv_obj_set_pos
+                0x0006ff40                lv_obj_refresh_style
+                0x00070720                lv_obj_set_event_cb
+                0x00070f70                lv_obj_get_coords
+                0x00071c80                lv_obj_get_group
+                0x0006fe20                lv_obj_set_auto_realign
+                0x00070590                lv_obj_set_opa_scale_enable
+                0x000707f0                lv_event_send_func
+                0x000714b0                lv_obj_get_ext_click_pad_top
+                0x00070ed0                lv_obj_count_children_recursive
+                0x00071480                lv_obj_get_ext_click_pad_right
+                0x0006e990                lv_obj_move_foreground
+                0x000710f0                lv_obj_get_x
+                0x00071ac0                lv_obj_get_event_cb
+                0x00070b40                lv_obj_refresh_ext_draw_pad
+                0x00070ad0                lv_obj_allocate_ext_attr
+                0x00070620                lv_obj_set_opa_scale
+                0x00070d00                lv_obj_get_parent
+                0x000703e0                lv_obj_set_drag_throw
+                0x00070350                lv_obj_set_drag_dir
+                0x0006ffa0                lv_obj_report_style_mod
+                0x000711d0                lv_obj_get_width
+                0x000714e0                lv_obj_get_ext_click_pad_bottom
+                0x00070470                lv_obj_set_drag_parent
+                0x0006fd80                lv_obj_realign
+                0x00071a40                lv_obj_get_signal_cb
+                0x00071b00                lv_obj_get_ext_attr
+                0x0006d9f0                lv_init
+                0x00071b40                lv_obj_get_type
+                0x00071900                lv_obj_get_opa_scale
+                0x0006ef00                lv_obj_set_height
+                0x00071410                lv_obj_get_auto_realign
+                0x000709f0                lv_obj_set_signal_cb
+                0x00070500                lv_obj_set_parent_event
+                0x00070dc0                lv_obj_get_child_back
+                0x00070fc0                lv_obj_get_inner_coords
+                0x0006ed10                lv_obj_set_size
+                0x000719d0                lv_obj_is_protected
+                0x00071270                lv_obj_get_height
+                0x00070e40                lv_obj_count_children
+                0x00071cc0                lv_obj_is_focused
+                0x0006ea40                lv_obj_move_background
+                0x00071870                lv_obj_get_parent_event
+                0x000716e0                lv_obj_get_click
+                0x0006feb0                lv_obj_set_ext_click_area
+                0x00071550                lv_obj_get_style
+                0x0006ec70                lv_obj_set_x
+                0x00071450                lv_obj_get_ext_click_pad_left
+                0x0006da90                lv_obj_create
+                0x0006ecc0                lv_obj_set_y
+                0x00070ba0                lv_obj_get_screen
+                0x00071a80                lv_obj_get_design_cb
+                0x0006eeb0                lv_obj_set_width
+                0x00070c10                lv_obj_get_disp
+                0x00071720                lv_obj_get_top
+                0x000706c0                lv_obj_clear_protect
+                0x00071510                lv_obj_get_ext_draw_pad
+                0x0006e6c0                lv_obj_invalidate
+                0x00071760                lv_obj_get_drag
+                0x00071310                lv_obj_get_width_fit
+                0x00070070                lv_obj_set_hidden
+                0x00070a30                lv_signal_send
+                0x00070170                lv_obj_set_click
+ *fill*         0x00072524        0xc 00
+ .text          0x00072530     0x1d54 ./build/lv_style.o
+                0x00074110                lv_style_anim_set_styles
+                0x00072530                lv_style_init
+                0x000731d0                lv_style_copy
+                0x00073220                lv_style_mix
+                0x00074010                lv_style_anim_init
+ *fill*         0x00074284        0xc 00
+ .text          0x00074290     0x3840 ./build/lv_indev.o
+                0x00074a90                lv_indev_get_vect
+                0x00074590                lv_indev_get_type
+                0x000746f0                lv_indev_enable
+                0x000749f0                lv_indev_is_dragging
+                0x00074560                lv_indev_get_act
+                0x000748a0                lv_indev_set_button_points
+                0x00074b90                lv_indev_get_read_task
+                0x000742c0                lv_indev_read_task
+                0x00074830                lv_indev_set_group
+                0x00074290                lv_indev_init
+                0x00074790                lv_indev_set_cursor
+                0x000745f0                lv_indev_reset
+                0x00074680                lv_indev_reset_long_press
+                0x00074be0                lv_indev_get_obj_act
+                0x00074b50                lv_indev_wait_release
+                0x000748f0                lv_indev_get_point
+                0x00074990                lv_indev_get_key
+ .text          0x00077ad0     0x165c ./build/lv_refr.o
+                0x00077e30                lv_refr_set_disp_refreshing
+                0x00077b80                lv_inv_area
+                0x00077ad0                lv_refr_init
+                0x00077e00                lv_refr_get_disp_refreshing
+                0x00077af0                lv_refr_now
+                0x00077e70                lv_disp_refr_task
+ *fill*         0x0007912c        0x4 00
+ .text          0x00079130      0x42c ./build/lv_disp.o
+                0x00079130                lv_disp_get_scr_act
+                0x00079200                lv_disp_get_layer_top
+                0x000793e0                lv_disp_get_inactive_time
+                0x00079270                lv_disp_get_layer_sys
+                0x000792e0                lv_disp_assign_screen
+                0x00079370                lv_disp_get_refr_task
+                0x000791a0                lv_disp_load_scr
+                0x000794f0                lv_disp_trig_activity
+ *fill*         0x0007955c        0x4 00
+ .text          0x00079560      0x35c ./build/lv_hal_indev.o
+                0x00079760                lv_indev_get_next
+                0x00079710                lv_indev_drv_update
+                0x000797d0                lv_indev_read
+                0x000795e0                lv_indev_drv_register
+                0x00079560                lv_indev_drv_init
+ *fill*         0x000798bc        0x4 00
+ .text          0x000798c0      0x154 ./build/lv_hal_tick.o
+                0x000798c0                lv_tick_inc
+                0x00079990                lv_tick_elaps
+                0x00079920                lv_tick_get
+ *fill*         0x00079a14        0xc 00
+ .text          0x00079a20      0xa74 ./build/lv_hal_disp.o
+                0x00079b70                lv_disp_drv_register
+                0x00079f10                lv_disp_set_default
+                0x00079a20                lv_disp_drv_init
+                0x0007a2d0                lv_disp_pop_from_inv_buf
+                0x00079d70                lv_disp_drv_update
+                0x00079e20                lv_disp_remove
+                0x0007a100                lv_disp_get_antialiasing
+                0x0007a290                lv_disp_get_inv_buf_size
+                0x0007a1e0                lv_disp_get_next
+                0x0007a380                lv_disp_is_double_buf
+                0x0007a250                lv_disp_get_buf
+                0x00079f50                lv_disp_get_default
+                0x00079af0                lv_disp_buf_init
+                0x00079f80                lv_disp_get_hor_res
+                0x0007a190                lv_disp_flush_ready
+                0x0007a3f0                lv_disp_is_true_double_buf
+                0x0007a040                lv_disp_get_ver_res
+ *fill*         0x0007a494        0xc 00
+ .text          0x0007a4a0      0xd08 ./build/lv_font_fmt_txt.o
+                0x0007a4a0                lv_font_get_bitmap_fmt_txt
+                0x0007a570                lv_font_get_glyph_dsc_fmt_txt
+ *fill*         0x0007b1a8        0x8 00
+ .text          0x0007b1b0      0x148 ./build/lv_font.o
+                0x0007b1b0                lv_font_get_glyph_bitmap
+                0x0007b200                lv_font_get_glyph_dsc
+                0x0007b270                lv_font_get_glyph_width
+ *fill*         0x0007b2f8        0x8 00
+ .text          0x0007b300       0xe0 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sprintf.o)
+                0x0007b300                _sprintf_r
+                0x0007b370                sprintf
+ .text          0x0007b3e0       0xb8 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strlen.o)
+                0x0007b3e0                strlen
+ *fill*         0x0007b498        0x8 00
+ .text          0x0007b4a0       0xb4 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strcpy.o)
+                0x0007b4a0                strcpy
+ *fill*         0x0007b554        0xc 00
+ .text          0x0007b560       0xd8 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memset.o)
+                0x0007b560                memset
+ *fill*         0x0007b638        0x8 00
+ .text          0x0007b640       0xe8 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memcpy.o)
+                0x0007b640                memcpy
+ *fill*         0x0007b728        0x8 00
+ .text          0x0007b730      0x110 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strcmp.o)
+                0x0007b730                strcmp
+ .text          0x0007b840     0x25d8 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o)
+                0x0007b840                _vfprintf_r
+                0x0007dd70                vfprintf
+ *fill*         0x0007de18        0x8 00
+ .text          0x0007de20      0x18c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(locale.o)
+                0x0007de20                _setlocale_r
+                0x0007dec0                __locale_charset
+                0x0007ded0                _localeconv_r
+                0x0007dee0                setlocale
+                0x0007dfa0                localeconv
+ *fill*         0x0007dfac        0x4 00
+ .text          0x0007dfb0      0x194 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wsetup.o)
+                0x0007dfb0                __swsetup
+ *fill*         0x0007e144        0xc 00
+ .text          0x0007e150      0x540 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fvwrite.o)
+                0x0007e150                __sfvwrite
+ .text          0x0007e690       0x58 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(malloc.o)
+                0x0007e690                malloc
+                0x0007e6c0                free
+ *fill*         0x0007e6e8        0x8 00
+ .text          0x0007e6f0       0x5c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(s_isinf.o)
+                0x0007e6f0                isinf
+ *fill*         0x0007e74c        0x4 00
+ .text          0x0007e750      0x180 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcrtomb.o)
+                0x0007e750                _wcrtomb_r
+                0x0007e800                wcrtomb
+ .text          0x0007e8d0      0x938 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mallocr.o)
+                0x0007e8d0                _malloc_r
+ *fill*         0x0007f208        0x8 00
+ .text          0x0007f210      0x42c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcsrtombs.o)
+                0x0007f210                _wcsrtombs_r
+                0x0007f420                wcsrtombs
+ *fill*         0x0007f63c        0x4 00
+ .text          0x0007f640      0x13c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memchr.o)
+                0x0007f640                memchr
+ *fill*         0x0007f77c        0x4 00
+ .text          0x0007f780       0x4c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(s_isnan.o)
+                0x0007f780                isnan
+ *fill*         0x0007f7cc        0x4 00
+ .text          0x0007f7d0      0x1b4 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fflush.o)
+                0x0007f7d0                fflush
+ *fill*         0x0007f984        0xc 00
+ .text          0x0007f990      0x4dc /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(findfp.o)
+                0x0007fa10                __sinit
+                0x0007f990                __sfmoreglue
+                0x0007fe40                _cleanup
+                0x0007fe20                _cleanup_r
+                0x0007fb50                __sfp
+ *fill*         0x0007fe6c        0x4 00
+ .text          0x0007fe70     0x1f2c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o)
+                0x00080090                _dtoa_r
+ *fill*         0x00081d9c        0x4 00
+ .text          0x00081da0      0x528 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(freer.o)
+                0x00081f10                _free_r
+                0x00081da0                _malloc_trim_r
+ *fill*         0x000822c8        0x8 00
+ .text          0x000822d0      0x1e8 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(makebuf.o)
+                0x000822d0                __smakebuf
+ *fill*         0x000824b8        0x8 00
+ .text          0x000824c0      0x6a8 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(reallocr.o)
+                0x000824c0                _realloc_r
+ *fill*         0x00082b68        0x8 00
+ .text          0x00082b70      0x164 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memmove.o)
+                0x00082b70                memmove
+ *fill*         0x00082cd4        0xc 00
+ .text          0x00082ce0      0x674 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wctomb_r.o)
+                0x00082ce0                _wctomb_r
+ *fill*         0x00083354        0xc 00
+ .text          0x00083360       0x14 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mlock.o)
+                0x00083370                __malloc_unlock
+                0x00083360                __malloc_lock
+ *fill*         0x00083374        0xc 00
+ .text          0x00083380       0x8c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sbrkr.o)
+                0x00083380                _sbrk_r
+ *fill*         0x0008340c        0x4 00
+ .text          0x00083410      0x148 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fwalk.o)
+                0x00083410                _fwalk
+ *fill*         0x00083558        0x8 00
+ .text          0x00083560      0x210 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(stdio.o)
+                0x000836a0                __sseek
+                0x00083560                __sread
+                0x00083740                __sclose
+                0x00083600                __swrite
+ .text          0x00083770     0x1f74 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mprec.o)
+                0x000855c0                _mprec_log10
+                0x00083d00                _hi0bits
+                0x00083770                _Balloc
+                0x00084b60                _d2b
+                0x00083f70                _multiply
+                0x00085060                _ratio
+                0x000839e0                _s2b
+                0x00083f30                _i2b
+                0x00083e00                _lo0bits
+                0x00084570                __mcmp
+                0x00084190                _pow5mult
+                0x00084850                _ulp
+                0x00084930                _b2d
+                0x000838a0                _multadd
+                0x00084600                __mdiff
+                0x000843f0                _lshift
+                0x00083860                _Bfree
+ *fill*         0x000856e4        0xc 00
+ .text          0x000856f0       0x90 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fstatr.o)
+                0x000856f0                _fstat_r
+ .text          0x00085780       0x94 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(readr.o)
+                0x00085780                _read_r
+ *fill*         0x00085814        0xc 00
+ .text          0x00085820       0x94 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(lseekr.o)
+                0x00085820                _lseek_r
+ *fill*         0x000858b4        0xc 00
+ .text          0x000858c0       0x94 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(writer.o)
+                0x000858c0                _write_r
+ *fill*         0x00085954        0xc 00
+ .text          0x00085960       0x8c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(closer.o)
+                0x00085960                _close_r
+ *fill*         0x000859ec        0x4 00
+ .text          0x000859f0       0xd4 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(callocr.o)
+                0x000859f0                _calloc_r
+ *fill*         0x00085ac4        0xc 00
+ .text          0x00085ad0      0x13c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_lt_df.o)
+                0x00085ad0                __ltdf2
+ *fill*         0x00085c0c        0x4 00
+ .text          0x00085c10      0x13c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ne_df.o)
+                0x00085c10                __nedf2
+ *fill*         0x00085d4c        0x4 00
+ .text          0x00085d50      0x13c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_eq_df.o)
+                0x00085d50                __eqdf2
+ *fill*         0x00085e8c        0x4 00
+ .text          0x00085e90      0x198 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_si_to_df.o)
+                0x00085e90                __floatsidf
+ *fill*         0x00086028        0x8 00
+ .text          0x00086030      0xa5c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_addsub_df.o)
+                0x00086940                __adddf3
+                0x000869e0                __subdf3
+ *fill*         0x00086a8c        0x4 00
+ .text          0x00086a90      0xe6c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_mul_df.o)
+                0x00086a90                __muldf3
+ *fill*         0x000878fc        0x4 00
+ .text          0x00087900      0x2e4 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_df_to_si.o)
+                0x00087900                __fixdfsi
+ *fill*         0x00087be4        0xc 00
+ .text          0x00087bf0      0x13c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_gt_df.o)
+                0x00087bf0                __gtdf2
+ *fill*         0x00087d2c        0x4 00
+ .text          0x00087d30      0x7dc /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_div_df.o)
+                0x00087d30                __divdf3
+ *fill*         0x0008850c        0x4 00
+ .text          0x00088510      0x13c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ge_df.o)
+                0x00088510                __gedf2
+ *fill*         0x0008864c        0x4 00
+ .text          0x00088650      0x2e4 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_unpack_df.o)
+                0x00088650                __unpack_d
+ *fill*         0x00088934        0xc 00
+ .text          0x00088940      0x58c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_fpcmp_parts_df.o)
+                0x00088940                __fpcmp_parts_d
+ *fill*         0x00088ecc        0x4 00
+ .text          0x00088ed0      0x96c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_pack_df.o)
+                0x00088ed0                __pack_d
+ *fill*         0x0008983c        0x4 00
+ .text          0x00089840       0xb8 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_negdi2.o)
+                0x00089840                __negdi2
+ *fill*         0x000898f8        0x8 00
+ .text          0x00089900      0x1cc /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_muldi3.o)
+                0x00089900                __muldi3
+ *fill*         0x00089acc        0x4 00
+ .text          0x00089ad0      0x114 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_lshrdi3.o)
+                0x00089ad0                __lshrdi3
+ *fill*         0x00089be4        0xc 00
+ .text          0x00089bf0      0x114 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ashldi3.o)
+                0x00089bf0                __ashldi3
+                0x00089d04                etext = ALIGN (0x1)
+                0x00089d04                . = ALIGN (0x1)
+
+.data           0x00089d10      0xc58
+ *(.data)
+ .data          0x00089d10        0x4 ./build/l32_screen.o
+                0x00089d10                screen_start
+ *fill*         0x00089d14        0xc 00
+ .data          0x00089d20        0x4 ./build/sbrk.o
+ *fill*         0x00089d24        0xc 00
+ .data          0x00089d30      0x264 ./build/lv_kb.o
+ *fill*         0x00089f94        0xc 00
+ .data          0x00089fa0        0x4 ./build/lv_tabview.o
+ *fill*         0x00089fa4        0xc 00
+ .data          0x00089fb0       0x1c ./build/lv_btnm.o
+ *fill*         0x00089fcc        0x4 00
+ .data          0x00089fd0       0x50 ./build/lv_calendar.o
+ .data          0x0008a020       0x74 ./build/lv_txt.o
+                0x0008a070                lv_txt_encoded_get_byte_id
+                0x0008a090                lv_txt_get_encoded_length
+                0x0008a020                lv_txt_encoded_size
+                0x0008a080                lv_encoded_get_char_id
+                0x0008a050                lv_txt_encoded_next
+                0x0008a040                lv_txt_encoded_conv_wc
+                0x0008a030                lv_txt_unicode_to_encoded
+                0x0008a060                lv_txt_encoded_prev
+ *fill*         0x0008a094        0xc 00
+ .data          0x0008a0a0       0x20 ./build/lv_draw.o
+ .data          0x0008a0c0       0x30 ./build/lv_font_roboto_16.o
+                0x0008a0e0                lv_font_roboto_16
+ .data          0x0008a0f0      0x38c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(impure.o)
+                0x0008a0f0                _impure_ptr
+ *fill*         0x0008a47c        0x4 00
+ .data          0x0008a480       0x54 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(locale.o)
+                0x0008a4c0                __mb_cur_max
+                0x0008a480                __lc_ctype
+                0x0008a4b0                __nlocale_changed
+                0x0008a4a0                __mlocale_changed
+                0x0008a490                _PathLocale
+ *fill*         0x0008a4d4        0xc 00
+ .data          0x0008a4e0      0x488 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mallocr.o)
+                0x0008a540                __malloc_top_pad
+                0x0008a520                __malloc_max_sbrked_mem
+                0x0008a530                __malloc_sbrk_base
+                0x0008a4e0                __malloc_current_mallinfo
+                0x0008a560                __malloc_av_
+                0x0008a510                __malloc_max_total_mem
+                0x0008a550                __malloc_trim_threshold
+                0x0008a968                edata = .
+
+.bss            0x0008a970    0x1be40
+ *(.bss)
+ .bss           0x0008a970     0x781c ./build/main.o
+ .bss           0x0009218c        0x8 ./build/lv_table.o
+ .bss           0x00092194        0x8 ./build/lv_led.o
+ .bss           0x0009219c        0x8 ./build/lv_canvas.o
+ .bss           0x000921a4        0x4 ./build/lv_kb.o
+ .bss           0x000921a8        0xc ./build/lv_tabview.o
+ .bss           0x000921b4        0x4 ./build/lv_cont.o
+ .bss           0x000921b8        0xc ./build/lv_cb.o
+ .bss           0x000921c4        0x8 ./build/lv_chart.o
+ .bss           0x000921cc        0x4 ./build/lv_mbox.o
+ .bss           0x000921d0        0xc ./build/lv_tileview.o
+ .bss           0x000921dc        0x8 ./build/lv_bar.o
+ .bss           0x000921e4        0x8 ./build/lv_imgbtn.o
+ .bss           0x000921ec        0x8 ./build/lv_btnm.o
+ .bss           0x000921f4        0x4 ./build/lv_sw.o
+ .bss           0x000921f8        0x4 ./build/lv_lmeter.o
+ .bss           0x000921fc        0x4 ./build/lv_line.o
+ .bss           0x00092200        0x8 ./build/lv_arc.o
+ .bss           0x00092208        0x8 ./build/lv_calendar.o
+ .bss           0x00092210        0x4 ./build/lv_win.o
+ .bss           0x00092214        0x8 ./build/lv_btn.o
+ .bss           0x0009221c        0x4 ./build/lv_img.o
+ .bss           0x00092220        0x8 ./build/lv_spinbox.o
+ .bss           0x00092228        0x4 ./build/lv_label.o
+ .bss           0x0009222c        0xc ./build/lv_ddlist.o
+ .bss           0x00092238        0x8 ./build/lv_slider.o
+ .bss           0x00092240        0x8 ./build/lv_gauge.o
+ .bss           0x00092248        0x8 ./build/lv_page.o
+ .bss           0x00092250        0x8 ./build/lv_roller.o
+ .bss           0x00092258        0x8 ./build/lv_preload.o
+ .bss           0x00092260       0x10 ./build/lv_list.o
+ .bss           0x00092270       0x14 ./build/lv_ta.o
+ .bss           0x00092284        0x5 ./build/lv_anim.o
+ *fill*         0x00092289        0x3 00
+ .bss           0x0009228c       0x12 ./build/lv_task.o
+ *fill*         0x0009229e        0x2 00
+ .bss           0x000922a0     0x8008 ./build/lv_mem.o
+ .bss           0x0009a2a8     0x1428 ./build/lv_theme_nemo.o
+ .bss           0x0009b6d0      0x578 ./build/lv_theme_default.o
+ .bss           0x0009bc48     0x15b8 ./build/lv_theme_material.o
+ .bss           0x0009d200      0x208 ./build/lv_theme_templ.o
+ .bss           0x0009d408     0x1428 ./build/lv_theme_alien.o
+ .bss           0x0009e830     0x22d4 ./build/lv_theme.o
+ .bss           0x000a0b04      0x6b4 ./build/lv_theme_mono.o
+ .bss           0x000a11b8     0x11a8 ./build/lv_theme_night.o
+ .bss           0x000a2360     0x1658 ./build/lv_theme_zen.o
+ .bss           0x000a39b8        0x4 ./build/lv_draw.o
+ .bss           0x000a39bc        0x2 ./build/lv_img_cache.o
+ *fill*         0x000a39be        0x2 00
+ .bss           0x000a39c0        0xc ./build/lv_obj.o
+ .bss           0x000a39cc        0x8 ./build/lv_indev.o
+ .bss           0x000a39d4        0x8 ./build/lv_refr.o
+ .bss           0x000a39dc        0x5 ./build/lv_hal_tick.o
+ *fill*         0x000a39e1        0x3 00
+ .bss           0x000a39e4        0x4 ./build/lv_hal_disp.o
+ .bss           0x000a39e8        0x4 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(findfp.o)
+ *(COMMON)
+ COMMON         0x000a39ec        0xc ./build/main.o
+                0x000a39ec                label3
+                0x000a39f0                label1
+                0x000a39f4                label2
+ COMMON         0x000a39f8        0x4 ./build/l32_screen.o
+                0x000a39f8                screen_point
+ *fill*         0x000a39fc        0x4 00
+ COMMON         0x000a3a00      0x110 ./build/syscall.o
+                0x000a3a00                errno
+                0x000a3a10                buff
+ COMMON         0x000a3b10     0x2800 ./build/sbrk.o
+                0x000a3b10                heap
+ COMMON         0x000a6310       0x84 ./build/lv_gc.o
+                0x000a6310                _lv_task_ll
+                0x000a6320                _lv_indev_ll
+                0x000a632c                _lv_draw_buf
+                0x000a6330                _lv_disp_ll
+                0x000a6340                _lv_img_defoder_ll
+                0x000a6350                _lv_drv_ll
+                0x000a635c                _lv_task_act
+                0x000a6360                _lv_img_cache_array
+                0x000a6368                _lv_anim_ll
+                0x000a6378                _lv_group_ll
+                0x000a6388                _lv_file_ll
+ *fill*         0x000a6394        0xc 00
+ COMMON         0x000a63a0      0x410 ./build/lv_style.o
+                0x000a63a0                lv_style_pretty_color
+                0x000a63f0                lv_style_transp
+                0x000a6440                lv_style_btn_rel
+                0x000a6490                lv_style_btn_pr
+                0x000a64e0                lv_style_pretty
+                0x000a6530                lv_style_transp_tight
+                0x000a6580                lv_style_btn_ina
+                0x000a65d0                lv_style_transp_fit
+                0x000a6620                lv_style_plain
+                0x000a6670                lv_style_btn_tgl_rel
+                0x000a66c0                lv_style_scr
+                0x000a6710                lv_style_btn_tgl_pr
+                0x000a6760                lv_style_plain_color
+                0x000a67b0                end = .
+OUTPUT(a.out elf32-logic32)
+
+.rodata         0x000a67b0     0x3b04
+ .rodata        0x000a67b0       0x28 ./build/main.o
+ .rodata        0x000a67d8       0x41 ./build/syscall.o
+ *fill*         0x000a6819        0x7 00
+ .rodata        0x000a6820       0x3d ./build/lv_table.o
+ .rodata        0x000a685d        0x7 ./build/lv_led.o
+ .rodata        0x000a6864        0xa ./build/lv_canvas.o
+ *fill*         0x000a686e        0x2 00
+ .rodata        0x000a6870      0x23e ./build/lv_kb.o
+ *fill*         0x000a6aae        0x2 00
+ .rodata        0x000a6ab0       0x57 ./build/lv_tabview.o
+ .rodata        0x000a6b07        0x8 ./build/lv_cont.o
+ *fill*         0x000a6b0f        0x1 00
+ .rodata        0x000a6b10       0x4e ./build/lv_cb.o
+ .rodata        0x000a6b5e        0x9 ./build/lv_chart.o
+ *fill*         0x000a6b67        0x9 00
+ .rodata        0x000a6b70       0x54 ./build/lv_mbox.o
+ .rodata        0x000a6bc4        0xc ./build/lv_tileview.o
+ .rodata        0x000a6bd0        0x7 ./build/lv_bar.o
+ .rodata        0x000a6bd7        0xa ./build/lv_imgbtn.o
+ *fill*         0x000a6be1        0xf 00
+ .rodata        0x000a6bf0       0x60 ./build/lv_btnm.o
+ .rodata        0x000a6c50        0x6 ./build/lv_sw.o
+ .rodata        0x000a6c56        0xa ./build/lv_lmeter.o
+ .rodata        0x000a6c60        0x8 ./build/lv_line.o
+ .rodata        0x000a6c68        0x7 ./build/lv_arc.o
+ *fill*         0x000a6c6f        0x1 00
+ .rodata        0x000a6c70       0xc4 ./build/lv_calendar.o
+ *fill*         0x000a6d34        0xc 00
+ .rodata        0x000a6d40       0x4f ./build/lv_win.o
+ *fill*         0x000a6d8f        0x1 00
+ .rodata        0x000a6d90       0x3b ./build/lv_btn.o
+ .rodata        0x000a6dcb        0x8 ./build/lv_img.o
+ .rodata        0x000a6dd3        0xb ./build/lv_spinbox.o
+ .rodata        0x000a6dde        0xe ./build/lv_label.o
+ .rodata        0x000a6dec       0x29 ./build/lv_ddlist.o
+ .rodata        0x000a6e15        0xa ./build/lv_slider.o
+ .rodata        0x000a6e1f        0x9 ./build/lv_gauge.o
+ .rodata        0x000a6e28        0x8 ./build/lv_page.o
+ .rodata        0x000a6e30        0xa ./build/lv_roller.o
+ .rodata        0x000a6e3a        0xb ./build/lv_preload.o
+ *fill*         0x000a6e45        0xb 00
+ .rodata        0x000a6e50       0x73 ./build/lv_list.o
+ *fill*         0x000a6ec3        0xd 00
+ .rodata        0x000a6ed0       0x4a ./build/lv_ta.o
+ .rodata        0x000a6f1a        0x8 ./build/lv_txt.o
+ *fill*         0x000a6f22        0xe 00
+ .rodata        0x000a6f30       0x14 ./build/lv_color.o
+ .rodata        0x000a6f44       0xb6 ./build/lv_math.o
+ .rodata        0x000a6ffa        0x1 ./build/lv_fs.o
+ .rodata        0x000a6ffb       0x24 ./build/lv_draw.o
+ .rodata        0x000a701f       0x18 ./build/lv_img_decoder.o
+ .rodata        0x000a7037       0x11 ./build/lv_draw_rect.o
+ .rodata        0x000a7048       0x14 ./build/lv_draw_basic.o
+ *fill*         0x000a705c        0x4 00
+ .rodata        0x000a7060       0x18 ./build/lv_draw_label.o
+ *fill*         0x000a7078        0x8 00
+ .rodata        0x000a7080       0x5c ./build/lv_draw_img.o
+ *fill*         0x000a70dc        0x4 00
+ .rodata        0x000a70e0       0xbb ./build/lv_obj.o
+ *fill*         0x000a719b        0x5 00
+ .rodata        0x000a71a0     0x2ddc ./build/lv_font_roboto_16.o
+ *fill*         0x000a9f7c        0x4 00
+ .rodata        0x000a9f80      0x184 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o)
+ *fill*         0x000aa104        0xc 00
+ .rodata        0x000aa110       0x30 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(locale.o)
+ .rodata        0x000aa140       0x18 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o)
+ *fill*         0x000aa158        0x8 00
+ .rodata        0x000aa160      0x13c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mprec.o)
+                0x000aa160                __mprec_tinytens
+                0x000aa1c0                __mprec_tens
+                0x000aa190                __mprec_bigtens
+ *fill*         0x000aa29c        0x4 00
+ .rodata        0x000aa2a0       0x14 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_thenan_df.o)
+                0x000aa2a0                __thenan_df
+
+.comment        0x000aa2b4      0x9fc
+ .comment       0x000aa2b4       0x12 ./build/main.o
+ .comment       0x000aa2c6       0x12 ./build/uart.o
+ .comment       0x000aa2d8       0x12 ./build/l32_screen.o
+ .comment       0x000aa2ea       0x12 ./build/syscall.o
+ .comment       0x000aa2fc       0x12 ./build/sbrk.o
+ .comment       0x000aa30e       0x12 ./build/lv_table.o
+ .comment       0x000aa320       0x12 ./build/lv_led.o
+ .comment       0x000aa332       0x12 ./build/lv_canvas.o
+ .comment       0x000aa344       0x12 ./build/lv_kb.o
+ .comment       0x000aa356       0x12 ./build/lv_tabview.o
+ .comment       0x000aa368       0x12 ./build/lv_cont.o
+ .comment       0x000aa37a       0x12 ./build/lv_cb.o
+ .comment       0x000aa38c       0x12 ./build/lv_objx_templ.o
+ .comment       0x000aa39e       0x12 ./build/lv_chart.o
+ .comment       0x000aa3b0       0x12 ./build/lv_mbox.o
+ .comment       0x000aa3c2       0x12 ./build/lv_tileview.o
+ .comment       0x000aa3d4       0x12 ./build/lv_bar.o
+ .comment       0x000aa3e6       0x12 ./build/lv_imgbtn.o
+ .comment       0x000aa3f8       0x12 ./build/lv_btnm.o
+ .comment       0x000aa40a       0x12 ./build/lv_sw.o
+ .comment       0x000aa41c       0x12 ./build/lv_lmeter.o
+ .comment       0x000aa42e       0x12 ./build/lv_line.o
+ .comment       0x000aa440       0x12 ./build/lv_arc.o
+ .comment       0x000aa452       0x12 ./build/lv_calendar.o
+ .comment       0x000aa464       0x12 ./build/lv_win.o
+ .comment       0x000aa476       0x12 ./build/lv_btn.o
+ .comment       0x000aa488       0x12 ./build/lv_img.o
+ .comment       0x000aa49a       0x12 ./build/lv_spinbox.o
+ .comment       0x000aa4ac       0x12 ./build/lv_label.o
+ .comment       0x000aa4be       0x12 ./build/lv_ddlist.o
+ .comment       0x000aa4d0       0x12 ./build/lv_slider.o
+ .comment       0x000aa4e2       0x12 ./build/lv_gauge.o
+ .comment       0x000aa4f4       0x12 ./build/lv_page.o
+ .comment       0x000aa506       0x12 ./build/lv_roller.o
+ .comment       0x000aa518       0x12 ./build/lv_preload.o
+ .comment       0x000aa52a       0x12 ./build/lv_list.o
+ .comment       0x000aa53c       0x12 ./build/lv_ta.o
+ .comment       0x000aa54e       0x12 ./build/lv_txt.o
+ .comment       0x000aa560       0x12 ./build/lv_log.o
+ .comment       0x000aa572       0x12 ./build/lv_templ.o
+ .comment       0x000aa584       0x12 ./build/lv_utils.o
+ .comment       0x000aa596       0x12 ./build/lv_color.o
+ .comment       0x000aa5a8       0x12 ./build/lv_ll.o
+ .comment       0x000aa5ba       0x12 ./build/lv_area.o
+ .comment       0x000aa5cc       0x12 ./build/lv_math.o
+ .comment       0x000aa5de       0x12 ./build/lv_circ.o
+ .comment       0x000aa5f0       0x12 ./build/lv_fs.o
+ .comment       0x000aa602       0x12 ./build/lv_anim.o
+ .comment       0x000aa614       0x12 ./build/lv_task.o
+ .comment       0x000aa626       0x12 ./build/lv_async.o
+ .comment       0x000aa638       0x12 ./build/lv_gc.o
+ .comment       0x000aa64a       0x12 ./build/lv_mem.o
+ .comment       0x000aa65c       0x12 ./build/lv_theme_nemo.o
+ .comment       0x000aa66e       0x12 ./build/lv_theme_default.o
+ .comment       0x000aa680       0x12 ./build/lv_theme_material.o
+ .comment       0x000aa692       0x12 ./build/lv_theme_templ.o
+ .comment       0x000aa6a4       0x12 ./build/lv_theme_alien.o
+ .comment       0x000aa6b6       0x12 ./build/lv_theme.o
+ .comment       0x000aa6c8       0x12 ./build/lv_theme_mono.o
+ .comment       0x000aa6da       0x12 ./build/lv_theme_night.o
+ .comment       0x000aa6ec       0x12 ./build/lv_theme_zen.o
+ .comment       0x000aa6fe       0x12 ./build/lv_draw.o
+ .comment       0x000aa710       0x12 ./build/lv_img_decoder.o
+ .comment       0x000aa722       0x12 ./build/lv_draw_arc.o
+ .comment       0x000aa734       0x12 ./build/lv_draw_rect.o
+ .comment       0x000aa746       0x12 ./build/lv_draw_basic.o
+ .comment       0x000aa758       0x12 ./build/lv_draw_line.o
+ .comment       0x000aa76a       0x12 ./build/lv_draw_label.o
+ .comment       0x000aa77c       0x12 ./build/lv_draw_img.o
+ .comment       0x000aa78e       0x12 ./build/lv_img_cache.o
+ .comment       0x000aa7a0       0x12 ./build/lv_draw_triangle.o
+ .comment       0x000aa7b2       0x12 ./build/lv_group.o
+ .comment       0x000aa7c4       0x12 ./build/lv_obj.o
+ .comment       0x000aa7d6       0x12 ./build/lv_style.o
+ .comment       0x000aa7e8       0x12 ./build/lv_indev.o
+ .comment       0x000aa7fa       0x12 ./build/lv_refr.o
+ .comment       0x000aa80c       0x12 ./build/lv_disp.o
+ .comment       0x000aa81e       0x12 ./build/lv_hal_indev.o
+ .comment       0x000aa830       0x12 ./build/lv_hal_tick.o
+ .comment       0x000aa842       0x12 ./build/lv_hal_disp.o
+ .comment       0x000aa854       0x12 ./build/lv_font_roboto_28.o
+ .comment       0x000aa866       0x12 ./build/lv_font_roboto_12.o
+ .comment       0x000aa878       0x12 ./build/lv_font_fmt_txt.o
+ .comment       0x000aa88a       0x12 ./build/lv_font.o
+ .comment       0x000aa89c       0x12 ./build/lv_font_roboto_16.o
+ .comment       0x000aa8ae       0x12 ./build/lv_font_unscii_8.o
+ .comment       0x000aa8c0       0x12 ./build/lv_font_roboto_22.o
+ .comment       0x000aa8d2       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sprintf.o)
+ .comment       0x000aa8e4       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strlen.o)
+ .comment       0x000aa8f6       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strcpy.o)
+ .comment       0x000aa908       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memset.o)
+ .comment       0x000aa91a       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memcpy.o)
+ .comment       0x000aa92c       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strcmp.o)
+ .comment       0x000aa93e       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o)
+ .comment       0x000aa950       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(impure.o)
+ .comment       0x000aa962       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(locale.o)
+ .comment       0x000aa974       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wsetup.o)
+ .comment       0x000aa986       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fvwrite.o)
+ .comment       0x000aa998       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(malloc.o)
+ .comment       0x000aa9aa       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(s_isinf.o)
+ .comment       0x000aa9bc       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcrtomb.o)
+ .comment       0x000aa9ce       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mallocr.o)
+ .comment       0x000aa9e0       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcsrtombs.o)
+ .comment       0x000aa9f2       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memchr.o)
+ .comment       0x000aaa04       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(s_isnan.o)
+ .comment       0x000aaa16       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fflush.o)
+ .comment       0x000aaa28       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(findfp.o)
+ .comment       0x000aaa3a       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o)
+ .comment       0x000aaa4c       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(freer.o)
+ .comment       0x000aaa5e       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(makebuf.o)
+ .comment       0x000aaa70       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(reallocr.o)
+ .comment       0x000aaa82       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memmove.o)
+ .comment       0x000aaa94       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wctomb_r.o)
+ .comment       0x000aaaa6       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mlock.o)
+ .comment       0x000aaab8       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sbrkr.o)
+ .comment       0x000aaaca       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fwalk.o)
+ .comment       0x000aaadc       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(stdio.o)
+ .comment       0x000aaaee       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mprec.o)
+ .comment       0x000aab00       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fstatr.o)
+ .comment       0x000aab12       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(readr.o)
+ .comment       0x000aab24       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(lseekr.o)
+ .comment       0x000aab36       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(writer.o)
+ .comment       0x000aab48       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(closer.o)
+ .comment       0x000aab5a       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(callocr.o)
+ .comment       0x000aab6c       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_lt_df.o)
+ .comment       0x000aab7e       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ne_df.o)
+ .comment       0x000aab90       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_eq_df.o)
+ .comment       0x000aaba2       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_si_to_df.o)
+ .comment       0x000aabb4       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_addsub_df.o)
+ .comment       0x000aabc6       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_mul_df.o)
+ .comment       0x000aabd8       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_df_to_si.o)
+ .comment       0x000aabea       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_gt_df.o)
+ .comment       0x000aabfc       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_div_df.o)
+ .comment       0x000aac0e       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ge_df.o)
+ .comment       0x000aac20       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_unpack_df.o)
+ .comment       0x000aac32       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_fpcmp_parts_df.o)
+ .comment       0x000aac44       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_pack_df.o)
+ .comment       0x000aac56       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_negdi2.o)
+ .comment       0x000aac68       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_thenan_df.o)
+ .comment       0x000aac7a       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_muldi3.o)
+ .comment       0x000aac8c       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_lshrdi3.o)
+ .comment       0x000aac9e       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ashldi3.o)
+
+.debug_abbrev   0x000aacb0     0x3789
+ .debug_abbrev  0x000aacb0      0x191 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sprintf.o)
+ .debug_abbrev  0x000aae41       0x7e /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strlen.o)
+ .debug_abbrev  0x000aaebf       0x80 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strcpy.o)
+ .debug_abbrev  0x000aaf3f       0x9a /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memset.o)
+ .debug_abbrev  0x000aafd9       0x99 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memcpy.o)
+ .debug_abbrev  0x000ab072       0x71 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strcmp.o)
+ .debug_abbrev  0x000ab0e3      0x316 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o)
+ .debug_abbrev  0x000ab3f9      0x157 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(impure.o)
+ .debug_abbrev  0x000ab550      0x222 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(locale.o)
+ .debug_abbrev  0x000ab772      0x170 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wsetup.o)
+ .debug_abbrev  0x000ab8e2      0x1b6 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fvwrite.o)
+ .debug_abbrev  0x000aba98      0x187 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(malloc.o)
+ .debug_abbrev  0x000abc1f       0xd4 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(s_isinf.o)
+ .debug_abbrev  0x000abcf3      0x1e6 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcrtomb.o)
+ .debug_abbrev  0x000abed9      0x214 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mallocr.o)
+ .debug_abbrev  0x000ac0ed      0x1eb /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcsrtombs.o)
+ .debug_abbrev  0x000ac2d8       0xa8 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memchr.o)
+ .debug_abbrev  0x000ac380       0xd4 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(s_isnan.o)
+ .debug_abbrev  0x000ac454      0x17f /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fflush.o)
+ .debug_abbrev  0x000ac5d3      0x263 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(findfp.o)
+ .debug_abbrev  0x000ac836      0x1fc /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o)
+ .debug_abbrev  0x000aca32      0x1d9 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(freer.o)
+ .debug_abbrev  0x000acc0b      0x1a6 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(makebuf.o)
+ .debug_abbrev  0x000acdb1      0x1cc /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(reallocr.o)
+ .debug_abbrev  0x000acf7d       0x99 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memmove.o)
+ .debug_abbrev  0x000ad016      0x1b6 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wctomb_r.o)
+ .debug_abbrev  0x000ad1cc      0x16e /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mlock.o)
+ .debug_abbrev  0x000ad33a      0x1a1 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sbrkr.o)
+ .debug_abbrev  0x000ad4db      0x19c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fwalk.o)
+ .debug_abbrev  0x000ad677      0x19b /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(stdio.o)
+ .debug_abbrev  0x000ad812      0x2d1 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mprec.o)
+ .debug_abbrev  0x000adae3      0x18e /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fstatr.o)
+ .debug_abbrev  0x000adc71      0x17f /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(readr.o)
+ .debug_abbrev  0x000addf0      0x18e /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(lseekr.o)
+ .debug_abbrev  0x000adf7e      0x184 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(writer.o)
+ .debug_abbrev  0x000ae102      0x17f /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(closer.o)
+ .debug_abbrev  0x000ae281      0x1b8 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(callocr.o)
+
+.debug_info     0x000ae439    0x13d86
+ .debug_info    0x000ae439      0x9bc /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sprintf.o)
+ .debug_info    0x000aedf5       0xd2 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strlen.o)
+ .debug_info    0x000aeec7       0xff /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strcpy.o)
+ .debug_info    0x000aefc6      0x102 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memset.o)
+ .debug_info    0x000af0c8       0xfc /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memcpy.o)
+ .debug_info    0x000af1c4       0xd0 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strcmp.o)
+ .debug_info    0x000af294     0x15b1 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o)
+ .debug_info    0x000b0845      0x8e0 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(impure.o)
+ .debug_info    0x000b1125      0xba1 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(locale.o)
+ .debug_info    0x000b1cc6      0x904 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wsetup.o)
+ .debug_info    0x000b25ca      0xa1b /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fvwrite.o)
+ .debug_info    0x000b2fe5      0x924 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(malloc.o)
+ .debug_info    0x000b3909      0x13f /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(s_isinf.o)
+ .debug_info    0x000b3a48      0xa0b /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcrtomb.o)
+ .debug_info    0x000b4453      0xc65 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mallocr.o)
+ .debug_info    0x000b50b8      0xaee /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcsrtombs.o)
+ .debug_info    0x000b5ba6      0x123 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memchr.o)
+ .debug_info    0x000b5cc9      0x13f /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(s_isnan.o)
+ .debug_info    0x000b5e08      0x925 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fflush.o)
+ .debug_info    0x000b672d      0xbec /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(findfp.o)
+ .debug_info    0x000b7319      0xd01 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o)
+ .debug_info    0x000b801a      0xb61 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(freer.o)
+ .debug_info    0x000b8b7b      0xa9c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(makebuf.o)
+ .debug_info    0x000b9617      0xb1f /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(reallocr.o)
+ .debug_info    0x000ba136      0x12d /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memmove.o)
+ .debug_info    0x000ba263      0x9b0 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wctomb_r.o)
+ .debug_info    0x000bac13      0x901 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mlock.o)
+ .debug_info    0x000bb514      0x92c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sbrkr.o)
+ .debug_info    0x000bbe40      0x952 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fwalk.o)
+ .debug_info    0x000bc792      0xa20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(stdio.o)
+ .debug_info    0x000bd1b2     0x1706 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mprec.o)
+ .debug_info    0x000be8b8      0xa82 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fstatr.o)
+ .debug_info    0x000bf33a      0x93c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(readr.o)
+ .debug_info    0x000bfc76      0x931 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(lseekr.o)
+ .debug_info    0x000c05a7      0x943 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(writer.o)
+ .debug_info    0x000c0eea      0x90c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(closer.o)
+ .debug_info    0x000c17f6      0x9c9 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(callocr.o)
+
+.debug_line     0x000c21bf     0x92eb
+ .debug_line    0x000c21bf      0x20b /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sprintf.o)
+ .debug_line    0x000c23ca      0x19d /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strlen.o)
+ .debug_line    0x000c2567      0x19d /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strcpy.o)
+ .debug_line    0x000c2704      0x1ed /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memset.o)
+ .debug_line    0x000c28f1      0x158 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memcpy.o)
+ .debug_line    0x000c2a49      0x1ef /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strcmp.o)
+ .debug_line    0x000c2c38     0x15fb /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o)
+ .debug_line    0x000c4233      0x1b5 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(impure.o)
+ .debug_line    0x000c43e8      0x24e /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(locale.o)
+ .debug_line    0x000c4636      0x269 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wsetup.o)
+ .debug_line    0x000c489f      0x48a /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fvwrite.o)
+ .debug_line    0x000c4d29      0x1a2 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(malloc.o)
+ .debug_line    0x000c4ecb      0x1c8 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(s_isinf.o)
+ .debug_line    0x000c5093      0x29b /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcrtomb.o)
+ .debug_line    0x000c532e      0x641 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mallocr.o)
+ .debug_line    0x000c596f      0x3d8 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcsrtombs.o)
+ .debug_line    0x000c5d47      0x22f /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memchr.o)
+ .debug_line    0x000c5f76      0x1c8 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(s_isnan.o)
+ .debug_line    0x000c613e      0x265 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fflush.o)
+ .debug_line    0x000c63a3      0x66e /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(findfp.o)
+ .debug_line    0x000c6a11      0xe6f /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o)
+ .debug_line    0x000c7880      0x41f /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(freer.o)
+ .debug_line    0x000c7c9f      0x2ac /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(makebuf.o)
+ .debug_line    0x000c7f4b      0x446 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(reallocr.o)
+ .debug_line    0x000c8391      0x210 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memmove.o)
+ .debug_line    0x000c85a1      0x4bb /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wctomb_r.o)
+ .debug_line    0x000c8a5c      0x17a /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mlock.o)
+ .debug_line    0x000c8bd6      0x1f9 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sbrkr.o)
+ .debug_line    0x000c8dcf      0x21d /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fwalk.o)
+ .debug_line    0x000c8fec      0x26d /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(stdio.o)
+ .debug_line    0x000c9259     0x16bb /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mprec.o)
+ .debug_line    0x000ca914      0x1cb /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fstatr.o)
+ .debug_line    0x000caadf      0x1f9 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(readr.o)
+ .debug_line    0x000cacd8      0x1fa /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(lseekr.o)
+ .debug_line    0x000caed2      0x1fa /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(writer.o)
+ .debug_line    0x000cb0cc      0x1fa /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(closer.o)
+ .debug_line    0x000cb2c6      0x1e4 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(callocr.o)
+
+.debug_pubnames
+                0x000cb4aa      0x77e
+ .debug_pubnames
+                0x000cb4aa       0x2d /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sprintf.o)
+ .debug_pubnames
+                0x000cb4d7       0x1d /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strlen.o)
+ .debug_pubnames
+                0x000cb4f4       0x1d /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strcpy.o)
+ .debug_pubnames
+                0x000cb511       0x1d /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memset.o)
+ .debug_pubnames
+                0x000cb52e       0x1d /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memcpy.o)
+ .debug_pubnames
+                0x000cb54b       0x1d /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strcmp.o)
+ .debug_pubnames
+                0x000cb568       0x2f /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o)
+ .debug_pubnames
+                0x000cb597       0x22 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(impure.o)
+ .debug_pubnames
+                0x000cb5b9       0xc3 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(locale.o)
+ .debug_pubnames
+                0x000cb67c       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wsetup.o)
+ .debug_pubnames
+                0x000cb69c       0x21 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fvwrite.o)
+ .debug_pubnames
+                0x000cb6bd       0x26 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(malloc.o)
+ .debug_pubnames
+                0x000cb6e3       0x1c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(s_isinf.o)
+ .debug_pubnames
+                0x000cb6ff       0x2d /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcrtomb.o)
+ .debug_pubnames
+                0x000cb72c       0xce /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mallocr.o)
+ .debug_pubnames
+                0x000cb7fa       0x31 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcsrtombs.o)
+ .debug_pubnames
+                0x000cb82b       0x1d /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memchr.o)
+ .debug_pubnames
+                0x000cb848       0x1c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(s_isnan.o)
+ .debug_pubnames
+                0x000cb864       0x1d /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fflush.o)
+ .debug_pubnames
+                0x000cb881       0x55 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(findfp.o)
+ .debug_pubnames
+                0x000cb8d6       0x1e /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o)
+ .debug_pubnames
+                0x000cb8f4       0x31 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(freer.o)
+ .debug_pubnames
+                0x000cb925       0x21 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(makebuf.o)
+ .debug_pubnames
+                0x000cb946       0x21 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(reallocr.o)
+ .debug_pubnames
+                0x000cb967       0x1e /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memmove.o)
+ .debug_pubnames
+                0x000cb985       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wctomb_r.o)
+ .debug_pubnames
+                0x000cb9a5       0x38 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mlock.o)
+ .debug_pubnames
+                0x000cb9dd       0x1e /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sbrkr.o)
+ .debug_pubnames
+                0x000cb9fb       0x1d /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fwalk.o)
+ .debug_pubnames
+                0x000cba18       0x44 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(stdio.o)
+ .debug_pubnames
+                0x000cba5c      0x112 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mprec.o)
+ .debug_pubnames
+                0x000cbb6e       0x1f /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fstatr.o)
+ .debug_pubnames
+                0x000cbb8d       0x1e /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(readr.o)
+ .debug_pubnames
+                0x000cbbab       0x1f /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(lseekr.o)
+ .debug_pubnames
+                0x000cbbca       0x1f /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(writer.o)
+ .debug_pubnames
+                0x000cbbe9       0x1f /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(closer.o)
+ .debug_pubnames
+                0x000cbc08       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(callocr.o)
+
+.debug_aranges  0x000cbc28      0x480
+ .debug_aranges
+                0x000cbc28       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sprintf.o)
+ .debug_aranges
+                0x000cbc48       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strlen.o)
+ .debug_aranges
+                0x000cbc68       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strcpy.o)
+ .debug_aranges
+                0x000cbc88       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memset.o)
+ .debug_aranges
+                0x000cbca8       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memcpy.o)
+ .debug_aranges
+                0x000cbcc8       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strcmp.o)
+ .debug_aranges
+                0x000cbce8       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o)
+ .debug_aranges
+                0x000cbd08       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(locale.o)
+ .debug_aranges
+                0x000cbd28       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wsetup.o)
+ .debug_aranges
+                0x000cbd48       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fvwrite.o)
+ .debug_aranges
+                0x000cbd68       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(malloc.o)
+ .debug_aranges
+                0x000cbd88       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(s_isinf.o)
+ .debug_aranges
+                0x000cbda8       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcrtomb.o)
+ .debug_aranges
+                0x000cbdc8       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mallocr.o)
+ .debug_aranges
+                0x000cbde8       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcsrtombs.o)
+ .debug_aranges
+                0x000cbe08       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memchr.o)
+ .debug_aranges
+                0x000cbe28       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(s_isnan.o)
+ .debug_aranges
+                0x000cbe48       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fflush.o)
+ .debug_aranges
+                0x000cbe68       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(findfp.o)
+ .debug_aranges
+                0x000cbe88       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o)
+ .debug_aranges
+                0x000cbea8       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(freer.o)
+ .debug_aranges
+                0x000cbec8       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(makebuf.o)
+ .debug_aranges
+                0x000cbee8       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(reallocr.o)
+ .debug_aranges
+                0x000cbf08       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memmove.o)
+ .debug_aranges
+                0x000cbf28       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wctomb_r.o)
+ .debug_aranges
+                0x000cbf48       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mlock.o)
+ .debug_aranges
+                0x000cbf68       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sbrkr.o)
+ .debug_aranges
+                0x000cbf88       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fwalk.o)
+ .debug_aranges
+                0x000cbfa8       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(stdio.o)
+ .debug_aranges
+                0x000cbfc8       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mprec.o)
+ .debug_aranges
+                0x000cbfe8       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fstatr.o)
+ .debug_aranges
+                0x000cc008       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(readr.o)
+ .debug_aranges
+                0x000cc028       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(lseekr.o)
+ .debug_aranges
+                0x000cc048       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(writer.o)
+ .debug_aranges
+                0x000cc068       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(closer.o)
+ .debug_aranges
+                0x000cc088       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(callocr.o)
+
+.debug_str      0x000cc0a8     0x9ace
+ .debug_str     0x000cc0a8      0x4cc /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sprintf.o)
+ .debug_str     0x000cc574      0x144 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strlen.o)
+ .debug_str     0x000cc6b8      0x14c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strcpy.o)
+ .debug_str     0x000cc804      0x145 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memset.o)
+ .debug_str     0x000cc949       0xf6 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memcpy.o)
+ .debug_str     0x000cca3f      0x12a /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(strcmp.o)
+ .debug_str     0x000ccb69      0x68c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o)
+ .debug_str     0x000cd1f5      0x4a8 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(impure.o)
+ .debug_str     0x000cd69d      0x64a /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(locale.o)
+ .debug_str     0x000cdce7      0x4ab /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wsetup.o)
+ .debug_str     0x000ce192      0x506 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fvwrite.o)
+ .debug_str     0x000ce698      0x4bd /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(malloc.o)
+ .debug_str     0x000ceb55      0x170 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(s_isinf.o)
+ .debug_str     0x000cecc5      0x4d2 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcrtomb.o)
+ .debug_str     0x000cf197      0x692 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mallocr.o)
+ .debug_str     0x000cf829      0x4e7 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcsrtombs.o)
+ .debug_str     0x000cfd10      0x152 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memchr.o)
+ .debug_str     0x000cfe62      0x170 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(s_isnan.o)
+ .debug_str     0x000cffd2      0x4a8 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fflush.o)
+ .debug_str     0x000d047a      0x4eb /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(findfp.o)
+ .debug_str     0x000d0965      0x596 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o)
+ .debug_str     0x000d0efb      0x5e4 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(freer.o)
+ .debug_str     0x000d14df      0x592 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(makebuf.o)
+ .debug_str     0x000d1a71      0x564 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(reallocr.o)
+ .debug_str     0x000d1fd5      0x164 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(memmove.o)
+ .debug_str     0x000d2139      0x4d3 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wctomb_r.o)
+ .debug_str     0x000d260c      0x4af /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mlock.o)
+ .debug_str     0x000d2abb      0x4b1 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(sbrkr.o)
+ .debug_str     0x000d2f6c      0x4b0 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fwalk.o)
+ .debug_str     0x000d341c      0x4de /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(stdio.o)
+ .debug_str     0x000d38fa      0x57e /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mprec.o)
+ .debug_str     0x000d3e78      0x573 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(fstatr.o)
+ .debug_str     0x000d43eb      0x4ad /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(readr.o)
+ .debug_str     0x000d4898      0x4ad /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(lseekr.o)
+ .debug_str     0x000d4d45      0x4af /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(writer.o)
+ .debug_str     0x000d51f4      0x49f /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(closer.o)
+ .debug_str     0x000d5693      0x4e3 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(callocr.o)
+
+.rodata.str1.1  0x000d5b76       0x8d
+ .rodata.str1.1
+                0x000d5b76       0x4f /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o)
+ .rodata.str1.1
+                0x000d5bc5        0x2 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(impure.o)
+ .rodata.str1.1
+                0x000d5bc7       0x10 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(locale.o)
+ .rodata.str1.1
+                0x000d5bd7        0xf /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(dtoa.o)
+ .rodata.str1.1
+                0x000d5be6       0x1d /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wctomb_r.o)
+
+.debug_ranges   0x000d5c03      0x630
+ .debug_ranges  0x000d5c03      0x358 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(vfprintf.o)
+ .debug_ranges  0x000d5f5b       0x20 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcrtomb.o)
+ .debug_ranges  0x000d5f7b       0x28 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mallocr.o)
+ .debug_ranges  0x000d5fa3       0x70 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wcsrtombs.o)
+ .debug_ranges  0x000d6013       0x48 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(reallocr.o)
+ .debug_ranges  0x000d605b       0x50 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(wctomb_r.o)
+ .debug_ranges  0x000d60ab      0x170 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(mprec.o)
+ .debug_ranges  0x000d621b       0x18 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/../../../../logic32-elf/lib/libc.a(callocr.o)

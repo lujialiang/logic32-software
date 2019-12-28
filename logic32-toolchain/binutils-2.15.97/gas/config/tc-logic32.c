@@ -25,6 +25,23 @@
 #include "tc-logic32.h"
 #include "opcode/logic32.h"
 
+/* A string of characters which describe the operands.
+ Valid characters are:
+ ,        Itself.  The character appears in the assembly code.
+ a        rs1      The register number is in bits 21-25 of the instruction.
+ b        rs2/rd   The register number is in bits 16-20 of the instruction.
+ c        rd.      The register number is in bits 11-15 of the instruction.
+ f        FUNC bits 0-10 of the instruction.
+ i        An immediate operand is in bits 0-16 of the instruction. 0 extended
+ I        An immediate operand is in bits 0-16 of the instruction. sign extended
+ d	      An 16 bit PC relative displacement.
+ D	      An immediate operand is in bits 0-25 of the instruction.
+ J	      An 32bit immediate operand is in bits 0-29 of the instruction.
+ K	      An 32bit immediate operand
+ R	      An 24bit immediate operand is in bits 0-21 of the instruction.
+ N	      No opperands needed, for nops.
+ P	      it can be a register or a 16 bit operand.  */
+
 static const struct logic32_opcode logic32_opcodes[] =
 {
 
@@ -68,6 +85,7 @@ static const struct logic32_opcode logic32_opcodes[] =
 	{ "neg.f",      OP_FPU,   "a,b",   FPU_NEGS    },
 
     { "addi",      OP_ADDI,   "a,b,I",	0x0	},
+    { "subi",      OP_SUBI,   "a,b,I",	0x0	},
     { "andi",      OP_ANDI,   "a,b,I",	0x0	},
     { "ori",       OP_ORI,   "a,b,I",	0x0	},
     { "xori",      OP_XORI,   "a,b,I",	0x0	},

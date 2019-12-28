@@ -1,0 +1,7 @@
+logic32-elf-size a.out
+   text	   data	    bss	    dec	    hex	filename
+  56352	    257	  27796	  84405	  149b5	a.out
+
+logic32-elf-size a.out
+   text	   data	    bss	    dec	    hex	filename
+  56256	    257	  27796	  84309	  14955	a.out

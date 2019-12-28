@@ -1215,6 +1215,13 @@ int step(void)
 			GPR[rd_idx] = alu_add(rs, immed_sex, 0);
 			PC += 4;
 			return 0;
+
+		case OP_SUBI:	// LJL ++ 20191224
+			debug_printf("subi r%d, r%d, 0x%08x", rd_idx, rs_idx, immed_sex);
+			GPR[rd_idx] = alu_sub(rs, immed_sex, 0);
+			PC += 4;
+			return 0;
+
 		case OP_ANDI:
 			debug_printf("andi r%d, r%d, 0x%04x", rd_idx, rs_idx, immed);
 			GPR[rd_idx] = alu_logic(rs, immed, alu_op_and);

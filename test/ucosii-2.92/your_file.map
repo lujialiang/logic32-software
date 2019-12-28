@@ -1,0 +1,447 @@
+Archive member included because of file (symbol)
+
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ne_df.o)
+                              build/printf.o (__nedf2)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_lt_df.o)
+                              build/printf.o (__ltdf2)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_addsub_df.o)
+                              build/printf.o (__adddf3)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_df_to_si.o)
+                              build/printf.o (__fixdfsi)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_si_to_df.o)
+                              build/printf.o (__floatsidf)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_mul_df.o)
+                              build/printf.o (__muldf3)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_fixunsdfsi.o)
+                              build/printf.o (__fixunsdfsi)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_gt_df.o)
+                              build/printf.o (__gtdf2)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ge_df.o)
+                              build/printf.o (__gedf2)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_eq_df.o)
+                              build/printf.o (__eqdf2)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_unpack_df.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ne_df.o) (__unpack_d)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_fpcmp_parts_df.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ne_df.o) (__fpcmp_parts_d)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_negdi2.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_addsub_df.o) (__negdi2)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_thenan_df.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_addsub_df.o) (__thenan_df)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_pack_df.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_addsub_df.o) (__pack_d)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_lshrdi3.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_df_to_si.o) (__lshrdi3)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_muldi3.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_mul_df.o) (__muldi3)
+/home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ashldi3.o)
+                              /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_pack_df.o) (__ashldi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+OSLockNesting       0x1               build/os_core.o
+OSTaskRegNextAvailID
+                    0x1               build/os_core.o
+OSRunning           0x1               build/os_core.o
+OSIdleCtr           0x4               build/os_core.o
+__errno             0x4               build/errno.o
+OSPrioHighRdy       0x1               build/os_core.o
+OSPrioCur           0x1               build/os_core.o
+OSTCBList           0x4               build/os_core.o
+OSTickStepState     0x1               build/os_core.o
+OSTaskStatStk       0x1900            build/os_core.o
+OSCtxSwCtr          0x4               build/os_core.o
+OSIdleCtrMax        0x4               build/os_core.o
+OSTCBFreeList       0x4               build/os_core.o
+OSCPUUsage          0x1               build/os_core.o
+OSTaskCtr           0x1               build/os_core.o
+OSTCBHighRdy        0x4               build/os_core.o
+OSRdyGrp            0x1               build/os_core.o
+OSRdyTbl            0x8               build/os_core.o
+OSEventFreeList     0x4               build/os_core.o
+OSIntNesting        0x1               build/os_core.o
+OSTCBCur            0x4               build/os_core.o
+OSTime              0x4               build/os_core.o
+OSTaskIdleStk       0x1900            build/os_core.o
+OSEventTbl          0xc8              build/os_core.o
+OSTCBTbl            0x630             build/os_core.o
+OSStatRdy           0x1               build/os_core.o
+OSTCBPrioTbl        0x100             build/os_core.o
+OSIdleCtrRun        0x4               build/os_core.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/crt0.o
+LOAD build/os_cpu_a.o
+LOAD build/misc.o
+LOAD build/main.o
+LOAD build/hooks.o
+LOAD build/BSP.o
+LOAD build/led.o
+LOAD build/app.o
+LOAD build/_fifo.o
+LOAD build/ctype.o
+LOAD build/errno.o
+LOAD build/heap.o
+LOAD build/printf.o
+LOAD build/soc_init.o
+LOAD build/stdio.o
+LOAD build/stdlib.o
+LOAD build/string.o
+LOAD build/vsprintf.o
+LOAD build/os_core.o
+LOAD build/os_q.o
+LOAD build/os_flag.o
+LOAD build/os_sem.o
+LOAD build/os_tmr.o
+LOAD build/os_task.o
+LOAD build/os_time.o
+LOAD build/os_mbox.o
+LOAD build/os_mem.o
+LOAD build/os_mutex.o
+LOAD build/os_cpu_c.o
+LOAD build/os_dbg.o
+LOAD /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a
+LOAD /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a
+Address of section .data set to 0x10000
+                0x00000000                . = 0x0
+
+.text           0x00000000     0xd63c
+ CREATE_OBJECT_SYMBOLS
+ *(.text)
+ .text          0x00000000       0xa8 build/crt0.o
+                0x00000098                sei
+                0x000000a0                cli
+                0x00000094                halt
+ .text          0x000000a8      0x3b0 build/os_cpu_a.o
+                0x000000bc                OSStartHighRdy
+                0x00000190                OSCtxSw
+                0x00000234                OSIntCtxSw
+                0x00000308                systick_isr
+                0x000000b4                OS_CPU_SR_Restore
+                0x000000a8                OS_CPU_SR_Save
+                0x00000198                OSIntCtxSw_no_save
+ *fill*         0x00000458        0x8 00
+ .text          0x00000460      0x134 build/misc.o
+                0x00000520                save_sp
+                0x000004e0                panic_div_by_zero
+                0x000004a0                panic_undef_inst
+                0x00000460                panic
+ *fill*         0x00000594        0xc 00
+ .text          0x000005a0       0x70 build/main.o
+                0x000005a0                main
+ .text          0x00000610      0x16c build/hooks.o
+                0x000006e0                App_TaskSwHook
+                0x00000730                App_TimeTickHook
+                0x00000640                App_TaskDelHook
+                0x00000610                App_TaskCreateHook
+                0x000006c0                App_TaskStatHook
+                0x00000690                App_TaskReturnHook
+                0x00000670                App_TaskIdleHook
+                0x00000700                App_TCBInitHook
+ *fill*         0x0000077c        0x4 00
+ .text          0x00000780       0x3c build/BSP.o
+                0x000007a0                SysTick_init
+                0x00000780                BSP_Init
+ *fill*         0x000007bc        0x4 00
+ .text          0x000007c0       0x94 build/led.o
+                0x000007c0                LED_GPIO_Config
+                0x000007e0                LED
+ *fill*         0x00000854        0xc 00
+ .text          0x00000860      0x208 build/app.o
+                0x000009f0                Task_Key
+                0x00000860                Task_LED
+ *fill*         0x00000a68        0x8 00
+ .text          0x00000a70      0x264 build/_fifo.o
+                0x00000ad0                fifo_put
+                0x00000a70                fifo_init
+                0x00000bf0                fifo_get
+ *fill*         0x00000cd4        0xc 00
+ .text          0x00000ce0      0x514 build/heap.o
+                0x00000f90                OS_HeapFree
+                0x000011a0                OS_HeapRegister
+                0x00000de0                OS_HeapMalloc
+                0x00001160                OS_HeapAlternate
+                0x00000ce0                OS_HeapCreate
+                0x00000db0                OS_HeapDestroy
+ *fill*         0x000011f4        0xc 00
+ .text          0x00001200     0x1f20 build/printf.o
+                0x00002fc0                printf
+                0x000030c0                snprintf
+                0x00003060                sprintf
+ .text          0x00003120       0x88 build/soc_init.o
+                0x00003180                soc_init
+                0x00003120                heap_init
+ *fill*         0x000031a8        0x8 00
+ .text          0x000031b0      0x2c8 build/stdio.o
+                0x000031b0                putchar
+                0x000031f0                puts
+                0x000033d0                puthex
+                0x00003370                putint
+                0x00003270                kbhit
+                0x000032c0                _getchar
+ *fill*         0x00003478        0x8 00
+ .text          0x00003480      0x24c build/stdlib.o
+                0x00003600                labs
+                0x00003480                malloc
+                0x000034d0                calloc
+                0x000036a0                rand
+                0x000035c0                exit
+                0x00003650                abs
+                0x00003570                free
+ *fill*         0x000036cc        0x4 00
+ .text          0x000036d0      0x950 build/string.o
+                0x00003900                strcpy
+                0x00003e20                memmove
+                0x00003d80                memcpy
+                0x00003a30                strcat
+                0x00003c40                strstr
+                0x00003800                strncmp
+                0x00003990                strncpy
+                0x00003f30                memcmp
+                0x00003ae0                strncat
+                0x00003d00                memset
+                0x00003740                strcmp
+                0x000036d0                strlen
+                0x00003bb0                strchr
+ .text          0x00004020      0xd20 build/vsprintf.o
+                0x000045f0                vsprintf
+ .text          0x00004d40     0x1afc build/os_core.o
+                0x00004d90                OSIntEnter
+                0x000064c0                OS_TCBInit
+                0x00005900                OS_EventTaskRemove
+                0x00004e00                OSIntExit
+                0x00006020                OS_MemCopy
+                0x000060b0                OS_Sched
+                0x00006370                OS_TaskStat
+                0x00005fb0                OS_MemClr
+                0x000055b0                OS_EventTaskRdy
+                0x00005040                OSSchedUnlock
+                0x000051f0                OSStatInit
+                0x00005590                OS_Dummy
+                0x00005770                OS_EventTaskWait
+                0x00005140                OSStart
+                0x000052a0                OSTimeTick
+                0x00004f80                OSSchedLock
+                0x00004d40                OSInit
+                0x00006290                OS_StrLen
+                0x00005560                OSVersion
+                0x000059d0                OS_EventWaitListInit
+                0x00006310                OS_TaskIdle
+ *fill*         0x0000683c        0x4 00
+ .text          0x00006840     0x1740 build/os_task.o
+                0x00007d80                OSTaskRegGetID
+                0x00007f40                OS_TaskReturn
+                0x00006e70                OSTaskCreateExt
+                0x00006cb0                OSTaskCreate
+                0x00006840                OSTaskChangePrio
+                0x00007030                OSTaskDel
+                0x00007e60                OSTaskRegSet
+                0x00007680                OSTaskNameSet
+                0x00007ca0                OSTaskRegGet
+                0x000073d0                OSTaskDelReq
+                0x000077b0                OSTaskResume
+                0x00007510                OSTaskNameGet
+                0x00007ba0                OSTaskQuery
+                0x00007990                OSTaskSuspend
+ .text          0x00007f80      0x56c build/os_time.o
+                0x00008490                OSTimeSet
+                0x00007f80                OSTimeDly
+                0x00008100                OSTimeDlyHMSM
+                0x00008220                OSTimeDlyResume
+                0x00008430                OSTimeGet
+ *fill*         0x000084ec        0x4 00
+ .text          0x000084f0     0x1464 build/os_mutex.o
+                0x000084f0                OSMutexAccept
+                0x00008c50                OSMutexPend
+                0x000088c0                OSMutexDel
+                0x000086d0                OSMutexCreate
+                0x000095d0                OSMutexQuery
+                0x00009330                OSMutexPost
+ *fill*         0x00009954        0xc 00
+ .text          0x00009960      0x3b4 build/os_cpu_c.o
+                0x000099a0                OSTaskCreateHook
+                0x00009ab0                OSTaskStatHook
+                0x00009960                OSInitHookBegin
+                0x000099e0                OSTaskDelHook
+                0x00009c80                OSTimeTickHook
+                0x00009c40                OSTCBInitHook
+                0x00009a50                OSTaskReturnHook
+                0x00009ae0                OSTaskStkInit
+                0x00009cb0                OS_CPU_SysTickHandler
+                0x00009980                OSInitHookEnd
+                0x00009c10                OSTaskSwHook
+                0x00009a20                OSTaskIdleHook
+ *fill*         0x00009d14        0xc 00
+ .text          0x00009d20      0x134 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ne_df.o)
+                0x00009d20                __nedf2
+ *fill*         0x00009e54        0xc 00
+ .text          0x00009e60      0x134 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_lt_df.o)
+                0x00009e60                __ltdf2
+ *fill*         0x00009f94        0xc 00
+ .text          0x00009fa0      0x9ec /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_addsub_df.o)
+                0x0000a840                __adddf3
+                0x0000a8e0                __subdf3
+ *fill*         0x0000a98c        0x4 00
+ .text          0x0000a990      0x2b0 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_df_to_si.o)
+                0x0000a990                __fixdfsi
+ .text          0x0000ac40      0x18c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_si_to_df.o)
+                0x0000ac40                __floatsidf
+ *fill*         0x0000adcc        0x4 00
+ .text          0x0000add0      0xe04 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_mul_df.o)
+                0x0000add0                __muldf3
+ *fill*         0x0000bbd4        0xc 00
+ .text          0x0000bbe0       0xd0 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_fixunsdfsi.o)
+                0x0000bbe0                __fixunsdfsi
+ .text          0x0000bcb0      0x134 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_gt_df.o)
+                0x0000bcb0                __gtdf2
+ *fill*         0x0000bde4        0xc 00
+ .text          0x0000bdf0      0x134 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ge_df.o)
+                0x0000bdf0                __gedf2
+ *fill*         0x0000bf24        0xc 00
+ .text          0x0000bf30      0x134 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_eq_df.o)
+                0x0000bf30                __eqdf2
+ *fill*         0x0000c064        0xc 00
+ .text          0x0000c070      0x2d0 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_unpack_df.o)
+                0x0000c070                __unpack_d
+ .text          0x0000c340      0x524 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_fpcmp_parts_df.o)
+                0x0000c340                __fpcmp_parts_d
+ *fill*         0x0000c864        0xc 00
+ .text          0x0000c870       0xb4 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_negdi2.o)
+                0x0000c870                __negdi2
+ *fill*         0x0000c924        0xc 00
+ .text          0x0000c930      0x914 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_pack_df.o)
+                0x0000c930                __pack_d
+ *fill*         0x0000d244        0xc 00
+ .text          0x0000d250      0x10c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_lshrdi3.o)
+                0x0000d250                __lshrdi3
+ *fill*         0x0000d35c        0x4 00
+ .text          0x0000d360      0x1cc /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_muldi3.o)
+                0x0000d360                __muldi3
+ *fill*         0x0000d52c        0x4 00
+ .text          0x0000d530      0x10c /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ashldi3.o)
+                0x0000d530                __ashldi3
+                0x0000d63c                etext = ALIGN (0x1)
+                0x0000d63c                . = ALIGN (0x1)
+
+.data           0x00010000      0x101
+ *(.data)
+ .data          0x00010000      0x101 build/ctype.o
+                0x00010000                _ctype_
+                0x00010101                edata = .
+
+.bss            0x00010110     0x6c94
+ *(.bss)
+ .bss           0x00010110     0x3200 build/main.o
+ .bss           0x00013310       0x20 build/heap.o
+ *(COMMON)
+ COMMON         0x00013330        0x4 build/errno.o
+                0x00013330                __errno
+ *fill*         0x00013334        0xc 00
+ COMMON         0x00013340     0x3a64 build/os_core.o
+                0x00013340                OSLockNesting
+                0x00013341                OSTaskRegNextAvailID
+                0x00013342                OSRunning
+                0x00013344                OSIdleCtr
+                0x00013348                OSPrioHighRdy
+                0x00013349                OSPrioCur
+                0x0001334c                OSTCBList
+                0x00013350                OSTickStepState
+                0x00013360                OSTaskStatStk
+                0x00014c60                OSCtxSwCtr
+                0x00014c64                OSIdleCtrMax
+                0x00014c68                OSTCBFreeList
+                0x00014c6c                OSCPUUsage
+                0x00014c6d                OSTaskCtr
+                0x00014c70                OSTCBHighRdy
+                0x00014c74                OSRdyGrp
+                0x00014c78                OSRdyTbl
+                0x00014c80                OSEventFreeList
+                0x00014c84                OSIntNesting
+                0x00014c88                OSTCBCur
+                0x00014c8c                OSTime
+                0x00014c90                OSTaskIdleStk
+                0x00016590                OSEventTbl
+                0x00016660                OSTCBTbl
+                0x00016c90                OSStatRdy
+                0x00016ca0                OSTCBPrioTbl
+                0x00016da0                OSIdleCtrRun
+                0x00016da4                end = .
+OUTPUT(a.out elf32-logic32)
+
+.rodata         0x00016db0      0x5e4
+ .rodata        0x00016db0       0x4e build/misc.o
+ .rodata        0x00016dfe       0x25 build/hooks.o
+ .rodata        0x00016e23       0x15 build/led.o
+ .rodata        0x00016e38       0x81 build/app.o
+ *fill*         0x00016eb9        0x7 00
+ .rodata        0x00016ec0      0x1f0 build/printf.o
+ .rodata        0x000170b0        0xa build/soc_init.o
+ .rodata        0x000170ba       0x11 build/stdio.o
+ .rodata        0x000170cb       0x28 build/stdlib.o
+ *fill*         0x000170f3        0xd 00
+ .rodata        0x00017100      0x124 build/vsprintf.o
+ .rodata        0x00017224      0x12e build/os_core.o
+                0x00017224                OSUnMapTbl
+ .rodata        0x00017352        0x2 build/os_task.o
+ .rodata        0x00017354       0x23 build/os_cpu_c.o
+ *fill*         0x00017377        0x1 00
+ .rodata        0x00017378        0x2 build/os_dbg.o
+                0x00017378                OSDebugEn
+ *fill*         0x0001737a        0x6 00
+ .rodata        0x00017380       0x14 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_thenan_df.o)
+                0x00017380                __thenan_df
+
+.comment        0x00017394      0x33c
+ .comment       0x00017394       0x12 build/misc.o
+ .comment       0x000173a6       0x12 build/main.o
+ .comment       0x000173b8       0x12 build/hooks.o
+ .comment       0x000173ca       0x12 build/BSP.o
+ .comment       0x000173dc       0x12 build/led.o
+ .comment       0x000173ee       0x12 build/app.o
+ .comment       0x00017400       0x12 build/_fifo.o
+ .comment       0x00017412       0x12 build/ctype.o
+ .comment       0x00017424       0x12 build/errno.o
+ .comment       0x00017436       0x12 build/heap.o
+ .comment       0x00017448       0x12 build/printf.o
+ .comment       0x0001745a       0x12 build/soc_init.o
+ .comment       0x0001746c       0x12 build/stdio.o
+ .comment       0x0001747e       0x12 build/stdlib.o
+ .comment       0x00017490       0x12 build/string.o
+ .comment       0x000174a2       0x12 build/vsprintf.o
+ .comment       0x000174b4       0x12 build/os_core.o
+ .comment       0x000174c6       0x12 build/os_q.o
+ .comment       0x000174d8       0x12 build/os_flag.o
+ .comment       0x000174ea       0x12 build/os_sem.o
+ .comment       0x000174fc       0x12 build/os_tmr.o
+ .comment       0x0001750e       0x12 build/os_task.o
+ .comment       0x00017520       0x12 build/os_time.o
+ .comment       0x00017532       0x12 build/os_mbox.o
+ .comment       0x00017544       0x12 build/os_mem.o
+ .comment       0x00017556       0x12 build/os_mutex.o
+ .comment       0x00017568       0x12 build/os_cpu_c.o
+ .comment       0x0001757a       0x12 build/os_dbg.o
+ .comment       0x0001758c       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ne_df.o)
+ .comment       0x0001759e       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_lt_df.o)
+ .comment       0x000175b0       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_addsub_df.o)
+ .comment       0x000175c2       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_df_to_si.o)
+ .comment       0x000175d4       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_si_to_df.o)
+ .comment       0x000175e6       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_mul_df.o)
+ .comment       0x000175f8       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_fixunsdfsi.o)
+ .comment       0x0001760a       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_gt_df.o)
+ .comment       0x0001761c       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ge_df.o)
+ .comment       0x0001762e       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_eq_df.o)
+ .comment       0x00017640       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_unpack_df.o)
+ .comment       0x00017652       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_fpcmp_parts_df.o)
+ .comment       0x00017664       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_negdi2.o)
+ .comment       0x00017676       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_thenan_df.o)
+ .comment       0x00017688       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_pack_df.o)
+ .comment       0x0001769a       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_lshrdi3.o)
+ .comment       0x000176ac       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_muldi3.o)
+ .comment       0x000176be       0x12 /home/jialiang/logic32-elf/lib/gcc/logic32-elf/3.4.2/libgcc.a(_ashldi3.o)

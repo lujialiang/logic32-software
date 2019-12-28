@@ -127,4 +127,6 @@ int uns_arith_operand (rtx op, enum machine_mode mode);
 
 int arith_operand (rtx op, enum machine_mode mode);
 
+int register_or_const0_operand (rtx op, enum machine_mode mode);
+
 rtx logic32_return_addr (int count, rtx frame);

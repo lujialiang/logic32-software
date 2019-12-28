@@ -12,20 +12,6 @@
 
 ;; data move instructions
 
-;; Push a register onto the stack
-(define_insn "movsi_push"
-  [(set (mem:SI (pre_dec:SI (reg:SI LOGIC32_SP)))
-    (match_operand:SI 0 "register_operand" "r"))]
-  ""  
-  "push %0")
-
-;; Pop a register from the stack
-(define_insn "movsi_pop"
-  [(set (match_operand:SI 0 "register_operand" "=r")
-    (mem:SI (post_inc:SI (reg:SI LOGIC32_SP))))]
-  ""  
-  "pop %0")
-
 (define_insn "store_reg"
 	[(set (mem:SI (plus:SI (reg:SI LOGIC32_SP) (match_operand:SI 0 "immediate_operand" "i")))
 		(match_operand:SI 1 "register_operand" "r"))]
@@ -58,22 +44,25 @@
 
 ;; mov instruction templater
 (define_insn "movsi_internal"
-	[(set (match_operand:SI 0 "nonimmediate_operand" "=r,r,r,m")
-		(match_operand:SI 1 "general_operand" "r,i,m,r"))]
+	[(set (match_operand:SI 0 "nonimmediate_operand" "=r,r,r,r,m,m")
+		(match_operand:SI 1 "general_operand" "r,J,i,m,J,r"))]
 	""
 	"@
 	mov %0, %1
+	mov %0, $zero
 	ldi %0, %1
 	lw %0, %1 ; load word
+	sw %0, $zero
 	sw %0, %1 ; movsi"
 	[(set_attr "type" "arith") (set_attr "mode" "SI")])
 
 (define_insn "movqi"
-	[(set (match_operand:QI 0 "nonimmediate_operand" "=r,r,r,m")
-		(match_operand:QI 1 "general_operand" "r,i,m,r"))]
+	[(set (match_operand:QI 0 "nonimmediate_operand" "=r,r,r,r,m")
+		(match_operand:QI 1 "general_operand" "r,J,i,m,r"))]
 	"1"
 	"@
 	mov %0, %1	; movb
+	mov %0, $zero
 	ldi %0, %1
 	lb %0, %1
 	sb %0, %1"
@@ -257,10 +246,14 @@
 
 (define_insn "cmpsi"
   [(set (cc0)
-	(compare (match_operand:SI 0 "register_operand" "r")
-		 (match_operand:SI 1 "register_operand" "r")))]
+	(compare (match_operand:SI 0 "register_operand" "r,r,r")
+		 (match_operand:SI 1 "arith_operand" "r,J,I")))]
   ""
-  "cmp %0,%1")
+  "@
+  cmp %0, %1
+  cmp %0, $zero
+  subi $zero, %0, %1"
+)
 
 (define_insn "beq"
   [(set (pc)
