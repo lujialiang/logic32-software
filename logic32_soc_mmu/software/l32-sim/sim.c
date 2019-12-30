@@ -1934,6 +1934,7 @@ int main(int argc, char *argv[])
 			char buf1[32], buf2[32];
 			sprintf(buf1, "%d", lcd_width);
 			sprintf(buf2, "%d", lcd_height);
+			_info("screen width: %d, height: %d", lcd_width, lcd_height);
 			if( lcd_width > 0 && lcd_height > 0 ) {
 				if( rgb565_mode ) {
 					execl("/usr/local/bin/sdl_shm", "gui", "-rgb565", "-w", buf1, "-h", buf2, NULL);

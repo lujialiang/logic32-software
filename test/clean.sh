@@ -19,3 +19,4 @@ make -C ulisp/ clean
 make -C ucgui_ucosii/ clean
 make -C ucosii-2.92/ clean
 make -C FreeRTOSv10.2.1_191129/ clean
+make -C u8g2_l32 clean

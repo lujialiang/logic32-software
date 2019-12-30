@@ -146,7 +146,6 @@ int main(int argc, char* argv[])
 		}
 		else if( strcmp("-rgb565", argv[i]) == 0 ) {
 			rgb565_mode = true;
-			i++;
 		}
 	}
 	if( rgb565_mode ) {
@@ -193,6 +192,7 @@ int main(int argc, char* argv[])
 			memcpy(screen_start, (void*)shmptr, screen_width*screen_height*4);
 		}
 		screen_reflash();
+		usleep(20000);
 		while( SDL_PollEvent(&event) != 0 ) {
 			if( event.type == SDL_QUIT ) {
 				SendEvent(-1, -1);

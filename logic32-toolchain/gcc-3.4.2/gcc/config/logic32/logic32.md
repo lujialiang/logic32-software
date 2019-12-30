@@ -152,6 +152,35 @@
 	[(set_attr "type" "arith")
 	(set_attr "mode" "SI")])
 
+
+;; ---------------------------------
+;;      zero extension 
+;; ---------------------------------
+
+(define_insn "zero_extendqihi2"
+  [(set (match_operand:HI 0 "register_operand" "=r")
+        (zero_extend:HI (match_operand:QI 1 "register_operand" "r")))]
+  ""
+  "andi %0, %1, 0xff"
+  [(set_attr "type" "arith")]  
+)
+
+(define_insn "zero_extendqisi2"
+  [(set (match_operand:SI 0 "register_operand" "=r")
+        (zero_extend:SI (match_operand:QI 1 "register_operand" "r")))]
+  ""
+  "andi %0, %1, 0xff"
+  [(set_attr "type" "arith")]  
+)
+
+(define_insn "zero_extendhisi2"
+  [(set (match_operand:SI 0 "register_operand" "=r")
+        (zero_extend:SI (match_operand:HI 1 "register_operand" "r")))]
+  ""
+  "andi %0, %1, 0xffff"
+  [(set_attr "type" "arith")]
+)
+
 ;; booleam instructions
 
 (define_insn "andsi3"
@@ -192,11 +221,6 @@
 	[(set_attr "type" "logical")
 	(set_attr "mode" "SI")])
 
-;; shift instruction
-;(define_code_iterator shift_op [ashift ashiftrt])
-;(define_code_attr shift_name [(ashift "ashl") (ashiftrt "ashr")])
-;(define_code_attr shift_insn_name [(ashift "SLL") (ashiftrt "SRL")])
-
 ;; arith shift left
 (define_insn "ashlsi3"
 	[(set (match_operand:SI 0 "register_operand" "=r,r")
@@ -229,20 +253,6 @@
 	lsri %0, %1, %2"
 	[(set_attr "type" "shift")
 	(set_attr "mode" "SI")])
-
-;; compare instruction
-;;(define_expand "cmpsi"
-	;;[(set (reg:CC 61)
-		;;(compare:CC (match_operand:SI 0 "register_operand" "")
-		;;(match_operand:SI 1 "register_operand" "")))]
-	;;""
-	;;"
-	;;{
-		;;//logic32_compare_op0 = operands[0];
-		;;//logic32_compare_op1 = operands[1];
-		;;DONE;
-	;;}"
-;;)
 
 (define_insn "cmpsi"
   [(set (cc0)
@@ -345,87 +355,6 @@
   ""
   "bleu %l0")
 
-;(define_code_iterator any_cond [eq ne gt lt ge le])
-;;(define_expand "beq"
-	;;[(set (pc)
-	;;(if_then_else (eq (match_dup 1) (const_int 0))
-				;;(label_ref (match_operand 0 "" ""))
-				;;(pc)))]
-	;;""
-	;;"
-	;;{
-		;;//operands[1] = gen_compare_reg (<CODE>, logic32_compare_op0, logic32_compare_op1);
-	;;}")
-
-;;(define_expand "beqf"
-	;;[(set (pc)
-		;;(if_then_else (eq (match_dup 1) (const_int 0))
-				;;(label_ref (match_operand 0 "" ""))
-				;;(pc)))]
-	;;""
-	;;"
-	;;{
-		;;//operands[1] = gen_compare_reg (<CODE>, logic32_compare_op0, logic32_compare_op1);
-	;;}")
-
-;; Now match both normal and inverted jump.
-;;(define_insn "cbranchsi4"
-	;;[(set (pc) (if_then_else (match_operator:SI 0 "comparison_operator"
-	;;[(match_operand:SI 1 "nonimmediate_operand" "")
-	;;(match_operand:SI 2 "nonimmediate_operand" "") ])
-		;;(label_ref (match_operand 3 "" ""))
-	;;(pc)))]
-	;;""
-	;;{
-		;;char str[15], str1[40];
-		;;sprintf(str, "%s", rtx_name[GET_CODE(operands[0])]);
-		;;sprintf(str1, "%s %%1, %%2, %%13", str);
-		;;switch(GET_CODE(operands[0]))
-		;;{
-			;;case EQ: return "beq	%1, %2, %l3";
-			;;case NE: return "bne	%1, %2, %l3";
-			;;case LT: return "blt	%1, %2, %l3";
-			;;case LE: return "ble	%1, %2, %l3";
-			;;case GT: return "bgt	%1, %2, %l3";
-			;;case GE: return "bge	%1, %2, %l3";
-;;
-			;;case LEU: return "bleu	%1, %2, %l3";
-			;;case GEU: return "bgeu	%1, %2, %l3";
-			;;case GTU: return "bgtu	%1, %2, %l3";
-			;;case LTU: return "bltu	%1, %2, %l3";
-;;
-			;;default: return str1;
-		;;}
-	;;}
-	;;[(set_attr "type" "compare")
-	;;(set_attr "mode" "SI")])
-
-;;(define_insn "cbranchsf4"
-	;;[(set (pc) (if_then_else
-		;;(match_operator:SF 0 "comparison_operator"
-		;;[(match_operand:SF 1 "nonimmediate_operand" "")
-		 ;;(match_operand:SF 2 "nonimmediate_operand" "")])
-		;;(label_ref (match_operand 3 "" ""))
-		;;(pc)))]
-	;;""
-	;;{
-		;;char str[15], str1[40];
-		;;sprintf(str, "%s", rtx_name[GET_CODE(operands[0])]);
-		;;sprintf(str1, "%s %%1, %%2, %%13", str);
-		;;switch(GET_CODE(operands[0]))
-		;;{
-			;;case EQ: return "EQF	%1, %2, %l3";
-			;;case NE: return "NEF	%1, %2, %l3";
-			;;case LT: return "LTF	%1, %2, %l3";
-			;;case LE: return "LEF	%1, %2, %l3";
-			;;case GT: return "GTF	%1, %2, %l3";
-			;;case GE: return "GEF	%1, %2, %l3";
-			;;default: return str1;
-		;;}
-	;;}
-	;;[(set_attr "type" "compare")
-	;;(set_attr "mode" "SF")])
-
 ;; uncondition jump JUMP instruction templater
 (define_insn "jump"
 	[(set (pc) (label_ref (match_operand 0 "" "")))]
@@ -510,21 +439,6 @@
   "jal %1"
   )
 
-;; type convert instructions
-(define_insn "floatsisf2"
-	[(set (match_operand:SF 0 "register_operand" "=r")
-	(float:SF (match_operand:SI 1 "register_operand" "r")))]
-	"0"
-	"cvti2f %0, %1"
-)
-
-(define_insn "fix_truncsfsi2"
-	[(set (match_operand:SI 0 "register_operand" "=r")
-	(fix:SI (match_operand:SF 1 "register_operand" "r")))]
-	"0"
-	"cvtf2i %0, %1"
-)
-
 ;; nop NOP instruction templater
 (define_insn "nop"
 	[(const_int 0)]
@@ -550,16 +464,6 @@
 	}"
 )
 
-;(define_expand "epilogue"
-;	[(const_int 2)] 
-;	""  
-;	"
-;	{
-;		logic32_expand_epilogue ();
-;		DONE;
-;	}"
-;)
-
 (define_expand "epilogue"
 	[(return)]
 	""
@@ -570,21 +474,12 @@
 	}"
 )
 
-;(define_insn "return_from_func"
-;  [(return)
-;   (use (reg:SI 17))]
-;  "reload_completed"
-;  "ret%#"
-;  [(set_attr "delay_type" "delayed")]
-;)
-
 ;; RETURN instruction templater
 (define_insn "return_from_func"
 	[(set (pc) (return)) (use (reg:DI 31))]
 	"reload_completed"
 	"ret"
 )
-
 
 (define_insn "negsi2"
   [(set (match_operand:SI 0 "register_operand" "=r")
