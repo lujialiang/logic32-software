@@ -1,0 +1,2162 @@
+.set reorder
+.globl yyin
+.sdata
+.align 2
+yyin:
+.word _iob
+.globl yyout
+.sdata
+.align 2
+yyout:
+.word _iob+16
+.globl yylex
+.text
+.text
+.align 2
+.ent yylex
+yylex:
+.frame $sp,24,$31
+addu $sp,$sp,-24
+.mask 0xc0000000,-4
+sw $30,16($sp)
+sw $31,20($sp)
+b L.4
+L.3:
+L.6:
+la $25,-1
+blt $30,$25,L.7
+la $25,4
+bgt $30,$25,L.7
+sll $25,$30,2
+lw $25,L.18+4($25)
+j $25
+.rdata
+.align 2
+L.18:
+.word L.8
+.word L.9
+.word L.12
+.word L.13
+.word L.8
+.word L.15
+.text
+L.9:
+jal yywrap
+beq $2,$0,L.8
+move $2,$0
+b L.2
+L.12:
+la $2,257
+b L.2
+L.13:
+la $2,258
+b L.2
+L.15:
+lb $2,yytext
+b L.2
+L.7:
+lw $4,yyout
+la $5,L.17
+move $6,$30
+jal fprintf
+L.8:
+L.4:
+jal yylook
+move $30,$2
+bge $2,$0,L.3
+move $2,$0
+L.2:
+lw $30,16($sp)
+lw $31,20($sp)
+addu $sp,$sp,24
+j $31
+.end yylex
+.globl yyvstop
+.data
+.align 2
+yyvstop:
+.word 0x0
+.word 0x4
+.word 0x0
+.word 0x3
+.word 0x4
+.word 0x0
+.word 0x2
+.word 0x4
+.word 0x0
+.word 0x1
+.word 0x4
+.word 0x0
+.word 0x2
+.word 0x0
+.word 0x1
+.word 0x0
+.word 0x0
+.globl yycrank
+.data
+.align 0
+yycrank:
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 1
+.byte 3
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 1
+.byte 4
+.byte 1
+.byte 3
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 1
+.byte 5
+.byte 5
+.byte 7
+.byte 5
+.byte 7
+.byte 5
+.byte 7
+.byte 5
+.byte 7
+.byte 5
+.byte 7
+.byte 5
+.byte 7
+.byte 5
+.byte 7
+.byte 5
+.byte 7
+.byte 5
+.byte 7
+.byte 5
+.byte 7
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 1
+.byte 6
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 6
+.byte 8
+.byte 0
+.byte 0
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 6
+.byte 8
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.globl yysvec
+.data
+.align 2
+yysvec:
+.word 0x0
+.word 0x0
+.word 0x0
+.word yycrank-2
+.word 0x0
+.word 0x0
+.word yycrank
+.word yysvec+12
+.word 0x0
+.word yycrank
+.word 0x0
+.word yyvstop+4
+.word yycrank
+.word 0x0
+.word yyvstop+12
+.word yycrank+4
+.word 0x0
+.word yyvstop+24
+.word yycrank+38
+.word 0x0
+.word yyvstop+36
+.word yycrank
+.word yysvec+60
+.word yyvstop+48
+.word yycrank
+.word yysvec+72
+.word yyvstop+56
+.word 0x0
+.word 0x0
+.word 0x0
+.globl yytop
+.sdata
+.align 2
+yytop:
+.word yycrank+282
+.globl yybgin
+.sdata
+.align 2
+yybgin:
+.word yysvec+12
+.globl yymatch
+.data
+.align 0
+yymatch:
+.byte 0
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 9
+.byte 10
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 9
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 48
+.byte 48
+.byte 48
+.byte 48
+.byte 48
+.byte 48
+.byte 48
+.byte 48
+.byte 48
+.byte 48
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 65
+.byte 1
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 65
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 1
+.byte 0
+.globl yyextra
+.data
+.align 0
+yyextra:
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.byte 0
+.globl yylineno
+.sdata
+.align 2
+yylineno:
+.word 0x1
+.globl yysptr
+.sdata
+.align 2
+yysptr:
+.word yysbuf
+.globl yyprevious
+.sdata
+.align 2
+yyprevious:
+.word 0xa
+.globl yylook
+.text
+.text
+.align 2
+.ent yylook
+yylook:
+.frame $sp,72,$31
+addu $sp,$sp,-72
+.mask 0xc0ff0000,-20
+sw $16,16($sp)
+sw $17,20($sp)
+sw $18,24($sp)
+sw $19,28($sp)
+sw $20,32($sp)
+sw $21,36($sp)
+sw $22,40($sp)
+sw $23,44($sp)
+sw $30,48($sp)
+sw $31,52($sp)
+lw $25,yymorfg
+bne $25,$0,L.37
+la $21,yytext
+b L.38
+L.37:
+sw $0,yymorfg
+lw $25,yyleng
+la $21,yytext($25)
+L.38:
+L.39:
+la $23,yylstate
+lw $25,yybgin
+move $30,$25
+sw $25,yyestate
+lw $25,yyprevious
+la $24,10
+bne $25,$24,L.43
+la $30,12($30)
+L.43:
+L.45:
+lw $22,($30)
+la $25,yycrank
+bne $22,$25,L.49
+lw $18,4($30)
+bne $18,$0,L.51
+b L.96
+L.51:
+lw $25,($18)
+la $24,yycrank
+bne $25,$24,L.53
+b L.96
+L.53:
+L.49:
+move $25,$21
+sw $25,-12+72($sp)
+la $21,1($25)
+lw $24,yysptr
+la $15,yysbuf
+bleu $24,$15,L.63
+lw $24,yysptr
+la $24,-1($24)
+sw $24,yysptr
+lb $24,($24)
+sw $24,-4+72($sp)
+b L.64
+L.63:
+lw $24,yyin
+lw $15,($24)
+subu $15,$15,1
+sw $15,($24)
+bge $15,$0,L.65
+lw $4,yyin
+jal _filbuf
+move $25,$2
+sw $25,-8+72($sp)
+b L.66
+L.65:
+lw $25,yyin
+la $25,4($25)
+lw $24,($25)
+la $15,1($24)
+sw $15,($25)
+lbu $25,($24)
+sw $25,-8+72($sp)
+L.66:
+lw $25,-8+72($sp)
+sw $25,-4+72($sp)
+L.64:
+lw $25,-4+72($sp)
+sw $25,yytchar
+la $24,10
+bne $25,$24,L.61
+lw $25,yylineno
+la $25,1($25)
+sw $25,yylineno
+lw $16,yytchar
+b L.62
+L.61:
+lw $16,yytchar
+L.62:
+la $25,-1
+bne $16,$25,L.59
+move $17,$0
+b L.60
+L.59:
+lw $17,yytchar
+L.60:
+move $20,$17
+lw $25,-12+72($sp)
+sb $17,($25)
+L.67:
+move $19,$22
+la $25,yycrank
+ble $22,$25,L.68
+sll $25,$20,1
+addu $22,$25,$19
+lw $25,yytop
+bgtu $22,$25,L.69
+la $25,12
+lb $24,($22)
+mul $25,$25,$24
+la $25,yysvec($25)
+bne $25,$30,L.69
+la $25,yysvec
+la $24,12
+lb $15,1($22)
+mul $24,$24,$15
+la $24,yysvec($24)
+bne $24,$25,L.72
+la $25,-1($21)
+move $21,$25
+lb $25,($25)
+sw $25,yytchar
+lw $25,yytchar
+la $24,10
+bne $25,$24,L.74
+lw $25,yylineno
+subu $25,$25,1
+sw $25,yylineno
+L.74:
+lw $25,yysptr
+la $24,1($25)
+sw $24,yysptr
+lw $24,yytchar
+sb $24,($25)
+b L.96
+L.72:
+move $25,$23
+la $23,4($25)
+la $24,12
+lb $15,1($22)
+mul $24,$24,$15
+la $30,yysvec($24)
+sw $30,($25)
+b L.45
+L.68:
+la $25,yycrank
+bge $22,$25,L.77
+la $25,yycrank
+subu $25,$25,$22
+la $24,2
+div $25,$25,$24
+sll $25,$25,1
+la $25,yycrank($25)
+move $19,$25
+move $22,$25
+sll $25,$20,1
+addu $22,$25,$22
+lw $25,yytop
+bgtu $22,$25,L.79
+la $25,12
+lb $24,($22)
+mul $25,$25,$24
+la $25,yysvec($25)
+bne $25,$30,L.79
+la $25,yysvec
+la $24,12
+lb $15,1($22)
+mul $24,$24,$15
+la $24,yysvec($24)
+bne $24,$25,L.81
+la $25,-1($21)
+move $21,$25
+lb $25,($25)
+sw $25,yytchar
+lw $25,yytchar
+la $24,10
+bne $25,$24,L.83
+lw $25,yylineno
+subu $25,$25,1
+sw $25,yylineno
+L.83:
+lw $25,yysptr
+la $24,1($25)
+sw $24,yysptr
+lw $24,yytchar
+sb $24,($25)
+b L.96
+L.81:
+move $25,$23
+la $23,4($25)
+la $24,12
+lb $15,1($22)
+mul $24,$24,$15
+la $30,yysvec($24)
+sw $30,($25)
+b L.45
+L.79:
+lb $25,yymatch($20)
+sll $25,$25,1
+addu $22,$25,$19
+lw $25,yytop
+bgtu $22,$25,L.85
+la $25,12
+lb $24,($22)
+mul $25,$25,$24
+la $25,yysvec($25)
+bne $25,$30,L.85
+la $25,yysvec
+la $24,12
+lb $15,1($22)
+mul $24,$24,$15
+la $24,yysvec($24)
+bne $24,$25,L.87
+la $25,-1($21)
+move $21,$25
+lb $25,($25)
+sw $25,yytchar
+lw $25,yytchar
+la $24,10
+bne $25,$24,L.89
+lw $25,yylineno
+subu $25,$25,1
+sw $25,yylineno
+L.89:
+lw $25,yysptr
+la $24,1($25)
+sw $24,yysptr
+lw $24,yytchar
+sb $24,($25)
+b L.96
+L.87:
+move $25,$23
+la $23,4($25)
+la $24,12
+lb $15,1($22)
+mul $24,$24,$15
+la $30,yysvec($24)
+sw $30,($25)
+b L.45
+L.85:
+L.77:
+L.69:
+lw $25,4($30)
+move $30,$25
+beq $25,$0,L.91
+lw $25,($30)
+move $22,$25
+la $24,yycrank
+beq $25,$24,L.91
+b L.67
+L.91:
+la $25,-1($21)
+move $21,$25
+lb $25,($25)
+sw $25,yytchar
+lw $25,yytchar
+la $24,10
+bne $25,$24,L.93
+lw $25,yylineno
+subu $25,$25,1
+sw $25,yylineno
+L.93:
+lw $25,yysptr
+la $24,1($25)
+sw $24,yysptr
+lw $24,yytchar
+sb $24,($25)
+b L.96
+L.95:
+move $25,$21
+la $21,-1($25)
+sb $0,($25)
+lw $25,($23)
+move $24,$0
+beq $25,$24,L.98
+lw $25,8($25)
+sw $25,yyfnd
+beq $25,$24,L.98
+lw $25,yyfnd
+lw $25,($25)
+ble $25,$0,L.98
+sw $23,yyolsp
+lw $25,yyfnd
+lw $25,($25)
+lb $25,yyextra($25)
+beq $25,$0,L.100
+b L.103
+L.102:
+la $23,-4($23)
+move $25,$21
+la $21,-1($25)
+lb $25,($25)
+sw $25,yytchar
+lw $25,yytchar
+la $24,10
+bne $25,$24,L.105
+lw $25,yylineno
+subu $25,$25,1
+sw $25,yylineno
+L.105:
+lw $25,yysptr
+la $24,1($25)
+sw $24,yysptr
+lw $24,yytchar
+sb $24,($25)
+L.103:
+lw $25,($23)
+lw $4,8($25)
+lw $25,yyfnd
+lw $25,($25)
+negu $5,$25
+jal yyback
+la $24,1
+beq $2,$24,L.107
+la $25,yylstate
+bgtu $23,$25,L.102
+L.107:
+L.100:
+lb $25,($21)
+sw $25,yyprevious
+sw $23,yylsp
+la $25,yytext
+subu $25,$21,$25
+la $25,1($25)
+sw $25,yyleng
+lw $25,yyleng
+sb $0,yytext($25)
+lw $25,yyfnd
+la $24,4($25)
+sw $24,yyfnd
+lw $2,($25)
+b L.36
+L.98:
+lb $25,($21)
+sw $25,yytchar
+lw $25,yytchar
+la $24,10
+bne $25,$24,L.108
+lw $25,yylineno
+subu $25,$25,1
+sw $25,yylineno
+L.108:
+lw $25,yysptr
+la $24,1($25)
+sw $24,yysptr
+lw $24,yytchar
+sb $24,($25)
+L.96:
+move $25,$23
+la $23,-4($25)
+la $24,yylstate
+bgtu $25,$24,L.95
+lb $25,yytext
+bne $25,$0,L.110
+la $25,yysbuf
+sw $25,yysptr
+move $2,$0
+b L.36
+L.110:
+lw $25,yysptr
+la $24,yysbuf
+bleu $25,$24,L.120
+lw $25,yysptr
+la $25,-1($25)
+sw $25,yysptr
+lb $25,($25)
+sw $25,-4+72($sp)
+b L.121
+L.120:
+lw $25,yyin
+lw $24,($25)
+subu $24,$24,1
+sw $24,($25)
+bge $24,$0,L.122
+lw $4,yyin
+jal _filbuf
+move $25,$2
+sw $25,-8+72($sp)
+b L.123
+L.122:
+lw $25,yyin
+la $25,4($25)
+lw $24,($25)
+la $15,1($24)
+sw $15,($25)
+lbu $25,($24)
+sw $25,-8+72($sp)
+L.123:
+lw $25,-8+72($sp)
+sw $25,-4+72($sp)
+L.121:
+lw $25,-4+72($sp)
+sw $25,yytchar
+la $24,10
+bne $25,$24,L.118
+lw $25,yylineno
+la $25,1($25)
+sw $25,yylineno
+lw $16,yytchar
+b L.119
+L.118:
+lw $16,yytchar
+L.119:
+la $25,-1
+bne $16,$25,L.116
+move $17,$0
+b L.117
+L.116:
+lw $17,yytchar
+L.117:
+sb $17,yytext
+sll $25,$17,24; sra $25,$25,24
+sw $25,yyprevious
+lw $25,yyprevious
+ble $25,$0,L.124
+lw $25,yyout
+lw $24,($25)
+subu $24,$24,1
+sw $24,($25)
+bge $24,$0,L.127
+lw $25,yyprevious
+and $4,$25,0xff
+lw $5,yyout
+jal _flsbuf
+b L.128
+L.127:
+lw $25,yyout
+la $25,4($25)
+lw $24,($25)
+la $15,1($24)
+sw $15,($25)
+lw $25,yyprevious
+sb $25,($24)
+L.128:
+L.124:
+la $21,yytext
+b L.39
+L.36:
+lw $16,16($sp)
+lw $17,20($sp)
+lw $18,24($sp)
+lw $19,28($sp)
+lw $20,32($sp)
+lw $21,36($sp)
+lw $22,40($sp)
+lw $23,44($sp)
+lw $30,48($sp)
+lw $31,52($sp)
+addu $sp,$sp,72
+j $31
+.end yylook
+.globl yyback
+.text
+.align 2
+.ent yyback
+yyback:
+.frame $sp,0,$31
+bne $4,$0,L.213
+move $2,$0
+b L.209
+L.212:
+move $25,$4
+la $4,4($25)
+lw $25,($25)
+bne $25,$5,L.215
+la $2,1
+b L.209
+L.215:
+L.213:
+lw $25,($4)
+bne $25,$0,L.212
+move $2,$0
+L.209:
+j $31
+.end yyback
+.globl yyinput
+.text
+.align 2
+.ent yyinput
+yyinput:
+.frame $sp,40,$31
+addu $sp,$sp,-40
+.mask 0xc0e00000,-8
+sw $21,16($sp)
+sw $22,20($sp)
+sw $23,24($sp)
+sw $30,28($sp)
+sw $31,32($sp)
+lw $25,yysptr
+la $24,yysbuf
+bleu $25,$24,L.227
+lw $25,yysptr
+la $25,-1($25)
+sw $25,yysptr
+lb $22,($25)
+b L.228
+L.227:
+lw $25,yyin
+lw $24,($25)
+subu $24,$24,1
+sw $24,($25)
+bge $24,$0,L.229
+lw $4,yyin
+jal _filbuf
+move $25,$2
+move $21,$25
+b L.230
+L.229:
+lw $25,yyin
+la $25,4($25)
+lw $24,($25)
+la $15,1($24)
+sw $15,($25)
+lbu $25,($24)
+move $21,$25
+L.230:
+move $22,$21
+L.228:
+sw $22,yytchar
+la $25,10
+bne $22,$25,L.225
+lw $25,yylineno
+la $25,1($25)
+sw $25,yylineno
+lw $23,yytchar
+b L.226
+L.225:
+lw $23,yytchar
+L.226:
+la $25,-1
+bne $23,$25,L.223
+move $30,$0
+b L.224
+L.223:
+lw $30,yytchar
+L.224:
+move $2,$30
+L.218:
+lw $21,16($sp)
+lw $22,20($sp)
+lw $23,24($sp)
+lw $30,28($sp)
+lw $31,32($sp)
+addu $sp,$sp,40
+j $31
+.end yyinput
+.globl yyoutput
+.text
+.align 2
+.ent yyoutput
+yyoutput:
+.frame $sp,24,$31
+addu $sp,$sp,-24
+.mask 0x80000000,-8
+sw $31,16($sp)
+sw $4,24($sp)
+lw $25,yyout
+lw $24,($25)
+subu $24,$24,1
+sw $24,($25)
+bge $24,$0,L.241
+lw $25,0+24($sp)
+and $4,$25,0xff
+lw $5,yyout
+jal _flsbuf
+b L.242
+L.241:
+lw $25,yyout
+la $25,4($25)
+lw $24,($25)
+la $15,1($24)
+sw $15,($25)
+lw $25,0+24($sp)
+sb $25,($24)
+L.242:
+L.239:
+lw $31,16($sp)
+addu $sp,$sp,24
+j $31
+.end yyoutput
+.globl yyunput
+.text
+.align 2
+.ent yyunput
+yyunput:
+.frame $sp,0,$31
+sw $4,yytchar
+lw $25,yytchar
+la $24,10
+bne $25,$24,L.248
+lw $25,yylineno
+subu $25,$25,1
+sw $25,yylineno
+L.248:
+lw $25,yysptr
+la $24,1($25)
+sw $24,yysptr
+lw $24,yytchar
+sb $24,($25)
+L.247:
+j $31
+.end yyunput
+.globl main
+.text
+.align 2
+.ent main
+main:
+.frame $sp,8,$31
+addu $sp,$sp,-8
+.mask 0x80000000,-8
+sw $31,0($sp)
+jal yyparse
+L.254:
+lw $31,0($sp)
+addu $sp,$sp,8
+j $31
+.end main
+.globl yyerror
+.text
+.align 2
+.ent yyerror
+yyerror:
+.frame $sp,24,$31
+addu $sp,$sp,-24
+.mask 0x80000000,-8
+sw $31,16($sp)
+sw $4,24($sp)
+la $4,L.256
+jal printf
+L.255:
+lw $31,16($sp)
+addu $sp,$sp,24
+j $31
+.end yyerror
+.globl yyexca
+.data
+.align 1
+yyexca:
+.half -1
+.half 1
+.half 0
+.half -1
+.half -2
+.half 0
+.globl yyact
+.data
+.align 1
+yyact:
+.half 12
+.half 2
+.half 9
+.half 8
+.half 17
+.half 11
+.half 25
+.half 17
+.half 15
+.half 18
+.half 16
+.half 10
+.half 18
+.half 17
+.half 15
+.half 7
+.half 16
+.half 13
+.half 18
+.half 5
+.half 3
+.half 1
+.half 0
+.half 19
+.half 20
+.half 0
+.half 0
+.half 21
+.half 22
+.half 23
+.half 24
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 6
+.half 14
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 0
+.half 4
+.half 6
+.globl yypact
+.data
+.align 1
+yypact:
+.half -1000
+.half -9
+.half -1000
+.half 5
+.half -7
+.half -59
+.half -1000
+.half -1000
+.half -1000
+.half -40
+.half -29
+.half -40
+.half -40
+.half -1000
+.half -1000
+.half -40
+.half -40
+.half -40
+.half -40
+.half -38
+.half -35
+.half -38
+.half -38
+.half -1000
+.half -1000
+.half -1000
+.globl yypgo
+.data
+.align 1
+yypgo:
+.half 0
+.half 21
+.half 20
+.half 17
+.half 11
+.globl yyr1
+.data
+.align 1
+yyr1:
+.half 0
+.half 1
+.half 1
+.half 1
+.half 1
+.half 2
+.half 4
+.half 4
+.half 4
+.half 4
+.half 4
+.half 4
+.half 4
+.half 4
+.half 3
+.globl yyr2
+.data
+.align 1
+yyr2:
+.half 0
+.half 0
+.half 2
+.half 3
+.half 3
+.half 3
+.half 3
+.half 3
+.half 3
+.half 3
+.half 2
+.half 3
+.half 1
+.half 1
+.half 1
+.globl yychk
+.data
+.align 1
+yychk:
+.half -1000
+.half -1
+.half 10
+.half -2
+.half 256
+.half -3
+.half 257
+.half 10
+.half 10
+.half 61
+.half -4
+.half 45
+.half 40
+.half -3
+.half 258
+.half 43
+.half 45
+.half 42
+.half 47
+.half -4
+.half -4
+.half -4
+.half -4
+.half -4
+.half -4
+.half 41
+.globl yydef
+.data
+.align 1
+yydef:
+.half 1
+.half -2
+.half 2
+.half 0
+.half 0
+.half 0
+.half 14
+.half 3
+.half 4
+.half 0
+.half 5
+.half 0
+.half 0
+.half 12
+.half 13
+.half 0
+.half 0
+.half 0
+.half 0
+.half 10
+.half 0
+.half 6
+.half 7
+.half 8
+.half 9
+.half 11
+.globl yychar
+.sdata
+.align 2
+yychar:
+.word 0xffffffff
+.globl yynerrs
+.sdata
+.align 2
+yynerrs:
+.word 0x0
+.globl yyerrflag
+.sdata
+.align 1
+yyerrflag:
+.half 0
+.globl yyparse
+.text
+.text
+.align 2
+.ent yyparse
+yyparse:
+.frame $sp,360,$31
+addu $sp,$sp,-360
+.mask 0xc0fe0000,-312
+sw $17,16($sp)
+sw $18,20($sp)
+sw $19,24($sp)
+sw $20,28($sp)
+sw $21,32($sp)
+sw $22,36($sp)
+sw $23,40($sp)
+sw $30,44($sp)
+sw $31,48($sp)
+move $23,$0
+la $25,-1
+sw $25,yychar
+sw $0,yynerrs
+sh $23,yyerrflag
+la $22,-302+360($sp)
+la $20,yyv-4
+L.260:
+la $25,2($22)
+move $22,$25
+la $24,0+360($sp)
+bleu $25,$24,L.261
+la $4,L.264
+jal yyerror
+la $2,1
+b L.257
+L.261:
+sh $23,($22)
+la $20,4($20)
+lw $25,yyval
+sw $25,($20)
+L.265:
+sll $25,$23,16; sra $25,$25,16
+sll $25,$25,1
+lh $21,yypact($25)
+sll $25,$21,16; sra $25,$25,16
+la $24,-1000
+bgt $25,$24,L.266
+b L.268
+L.266:
+lw $25,yychar
+bge $25,$0,L.269
+jal yylex
+sw $2,yychar
+bge $2,$0,L.271
+sw $0,yychar
+L.271:
+L.269:
+sll $25,$21,16; sra $25,$25,16
+lw $24,yychar
+addu $25,$25,$24
+move $21,$25
+sll $25,$25,16; sra $25,$25,16
+blt $25,$0,L.275
+sll $25,$21,16; sra $25,$25,16
+la $24,249
+blt $25,$24,L.273
+L.275:
+b L.268
+L.273:
+sll $25,$21,16; sra $25,$25,16
+sll $25,$25,1
+lh $25,yyact($25)
+move $21,$25
+sll $25,$25,16; sra $25,$25,16
+sll $25,$25,1
+lh $25,yychk($25)
+lw $24,yychar
+bne $25,$24,L.276
+la $25,-1
+sw $25,yychar
+lw $25,yylval
+sw $25,yyval
+move $23,$21
+lh $25,yyerrflag
+ble $25,$0,L.260
+lh $25,yyerrflag
+subu $25,$25,1
+sh $25,yyerrflag
+b L.260
+L.276:
+L.268:
+sll $25,$23,16; sra $25,$25,16
+sll $25,$25,1
+lh $25,yydef($25)
+move $21,$25
+sll $25,$25,16; sra $25,$25,16
+la $24,-2
+bne $25,$24,L.280
+lw $25,yychar
+bge $25,$0,L.282
+jal yylex
+sw $2,yychar
+bge $2,$0,L.284
+sw $0,yychar
+L.284:
+L.282:
+la $19,yyexca
+b L.289
+L.286:
+L.287:
+la $19,4($19)
+L.289:
+lh $25,($19)
+la $24,-1
+bne $25,$24,L.286
+lh $25,2($19)
+sll $24,$23,16; sra $24,$24,16
+bne $25,$24,L.286
+b L.291
+L.290:
+lh $25,($19)
+lw $24,yychar
+bne $25,$24,L.293
+b L.292
+L.293:
+L.291:
+la $25,4($19)
+move $19,$25
+lh $25,($25)
+bge $25,$0,L.290
+L.292:
+lh $25,2($19)
+move $21,$25
+sll $25,$25,16; sra $25,$25,16
+bge $25,$0,L.295
+move $2,$0
+b L.257
+L.295:
+L.280:
+sll $25,$21,16; sra $25,$25,16
+bne $25,$0,L.297
+lh $17,yyerrflag
+blt $17,$0,L.299
+la $25,3
+bgt $17,$25,L.299
+sll $25,$17,2
+lw $25,L.315($25)
+j $25
+.rdata
+.align 2
+L.315:
+.word L.302
+.word L.305
+.word L.305
+.word L.312
+.text
+L.302:
+la $4,L.303
+jal yyerror
+L.304:
+lw $25,yynerrs
+la $25,1($25)
+sw $25,yynerrs
+L.305:
+la $25,3
+sh $25,yyerrflag
+b L.307
+L.306:
+lh $25,($22)
+sll $25,$25,1
+lh $25,yypact($25)
+la $25,256($25)
+move $21,$25
+sll $25,$21,16; sra $25,$25,16
+blt $25,$0,L.309
+la $24,249
+bge $25,$24,L.309
+sll $25,$25,1
+lh $25,yyact($25)
+sll $25,$25,1
+lh $25,yychk($25)
+la $24,256
+bne $25,$24,L.309
+sll $25,$21,16; sra $25,$25,16
+sll $25,$25,1
+lh $23,yyact($25)
+b L.260
+L.309:
+lh $25,($22)
+sll $25,$25,1
+lh $21,yypact($25)
+la $22,-2($22)
+la $20,-4($20)
+L.307:
+la $25,-300+360($sp)
+bgeu $22,$25,L.306
+L.311:
+la $2,1
+b L.257
+L.312:
+lw $25,yychar
+bne $25,$0,L.313
+b L.311
+L.313:
+la $25,-1
+sw $25,yychar
+b L.265
+L.299:
+L.297:
+sll $25,$21,16; sra $25,$25,16
+sll $25,$25,1
+la $24,yyr2($25)
+lh $15,($24)
+sll $15,$15,1
+subu $22,$22,$15
+move $30,$20
+lh $24,($24)
+sll $24,$24,2
+subu $20,$20,$24
+lw $24,4($20)
+sw $24,yyval
+sh $21,-302+360($sp)
+lh $21,yyr1($25)
+sll $25,$21,16; sra $25,$25,16
+sll $25,$25,1
+lh $25,yypgo($25)
+lh $24,($22)
+addu $25,$25,$24
+la $25,1($25)
+move $18,$25
+sll $25,$18,16; sra $25,$25,16
+la $24,249
+bge $25,$24,L.318
+sll $25,$25,1
+lh $25,yyact($25)
+move $23,$25
+sll $25,$25,16; sra $25,$25,16
+sll $25,$25,1
+lh $25,yychk($25)
+sll $24,$21,16; sra $24,$24,16
+negu $24,$24
+beq $25,$24,L.316
+L.318:
+sll $25,$21,16; sra $25,$25,16
+sll $25,$25,1
+lh $25,yypgo($25)
+sll $25,$25,1
+lh $23,yyact($25)
+L.316:
+lh $17,-302+360($sp)
+la $25,4
+blt $17,$25,L.260
+la $25,14
+bgt $17,$25,L.260
+sll $25,$17,2
+lw $25,L.340-16($25)
+j $25
+.rdata
+.align 2
+L.340:
+.word L.322
+.word L.323
+.word L.325
+.word L.327
+.word L.329
+.word L.331
+.word L.333
+.word L.260
+.word L.335
+.word L.337
+.word L.339
+.text
+L.322:
+sh $0,yyerrflag
+b L.260
+L.323:
+la $4,L.324
+jal printf
+b L.260
+L.325:
+la $4,L.326
+jal printf
+b L.260
+L.327:
+la $4,L.328
+jal printf
+b L.260
+L.329:
+la $4,L.330
+jal printf
+b L.260
+L.331:
+la $4,L.332
+jal printf
+b L.260
+L.333:
+la $4,L.334
+jal printf
+b L.260
+L.335:
+la $4,L.336
+jal printf
+b L.260
+L.337:
+la $4,L.338
+la $5,yytext
+jal printf
+b L.260
+L.339:
+la $4,L.256
+la $5,yytext
+jal printf
+b L.260
+L.257:
+lw $17,16($sp)
+lw $18,20($sp)
+lw $19,24($sp)
+lw $20,28($sp)
+lw $21,32($sp)
+lw $22,36($sp)
+lw $23,40($sp)
+lw $30,44($sp)
+lw $31,48($sp)
+addu $sp,$sp,360
+j $31
+.end yyparse
+.globl yywrap
+.text
+.align 2
+.ent yywrap
+yywrap:
+.frame $sp,0,$31
+la $2,1
+L.363:
+j $31
+.end yywrap
+.globl yyv
+.comm yyv,600
+.globl yyfnd
+.comm yyfnd,4
+.globl yyolsp
+.comm yyolsp,4
+.globl yylsp
+.comm yylsp,4
+.globl yylstate
+.comm yylstate,800
+.globl yyestate
+.comm yyestate,4
+.globl yytchar
+.comm yytchar,4
+.globl yysbuf
+.comm yysbuf,200
+.globl yymorfg
+.comm yymorfg,4
+.globl yytext
+.comm yytext,200
+.globl yyleng
+.comm yyleng,4
+.extern _iob 0
+.globl yyval
+.comm yyval,4
+.globl yylval
+.comm yylval,4
+.rdata
+.align 0
+L.338:
+.byte 112
+.byte 117
+.byte 115
+.byte 104
+.byte 32
+.byte 37
+.byte 115
+.byte 10
+.byte 0
+.align 0
+L.336:
+.byte 108
+.byte 111
+.byte 97
+.byte 100
+.byte 10
+.byte 0
+.align 0
+L.334:
+.byte 110
+.byte 101
+.byte 103
+.byte 97
+.byte 116
+.byte 101
+.byte 10
+.byte 0
+.align 0
+L.332:
+.byte 100
+.byte 105
+.byte 118
+.byte 105
+.byte 100
+.byte 101
+.byte 10
+.byte 0
+.align 0
+L.330:
+.byte 109
+.byte 117
+.byte 108
+.byte 116
+.byte 105
+.byte 112
+.byte 108
+.byte 121
+.byte 10
+.byte 0
+.align 0
+L.328:
+.byte 110
+.byte 101
+.byte 103
+.byte 97
+.byte 116
+.byte 101
+.byte 10
+.byte 97
+.byte 100
+.byte 100
+.byte 10
+.byte 0
+.align 0
+L.326:
+.byte 97
+.byte 100
+.byte 100
+.byte 10
+.byte 0
+.align 0
+L.324:
+.byte 115
+.byte 116
+.byte 111
+.byte 114
+.byte 101
+.byte 10
+.byte 0
+.align 0
+L.303:
+.byte 115
+.byte 121
+.byte 110
+.byte 116
+.byte 97
+.byte 120
+.byte 32
+.byte 101
+.byte 114
+.byte 114
+.byte 111
+.byte 114
+.byte 0
+.align 0
+L.264:
+.byte 121
+.byte 97
+.byte 99
+.byte 99
+.byte 32
+.byte 115
+.byte 116
+.byte 97
+.byte 99
+.byte 107
+.byte 32
+.byte 111
+.byte 118
+.byte 101
+.byte 114
+.byte 102
+.byte 108
+.byte 111
+.byte 119
+.byte 0
+.align 0
+L.256:
+.byte 37
+.byte 115
+.byte 10
+.byte 0
+.align 0
+L.17:
+.byte 98
+.byte 97
+.byte 100
+.byte 32
+.byte 115
+.byte 119
+.byte 105
+.byte 116
+.byte 99
+.byte 104
+.byte 32
+.byte 121
+.byte 121
+.byte 108
+.byte 111
+.byte 111
+.byte 107
+.byte 32
+.byte 37
+.byte 100
+.byte 0

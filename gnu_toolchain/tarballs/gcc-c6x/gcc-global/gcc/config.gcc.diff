@@ -1,0 +1,25 @@
+*** src/gcc/config.gcc	Tue Apr 29 20:47:04 2003
+--- diplom-gcc-3.3-c6x/gcc/config.gcc	Mon Jul 21 20:34:17 2003
+***************
+*** 334,339 ****
+--- 334,342 ----
+  tic4x-*-*)
+          cpu_type=c4x
+          ;;
++ tic6x-*-*)
++         cpu_type=c6x
++         ;;
+  esac
+  
+  tm_file=${cpu_type}/${cpu_type}.h
+***************
+*** 762,767 ****
+--- 765,772 ----
+  	c_target_objs="c4x-c.o"
+  	cxx_target_objs="c4x-c.o"
+  	;;
++ c6x-* | tic6x-*)
++ 	;;
+  cris-*-aout)
+  	tm_file="dbxelf.h ${tm_file} cris/aout.h"
+  	gas=yes

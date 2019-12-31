@@ -1,0 +1,81 @@
+
+CC = gcc
+CFLAGS += -Wall -I ./include -I./
+CFLAGS += -Werror
+LDFLAGS += -Wall
+LDFLAGS += -Werror
+
+#EXE = .exe
+BUILDDIR = ./build/
+
+# l32-asm
+ASM_CSRCS += asm.c
+ASM_CSRCS += a_out.c
+ASM_CSRCS += common.c
+ASM_CSRCS += expr.c
+ASM_CSRCS += func.c
+ASM_CSRCS += global.c
+ASM_CSRCS += hash.c
+ASM_CSRCS += lex.c
+ASM_CSRCS += parser.c
+ASM_CSRCS += pseudo.c
+ASM_CSRCS += strtab.c
+ASM_CSRCS += utils.c
+ASM_CSRCS += include.c
+ASM_CSRCS += keyword_hash.c
+ASM_CSRCS += table.c
+
+ASM_OBJS = $(ASM_CSRCS:%.c=$(BUILDDIR)%.o)
+
+TARGETS = l32-asm$(EXE) l32-dis$(EXE) l32-size$(EXE) l32-dump$(EXE) l32-a2vhd$(EXE) l32-bin2aout$(EXE)
+
+all: $(TARGETS)
+
+l32-asm$(EXE): $(ASM_OBJS)
+	$(CC) $(LDFLAGS) -o $@ $^
+	cp $@ ../bin
+
+l32-dis$(EXE): $(BUILDDIR)dis.o
+	$(CC) $(LDFLAGS) -o $@ $^
+	cp $@ ../bin
+
+l32-size$(EXE): $(BUILDDIR)size.o
+	$(CC) $(LDFLAGS) -o $@ $^
+	cp $@ ../bin
+
+l32-dump$(EXE): $(BUILDDIR)dump.o
+	$(CC) $(LDFLAGS) -o $@ $^
+	cp $@ ../bin
+
+l32-a2vhd$(EXE): $(BUILDDIR)a2vhd.o
+	$(CC) $(LDFLAGS) -o $@ $^
+	cp $@ ../bin
+	
+l32-bin2aout$(EXE): $(BUILDDIR)bin2aout.o
+	$(CC) $(LDFLAGS) -o $@ $^
+	cp $@ ../bin
+	
+$(BUILDDIR)%.o: %.c
+	$(CC) $(CFLAGS) -o $@ -c $<
+
+install: $(TARGETS)
+	cp $(TARGETS) /usr/local/bin
+
+uninstall:
+	$(RM) /usr/local/bin/l32-asm$(EXE)
+	$(RM) /usr/local/bin/l32-dis$(EXE)
+	$(RM) /usr/local/bin/l32-size$(EXE)
+	$(RM) /usr/local/bin/l32-dump$(EXE)
+	$(RM) /usr/local/bin/l32-a2vhd$(EXE)
+	$(RM) /usr/local/bin/l32-bin2aout$(EXE)
+
+tags:
+	ctags -R
+
+clean:
+	$(RM) $(BUILDDIR)*.o *.o $(TARGETS)
+
+distclean:
+	$(RM) $(BUILDDIR)*.o *.o $(TARGETS) tags
+
+.PHONY: all install uninstall tags run clean distclean

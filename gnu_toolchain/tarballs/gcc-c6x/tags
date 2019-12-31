@@ -1,0 +1,265 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCUMULATE_OUTGOING_ARGS	c6x.h	1884;"	d
+ALL_REGS	c6x.h	/^  ALL_REGS,$/;"	e	enum:reg_class
+AP_FP_OFFSET	c6x.h	1526;"	d
+ARG_POINTER_REGNUM	c6x.h	1723;"	d
+ASM_APP_OFF	c6x.h	3866;"	d
+ASM_APP_ON	c6x.h	3858;"	d
+ASM_COMMENT_START	c6x.h	3850;"	d
+ASM_FILE_END	c6x.h	3841;"	d
+ASM_GENERATE_INTERNAL_LABEL	c6x.h	4613;"	d
+ASM_OUTPUT_ADDR_VEC_ELT	c6x.h	5176;"	d
+ASM_OUTPUT_ALIGN	c6x.h	5415;"	d
+ASM_OUTPUT_ALIGNED_BSS	c6x.h	4214;"	d
+ASM_OUTPUT_COMMON	c6x.h	4155;"	d
+ASM_OUTPUT_DEF	c6x.h	4653;"	d
+ASM_OUTPUT_INTERNAL_LABEL	c6x.h	4580;"	d
+ASM_OUTPUT_LOCAL	c6x.h	4241;"	d
+ASM_OUTPUT_SKIP	c6x.h	5392;"	d
+AVOID_CCMODE_COPIES	c6x.h	968;"	d
+A_REGS	c6x.h	/^  A_REGS,$/;"	e	enum:reg_class
+A_REGS_REGNO_P	c6x.h	1058;"	d
+BASE_REG_CLASS	c6x.h	1160;"	d
+BIGGEST_ALIGNMENT	c6x.h	368;"	d
+BIGGEST_FIELD_ALIGNMENT	c6x.h	376;"	d
+BITS_BIG_ENDIAN	c6x.h	268;"	d
+BITS_PER_UNIT	c6x.h	308;"	d
+BITS_PER_WORD	c6x.h	312;"	d
+BYTES_BIG_ENDIAN	c6x.h	278;"	d
+B_REGS	c6x.h	/^  B_REGS,$/;"	e	enum:reg_class
+C6X_EFFECTIVE_REGNO	c6x.h	152;"	d
+C6X_REG_OK_FOR_BASE_P	c6x.h	2981;"	d
+C6X_REG_OK_STRICT	c6x.h	118;"	d
+C6X_REG_OK_STRICT	c6x.h	120;"	d
+CALL_USED_REGISTERS	c6x.h	847;"	d
+CASE_VECTOR_MODE	c6x.h	6161;"	d
+CLASS_MAX_NREGS	c6x.h	1349;"	d
+CONDITION_A_REGS	c6x.h	/^  CONDITION_A_REGS,   $/;"	e	enum:reg_class
+CONDITION_B_REGS	c6x.h	/^  CONDITION_B_REGS,   $/;"	e	enum:reg_class
+CONSTANT_ADDRESS_P	c6x.h	2929;"	d
+CONST_DOUBLE_OK_FOR_LETTER_P	c6x.h	1412;"	d
+CONST_OK_FOR_LETTER_P	c6x.h	1388;"	d
+CUMULATIVE_ARGS	c6x.h	2046;"	d
+DATA_SECTION_ASM_OP	c6x.h	3511;"	d
+DEFAULT_SIGNED_CHAR	c6x.h	634;"	d
+EMPTY	c6x.h	136;"	d
+FINI_SECTION_ASM_OP	c6x.h	4771;"	d
+FIRST_PARM_OFFSET	c6x.h	1528;"	d
+FIRST_PSEUDO_REGISTER	c6x.h	792;"	d
+FIXED_REGISTERS	c6x.h	821;"	d
+FLOAT_WORDS_BIG_ENDIAN	c6x.h	305;"	d
+FRAME_GROWS_DOWNWARD	c6x.h	1481;"	d
+FRAME_POINTER_REGNUM	c6x.h	1698;"	d
+FRAME_POINTER_REQUIRED	c6x.h	1798;"	d
+FUNCTION_ARG	c6x.h	1971;"	d
+FUNCTION_ARG_ADVANCE	c6x.h	2085;"	d
+FUNCTION_ARG_REGNO_P	c6x.h	2134;"	d
+FUNCTION_BOUNDARY	c6x.h	363;"	d
+FUNCTION_MODE	c6x.h	6274;"	d
+FUNCTION_OK_FOR_SIBCALL	c6x.h	2550;"	d
+FUNCTION_PROFILER	c6x.h	2512;"	d
+FUNCTION_VALUE	c6x.h	2166;"	d
+FUNCTION_VALUE_REGNO_P	c6x.h	2214;"	d
+GENERAL_REGNO_P	c6x.h	1055;"	d
+GENERAL_REGS	c6x.h	1084;"	d
+GLOBAL_ASM_OP	c6x.h	4432;"	d
+GO_IF_LEGITIMATE_ADDRESS	c6x.h	2966;"	d
+GO_IF_MODE_DEPENDENT_ADDRESS	c6x.h	3078;"	d
+HARD_REGNO_MODE_OK	c6x.h	942;"	d
+HARD_REGNO_NREGS	c6x.h	934;"	d
+HAVE_POST_DECREMENT	c6x.h	2890;"	d
+HAVE_POST_INCREMENT	c6x.h	2889;"	d
+HAVE_PRE_DECREMENT	c6x.h	2888;"	d
+HAVE_PRE_INCREMENT	c6x.h	2887;"	d
+IGNORED	c6x.h	132;"	d
+INDEX_REG_CLASS	c6x.h	1175;"	d
+INITIALIZE_TRAMPOLINE	c6x.h	2673;"	d
+INITIAL_FRAME_POINTER_OFFSET	c6x.h	1813;"	d
+INIT_CUMULATIVE_ARGS	c6x.h	2055;"	d
+INIT_SECTION_ASM_OP	c6x.h	4765;"	d
+INT_TYPE_SIZE	c6x.h	549;"	d
+JUMP_TABLES_IN_TEXT_SECTION	c6x.h	3621;"	d
+L10	testcases/asm/t006.s	/^L10:$/;"	l
+L10	testcases/asm/t009.s	/^L10:$/;"	l
+L12	testcases/asm/t006.s	/^L12:$/;"	l
+L14	testcases/asm/t006.s	/^L14:$/;"	l
+L16	testcases/asm/t006.s	/^L16:$/;"	l
+L18	testcases/asm/t006.s	/^L18:$/;"	l
+L2	testcases/asm/t.s	/^L2:$/;"	l
+L2	testcases/asm/t006.s	/^L2:$/;"	l
+L2	testcases/asm/t008.s	/^L2:$/;"	l
+L2	testcases/asm/t009.s	/^L2:$/;"	l
+L2	testcases/asm/t010.s	/^L2:$/;"	l
+L20	testcases/asm/t006.s	/^L20:$/;"	l
+L22	testcases/asm/t006.s	/^L22:$/;"	l
+L24	testcases/asm/t006.s	/^L24:$/;"	l
+L3	testcases/asm/t.s	/^L3:$/;"	l
+L3	testcases/asm/t005.s	/^L3:$/;"	l
+L3	testcases/asm/t009.s	/^L3:$/;"	l
+L3	testcases/asm/t010.s	/^L3:$/;"	l
+L4	testcases/asm/t002.s	/^L4:$/;"	l
+L4	testcases/asm/t006.s	/^L4:$/;"	l
+L4	testcases/asm/t009.s	/^L4:$/;"	l
+L4	testcases/asm/t011.s	/^L4:$/;"	l
+L5	testcases/asm/t002.s	/^L5:$/;"	l
+L5	testcases/asm/t009.s	/^L5:$/;"	l
+L5	testcases/asm/t010.s	/^L5:$/;"	l
+L5	testcases/asm/t011.s	/^L5:$/;"	l
+L6	testcases/asm/t006.s	/^L6:$/;"	l
+L6	testcases/asm/t009.s	/^L6:$/;"	l
+L6	testcases/asm/t010.s	/^L6:$/;"	l
+L6	testcases/asm/t011.s	/^L6:$/;"	l
+L7	testcases/asm/t009.s	/^L7:$/;"	l
+L7	testcases/asm/t010.s	/^L7:$/;"	l
+L8	testcases/asm/t006.s	/^L8:$/;"	l
+L8	testcases/asm/t009.s	/^L8:$/;"	l
+L8	testcases/asm/t010.s	/^L8:$/;"	l
+L9	testcases/asm/t009.s	/^L9:$/;"	l
+LEGITIMATE_CONSTANT_P	c6x.h	3098;"	d
+LEGITIMIZE_ADDRESS	c6x.h	3044;"	d
+LIBCALL_VALUE	c6x.h	2194;"	d
+LIBGCC2_WORDS_BIG_ENDIAN	c6x.h	295;"	d
+LIM_REG_CLASSES	c6x.h	/^  LIM_REG_CLASSES$/;"	e	enum:reg_class
+LONG_LONG_TYPE_SIZE	c6x.h	584;"	d
+LONG_TYPE_SIZE	c6x.h	566;"	d
+MASK_BIG_ENDIAN	c6x.h	173;"	d
+MAX_FIXED_MODE_SIZE	c6x.h	462;"	d
+MAX_REGS_PER_ADDRESS	c6x.h	2938;"	d
+MODES_TIEABLE_P	c6x.h	955;"	d
+MOVE_MAX	c6x.h	6225;"	d
+MUST_PASS_IN_STACK	c6x.h	1982;"	d
+NO_PROFILE_COUNTERS	c6x.h	2530;"	d
+NO_REGS	c6x.h	/^  NO_REGS,$/;"	e	enum:reg_class
+N_REG_CLASSES	c6x.h	1092;"	d
+OBJECT_FORMAT_COFF	c6x.h	4898;"	d
+OUTGOING_REG_PARM_STACK_SPACE	c6x.h	1927;"	d
+PARM_BOUNDARY	c6x.h	341;"	d
+PCC_BITFIELD_TYPE_MATTERS	c6x.h	425;"	d
+PREFERRED_RELOAD_CLASS	c6x.h	1235;"	d
+PRINT_OPERAND	c6x.h	5034;"	d
+PRINT_OPERAND_ADDRESS	c6x.h	5056;"	d
+PUSH_ROUNDING	c6x.h	1863;"	d
+Pmode	c6x.h	6267;"	d
+REGISTER_NAMES	c6x.h	4958;"	d
+REGNO_A_REGS	c6x.h	124;"	d
+REGNO_B_REGS	c6x.h	127;"	d
+REGNO_OK_FOR_BASE_P	c6x.h	1201;"	d
+REGNO_OK_FOR_INDEX_P	c6x.h	1224;"	d
+REGNO_REG_CLASS	c6x.h	1143;"	d
+REG_CLASS_CONTENTS	c6x.h	1127;"	d
+REG_CLASS_FROM_LETTER	c6x.h	1186;"	d
+REG_CLASS_NAMES	c6x.h	1099;"	d
+REG_OK_FOR_BASE_P	c6x.h	2979;"	d
+REG_OK_FOR_INDEX_P	c6x.h	3010;"	d
+RETURN_ADDR_RTX	c6x.h	1590;"	d
+RETURN_IN_MEMORY	c6x.h	2245;"	d
+RETURN_POPS_ARGS	c6x.h	1948;"	d
+RETVAL_REGNO	c6x.h	143;"	d
+SCRATCH_REGNO	c6x.h	147;"	d
+SET_ASM_OP	c6x.h	4644;"	d
+SHORT_IMMEDIATES_SIGN_EXTEND	c6x.h	6211;"	d
+SHORT_TYPE_SIZE	c6x.h	556;"	d
+SLOW_BYTE_ACCESS	c6x.h	3325;"	d
+STACK_BOUNDARY	c6x.h	347;"	d
+STACK_GROWS_DOWNWARD	c6x.h	1462;"	d
+STACK_POINTER_OFFSET	c6x.h	1519;"	d
+STACK_POINTER_REGNUM	c6x.h	1686;"	d
+STACK_PUSH_CODE	c6x.h	1472;"	d
+STARTING_FRAME_OFFSET	c6x.h	1506;"	d
+STATIC_CHAIN_REGNUM	c6x.h	1746;"	d
+STORE_FLAG_VALUE	c6x.h	6252;"	d
+STRICT_ALIGNMENT	c6x.h	418;"	d
+STRUCTURE_SIZE_BOUNDARY	c6x.h	413;"	d
+STRUCT_VALUE_REGNUM	c6x.h	2269;"	d
+SUBTARGET_SWITCHES	c6x.h	205;"	d
+TARGET_BIG_ENDIAN	c6x.h	175;"	d
+TARGET_CPU_DEFAULT	c6x.h	201;"	d
+TARGET_DEFAULT	c6x.h	197;"	d
+TARGET_MEM_FUNCTIONS	c6x.h	2850;"	d
+TARGET_SWITCHES	c6x.h	183;"	d
+TARGET_VERSION	c6x.h	209;"	d
+TEXT_SECTION_ASM_OP	c6x.h	3482;"	d
+TRAMPOLINE_SIZE	c6x.h	2657;"	d
+TRULY_NOOP_TRUNCATION	c6x.h	6245;"	d
+UNITS_PER_WORD	c6x.h	319;"	d
+WORDS_BIG_ENDIAN	c6x.h	282;"	d
+add	testcases/asm/t005.s	/^add:$/;"	l
+add	testcases/t005.c	/^add (int a, int b)$/;"	f
+c6x_call_operand	c6x.c	/^c6x_call_operand (op, mode)$/;"	f
+c6x_compare_op0	c6x.c	/^rtx c6x_compare_op0 = NULL_RTX;$/;"	v
+c6x_compare_op1	c6x.c	/^rtx c6x_compare_op1 = NULL_RTX;$/;"	v
+c6x_comparison_operator	c6x.c	/^c6x_comparison_operator (op, mode)$/;"	f
+c6x_emit_pop	c6x.c	/^c6x_emit_pop (x, mode)$/;"	f
+c6x_emit_push	c6x.c	/^c6x_emit_push (x, mode)$/;"	f
+c6x_expand_branch	c6x.c	/^c6x_expand_branch (code, label)$/;"	f
+c6x_expand_call	c6x.c	/^c6x_expand_call (retval, mem)$/;"	f
+c6x_expand_compare	c6x.c	/^c6x_expand_compare (code, mode)$/;"	f
+c6x_expand_epilogue	c6x.c	/^c6x_expand_epilogue (sibcall_p)$/;"	f
+c6x_expand_prologue	c6x.c	/^c6x_expand_prologue ()$/;"	f
+c6x_legitimate_address_p	c6x.c	/^c6x_legitimate_address_p (mode, x, strict)$/;"	f
+c6x_legitimize_address	c6x.c	/^c6x_legitimize_address (x, oldx, mode)$/;"	f
+c6x_print_operand	c6x.c	/^c6x_print_operand (file, x, code)$/;"	f
+c6x_print_operand_address	c6x.c	/^c6x_print_operand_address (stream, addr)$/;"	f
+eq	testcases/asm/t006.s	/^eq:$/;"	l
+eq	testcases/t006.c	/^eq (int a, int b)$/;"	f
+eq_u	testcases/asm/t006.s	/^eq_u:$/;"	l
+eq_u	testcases/t006.c	/^eq_u (unsigned a, unsigned b)$/;"	f
+ge	testcases/asm/t006.s	/^ge:$/;"	l
+ge	testcases/t006.c	/^ge (int a, int b)$/;"	f
+ge_u	testcases/asm/t006.s	/^ge_u:$/;"	l
+ge_u	testcases/t006.c	/^ge_u (unsigned a, unsigned b)$/;"	f
+gt	testcases/asm/t006.s	/^gt:$/;"	l
+gt	testcases/t006.c	/^gt (int a, int b)$/;"	f
+gt_u	testcases/asm/t006.s	/^gt_u:$/;"	l
+gt_u	testcases/t006.c	/^gt_u (unsigned a, unsigned b)$/;"	f
+le	testcases/asm/t006.s	/^le:$/;"	l
+le	testcases/t006.c	/^le (int a, int b)$/;"	f
+le_u	testcases/asm/t006.s	/^le_u:$/;"	l
+le_u	testcases/t006.c	/^le_u (unsigned a, unsigned b)$/;"	f
+lt	testcases/asm/t006.s	/^lt:$/;"	l
+lt	testcases/t006.c	/^lt (int a, int b)$/;"	f
+lt_u	testcases/asm/t006.s	/^lt_u:$/;"	l
+lt_u	testcases/t006.c	/^lt_u (unsigned a, unsigned b)$/;"	f
+main	testcases/asm/t.s	/^main:$/;"	l
+main	testcases/asm/t001.s	/^main:$/;"	l
+main	testcases/asm/t002.s	/^main:$/;"	l
+main	testcases/asm/t003.s	/^main:$/;"	l
+main	testcases/asm/t004.s	/^main:$/;"	l
+main	testcases/asm/t005.s	/^main:$/;"	l
+main	testcases/asm/t006.s	/^main:$/;"	l
+main	testcases/asm/t007.s	/^main:$/;"	l
+main	testcases/asm/t008.s	/^main:$/;"	l
+main	testcases/asm/t009.s	/^main:$/;"	l
+main	testcases/asm/t010.s	/^main:$/;"	l
+main	testcases/asm/t011.s	/^main:$/;"	l
+main	testcases/t.c	/^int main() {$/;"	f
+main	testcases/t001.c	/^main()$/;"	f
+main	testcases/t002.c	/^main ()$/;"	f
+main	testcases/t003.c	/^main ()$/;"	f
+main	testcases/t004.c	/^main ()$/;"	f
+main	testcases/t005.c	/^main ()$/;"	f
+main	testcases/t006.c	/^main ()$/;"	f
+main	testcases/t007.c	/^main ()$/;"	f
+main	testcases/t008.c	/^main ()$/;"	f
+main	testcases/t009.c	/^main ()$/;"	f
+main	testcases/t010.c	/^main ()$/;"	f
+main	testcases/t011.c	/^main ()$/;"	f
+ne	testcases/asm/t006.s	/^ne:$/;"	l
+ne	testcases/t006.c	/^ne (int a, int b)$/;"	f
+ne_u	testcases/asm/t006.s	/^ne_u:$/;"	l
+ne_u	testcases/t006.c	/^ne_u (unsigned a, unsigned b)$/;"	f
+nop	testcases/asm/t002.s	/^nop:$/;"	l
+nop	testcases/t002.c	/^nop ()$/;"	f
+reg_class	c6x.h	/^enum reg_class$/;"	g
+targetm	c6x.c	/^struct gcc_target targetm = TARGET_INITIALIZER;$/;"	v	typeref:struct:gcc_target
+testHI	testcases/asm/t011.s	/^testHI:$/;"	l
+testHI	testcases/t011.c	/^testHI (int i __attribute__((mode (HI))))$/;"	f
+testSI	testcases/asm/t011.s	/^testSI:$/;"	l
+testSI	testcases/t011.c	/^testSI (int i)$/;"	f
+times2	testcases/asm/t002.s	/^times2:$/;"	l
+times2	testcases/t002.c	/^times2 (int b)$/;"	f

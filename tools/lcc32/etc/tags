@@ -1,0 +1,269 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARGS	lcc-pc.c	21;"	d	file:
+ARGS	lcc-pc.c	25;"	d	file:
+ARGS	lcc.c	28;"	d	file:
+ARGS	lcc.c	32;"	d	file:
+BPRINT	bprint.c	25;"	d	file:
+CFLAGS	makefile	/^CFLAGS=$/;"	m
+Eflag	lcc-pc.c	/^static int Eflag;		\/* -E specified *\/$/;"	v	file:
+Eflag	lcc.c	/^static int Eflag;		\/* -E specified *\/$/;"	v	file:
+HOST	makefile	/^HOST=l32$/;"	m
+LDFLAGS	makefile	/^LDFLAGS=-s$/;"	m
+List	lcc-pc.c	/^typedef struct list *List;$/;"	t	typeref:struct:list	file:
+List	lcc.c	/^typedef struct list *List;$/;"	t	typeref:struct:list	file:
+NDIRS	bprint.c	16;"	d	file:
+NELEMS	bprint.c	19;"	d	file:
+NEW	bprint.c	17;"	d	file:
+PIPE	lcc.c	15;"	d	file:
+Sflag	lcc-pc.c	/^static int Sflag;		\/* -S specified *\/$/;"	v	file:
+Sflag	lcc.c	/^static int Sflag;		\/* -S specified *\/$/;"	v	file:
+TEMPDIR	lcc.c	12;"	d	file:
+_bbdata	bbexit.c	/^static struct _bbdata {$/;"	s	file:
+_bblist	bbexit.c	/^} tail, *_bblist = &tail;$/;"	v	typeref:struct:_bbdata	file:
+_caller	bbexit.c	/^} *_caller;$/;"	v	typeref:struct:callsite
+_epilogue	bbexit.c	/^_epilogue(callee) struct func *callee; {$/;"	f
+_prologue	bbexit.c	/^_prologue(callee, yylink) struct func *callee; struct _bbdata *yylink; {$/;"	f
+ac	lcc-pc.c	/^static int ac;			\/* argument count *\/$/;"	v	file:
+ac	lcc.c	/^static int ac;			\/* argument count *\/$/;"	v	file:
+alist	lcc-pc.c	/^static List alist;		\/* assembler flags *\/$/;"	v	file:
+alist	lcc.c	/^static List alist;		\/* assembler flags *\/$/;"	v	file:
+alloc	bprint.c	/^void *alloc(unsigned n) {$/;"	f
+alloc	lcc-pc.c	/^static void *alloc(n) int n; {$/;"	f	file:
+alloc	lcc.c	/^static void *alloc(n) {$/;"	f	file:
+append	lcc-pc.c	/^static List append(str, list) char *str; List list; {$/;"	f	file:
+append	lcc.c	/^static List append(str, list) char *str; List list; {$/;"	f	file:
+as	astro.c	/^char *as[] = { "\/usr\/ccs\/bin\/as", "-Qy", "-s", "-o", "$3", "$1", "$2", 0 };$/;"	v
+as	bc4.c	/^char *as[]	= { "c:\\\\tasm\\\\bin\\\\tasm32", "\/t \/ml", "$2", ",", "$3", 0 };$/;"	v
+as	cetus.c	/^char *as[] = { "\/usr\/bin\/as", "-o", "$3", "$1", "-nocpp", "-non_shared", "$2", 0 };$/;"	v
+as	decmsvr.c	/^char *as[] =  { "\/bin\/as", "-o", "$3", "", "$1", "-nocpp", "-EL", "$2", 0 };$/;"	v
+as	elan.c	/^char *as[] =  { "\/bin\/as", "-o", "$3", "", "$1", "-nocpp", "-EL", "$2", 0 };$/;"	v
+as	emit.c	/^char *as[] = { "\/usr\/bin\/as", "-o", "$3", "$1", "-nocpp", "-non_shared", "$2", 0 };$/;"	v
+as	hart.c	/^char *as[] =  { "\/bin\/as", "-o", "$3", "", "$1",$/;"	v
+as	hydra.c	/^char *as[] = { "\/usr\/bin\/as", "-o", "$3", "$1", "-nocpp", "$2", 0 };$/;"	v
+as	irissvr.c	/^char *as[] = { "\/usr\/bin\/as", "-o", "$3", "$1", "-nocpp", "$2", 0 };$/;"	v
+as	lux.c	/^char *as[] = { "\/usr\/bin\/as", "-o", "$3", "$1", "-nocpp", "$2", 0 };$/;"	v
+as	marlin.c	/^char *as[] = { "\/bin\/as", "-o", "$3", "$1", "$2", 0 };$/;"	v
+as	orchard.c	/^char *as[] = { "\/bin\/as", "-o", "$3", "$1", "$2", 0 };$/;"	v
+as	python.c	/^char *as[] = { "\/bin\/as", "-o", "$3", "$1", "$2", 0 };$/;"	v
+as	pyxis.c	/^char *as[] = { "\/usr\/bin\/as", "-o", "$3", "$1", "-nocpp", "$2", 0 };$/;"	v
+as	quetzal.c	/^char *as[] = { "\/usr\/bin\/as", "-o", "$3", "$1", "-nocpp", "$2", 0 };$/;"	v
+as	slocum.c	/^char *as[] = { "\/usr\/bin\/as", "-o", "$3", "$1", "-nocpp", "-non_shared", "$2", 0 };$/;"	v
+as	sunsvr.c	/^char *as[] = { "\/bin\/as", "-o", "$3",$/;"	v
+as	toucan.c	/^char *as[] = { "\/bin\/as", "-o", "$3", "$1", "$2", 0 };$/;"	v
+as	whitted.c	/^char *as[] = { "\/bin\/as", "-o", "$3", "$1", "$2", 0 };$/;"	v
+assert	lcc-pc.c	23;"	d	file:
+assert	lcc.c	30;"	d	file:
+av	lcc-pc.c	/^static char **av;		\/* argument vector *\/$/;"	v	file:
+av	lcc.c	/^static char **av;		\/* argument vector *\/$/;"	v	file:
+basename	lcc-pc.c	/^char *basename(name) char *name; {$/;"	f
+basename	lcc.c	/^char *basename(name) char *name; {$/;"	f
+c	bbexit.c	/^		} c;$/;"	m	union:callsite::coordinate	typeref:struct:callsite::coordinate::__anon1	file:
+caller	bbexit.c	/^			struct callsite *caller;$/;"	m	struct:_bbdata::func::caller	typeref:struct:_bbdata::func::caller::callsite	file:
+caller	bbexit.c	/^		struct caller {$/;"	s	struct:_bbdata::func	file:
+callers	bbexit.c	/^		} *callers;$/;"	m	struct:_bbdata::func	typeref:struct:_bbdata::func::caller	file:
+callsite	bbexit.c	/^struct callsite {$/;"	s	file:
+callsys	lcc-pc.c	/^static int callsys(argv) char **argv; {$/;"	f	file:
+callsys	lcc.c	/^static int callsys(argv) char **argv; {$/;"	f	file:
+cflag	lcc-pc.c	/^static int cflag;		\/* -c specified *\/$/;"	v	file:
+cflag	lcc.c	/^static int cflag;		\/* -c specified *\/$/;"	v	file:
+clist	lcc-pc.c	/^static List clist;		\/* compiler flags *\/$/;"	v	file:
+clist	lcc.c	/^static List clist;		\/* compiler flags *\/$/;"	v	file:
+cmdname	lcc-pc.c	/^static char *cmdname;		\/* temporary .bat file *\/$/;"	v	file:
+com	astro.c	/^char *com[] = { "\/u\/drh\/bin\/rcc", "-target=sparc-solaris",$/;"	v
+com	bc4.c	/^char *com[]	= { "rcc", "-target=x86-dos", "$1", "$2", "$3", 0 };$/;"	v
+com	cetus.c	/^char *com[] =  { "\/v\/lib\/rcc", "-target=mips-irix", "$1", "$2", "$3", 0 };$/;"	v
+com	decmsvr.c	/^char *com[] =  { "\/usr\/princeton\/lib\/rcc", "-target=mips-ultrix", "$1", "$2", "$3", 0 };$/;"	v
+com	elan.c	/^char *com[] =  { "\/usr\/local\/lib\/rcc", "-target=mips-ultrix", "$1", "$2", "$3", 0 };$/;"	v
+com	emit.c	/^char *com[] =  { "\/usr\/local\/lib\/rcc", "-target=mips-irix", "$1", "$2", "$3", 0 };$/;"	v
+com	hart.c	/^char *com[] =  { "\/usr\/local\/lib\/rcc", "-target=mips-ultrix",$/;"	v
+com	hydra.c	/^char *com[] =  { "\/v\/lib\/rcc", "-target=mips-irix", "$1", "$2", "$3", 0 };$/;"	v
+com	irissvr.c	/^char *com[] = { "\/usr\/princeton\/lib\/rcc", "-target=mips-irix", "$1", "$2", "$3", 0 };$/;"	v
+com	lux.c	/^char *com[] = { "\/usr\/local\/lib\/rcc", "-target=mips-irix", "$1", "$2", "$3", 0 };$/;"	v
+com	marlin.c	/^char *com[] = { "\/usr\/local\/lib\/rcc", "-target=sparc-sun", "$1", "$2", "$3", 0 };$/;"	v
+com	orchard.c	/^char *com[] = { "\/usr\/local\/lib\/rcc", "-target=sparc-sun",$/;"	v
+com	python.c	/^char *com[] = { "\/usr\/local\/lib\/rcc", "-target=sparc-sun", "$1", "$2", "$3", 0 };$/;"	v
+com	pyxis.c	/^char *com[] =  { "\/v\/lib\/rcc", "-target=mips-irix", "$1", "$2", "$3", 0 };$/;"	v
+com	quetzal.c	/^char *com[] =  { "\/usr\/local\/lib\/rcc", "$1", "$2", "$3", 0 };$/;"	v
+com	slocum.c	/^char *com[] =  { "\/v\/lib\/rcc", "-target=mips-irix", "$1", "$2", "$3", 0 };$/;"	v
+com	sunsvr.c	/^char *com[] = { "\/usr\/princeton\/lib\/rcc",$/;"	v
+com	toucan.c	/^char *com[] = { "\/usr\/local\/lib\/rcc", "$1", "$2", "$3", 0 };$/;"	v
+com	whitted.c	/^char *com[] = { "\/usr\/graphics\/LIB.sun4\/rcc", "-target=sparc-sun", "$1", "$2", "$3", 0 };$/;"	v
+compile	lcc-pc.c	/^static int compile(src, dst) char *src, *dst; {$/;"	f	file:
+compile	lcc.c	/^static int compile(src, dst) char *src, *dst; {$/;"	f	file:
+compose	lcc-pc.c	/^static void compose(cmd, a, b, c) char *cmd[]; List a, b, c; {$/;"	f	file:
+compose	lcc.c	/^static void compose(cmd, a, b, c) char *cmd[]; List a, b, c; {$/;"	f	file:
+concat	lcc-pc.c	/^char *concat(s1, s2) char *s1, *s2; {$/;"	f
+concat	lcc.c	/^char *concat(s1, s2) char *s1, *s2; {$/;"	f
+coord	bbexit.c	/^		unsigned int coord;$/;"	m	union:callsite::coordinate	file:
+coordinate	bbexit.c	/^	union coordinate {$/;"	u	struct:callsite	file:
+coords	bbexit.c	/^	union coordinate *coords;$/;"	m	struct:_bbdata	typeref:union:_bbdata::coordinate	file:
+count	bbexit.c	/^			unsigned count;$/;"	m	struct:_bbdata::func::caller	file:
+counts	bbexit.c	/^	unsigned npoints, *counts;$/;"	m	struct:_bbdata	file:
+cpp	astro.c	/^char *cpp[] = { "\/usr\/p-ton\/lib\/gcc-lib\/sparc-sun-solaris2\/2.5.8\/cpp",$/;"	v
+cpp	bc4.c	/^char *cpp[]	= { "cpp", "-D__STDC__=1 -D__cdecl= -D__DPMI32__ -D__FLAT__", "$1", "$2", "$3", 0 };$/;"	v
+cpp	cetus.c	/^char *cpp[] = { "\/v\/lib\/gcc-cpp", "-undef",$/;"	v
+cpp	decmsvr.c	/^char *cpp[] = { "\/usr\/princeton\/lib\/gnu\/gcc-cpp", "-undef",$/;"	v
+cpp	elan.c	/^char *cpp[] = {$/;"	v
+cpp	emit.c	/^char *cpp[] = { "\/usr\/local\/lib\/cpp", "-D__STDC__=1",$/;"	v
+cpp	hart.c	/^char *cpp[] = {$/;"	v
+cpp	hydra.c	/^char *cpp[] = { "\/v\/lib\/gcc-cpp", "-undef", "-DLANGUAGE_C", "-D_LANGUAGE_C", "-Dsgi", "-DSVR3",$/;"	v
+cpp	irissvr.c	/^char *cpp[] = { "\/usr\/princeton\/lib\/gnu\/gcc-cpp", "-undef",$/;"	v
+cpp	lux.c	/^char *cpp[] = { "\/usr\/local\/lib\/gcc-cpp", "-undef", "-DLANGUAGE_C", "-D_LANGUAGE_C", "-Dsgi", "-DSVR3",$/;"	v
+cpp	marlin.c	/^char *cpp[] = { "\/usr\/local\/lib\/gcc-cpp", "-undef", "-Dsun", "-Dsparc", "$1", "$2", "$3", 0 };$/;"	v
+cpp	orchard.c	/^char *cpp[] = { "\/usr\/local\/lib\/cpp",$/;"	v
+cpp	python.c	/^char *cpp[] = { "\/usr\/local\/lib\/gcc-cpp", "-undef", "-Dsun", "-Dsparc", "$1", "$2", "$3", 0 };$/;"	v
+cpp	pyxis.c	/^char *cpp[] = { "\/v\/lib\/gcc-cpp", "-undef", "-DLANGUAGE_C", "-D_LANGUAGE_C", "-Dsgi", "-DSVR3",$/;"	v
+cpp	quetzal.c	/^char *cpp[] = { "\/usr\/add-on\/GNU\/lib\/gcc-cpp", "-undef", "-DLANGUAGE_C", "-D_LANGUAGE_C", "-Dsgi", "-DSVR3",$/;"	v
+cpp	slocum.c	/^char *cpp[] = { "\/v\/lib\/gcc-cpp", "-undef",$/;"	v
+cpp	sunsvr.c	/^char *cpp[] = { "\/usr\/princeton\/lib\/gnu\/gcc-cpp", "-undef", "-Dsun",$/;"	v
+cpp	toucan.c	/^char *cpp[] = { "\/usr\/add-on\/GNU\/lib\/gcc-cpp", "-undef", "-Dsun", "-Dsparc", "$1", "$2", "$3", 0 };$/;"	v
+cpp	whitted.c	/^char *cpp[] = { "\/usr\/graphics\/LIB.sun4\/gcc-cpp", "-undef", "-Dsun", "-Dsparc", "$1", "$2", "$3", 0 };$/;"	v
+cprint	lcc-pc.c	/^static void cprint(f, argv, str) FILE *f; char **argv, *str; {$/;"	f	file:
+cprint	lcc.c	/^static void cprint(argv, str) char *argv[], *str; {$/;"	f	file:
+delete	bc4.c	/^char *delete[]	= { "del", "$1", 0 };$/;"	v
+dirs	bprint.c	/^char *dirs[20];$/;"	v
+emitdata	bprint.c	/^void emitdata(char *file) {$/;"	f
+errcnt	lcc-pc.c	/^static int errcnt;		\/* number of errors *\/$/;"	v	file:
+errcnt	lcc.c	/^static int errcnt;		\/* number of errors *\/$/;"	v	file:
+error	lcc-pc.c	/^static void error(fmt, msg) char *fmt, *msg; {$/;"	f	file:
+error	lcc.c	/^static void error(fmt, msg) char *fmt, *msg; {$/;"	f	file:
+execute	lcc-pc.c	/^static void execute(argv) char *argv[]; {$/;"	f	file:
+execute	lcc.c	/^static void execute(argv) char *argv[]; {$/;"	f	file:
+exists	lcc-pc.c	/^static int exists(name) char *name; {$/;"	f	file:
+exists	lcc.c	/^static int exists(name) char *name; {$/;"	f	file:
+exit	bbexit.c	/^exit(code) {$/;"	f
+fcount	bprint.c	/^int fcount;$/;"	v
+file	bbexit.c	/^	char *file, *name;$/;"	m	struct:callsite	file:
+filename	lcc-pc.c	/^static int filename(name, base) char *name, *base; {$/;"	f	file:
+filename	lcc.c	/^static int filename(name, base) char *name, *base; {$/;"	f	file:
+files	bbexit.c	/^	char **files;$/;"	m	struct:_bbdata	file:
+find	lcc-pc.c	/^static List find(str, list) char *str; List list; {$/;"	f	file:
+find	lcc.c	/^static List find(str, list) char *str; List list; {$/;"	f	file:
+func	bbexit.c	/^	struct func {$/;"	s	struct:_bbdata	file:
+funcs	bbexit.c	/^	} *funcs;$/;"	m	struct:_bbdata	typeref:struct:_bbdata::func	file:
+help	lcc-pc.c	/^static void help() {$/;"	f	file:
+help	lcc.c	/^static void help() {$/;"	f	file:
+include	astro.c	/^char *include[] = { "-I\/u\/drh\/include", "-I\/usr\/include",$/;"	v
+include	bc4.c	/^char *include[]	= { "-I\/bc4\/include", 0 };$/;"	v
+include	cetus.c	/^char *include[] = { "-I\/v\/include\/libc", "-I\/v\/include\/lcc", "-I\/v\/include", 0 };$/;"	v
+include	decmsvr.c	/^char *include[] = { "-I\/usr\/princeton\/include\/ansi", "-I\/usr\/include", 0 };$/;"	v
+include	elan.c	/^char *include[] = { "-I\/usr\/local\/include\/ansi", "-I\/usr\/include", 0 };$/;"	v
+include	emit.c	/^char *include[] = { "-I\/usr\/local\/include\/ansi", 0 };$/;"	v
+include	hart.c	/^char *include[] = { "-I\/usr\/local\/include\/ansi", 0 };$/;"	v
+include	hydra.c	/^char *include[] = { "-I\/v\/include\/libc", "-I\/v\/include\/lcc", "-I\/v\/include", 0 };$/;"	v
+include	irissvr.c	/^char *include[] = { "-I\/usr\/princeton\/include\/ansi", "-I\/usr\/include", 0 };$/;"	v
+include	lux.c	/^char *include[] = { "-I\/usr\/local\/include\/ansi", 0 };$/;"	v
+include	marlin.c	/^char *include[] = { "-I\/usr\/local\/include\/lcc", 0 };$/;"	v
+include	orchard.c	/^char *include[] = { "-I\/usr\/local\/include\/ansi", "-I\/usr\/include", 0 };$/;"	v
+include	python.c	/^char *include[] = { "-I\/usr\/local\/include\/lcc", 0 };$/;"	v
+include	pyxis.c	/^char *include[] = { "-I\/v\/include\/libc", "-I\/v\/include\/lcc", "-I\/v\/include", 0 };$/;"	v
+include	quetzal.c	/^char *include[] = { "-I\/usr\/local\/include\/ast", "-I\/usr\/local\/include\/lcc", "-I\/usr\/include", 0 };$/;"	v
+include	slocum.c	/^char *include[] = { "-I\/v\/include\/libc", "-I\/v\/include\/lcc", "-I\/v\/include", 0 };$/;"	v
+include	sunsvr.c	/^char *include[] = { "-I\/usr\/princeton\/include\/ansi", "-I\/usr\/include", 0 };$/;"	v
+include	toucan.c	/^char *include[] = { "-I\/usr\/local\/include\/ast", "-I\/usr\/local\/include\/lcc", "-I\/usr\/include", 0 };$/;"	v
+include	whitted.c	/^char *include[] = { "-I\/usr\/graphics\/include\/lcc", 0 };$/;"	v
+index	bbexit.c	/^			unsigned int index:6,x:10,y:16;$/;"	m	struct:callsite::coordinate::__anon1	file:
+interrupt	lcc-pc.c	/^static void interrupt(n) int n; {$/;"	f	file:
+interrupt	lcc.c	/^static void interrupt(n) {$/;"	f	file:
+ld	astro.c	/^char *ld[] = { "\/usr\/ccs\/bin\/ld", "-o", "$3", "$1",$/;"	v
+ld	bc4.c	/^char *ld[]	= { "c:\\\\bc4\\\\bin\\\\tlink32", "\/c \/Tpe \/ax \/x c0x32.obj",$/;"	v
+ld	cetus.c	/^char *ld[] = { "\/usr\/bin\/ld", "-non_shared", "-o", "$3", "\/usr\/lib\/nonshared\/crt1.o",$/;"	v
+ld	decmsvr.c	/^char *ld[] =  { "\/usr\/bin\/ld", "-o", "$3", "\/usr\/lib\/crt0.o", "$1", "$2", "", "", "-lm", "-lc", 0 };$/;"	v
+ld	elan.c	/^char *ld[] =  { "\/usr\/bin\/ld", "-o", "$3", "\/usr\/lib\/crt0.o", "$1", "$2", "", "", "-lm", "-lc", 0 };$/;"	v
+ld	emit.c	/^char *ld[] = { "\/usr\/bin\/ld", "-non_shared", "-o", "$3", "\/usr\/lib\/nonshared\/crt1.o",$/;"	v
+ld	hart.c	/^char *ld[] =  { "\/usr\/bin\/ld", "-o", "$3", "\/usr\/lib\/crt0.o",$/;"	v
+ld	hydra.c	/^char *ld[] = { "\/usr\/bin\/ld", "-o", "$3", "\/usr\/lib\/crt1.o", "$1", "$2", "", "",$/;"	v
+ld	irissvr.c	/^char *ld[] = { "\/usr\/bin\/ld", "-o", "$3", "\/usr\/lib\/crt1.o", "$1", "$2", "", "",$/;"	v
+ld	lux.c	/^char *ld[] = { "\/usr\/bin\/ld", "-o", "$3", "\/usr\/lib\/crt1.o", "$1", "$2", "", "",$/;"	v
+ld	marlin.c	/^char *ld[] = { "\/bin\/ld" , "-o", "$3", "-dc", "-dp", "-e", "start", "-X", "\/usr\/lib\/crt0.o",$/;"	v
+ld	orchard.c	/^char *ld[] = { "\/bin\/ld", "-o", "$3", "-dc", "-dp", "-e", "start", "-X",$/;"	v
+ld	python.c	/^char *ld[] = { "\/bin\/ld" , "-o", "$3", "-dc", "-dp", "-e", "start", "-X", "\/usr\/lib\/crt0.o",$/;"	v
+ld	pyxis.c	/^char *ld[] = { "\/usr\/bin\/ld", "-o", "$3", "\/usr\/lib\/crt1.o", "$1", "$2", "", "",$/;"	v
+ld	quetzal.c	/^char *ld[] = { "\/usr\/bin\/ld", "-o", "$3", "\/usr\/lib\/crt1.o", "$1", "$2", "", "",$/;"	v
+ld	slocum.c	/^char *ld[] = { "\/usr\/bin\/ld", "-non_shared", "-o", "$3", "\/usr\/lib\/nonshared\/crt1.o",$/;"	v
+ld	sunsvr.c	/^char *ld[] = { "\/bin\/ld", "-o", "$3", "-dc", "-dp", "-e", "start", "-X",$/;"	v
+ld	toucan.c	/^char *ld[] = { "\/bin\/ld" , "-o", "$3", "-dc", "-dp", "-e", "start", "-X", "\/usr\/lib\/crt0.o",$/;"	v
+ld	whitted.c	/^char *ld[] = { "\/bin\/ld" , "-o", "$3", "-dc", "-dp", "-e", "start", "-X", "\/usr\/lib\/crt0.o",$/;"	v
+libprefix	elan.c	/^static char *libprefix = "\/cmnusr\/local\/lib\/ldb\/";$/;"	v	file:
+libprefix	lux.c	/^static char *libprefix = "\/cmnusr\/local\/lib\/ldb\/";$/;"	v	file:
+libprefix	orchard.c	/^static char *libprefix = "\/cmnusr\/local\/lib\/ldb\/";$/;"	v	file:
+link	bbexit.c	/^			struct caller *link;$/;"	m	struct:_bbdata::func::caller	typeref:struct:_bbdata::func::caller::caller	file:
+link	bbexit.c	/^		struct func *link;$/;"	m	struct:_bbdata::func	typeref:struct:_bbdata::func::func	file:
+link	bbexit.c	/^	struct _bbdata *link;$/;"	m	struct:_bbdata	typeref:struct:_bbdata::_bbdata	file:
+link	lcc-pc.c	/^	List link;		\/* next list element *\/$/;"	m	struct:list	file:
+link	lcc.c	/^	List link;		\/* next list element *\/$/;"	m	struct:list	file:
+list	lcc-pc.c	/^struct list {		\/* circular list nodes: *\/$/;"	s	file:
+list	lcc.c	/^struct list {		\/* circular list nodes: *\/$/;"	s	file:
+llist	lcc-pc.c	/^static List llist[2];		\/* loader files, flags *\/$/;"	v	file:
+llist	lcc.c	/^static List llist[2];		\/* loader files, flags *\/$/;"	v	file:
+main	bprint.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	lcc-pc.c	/^main(argc, argv) int argc; char *argv[]; {$/;"	f
+main	lcc.c	/^main(argc, argv) char *argv[]; {$/;"	f
+name	bbexit.c	/^		char *name;$/;"	m	struct:_bbdata::func	file:
+name	bbexit.c	/^	char *file, *name;$/;"	m	struct:callsite	file:
+newarray	bprint.c	18;"	d	file:
+npoints	bbexit.c	/^	unsigned npoints, *counts;$/;"	m	struct:_bbdata	file:
+number	bprint.c	/^int number;$/;"	v
+openfile	bprint.c	/^FILE *openfile(char *name) {$/;"	f
+opt	lcc-pc.c	/^static void opt(arg) char *arg; {$/;"	f	file:
+opt	lcc.c	/^static void opt(arg) char *arg; {$/;"	f	file:
+option	astro.c	/^int option(arg) char *arg; {$/;"	f
+option	bc4.c	/^int option(arg) char *arg; {$/;"	f
+option	cetus.c	/^int option(arg) char *arg; {$/;"	f
+option	decmsvr.c	/^int option(arg) char *arg; {$/;"	f
+option	elan.c	/^int option(arg) char *arg; {$/;"	f
+option	emit.c	/^int option(arg) char *arg; {$/;"	f
+option	hart.c	/^int option(arg) char *arg; {$/;"	f
+option	hydra.c	/^int option(arg) char *arg; {$/;"	f
+option	irissvr.c	/^int option(arg) char *arg; {$/;"	f
+option	lux.c	/^int option(arg) char *arg; {$/;"	f
+option	marlin.c	/^int option(arg) char *arg; {$/;"	f
+option	orchard.c	/^int option(arg) char *arg; {$/;"	f
+option	python.c	/^int option(arg) char *arg; {$/;"	f
+option	pyxis.c	/^int option(arg) char *arg; {$/;"	f
+option	quetzal.c	/^int option(arg) char *arg; {$/;"	f
+option	slocum.c	/^int option(arg) char *arg; {$/;"	f
+option	sunsvr.c	/^int option(arg) char *arg; {$/;"	f
+option	toucan.c	/^int option(arg) char *arg; {$/;"	f
+option	whitted.c	/^int option(arg) char *arg; {$/;"	f
+out	lcc-pc.c	/^static FILE *out;		\/* command file *\/$/;"	v	file:
+outfile	lcc-pc.c	/^static char *outfile;		\/* ld output file or -[cS] object file *\/$/;"	v	file:
+outfile	lcc.c	/^static char *outfile;		\/* ld output file or -[cS] object file *\/$/;"	v	file:
+pipeflag	lcc.c	/^static int pipeflag = PIPE;	\/* -pipe specified *\/$/;"	v	file:
+plist	lcc-pc.c	/^static List plist;		\/* preprocessor flags *\/$/;"	v	file:
+plist	lcc.c	/^static List plist;		\/* preprocessor flags *\/$/;"	v	file:
+printfile	bprint.c	/^void printfile(struct file *p, int nf) {$/;"	f
+printfuncs	bprint.c	/^void printfuncs(struct file *p, int nf) {$/;"	f
+profout	bbexit.c	/^static void profout(p, fp) struct _bbdata *p; FILE *fp; {$/;"	f	file:
+progname	bprint.c	/^char *progname;$/;"	v
+progname	lcc-pc.c	/^static char *progname;$/;"	v	file:
+progname	lcc.c	/^static char *progname;$/;"	v	file:
+rcsid	lcc-pc.c	/^static char rcsid[] = "$Revision: 3.2.1.1 $ $Date: 1994\/12\/12 21:04:30 $";$/;"	v	file:
+rcsid	lcc.c	/^static char rcsid[] = "$Revision: 3.2 $ $Date: 1994\/12\/12 21:03:41 $";$/;"	v	file:
+rm	lcc-pc.c	/^static void rm(list) List list; {$/;"	f	file:
+rm	lcc.c	/^static void rm(list) List list; {$/;"	f	file:
+rmlist	lcc-pc.c	/^static List rmlist;		\/* list of files to remove *\/$/;"	v	file:
+rmlist	lcc.c	/^static List rmlist;		\/* list of files to remove *\/$/;"	v	file:
+shell	bc4.c	/^char *shell[]	= { "c:\\\\dos\\\\command.com", "\/C", "$1", 0 };$/;"	v
+src	bbexit.c	/^		union coordinate src;$/;"	m	struct:_bbdata::func	typeref:union:_bbdata::func::coordinate	file:
+str	lcc-pc.c	/^	char *str;		\/* option or file name *\/$/;"	m	struct:list	file:
+str	lcc.c	/^	char *str;		\/* option or file name *\/$/;"	m	struct:list	file:
+string	bprint.c	/^char *string(char *str) {$/;"	f
+strsave	lcc-pc.c	/^char *strsave(str) char *str; {$/;"	f
+strsave	lcc.c	/^char *strsave(str) char *str; {$/;"	f
+suffix	lcc-pc.c	/^int suffix(name) char *name; {$/;"	f
+suffix	lcc.c	/^int suffix(name) char *name; {$/;"	f
+tail	bbexit.c	/^} tail, *_bblist = &tail;$/;"	v	typeref:struct:_bbdata	file:
+tempdir	bc4.c	/^char *tempdir[]	= { "c:\\\\tmp\\\\", 0 };$/;"	v
+tempname	lcc-pc.c	/^static char *tempname;		\/* temporary .s file *\/$/;"	v	file:
+tempname	lcc.c	/^static char tempname[sizeof TEMPDIR + 15];	\/* temporary .s file *\/$/;"	v	file:
+u	bbexit.c	/^	} u;$/;"	m	struct:callsite	typeref:union:callsite::coordinate	file:
+verbose	lcc-pc.c	/^static int verbose;		\/* incremented for each -v *\/$/;"	v	file:
+verbose	lcc.c	/^static int verbose;		\/* incremented for each -v *\/$/;"	v	file:
+x	bbexit.c	/^			unsigned int index:6,x:10,y:16;$/;"	m	struct:callsite::coordinate::__anon1	file:
+y	bbexit.c	/^			unsigned int index:6,x:10,y:16;$/;"	m	struct:callsite::coordinate::__anon1	file:

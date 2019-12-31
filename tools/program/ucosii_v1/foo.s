@@ -1,0 +1,4 @@
+.text
+pusha
+popa
+halt

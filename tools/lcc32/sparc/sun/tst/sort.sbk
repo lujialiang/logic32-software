@@ -1,0 +1,201 @@
+.seg "data"
+.global _in
+.align 4
+_in:
+.word 10
+.word 32
+.word -1
+.word 567
+.word 3
+.word 18
+.word 1
+.word -51
+.word 789
+.word 0
+.global _main
+.seg "text"
+.align 4
+.proc 4
+_main:
+save %sp,-96,%sp
+set _in,%o0
+set 10,%o1
+call _sort; nop
+mov %g0,%i5
+ba L5; nop
+L2:
+sll %i5,2,%i4
+set _in,%i3
+ld [%i4+%i3],%o0
+call _putd; nop
+set 10,%o0
+call _putchar; nop
+L3:
+add %i5,1,%i5
+L5:
+set 10,%i4
+cmp %i5,%i4; blu L2; nop
+mov %g0,%i0
+L1:
+ret; restore
+.global _putd
+.align 4
+.proc 4
+_putd:
+save %sp,-96,%sp
+cmp %i0,0; bge L7; nop
+set 45,%o0
+call _putchar; nop
+neg %i0,%i0
+L7:
+mov %i0,%o0
+set 10,%o1
+call .div,2; nop
+cmp %o0,0; be L9; nop
+mov %i0,%o0
+set 10,%o1
+call .div,2; nop
+mov %o0,%i5
+call _putd; nop
+L9:
+mov %i0,%o0
+set 10,%o1
+call .rem,2; nop
+mov %o0,%i5
+add %i5,48,%o0
+call _putchar; nop
+L6:
+ret; restore
+.global _sort
+.align 4
+.proc 4
+_sort:
+save %sp,-96,%sp
+set _xx,%i5
+st %i0,[%i5]
+mov %i0,%o0
+mov %g0,%o1
+sub %i1,1,%i1
+mov %i1,%o2
+call _quick; nop
+L14:
+ret; restore
+.global _quick
+.align 4
+.proc 4
+_quick:
+save %sp,-96,%sp
+cmp %i1,%i2; bl L17; nop
+ba L16; nop
+L17:
+mov %i0,%o0
+mov %i1,%o1
+mov %i2,%o2
+call _partition; nop
+mov %o0,%i5
+mov %i0,%o0
+mov %i1,%o1
+sub %i5,1,%o2
+call _quick; nop
+mov %i0,%o0
+add %i5,1,%o1
+mov %i2,%o2
+call _quick; nop
+L16:
+ret; restore
+.global _partition
+.align 4
+.proc 4
+_partition:
+save %sp,-96,%sp
+add %i2,1,%i2
+mov %i1,%i4
+sll %i4,2,%i3
+ld [%i3+%i0],%i5
+ba L22; nop
+L21:
+add %i1,1,%i1
+ba L25; nop
+L24:
+add %i1,1,%i1
+L25:
+sll %i1,2,%i3
+ld [%i3+%i0],%i3
+cmp %i3,%i5; bl L24; nop
+sub %i2,1,%i2
+ba L28; nop
+L27:
+sub %i2,1,%i2
+L28:
+sll %i2,2,%i3
+ld [%i3+%i0],%i3
+cmp %i3,%i5; bg L27; nop
+cmp %i1,%i2; bge L30; nop
+sll %i1,2,%i3
+add %i3,%i0,%o0
+sll %i2,2,%i3
+add %i3,%i0,%o1
+call _exchange; nop
+L30:
+L22:
+cmp %i1,%i2; bl L21; nop
+sll %i4,2,%i3
+add %i3,%i0,%o0
+sll %i2,2,%i3
+add %i3,%i0,%o1
+call _exchange; nop
+mov %i2,%i0
+L20:
+ret; restore
+.global _exchange
+.align 4
+.proc 4
+_exchange:
+save %sp,-96,%sp
+set _xx,%i4
+ld [%i4],%i4
+set 4,%i3
+sub %i0,%i4,%i2
+mov %i2,%o0
+mov %i3,%o1
+call .div,2; nop
+mov %o0,%i2
+sub %i1,%i4,%i4
+mov %i4,%o0
+mov %i3,%o1
+call .div,2; nop
+mov %o0,%i4
+set L35,%o0
+mov %i2,%o1
+mov %i4,%o2
+call _printf; nop
+ld [%i0],%i5
+ld [%i1],%i4
+st %i4,[%i0]
+st %i5,[%i1]
+L34:
+ret; restore
+.seg "bss"
+.global _xx
+.align 4
+.common _xx,4
+.seg "text"
+.align 1
+L35:
+.byte 101
+.byte 120
+.byte 99
+.byte 104
+.byte 97
+.byte 110
+.byte 103
+.byte 101
+.byte 40
+.byte 37
+.byte 100
+.byte 44
+.byte 37
+.byte 100
+.byte 41
+.byte 10
+.byte 0

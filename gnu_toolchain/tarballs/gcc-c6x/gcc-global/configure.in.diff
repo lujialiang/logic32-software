@@ -1,0 +1,14 @@
+*** /home/jpar/studies/diplom/local/src/gcc/src/gcc-3.3-3.3ds9/src/configure.in	Sun Mar  9 18:05:46 2003
+--- /home/jpar/studies/diplom/local/src/gcc/src/gcc-3.3-3.3ds9/diplom-gcc-3.3-c6x/configure.in	Mon Jul 21 20:55:22 2003
+***************
+*** 370,375 ****
+--- 370,378 ----
+    c54x*-*-* | tic54x-*-*)
+      noconfigdirs="$noconfigdirs ${libstdcxx_version} target-libgloss ${libgcj} gcc gdb newlib"
+      ;;
++   c6x-*-* | tic6x-*-*)
++     noconfigdirs="$noconfigdirs ${libstdcxx_version} target-libgloss ${libgcj}"
++     ;;
+    cris-*-*)
+      noconfigdirs="$noconfigdirs ${libgcj}"
+      ;;
