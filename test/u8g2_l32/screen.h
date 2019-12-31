@@ -3,8 +3,8 @@
 
 #include <stdint.h>
 
-#define SCREEN_X_MAX 128
-#define SCREEN_Y_MAX 64
+#define SCREEN_X_MAX LCD_WIDTH
+#define SCREEN_Y_MAX LCD_HEIGHT
 
 #define RGB565_MODE
 
